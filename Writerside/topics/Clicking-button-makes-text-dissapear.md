@@ -1,3 +1,4 @@
+# Clicking a Button Makes Text Disappear
 > Verified: April 2022 - TM:PE 11.6.5.2
 
 ## Symptom
@@ -17,11 +18,11 @@ This is caused by **Custom Font Manager** in the [FPS Booster](https://steamcomm
 
 Disable the **Custom Font Manager** in the FPS Booster mod options.
 
-## Fixed?
+## Was it Fixed?
 
 If not, it could be:
 
-* [Interface text missing](Interface text missing)
-* [Road names distorted](Road names distorted)
+* [](Interface-text-missing.md)
+* [](Road-names-distorted.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

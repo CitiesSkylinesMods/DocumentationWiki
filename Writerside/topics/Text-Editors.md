@@ -17,4 +17,4 @@ Some example editors that we recommend:
 
 These can be used to view and edit `.txt`, `.md`, `.log`, `.csv`, `.xml` and `.cs` files.
 
-Note, however, they can't compile C# source code to DLLs - you'll need an IDE for that, see: [](Dev Tools)
+Note, however, they can't compile C# source code to DLLs - you'll need an IDE for that, see: [](Dev-Tools.md)

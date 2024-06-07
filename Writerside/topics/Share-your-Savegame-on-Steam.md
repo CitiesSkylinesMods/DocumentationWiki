@@ -1,4 +1,4 @@
-# Share Your Savegame on Steam
+# Share Your Saved Game on Steam
 
 > TM:PE support team: See [Tips for working with savegames](Tips-for-working-with-savegames.md)
 
@@ -45,6 +45,6 @@ Post the link wherever it was you were discussing the problem (usually a Steam d
 For TM:PE users only:
 
 * If it relates to an existing **GitHub** issue, ensure the issue contains a description of the problem.
-    * To create a new issue, see: [Report a bug](Report-a-Bug.md)
+    * To create a new issue, see: [](Report-a-Bug.md)
 * If you're communicating via **Discord** please also include a brief description of the problem as well (we answer lots
   of support queries, and it's difficult to remember who's posting what and why they are posting it).

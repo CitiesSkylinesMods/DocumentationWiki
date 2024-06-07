@@ -26,4 +26,9 @@
         <description><![CDATA[Created after removal of "<Maintenance-Tab.md>" from TMPE-doc]]></description>
         <accepts>Maintenance-Tab.html</accepts>
     </rule>
+    <rule id="46ed57f2">
+        <description>
+            <![CDATA[Created after removal of "<Service-buildings-not-spawning-vehicles.md>" from TMPE-doc]]></description>
+        <accepts>Service-buildings-not-spawning-vehicles.html</accepts>
+    </rule>
 </rules>

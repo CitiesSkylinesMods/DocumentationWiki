@@ -32,7 +32,9 @@ stuff to cover:
 
 > No.
 
-#### Is it compatible with [Improved Lane Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=2119310640) (ILC) mod?
+#### Is it compatible with ILC mod?
+
+See [Improved Lane Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=2119310640)
 
 > Yes. Both mods can be used together; you can use [](Lane-Arrows.md)
 > or [](Lane-Connectors.md) tools to override the arrows set by ILC mod.

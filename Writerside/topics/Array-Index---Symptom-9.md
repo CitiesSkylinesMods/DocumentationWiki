@@ -1,6 +1,8 @@
+# Array Index - Symptom 9
+
 > Verified: January 2022
 
-> This is one cause of the [Simulation error Array index is out of range](Simulation error Array index is out of range) error.
+> This is one cause of the [](Simulation-error-Array-index-is-out-of-range.md) error.
 
 ## Symptom
 
@@ -8,9 +10,11 @@ You will see this error, or similar, on screen and in the log file:
 
 * `Simulation error: Array index is out of range.`
 
-In the [**log file**](Share-your-Cities-Skylines-log-file.) search to see if you find this error (it could be anywhere in the log):
+In the [**log file**](Share-your-Cities-Skylines-log-file.md) search to see if you find this error (it could be anywhere
+in the log):
 
-> Note: This error will only appear if you have TM:PE subscribed and it detected a ghost node. Even if you don't see the error, try the solution below regardless ;)
+> Note: This error will only appear if you have TM:PE subscribed, and it detected a ghost node. Even if you don't see the
+> error, try the solution below regardless ;)
 
 * `Node is not connected to segment`
 
@@ -30,7 +34,8 @@ Usually these should not exist, however sometimes they occur due to reasons such
 * Mods that alter road placement
 * Mods that provide non-standard bulldozer tools
 
-As long as the ghost node exists, you will likely get array index errors as the game and other mods break due to the faulty node.
+As long as the ghost node exists, you will likely get array index errors as the game and other mods break due to the
+faulty node.
 
 ## Solution
 
@@ -41,8 +46,8 @@ As long as the ghost node exists, you will likely get array index errors as the 
 
 That should clear away any ghost nodes.
 
-## Fixed?
+## Was it Fixed?
 
-If not, see other causes of [Simulation error Array index is out of range](Simulation error Array index is out of range).
+If not, see other causes of [](Simulation-error-Array-index-is-out-of-range.md).
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

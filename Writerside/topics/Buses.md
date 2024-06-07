@@ -39,7 +39,7 @@ Depots are special buildings which spawn buses. There are four main types of dep
     * The entire route must have overhead wires connecting to the depot building
     * The depot is treated as the first stop on the route
 * **Sightseeing bus depots** spawn sightseeing busses
-* **Emergency shelters** spawn evacuation busses
+* **Emergency shelters** spawn evacuation buses
     * The shelter is treated as the first stop on the route
 
 Buses will always spawn from the depot nearest the first stop defined on the route. However, once spawned the bus will choose and travel to a random stop on the line (this helps spread out buses at the start of a shift).
@@ -58,13 +58,13 @@ Routes have several settings which you can customise:
 
 * **Line color** - Most vehicles will change color to match the line color
 * **Type of bus** - Specifies which specific type of bus to use for a given route
-* **Number of busses** - Determined by number of stops, line budget and day/night budgets
+* **Number of buses** - Determined by number of stops, line budget and day/night budgets
 * **Day vs. Night** - A route can operate during day, night or both
 
 To customise a route:
 
 * Open **Info Views > Transport Routes** and click the magnifying glass on the relevant row
-* Alternatively, click any bus on the road and choose **Line Details** from it's info panel
+* Alternatively, click any bus on the road and choose **Line Details** from its info panel
 
 Note that on the line details screen, you can click individual stops to see more information about them, and even rename them.
 
@@ -77,12 +77,12 @@ Differnet types of bus have different definitions of "desirable route", which in
 #### Passenger bus/trolleybus (residents and tourists):
 
 * Travel between home, work, shops and leisure
-* Connect to other transport routes (bus, train, ferry, etc)
+* Connect to other transport routes (bus, train, ferry, etc.)
     * Don't forget to link to stations where tourists enter/leave the city
 * Ideally have two routes along the same path, but going in different directions
     * Example: Cim travels from home to work, and then from work to home
-* The [](Public Transport Info View) shows buildings that are difficult to reach via public transport
-* The [](Traffic Routes Info View) helps find where cims are travelling to
+* The [](Public-Transport-Info-View.md) shows buildings that are difficult to reach via public transport
+* The [](Traffic-Routes-Info-View.md) helps find where cims are travelling to
 
 #### Intercity buses (outside connection):
 
@@ -106,19 +106,19 @@ Differnet types of bus have different definitions of "desirable route", which in
 
 ## Bus jams
 
-> This issue does not apply to evacuation busses, because their depot (the emergency shelter) only serves a single route.
+> This issue does not apply to evacuation buses, because their depot (the emergency shelter) only serves a single route.
 
-Passenger and sightseeing bus depots can service multiple bus routes, and each route can have multiple busses on it, so there is a risk of "bus jams" at the start/end of shifts; the depot can become jammed with busses.
+Passenger and sightseeing bus depots can service multiple bus routes, and each route can have multiple busses on it, so there is a risk of "bus jams" at the start/end of shifts; the depot can become jammed with buses.
 
 There are several ways to overcome such issues:
 
-* Use bus lanes to prevent other road vehicles from delaying busses
+* Use bus lanes to prevent other road vehicles from delaying buses
 * Don't place the first stop of two or more lines in the same spot
-* Spread several depots around your city so they service different lines
+* Spread several depots around your city, so they service different lines
 
 ## Bus lanes
 
-Bus lanes allow busses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam Workshop.
+Bus lanes allow buses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam Workshop.
 
 You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [](Policies.md).
 
@@ -128,14 +128,14 @@ Bus lanes are preferred when routing between spots on a bus route. However, if a
 
 ## Lane changes
 
-Busses will often need to change lanes several times to achieve the most direct route to their next stop. If there aren't enough opportunities for them to change lane, they could be forced to take a more complex (and slower) route.
+Buses will often need to change lanes several times to achieve the most direct route to their next stop. If there aren't enough opportunities for them to change lane, they could be forced to take a more complex (and slower) route.
 
 > ![Cumbersome bus route](https://i.imgur.com/3Boqd3y.png)  
 > The bus travelling from A to B couldn't change lane, so it had to take a detour!
 
-If [](Lane-Arrows.md) are causing problems, enable **Busses may ignore lane arrows** in [](Policies.md) to make bus routing more flexible.
+If [](Lane-Arrows.md) are causing problems, enable **Buses may ignore lane arrows** in [](Policies.md) to make bus routing more flexible.
 
-For evacuation buses, enabling **Evacuation busses may ignore traffic rules** in [](Policies.md) makes them behave like [](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
+For evacuation buses, enabling **Evacuation buses may ignore traffic rules** in [](Policies.md) makes them behave like [](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
 
 You can also provide more places where vehicles can change lanes by adding additional nodes to your road network:
 
@@ -145,9 +145,9 @@ You can also provide more places where vehicles can change lanes by adding addit
 
 ## Turning points
 
-Sometimes busses need to turn around and travel back in the opposite direction. There's three ways they can do that:
+Sometimes buses need to turn around and travel back in the opposite direction. There's three ways they can do that:
 
-* At a junction that allows [](U-turns)
+* At a junction that allows [](U-Turns.md)
 * Driving round the block or a roundabout (going through several junctions)
 * At the end of a cul-de-sac (dead-end road)
 
@@ -171,14 +171,14 @@ If you want to connect two or more routes, simply have stops on each route near 
 
 Alternatively, use a bus station building - cims can transfer between bus routes with practically no penalty.
 
-If you want to transfer between different transport types (eg. bus and ferry), use a transport hub. These are essentially harbors or stations that have an integral bus station.
+If you want to transfer between different transport types (e.g. bus and ferry), use a transport hub. These are essentially harbors or stations that have an integral bus station.
 
 ## Other guides
 
 We found these guides useful too:
 
 * [Tips and How-To's: Buses](https://steamcommunity.com/sharedfiles/filedetails/?id=1186534752) (Steam Guide)
-* [How to make realistic/good looking bus network](https://steamcommunity.com/sharedfiles/filedetails/?id=1262357386) (Steam Guide)
+* [How to make realistic/good-looking bus network](https://steamcommunity.com/sharedfiles/filedetails/?id=1262357386) (Steam Guide)
 
 ## Useful mods
 
@@ -200,17 +200,17 @@ We found these guides useful too:
 > No. If you optimise your bus routes (use bus lanes, ensure enough lane changes can be made, etc.) you can acutally _reduce_ CPU load by making pathfinding easier between stops.
 
 **Can busses ignore [](Lane-Connectors.md)?**
-> No. If you use lane connectors, busses must always adhere to those regardless of policy settings.
+> No. If you use lane connectors, buses must always adhere to those regardless of policy settings.
 
 ## Troubleshooting
 
 Having problems? See these troubleshooting guides:
 
-* [Busses are using weird routes](Busses are using weird routes)
-* [Busses not spawning from depots](Busses not spawning from depots)
-* [Cims not using public transport](Cims not using public transport)
-* [Intercity buses not working](Intercity buses not working)
-* [Transport vehicles stuck on boarding](Transport vehicles stuck on boarding)
+* [](Buses-are-using-weird-routes.md)
+* [](Buses-Not-Spawning-From-Depots.md)
+* [](Cims-not-using-public-transport.md)
+* [](Intercity-buses-not-working.md)
+* [](Transport-vehicles-stuck-on-boarding.md)
 
 > Tip: You can find and remove broken routes and stops with the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod.
 
@@ -229,5 +229,5 @@ Having problems? See these troubleshooting guides:
 
 Advanced:
 
-* [](Vehicle Restriction Aggression)
+* [](Vehicle-Restriction-Aggression.md)
 * [](Nodes,-Segments,-Lanes.md)

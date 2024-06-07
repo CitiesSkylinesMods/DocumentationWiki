@@ -1,17 +1,18 @@
+# Simulation error Object reference not set
 > Article verified: June 2019
 
-# Symptom
+## Symptom
 
 Both of these must be true:
 
 * While loading a savegame, an error message appears:
     * `Simulation error: Object reference not set`
-* On reviewing your [log file](Share-your-Cities-Skylines-log-file.), the stack trace mentions:
+* On reviewing your [log file](Share-your-Cities-Skylines-log-file.md), the stack trace mentions:
     * `RoadBaseAI.CanEnableTrafficLights`
 
-> Some other error? Try: [Object reference not set to an instance of an object](Object reference not set to an instance of an object)
+> Some other error? Try: [](Object-reference-not-set-to-an-instance-of-an-object.md)
 
-# Cause
+## Cause
 
 This is a bug in the game itself, not TM:PE.
 
@@ -21,13 +22,13 @@ This problem occurs when your savegame includes a road asset which is no longer 
 * You unsubscribed a mod that provided the road asset (such as Network Extensions)
 * The author of a road asset (or mod that provided one) deletes their workshop item, which also removes it from your game
 
-# Solution
+## Solution
 
 * Quick fix: Subscribe and enable [Safenets](https://steamcommunity.com/sharedfiles/filedetails/?id=1620588636) mod
-* Otherwise, see: [](How to remove workshop networks)
+* Otherwise, see: [](How-to-remove-workshop-networks.md)
 
-# Fixed?
+## Was it Fixed?
 
 If not, it's likely your save game is lost, sorry.
 
-Something else? See: [Troubleshooting](Troubleshooting)
+Something else? See: [](Troubleshooting.md)

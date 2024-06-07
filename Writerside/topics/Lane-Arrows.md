@@ -32,7 +32,7 @@ Lane arrows can't be changed on junctions using:
 
 * [](Lane-Connectors.md)
     * Lane connectors take precedence over lane arrows.
-* [](Highway Junction Rules)
+* [](Highway-Junction-Rules.md)
     * See: **Enable highway-specific lane merging/splitting rules** in [](Policies.md) in [](Settings.md)
     * You can use [](Lane-Connectors.md) to override such junctions
 
@@ -53,7 +53,7 @@ Selection:
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Lane Arrows** tool as if you pressed `Esc`
 * `Esc` - exit **Lane Arrows** tool
-    * Returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
+    * Returns focus to the [](Toolbar.md) and enables its [](Adjust-Roads.md) mode.
 
 Basic Applicators:
 
@@ -64,7 +64,7 @@ Basic Applicators:
 
 Bulk applicators:
 
-> See [Dedicated Turning Lanes](Dedicated Turning Lanes) guide for more information.
+> See [](Dedicated-Turning-Lanes.md) guide for more information.
 
 * `Alt`+`Click segment entering a junction` - Automatially configure turning lanes for that segment
     * Repeat the shortcut to cycle through alternate configurations
@@ -79,7 +79,7 @@ Camera / Overlays:
 
 * `Mouse wheel` - zoom in or out
 * `PageDown` - underground view
-    * This activates a simplified version of the [](Traffic Info View)
+    * This activates a simplified version of the [](Traffic-Info-View.md)
 * `PageUp` - overground view
 
 ## Notes
@@ -109,7 +109,7 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 > The arrows painted on the road surface are determined by the road asset, not TM:PE. Some roads have missing arrows, or don't show arrows at all, or show incorrect arrows (particularly if the asset was designed for traffic driving on the other side of the road).
 
 #### When I load my city, my lane arrow customisations are gone
-> Try unpausing the game. See [Lane arrow and connector not loading](Lane arrow and connector not loading) for details.
+> Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
 
 #### Can I customise the painted road arrows?
 > Yes, use [BOB, the Tree and Prop Replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850) mod (or similar):
@@ -134,8 +134,8 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 Guides:
 
 * [](Nodes,-Segments,-Lanes.md)
-* [Dedicated Turning Lanes](Dedicated Turning Lanes)
+* [](Dedicated-Turning-Lanes.md)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING%26logo=github" /></a>

@@ -1,3 +1,4 @@
+# System.IO.IOException
 > Verified: February 2022 - TM:PE 11.6.4.7
 
 > TM:PE team: Check the folder path for stuff like `DODI-Repacks` and other indicators of the game being pirated.
@@ -10,7 +11,7 @@ You might see errors such as:
 * `System.IO.IOException`
 * `System.Reflection.TargetInvocationException`
 
-On inspecting [your log file](Share-your-Cities-Skylines-log-file.), you find something mentioning `TMPE.log`.
+On inspecting [your log file](Share-your-Cities-Skylines-log-file.md), you find something mentioning `TMPE.log`.
 
 Example log messages (folder paths truncated for sake of brevity):
 
@@ -63,12 +64,12 @@ If it's still not working...
 * [Refresh Steam Files](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * [Verify Game Cache](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * You might need to [Change Download Region](https://support.steampowered.com/kb_article.php?ref=9498-WPDF-3220)
-* Did you install / move game to different drive? See: [How to move the game to a different disk drive](How to move the game to a different disk drive)
+* Did you install / move game to different drive? See: [](Moving-the-game-to-a-different-disk-drive.md)
 
 As of TM:PE 11.6.2 you can specify where the log file should go via command line parameter. For details see [[TMPE.log]].
 
-## Fixed?
+## Was it Fixed?
 
-If not, and the error mentions `TMPE.log`, please let us know: [Report a bug](Report a bug)
+If not, and the error mentions `TMPE.log`, please let us know: [](Report-a-Bug.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

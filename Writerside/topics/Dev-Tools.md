@@ -15,7 +15,7 @@ We use the latest language version and target .NET Framework 3.5 (what C:SL uses
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) - You'll
   need [VS 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes) or
   later ([why?](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/pull/463))
-    - You can perform code review directly from Visual studio. see [](Reviewing pull request using Visual studio)
+    - You can perform code review directly from Visual studio. see [](Reviewing-pull-request-using-Visual-studio.md)
 
 ## Decompilers:
 

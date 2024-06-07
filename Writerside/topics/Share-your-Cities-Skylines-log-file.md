@@ -2,7 +2,7 @@
 
 > Verified: February 2022 - TM:PE 11.6.4.7
 
-> ## Check the Compatibility Report first
+> ⚠️ **Check the Compatibility Report first**
 >
 > About 50% of the error reports we get are due to old / broken / incompatible mods.
 > The [Compatibility Report](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869) mod is the fastest way to
@@ -94,7 +94,7 @@ feature). The `TMPE.log` will be also placed in the same folder.
 
 ## Obtaining list of mods
 
-* If using **TM:PE v11-alpha3 or above**, a list of mods can be found in your [`TMPE.log`](TMPE.log) file. In the list,
+* If using **TM:PE v11-alpha3 or above**, a list of mods can be found in your [`TMPE.log`](TMPE.log.md) file. In the list,
   an asterisk (`*`) denotes enabled mods and exclamation marks (`!`) denote mods which are known to be incompatible with
   TM:PE.
 * If using **TM:PE v10.21.1 or earlier**, subscribe and enable

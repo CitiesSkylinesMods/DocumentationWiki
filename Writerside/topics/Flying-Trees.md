@@ -1,7 +1,9 @@
+# Flying Trees
+
 ## Symptom
 
 * Trees are floating in the air  
-![Flying trees](https://i.imgur.com/Qrpgleb.png)
+  ![](https://i.imgur.com/Qrpgleb.png)
 
 ## Cause
 
@@ -16,10 +18,11 @@ _Thanks to Discord user **nilepereiraa** for this tip._
 
 Remove one of the mods, exit the game to desktop and then reload your save, it should be fixed.
 
-> Tip: You can use [Prop and Tree Anarchy](https://steamcommunity.com/sharedfiles/filedetails/?id=593588108) mod as an alternative to Tree Snapping mod ;)
+> Tip: You can use [Prop and Tree Anarchy](https://steamcommunity.com/sharedfiles/filedetails/?id=593588108) mod as an
+> alternative to Tree Snapping mod ;)
 
-## Fixed?
+## Was it Fixed?
 
 If not you might need to drag-select all the trees with Move It! mod and then align them to terrain.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

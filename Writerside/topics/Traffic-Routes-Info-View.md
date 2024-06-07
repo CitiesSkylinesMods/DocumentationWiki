@@ -17,15 +17,18 @@ With the info view active, you can click any of the following to see associated 
 * Pedestrians and cyclists
     * Works the same way as vehicles (see above)
 
-> Selecting any road in this view activates [](Adjust-Roads.md) panel which provides bulk applicators for [](High Priority Roads) and [](Roundabout Policies).
+> Selecting any road in this view activates [](Adjust-Roads.md) panel which provides bulk applicators
+> for [](High-Priority-Roads.md) and [](Roundabout-Policies.md).
 
 ## Real Time mod
 
-If you have [**Real Time**](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod enabled, you'll also notice some buildings are highlighted on the Traffic Routes info view:
+If you have [**Real Time**](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod enabled, you'll also
+notice some buildings are highlighted on the Traffic Routes info view:
 
-![Traffic Roues info view](https://steamuserimages-a.akamaihd.net/ugc/968724911470025976/B6E838B28E3C018C178D09963C95990A1CAE8EB4/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+![Traffic Routes info view](https://steamuserimages-a.akamaihd.net/ugc/968724911470025976/B6E838B28E3C018C178D09963C95990A1CAE8EB4/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Red buildings indicate that journey times are taking _too long_, and in some cases it will cause cims to abandon their journey and return home.
+Red buildings indicate that journey times are taking _too long_, and in some cases it will cause cims to abandon their
+journey and return home.
 
 ## How to fix
 
@@ -42,10 +45,12 @@ Red buildings indicate that journey times are taking _too long_, and in some cas
 
 Info Views:
 
-* [](Public Transport Info View)
-* [](Traffic Info View)
+* [](Public-Transport-Info-View.md)
+* [](Traffic-Info-View.md)
 
 Mods:
 
-* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - realistic daily routines for your city and cims
-* [Snooper](https://steamcommunity.com/sharedfiles/filedetails/?id=1435741602) - detailed info panels for vehicles and cims
+* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - realistic daily routines for your
+  city and cims
+* [Snooper](https://steamcommunity.com/sharedfiles/filedetails/?id=1435741602) - detailed info panels for vehicles and
+  cims

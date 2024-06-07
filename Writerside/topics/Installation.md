@@ -7,24 +7,30 @@
 ## 1. Subscribe and enable TM:PE
 
 > **Only have one version of TM:PE _subscribed/installed_ at a time.**
->  
+>
 > Completely unsubscribe/remove all other versions of TM:PE, otherwise you get save/load bugs.
 
 You can use TM:PE on the following game portals:
 
 * **Steam** (Windows / Mac / Linux):
-    * Subscribe only one: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1637663252"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=stable&color=7cc17b&logo=steam&logoColor=F5F5F5" /></a> <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2489276785"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?include_prereleases&label=test&color=f7b73c&logo=steam&logoColor=F5F5F5" /></a>
+    * Subscribe only one:
+      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1637663252"><img alt="Stable Version" src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=stable%26color=7cc17b%26logo=steam%26logoColor=F5F5F5" /></a>
+      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2489276785"><img alt="Test Version" src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?include_prereleases%26label=test%26color=f7b73c%26logo=steam%26logoColor=F5F5F5" /></a>
     * Enable the mod in **Main Menu > Content Manager > Mods**
 * **GeForce Now**:
     * **EDIT: Apparently GeForce Now platform no longer allows mods to be used :(**
     * You must launch the game from Steam within GF Now (use **Steam** procedure above)
-    * If the mod doesn't download, [Change Steam Download Region](https://support.steampowered.com/kb_article.php?ref=9498-WPDF-3220) then [Verify Integrity of Game Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+    * If the mod doesn't
+      download, [Change Steam Download Region](https://support.steampowered.com/kb_article.php?ref=9498-WPDF-3220)
+      then [Verify Integrity of Game Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * **Other portals**:
     * [](Installing-on-Epic-Games.md)
     * [](Installing-on-Origin.md)
 * Downloads for manual installation:
-    * Download **Harmony**: <a href="https://github.com/boformer/CitiesHarmony/releases"><img src="https://img.shields.io/github/v/release/boformer/CitiesHarmony?label=downloads&include_prereleases&logo=buffer" /></a>
-    * Download **TM:PE**: <a href="https://github.com/CitiesSkylinesMods/TMPE/releases"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=downloads&include_prereleases&logo=buffer" /></a>
+    * Download **Harmony**: 
+        <a href="https://github.com/boformer/CitiesHarmony/releases"><img alt="Harmony" src="https://img.shields.io/github/v/release/boformer/CitiesHarmony?label=downloads%26include_prereleases%26logo=buffer" /></a>
+    * Download **TM:PE**:
+        <a href="https://github.com/CitiesSkylinesMods/TMPE/releases"><img alt="TM:PE" src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=downloads%26include_prereleases%26logo=buffer" /></a>
 
 Unfortunately, the following game portals don't allow code mods:
 
@@ -33,14 +39,19 @@ Unfortunately, the following game portals don't allow code mods:
 
 ## 2. Unsubscribe incompatible mods
 
-When TM:PE is first enabled, and also each time you launch Cities: Skylines app, it will scan for [](Incompatible-Mods) and display a warning if any are found.
+When TM:PE is first enabled, and also each time you launch Cities: Skylines app, it will scan for [](Incompatible-Mods.md)
+and display a warning if any are found.
 
 * If incompatible mods are found, you should unsubscribe them.
     * You can customise how this feature works in [](General.md) in [](Settings.md).
-    * See [this Workshop topic](https://steamcommunity.com/workshop/filedetails/discussion/1637663252/1678063648163943780/) for details of incompatible mods
+    *
+    See [this Workshop topic](https://steamcommunity.com/workshop/filedetails/discussion/1637663252/1678063648163943780/)
+    for details of incompatible mods
     * Removing mods which add roads or tracks must be done carefully: [](How-to-remove-workshop-networks.md)
-    * See also: [Recommended mod substitutions](Recommended-Mod-Substitutions.md), [Community database of mod incompatibilities](https://docs.google.com/spreadsheets/d/1mVFkj_7ij4FLzKs2QJaONNmb9Z-SRqUeG6xFGqEX1ew/htmlview#)
-* **After unsubscribing any mods, _always_ exit to desktop and then relaunch the game to ensure they are fully flushed from RAM.**
+    * See
+      also: [](Recommended-Mod-Substitutions.md), [Community database of mod incompatibilities](https://docs.google.com/spreadsheets/d/1mVFkj_7ij4FLzKs2QJaONNmb9Z-SRqUeG6xFGqEX1ew/htmlview#)
+* **After unsubscribing any mods, _always_ exit to desktop and then relaunch the game to ensure they are fully flushed
+  from RAM.**
 
 You're now ready to start a game! Use the [](Toolbar.md) to customise your roads.
 
@@ -57,4 +68,4 @@ You're now ready to start a game! Use the [](Toolbar.md) to customise your roads
 
 ## Problems?
 
-* See: [Troubleshooting](Troubleshooting.md)
+* See: [](Troubleshooting.md)

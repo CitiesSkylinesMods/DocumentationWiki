@@ -10,10 +10,10 @@
 
 First, let's backup your current ```mono.dll```:
 
-* Navigate to ```<%STEAM%>\steamapps\common\Cities_Skylines\Cities_Data\Mono\```
+* Navigate to ```<％STEAM％>\steamapps\common\Cities_Skylines\Cities_Data\Mono\```
 * Make a backup of ```mono.dll``` (you could just rename it ```mono-backup.dll```)
 
-> The location of ```<%STEAM%>``` is usually ```C:\Program Files (x86)\Steam```
+> The location of ```<％STEAM％>``` is usually ```C:\Program Files (x86)\Steam```
 
 Next, download the following files
 from [```https://github.com/0xd4d/dnSpy/releases```](https://github.com/0xd4d/dnSpy/releases):
@@ -26,7 +26,7 @@ Now we apply a new ```mono.dll``` and test the game is working:
 * Make sure the game is **not** running
 * Open ```Unity-debugging-5.x.zip```:
     * Navigate to ```Unity-debugging\unity-5.6.7\win64\``` (note: **```unity-5.6.7```**)
-    * Copy ```mono.dll``` to ```<%STEAM%>\steamapps\common\Cities_Skylines\Cities_Data\Mono\```
+    * Copy ```mono.dll``` to ```<％STEAM％>\steamapps\common\Cities_Skylines\Cities_Data\Mono\```
 * Run the game to check if it's working:
     * If not, delete the downloaded ```mono.dll``` then restore the original version
     * You'll have to scour the internet to work out what went wrong, sorry.

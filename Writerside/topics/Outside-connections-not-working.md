@@ -1,3 +1,4 @@
+# Outside Connections not Working
 > Verified: January 2022
 
 ## Symptoms
@@ -5,28 +6,28 @@
 * Outside connections not working properly; some examples:
     * Vehicles not entering by highway
     * Vehicles aren't using some, but not all highway connections
-    * Vehicles using highways but nobody moves in to city (see also: [Population stuck at 0](Population stuck at 0))
-    * No cargo vehicles entering the city (see also: [Vehicles not spawning](Vehicles not spawning))
+    * Vehicles using highways but nobody moves in to city (see also: [](Population-stuck-at-0.md))
+    * No cargo vehicles entering the city (see also: [](Vehicles-not-spawning.md))
     * Aircraft not entering city
     * Aircraft enter city, but won't land
     * Ships not using harbours
     * Inter-city trains not spawning
     * Inter-city trains not stopping at stations
-    * [Intercity buses not working](Intercity buses not working)
+    * [](Intercity-buses-not-working.md)
 
-> If you came here looking for ways to make highway traffic behave more naturally / correctly, try: [Traffic on highways not behaving properly](Traffic on highways not behaving properly)
+> If you came here looking for ways to make highway traffic behave more naturally / correctly, try: [](Traffic-on-highways-not-behaving-properly.md)
 
 ## Causes
 
 There's lots of things that can break outside connections, let's just skip to solutions...
 
-# Solutions
+## Solutions
 
 ### Incompatible mods
 
 These mods are known to cause issues:
 
-* [Cargo Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1072157697) - prevents vehicles spawning on highways, also causes [Simulation error Array index is out of range](Simulation error Array index is out of range) error. 
+* [Cargo Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1072157697) - prevents vehicles spawning on highways, also causes [](Simulation-error-Array-index-is-out-of-range.md) error. 
 * [81 Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=576327847) (all variants) - doesn't currently support intercity buses outside central 25 tile area
     * Quistar is working on new implementation of 81 Tiles mod that might fix this as part of his Extended Managers Library
 
@@ -39,7 +40,7 @@ These mods are known to cause issues:
     * **Roads:** Only highway roads can be used by default
         * Use [Any Road Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=883332136) to overcome that limitation
         * Zoned roads don't work; use [Zoning Adjuster](https://steamcommunity.com/sharedfiles/filedetails/?id=2389414419) to disable zoning while placing the outside connection.
-        * Two-way roads break intercity buses; see: [Intercity buses not working](Intercity buses not working)
+        * Two-way roads break intercity buses; see: [](Intercity-buses-not-working.md)
     * **Rail:** Some custom rail tracks don't work as outside connections
         * The outside connection must be made from special _station_ track
         * If you connect vanilla train track to outside, game automatically replaces with station track
@@ -64,7 +65,7 @@ These mods are known to cause issues:
 
 * The station must be connected to your city by road
     * Some stations ([like this](https://steamcommunity.com/sharedfiles/filedetails/?id=1194296555)) require pedestrian path connection instead
-    * Some stations are designed to work more effectively when connected to train (eg. Cargo harbours) or metro (eg. International airport)
+    * Some stations are designed to work more effectively when connected to train (e.g. Cargo harbours) or metro (e.g. International airport)
 * Broken workshop assets:
     * Stations must contain spawn points to function correctly
     * Use [Spawn Points Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=820157360) or [Building Spawn Points](https://steamcommunity.com/sharedfiles/filedetails/?id=2511258910) to repair
@@ -85,7 +86,7 @@ In addition to general issues listed above, check for these issues:
     * If in doubt, connect both highway roads with a bit of 2-way normal road and see if that helps
 * One way roads preventing vehicles from reaching their destination:
     * Unless you know how to properly use one-way roads, it's best to avoid them.
-    * Activate the road building tool and you'll see white arrows on any one-way roads - replace them with 2-way roads
+    * Activate the road building tool, and you'll see white arrows on any one-way roads - replace them with 2-way roads
 
 ### Trains
 
@@ -93,7 +94,7 @@ In addition to general issues listed earlier, check for these issues:
 
 * One-way tracks preventing vehicles from reaching their destination:
     * Unless you know how to properly use one-way tracks, it's best to avoid them.
-    * Activate the track building tool and you'll see white arrows on any one-way tracks - replace them with 2-way tracks
+    * Activate the track building tool, and you'll see white arrows on any one-way tracks - replace them with 2-way tracks
 * Outside connection platform not connected:
     * Inter-city trains always use the same platform, chosen by the game
     * If that platform isn't connected to outside connection the trains can't use the station
@@ -130,13 +131,13 @@ In addition to general issues listed earlier, check for these issues:
     * Sharp bends or gaps in the route can cause problems
     * Use [More Network Stuff](https://steamcommunity.com/sharedfiles/filedetails/?id=512314255) to repair routes if required
 
-# Fixed?
+## Was it Fixed?
 
 If not, try:
 
-* [Vehicles not spawning](Vehicles not spawning)
-* [Population stuck at 0](Population stuck at 0)
-* [Tracked vehicles not routing or spawning](Tracked vehicles not routing or spawning)
-* [Cims not using public transport](Cims not using public transport)
+* [](Vehicles-not-spawning.md)
+* [](Population-stuck-at-0.md)
+* [](Tracked-vehicles-not-routing-or-spawning.md)
+* [](Cims-not-using-public-transport.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

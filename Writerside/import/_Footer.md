@@ -1,1 +1,1 @@
-[](Contributing.md) | [Report a Bug](Report a Bug) | [Suggest an improvement](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/new?labels=feature%2C+triage&template=feature-request.md)
+[](Contributing.md) | [](Report-a-Bug.md) | [Suggest an improvement](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/new?labels=feature%2C+triage&template=feature-request.md)

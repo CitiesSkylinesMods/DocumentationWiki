@@ -1,6 +1,7 @@
+# Broken transport routes
 > Article verified: June 2019
 
-# Symptoms
+## Symptoms
 
 Any of the following:
 
@@ -9,7 +10,7 @@ Any of the following:
 * Stops appearing in weird places
 * Unable to remove broken stops
 
-# Causes
+## Causes
 
 Certain things cause the game to recalculate transport routes:
 
@@ -22,13 +23,13 @@ Certain things cause the game to recalculate transport routes:
 
 When any of those happen, the game will check any bus, tram, monorail, train and metro routes in the vicinity to see if they are still viable. If not, the game will make a "best guess" decision as to how to alter the route, for example it might route a bus (and bus stops) down a different road.
 
-Click the image below to watch a youtube video of the game automatically re-routing bus lines:
+Click the image below to watch a YouTube video of the game automatically re-routing bus lines:
 
 [![Game reroutes a bus line](http://img.youtube.com/vi/hq_of4ahRAs/0.jpg)](http://www.youtube.com/watch?v=hq_of4ahRAs)
 
 Sometimes this process goes horribly wrong, or no viable alternate route can be found. In particular, if you bulldoze a road or station that contains a stop, that stop might "orphaned" which prevents makes it impossible to move for both you and the game.
 
-# Solutions / Workarounds
+## Solutions / Workarounds
 
 Usually moving the stops either side of the broken part of the route will fix the issue:
 
@@ -45,7 +46,7 @@ If a route is so horribly broken that it's beyond repair, you can delete it as f
 * Click the magnifying glass for the transport type that's got the problem
 * You get a list of routes for that transport type -> delete the broken route
 
-If you have some time, click the image below for a youtube video showing how to deal with broken routes:
+If you have some time, click the image below for a YouTube video showing how to deal with broken routes:
 
 [![Fixing routes](http://img.youtube.com/vi/V40FuyQywGs/0.jpg)](http://www.youtube.com/watch?v=V40FuyQywGs)
 
@@ -54,8 +55,8 @@ Sometimes it's caused by a broken node (vanilla game bug):
 * Subscribe and enable [Broken Node Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984)
 * Read mod description on the workshop page for the mod to learn how to use it
 
-# Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a bug](Report a bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

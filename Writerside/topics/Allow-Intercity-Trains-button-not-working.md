@@ -1,3 +1,4 @@
+# Allow Intercity Trains Button not Working
 > Verified: March 2022 - TM:PE 11.6.5.2
 
 ## Symptom
@@ -16,8 +17,8 @@ Subscribe and enable [AllowIntercityTrains](https://steamcommunity.com/sharedfil
 
 Hopefully CO will publish a game update to fix the bug, but the mod linked above should help in the interim.
 
-## Fixed?
+## Was it Fixed?
 
 If not, please [contact Paradox Support](https://forum.paradoxplaza.com/forum/threads/cities-skylines-steam-allow-intercity-train-button-cannot-be-deselected-for-any-stations.1514856/).
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

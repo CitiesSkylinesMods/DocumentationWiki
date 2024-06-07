@@ -57,7 +57,7 @@ frequent updates.
 
 If you are sure the mod needs to be on the list:
 
-* Create a page in the [Troubleshooting](Troubleshooting) guide to help users solve or work around with the issue
+* Create a page in the [](Troubleshooting.md) guide to help users solve or work around with the issue
 * Contact the mod author, to see if the situation can be resolved
 * Only if the mod conflict can't be resolved, add to the incompatible mods list
 
@@ -78,7 +78,7 @@ The mod checker feature can be a source of friction with the community, so we ad
 in [](Settings.md) that allow users to disable it completely, or ignore disabled mods. This means that mod
 incompatibility issues may still arise, even for known incompatible mods.
 
-The [Troubleshooting](Troubleshooting) guide should always be first place to look when users report any errors or
+The [](Troubleshooting.md) guide should always be first place to look when users report any errors or
 issues.
 
 ## Changes in TM:PE v11

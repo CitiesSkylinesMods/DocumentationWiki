@@ -1,3 +1,5 @@
+# Could not load global config System.TypeLoadException
+
 ## Symptom
 
 An error in the `TMPE.log` file stating:
@@ -12,18 +14,19 @@ This issue only seems to affect Windows users.
 
 ## Cause
 
-This is caused by insufficient permissions on the folder that contain the TM:PE [Global Configuration](Global-Configuration.md) file.
+This is caused by insufficient permissions on the folder that contain the TM:
+PE [Global Configuration](Global-Configuration.md) file.
 
 ## Solution
 
 1. Locate the `TMPE_GlobalConfig.xml` file on disk.
-   * Usually `C:\Program Files (x86)\Steam\steamapps\common\Cities_Skylines`
+    * Usually `C:\Program Files (x86)\Steam\steamapps\common\Cities_Skylines`
 2. Either give the folder more permissions for your user, or run the game as Administrator
 
 (We are investigating better locations for the config file, but for now that is the only fix).
 
-## Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a bug](Report a bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

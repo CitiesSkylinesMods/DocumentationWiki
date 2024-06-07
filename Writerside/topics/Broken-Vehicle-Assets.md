@@ -1,3 +1,4 @@
+# Broken Vehicle Assets
 > Article verified: September 2022 - TM:PE 11.7.0
 
 > If you haven't already done so, subscribe and enable [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) - it loads maps much faster, reduces RAM consumption for better in-game performance, and fixes a load of common workshop bugs.
@@ -25,7 +26,7 @@ If you find additional broken assets, please edit this wiki page and add them to
 
 ### Vehicle LODs Turn Black
 
-Troubleshooting guide: [Shiny Black Vehicle LODs](Shiny Black Vehicle LODs)
+Troubleshooting guide: [](Shiny-Black-Vehicle-LODs.md)
 
 > This is caused by assets that have [invalid texture sizes](https://steamcommunity.com/workshop/filedetails/discussion/667342976/1639789306562159404/) (their dimensions _must_ be a power of two). The [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) has option to **Check assets for errors** which will tell you if you have any assets with this issue.
 
@@ -57,7 +58,7 @@ Troubleshooting guide: [Shiny Black Vehicle LODs](Shiny Black Vehicle LODs)
 
 ### Vehicle LODs Flashing:
 
-Troubleshooting guide: [Vehicle LODs are flashing](Vehicle LODs are flashing)
+Troubleshooting guide: [Vehicle LODs are flashing](Vehicle-LODs-are-flashing.md)
 
 > If you still want to use the vehicle, you could try an extreme option: [Disable LODs!](https://steamcommunity.com/sharedfiles/filedetails/?id=1680642819)
 
@@ -80,7 +81,7 @@ Troubleshooting guide: [Vehicle LODs are flashing](Vehicle LODs are flashing)
 
 ### Breaks vehicle spawning:
 
-If you see [Helicopters and trucks from wrong depots](Helicopters and trucks from wrong depots):
+If you see [](Helicopters-and-trucks-from-wrong-depots.md):
 
 > Asset authors: If your vehicle exhibits this bug, try reconstructing it and re-upload to workshop (thanks Ninjanoobslayer for the tip!)
 
@@ -110,4 +111,4 @@ If vehicles stop spawning ([Issue #317](https://github.com/krzychu124/Cities-Sky
 
 There are many other cuases of vehicles not spawning:
 
-* [Vehicles not spawning](Vehicles not spawning)
+* [](Vehicles-not-spawning.md)

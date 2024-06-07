@@ -25,10 +25,10 @@ the instructions there to download and install it.
 ### TM:PE
 
 * Go to our releases
-  page: <a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=Origin - TM:PE&color=F56C2D&logo=origin&logoColor=F56C2D" /></a>
+  page: <a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=Origin-TMPE%26color=F56C2D%26logo=origin%26logoColor=F56C2D" /></a>
 * Click the **Assets** link at the bottom of that page
 * Download the **`TrafficManager_<verison>_STABLE.zip`** (for
-  example: `TrafficManager_`<a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label= &color=313131" /></a>`_STABLE.zip`
+  example: `TrafficManager_`<a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=%26color=313131" /></a>`_STABLE.zip`
   or whatever the latest version is)
 
 ## 3. Install

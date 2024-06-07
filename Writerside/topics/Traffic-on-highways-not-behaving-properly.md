@@ -1,6 +1,7 @@
+# Traffic on Highways Misbehaving
 > Article verified: June 2019
 
-# Symptom
+## Symptom
 
 One or more of the following may occur:
 
@@ -9,7 +10,7 @@ One or more of the following may occur:
 * I made changes to my highway but vehicles are ignoring it
 * Traffic jams due to merging at last node before a junction
 
-# Causes
+## Causes
 
 > Note:
 >  
@@ -21,7 +22,7 @@ One or more of the following may occur:
 
 These symptoms are usually caused by incorrect mod settings, or not realising that highway traffic doesn't update until new vehicles spawn.
 
-# Solution
+## Solution
 
 If traffic is not using all lanes:
 
@@ -37,8 +38,8 @@ If traffic is not behaving properly at highway junctions:
 
 * **Enable highway-specific lane merging/splitting rules** in [](Policies.md)
 
-# Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a Bug](Report a Bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other problems? See: [Troubleshooting](Troubleshooting)
+Other problems? See: [](Troubleshooting.md)

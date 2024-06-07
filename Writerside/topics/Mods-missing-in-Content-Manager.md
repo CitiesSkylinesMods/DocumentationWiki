@@ -1,6 +1,7 @@
+# Mods Missing in Content Manager
 > Article verified: March 2022 - TM:PE 11.6.5.1
 
-# Symptom
+## Symptom
 
 In **Content Manger > Mods**:
 
@@ -9,13 +10,13 @@ In **Content Manger > Mods**:
 
 This guide is also applicable to the `Content Manager > Assets` screen too if it suffers same problem.
 
-# Cause
+## Cause
 
 This bug is _not_ caused by TM:PE.
 
 It is likely a temporary workshop error or problem with another mod.
 
-# Solution
+## Solution
 
 Try each of these in turn; if it starts working you can stop.
 
@@ -40,12 +41,12 @@ Try each of these in turn; if it starts working you can stop.
 * [Change Download Region](https://support.steampowered.com/kb_article.php?ref=9498-WPDF-3220)
 * [Refresh Steam Files](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638) then [Verify Game Cache](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * Did you move the game to a different disk drive?
-    * See: [How to move the game to a different disk drive](How to move the game to a different disk drive)
+    * See: [](Moving-the-game-to-a-different-disk-drive.md)
 * Make sure there are no files in the folder `...\Colossal Order\Cities_Skylines\Addons\ColorCorrections`
     * Broken LUTs can cause content manager to fail
 
-# Fixed?
+## Was it Fixed?
 
 If problems persist, probably best to ask the internet.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

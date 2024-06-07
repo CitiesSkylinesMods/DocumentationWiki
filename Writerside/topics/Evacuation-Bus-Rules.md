@@ -1,3 +1,1 @@
-# 🪦 Evacuation Bus Rules
-
-Start typing here...
+# 🚧 Evacuation Bus Rules

@@ -11,7 +11,7 @@ We have identified some road assets which are broken (the assets themselves are 
 ### General
 
 * ~~The _Basic Road_ in **[OST2 Stock Road Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1672263805)** by
-  Mr.Yawnie is broken. Therefore remove the complete pack.~~ Should be fixed
+  Mr.Yawnie is broken. Therefore, remove the complete pack.~~ Should be fixed
 * **[Reverse 4 Lane Highway B](https://steamcommunity.com/sharedfiles/filedetails/?id=1802966295)
   ** - `NullReferenceException` in the asset deserialiser
 * **[Small four lane road reversed](https://steamcommunity.com/sharedfiles/filedetails/?id=1867586141)
@@ -41,8 +41,7 @@ Issues with bus routing or bus stops:
 
 * **[Metrobus](https://steamcommunity.com/sharedfiles/filedetails/?id=1563428928)**
   > * [#30](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/30#issuecomment-461050231):
-      Bus routes are able to cross over the median (see
-      also: [Vehicles Driving Over Medians](Vehicles Driving Over Medians))
+      Bus routes are able to cross over the median (see also: [](Vehicles-driving-over-medians.md))
   > * [#34](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/34): When a junction
       is added, the positioning of bus lanes seems to move
 

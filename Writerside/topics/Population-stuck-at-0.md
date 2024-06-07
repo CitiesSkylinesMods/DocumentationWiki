@@ -1,10 +1,11 @@
+# Population stuck at 0
 > Article verified: January 2020
 
-# Symptom
+## Symptom
 
 * In a new city, houses are built but nobody moves in to them
 
-# Cause
+## Cause
 
 There can be multiple causes, including:
 
@@ -13,7 +14,7 @@ There can be multiple causes, including:
 * Broken station or dock assets
 * Lots of other stuff...
 
-# Solution
+## Solution
 
 ### Basic requirements
 
@@ -35,12 +36,12 @@ You need at least one of the following types of outside connection:
 
 > Local transport types, such as ferries, monorail and metro only work inside your city, they won't bring people in from outside.
 
-To diagnose issues with outside connections, see: [Outside connections not working](Outside connections not working)
+To diagnose issues with outside connections, see: [](Outside-connections-not-working.md)
 
 ### TM:PE Users
 
 * Check your [](Vehicle-Restrictions.md):
-    * In [](Policies.md), set [](Vehicle Restriction Aggression) to **Low**
+    * In [](Policies.md), set [](Vehicle-Restriction-Aggression.md) to **Low**
     * If that works, you've blocked some routes with vehicle restrictions
 * Check your [](Junction-Restrictions.md):
     * Did you block pedestrian crossings near a station?
@@ -48,7 +49,7 @@ To diagnose issues with outside connections, see: [Outside connections not worki
     * Did you block off access to a lane on a road by mistake?
     * Upgrading roads sometimes resets some or all of the lane settings - so always check!!
 * Turn off [](Parking-AI.md):
-    * If that fixes it, please let us know: [Report a bug](Report a bug)
+    * If that fixes it, please let us know: [](Report-a-Bug.md)
 
 ### Mods
 
@@ -67,7 +68,7 @@ To diagnose issues with outside connections, see: [Outside connections not worki
 
 There are some other issues to check if none of the above has worked:
 
-* No vehicles? See: [Vehicles not spawning](Vehicles not spawning)
+* No vehicles? See: [](Vehicles-not-spawning.md)
 * Houses must be fully constructed before people will move in:
     * Once constructed, it can take some minutes for people to start moving in - be patient
     * Click a house and then click the routes icon in its info panel - you'll see if anyone is en route to the house
@@ -76,8 +77,8 @@ There are some other issues to check if none of the above has worked:
     * Some maps from the workshop are broken, and there's not much you can do to fix them
 * Check your tax rates on the budget panel - don't have them too high otherwise nobody will want to live in your city
 
-# Fixed?
+## Was it Fixed?
 
 If not, consult the internet, maybe there are some other solutions we didn't mention above.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

@@ -42,4 +42,4 @@ If you are still suffering from nearly empty cargo trains, try the **[Cargo Hold
 
 If not, see: [Public Transport, and cargo Trains](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/wiki/Troubleshooting#public-transport-and-cargo-trains)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

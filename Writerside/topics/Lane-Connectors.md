@@ -54,7 +54,7 @@ Camera / Overlays:
 * **Mouse wheel** - zoom in or out
     * If you zoom out too far, overlays may disappear
 * **PageDown** - underground view
-    * This also activates a simplified version of the [](Traffic Info View)!
+    * This also activates a simplified version of the [](Traffic-Info-View.md)!
 * **PageUp** - overground view
 
 Selection:
@@ -74,7 +74,7 @@ Basic applicators:
 
 Bulk applicators:
 
-* [](Stay In Lane) (hot key is **Control+S**)
+* [](Stay-in-Lane.md) (hot key is **Ctrl+S**)
 
 ### Refresh
 
@@ -106,7 +106,7 @@ If you have enabled **Enable highway-specific lane merging/splitting rules** in 
 > Not really. The game already has to route through junctions, we just change the possible routes. However, if you go crazy with the tool you could force vehicles to take longer routes, which means more work for the pathfinder.
 
 #### When I load my city, my lane connector customisations are gone
-> Try unpausing the game. See [Lane arrow and connector not loading](Lane arrow and connector not loading) for details.
+> Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
 
 #### Can I allow buses to ignore lane connections to avoid them taking detours?
 > No. Unlike [](Lane-Arrows.md), the lane connectors are very strict and must be obeyed by all buses.
@@ -124,4 +124,4 @@ If you have enabled **Enable highway-specific lane merging/splitting rules** in 
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING%26logo=github" /></a>

@@ -1,3 +1,4 @@
+# Lane Arrows Buttons Missing Arrows
 > Article verified: October 2019
 
 ## Symptom
@@ -23,8 +24,8 @@ If you still have general issues with graphics, try the following:
 1. Update your graphics drivers direct from graphics card vendor website
 2. Add the `-force-d3d9` launch option (forces DirectX 9 graphics mode)
 
-## Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a bug](Report a bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

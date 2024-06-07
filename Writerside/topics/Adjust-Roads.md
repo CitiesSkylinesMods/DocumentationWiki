@@ -153,4 +153,4 @@ Guides:
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/MASS EDIT"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/MASS EDIT?label=MASS EDIT&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/MASS EDIT"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/MASS EDIT?label=MASS EDIT%26logo=github" /></a>

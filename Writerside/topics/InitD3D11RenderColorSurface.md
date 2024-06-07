@@ -1,3 +1,4 @@
+# InitD3D11RenderColorSurface VRDevice Error
 ## Symptom
 
 The game will freeze (although mouse and music might still work) during or after loading a save, and you'll see an error in the game log file similar to:
@@ -18,8 +19,8 @@ If you have NVIDIA graphics card, download GeForce Experience app and scan for g
 
 Check your Steam global settings and also game settings and disable anything that looks VR related.
 
-## Fixed?
+## Was it Fixed?
 
 If not, try adding the `-force-d3d9` [launch option](https://steamcommunity.com/sharedfiles/filedetails/?id=466981085) as a last resort.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

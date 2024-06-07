@@ -3,6 +3,7 @@
 > Verified: April 2020 (TM:PE 11.4.0)
 
 We are hugely appreciative of anyone who can help us translate TM:PE in to other Languages.
+See [](Adding-a-new-language.md).
 
 [![Crowdin](https://badges.crowdin.net/tmpe/localized.svg)](https://crowdin.com/project/tmpe)
 
@@ -10,25 +11,25 @@ We are hugely appreciative of anyone who can help us translate TM:PE in to other
 
 Before you can update translations, you'll need a user account on CrowdIn.
 
-You can sign-up, **for free**, here: https://crowdin.com/join
+You can sign up, **for free**, here: [Crowdin Join](https://crowdin.com/join)
 
-You can view and edit translations here: https://crowdin.com/project/tmpe
+You can view and edit translations here: [TM:PE on Crowdin](https://crowdin.com/project/tmpe)
 
 ## Languages
 
-Once your account is setup, navigate to the [main project page](https://crowdin.com/project/tmpe) to view the languages.
+Once your account is set up, navigate to the [TM:PE on Crowdin](https://crowdin.com/project/tmpe) to view the languages.
 
 Your preferred languages (as defined in your user account) are donated with a ⭐️ icon and should appear at the top of the list, for example:
 
 > [![TM:PE Languages](https://imgur.com/Xr55vNX.png)](https://crowdin.com/project/tmpe)
 >  
-> _If your langauge isn't listed yet, contact us via [Discord Chat](https://discord.gg/faKUnST) or leave a comment on the TM:PE workshop page._
+> _If your language isn't listed yet, contact us via [Discord Chat](https://discord.gg/faKUnST) or leave a comment on the TM:PE workshop page._
 
-Click a language to view it's files...
+Click a language to view its files...
 
 ## Language files
 
-TM:PE translations are split in to several language files, which look like this:
+TM:PE translations are split into several language files, which look like this:
 
 > ![TM:PE Language Files](https://i.imgur.com/TUjwpyel.png)
 
@@ -38,7 +39,7 @@ The progress bar depicts the current status of each file:
 * Blue = Pending approval
 * Grey = Missing translations
 
-Click a language file to display it's strings...
+Click a language file to display its strings...
 
 ## Translation strings
 

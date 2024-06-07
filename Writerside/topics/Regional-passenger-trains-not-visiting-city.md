@@ -1,3 +1,4 @@
+# Regional Passenger Trains not Visiting City
 > Article verified: August 2019
 
 ## Symptom
@@ -38,12 +39,12 @@ There are some other causes:
 * Check your transport budgets, and also your road/rail budgets
 * Mods like Real Time might alter the frequency of train visits or change the ratio of visits between day and night
 
-## Fixed?
+## Was it Fixed?
 
 If not, see:
 
-* [Tracked vehicles not routing or spawning](Tracked vehicles not routing or spawning)
-* [Cims not using public transport](Cims not using public transport)
-* [Vehicles not spawning](Vehicles not spawning)
+* [](Tracked-vehicles-not-routing-or-spawning.md)
+* [](Cims-not-using-public-transport.md)
+* [](Vehicles-not-spawning.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

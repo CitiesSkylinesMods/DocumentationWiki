@@ -1,10 +1,11 @@
+# No Audio
 > Article verified: October 2019
 
-# Symptom
+## Symptom
 
 * No audio from Cities: Skylines
 
-# Cause
+## Cause
 
 This problem is _not_ caused by TM:PE. But seeing as you are here...
 
@@ -15,7 +16,7 @@ This problem is _not_ caused by TM:PE. But seeing as you are here...
 * Outdated drivers
 * Various sound apps bundled with your computer or motherboard.
 
-# Solutions
+## Solutions
 
 First check you don't have an app called `Nahimic 2` or `Voicemeeter` running; they break audio in some Unity games; uninstall them.
 
@@ -48,8 +49,8 @@ FMOD errors:
 >  
 > Try disabling all unused sound devices as described above, and if that doesn't work, try installing Pulse Audio.
 
-# Fixed?
+## Was it Fixed?
 
 If not, consult the internet - this is clearly not a TM:PE problem.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

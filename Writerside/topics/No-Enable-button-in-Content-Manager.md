@@ -1,3 +1,4 @@
+# No Enable button in Content Manager
 > Verified: February 2020 - TM:PE 11.0
 
 ## Symptom
@@ -14,8 +15,8 @@ You need to be in the **Mods** section, _not_ the Workshop section:
 
 ![Content Manager Mods](https://camo.githubusercontent.com/195de81bc2ef28cf86126f497f7c553ff3180c7e/68747470733a2f2f692e696d6775722e636f6d2f537659443331352e706e67)
 
-## Fixed?
+## Was it Fixed?
 
-If not, see [Content Manager](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/wiki/Troubleshooting#content-manager--mod-options--settings) troublehsooting guides.
+If not, see [Content Manager](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/wiki/Troubleshooting#content-manager--mod-options--settings) troubleshooting guides.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

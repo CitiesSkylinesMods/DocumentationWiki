@@ -6,7 +6,7 @@
 
 * [Discord chat](https://discord.gg/faKUnST)
 * [Suggest an improvement](https://github.com/CitiesSkylinesMods/TMPE/issues/new?labels=feature%2C+triage&template=feature-request.md)
-* [Report a bug](https://github.com/CitiesSkylinesMods/TMPE/wiki/Report-a-Bug)
+* [](https://github.com/CitiesSkylinesMods/TMPE/wiki/Report-a-Bug)
 
 ### Source code
 

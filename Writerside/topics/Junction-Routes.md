@@ -1,3 +1,5 @@
+# Junction Routes
+
 > There is a lot of discussion taking place on features relating to this article, see:
 > * [unprotected vs. protected turns](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/63)
 > * [permissive turns](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/46)
@@ -10,13 +12,13 @@ There are three types of route a vehicle can take across a junction:
 * Permissive turn
 * Protected turn
 
-### Unprotected turns
+## Unprotected turns
 
 The driver has priority over other traffic, but there is a risk of collision.
 
 (todo: diagram)
 
-### Permissive turns
+## Permissive turns
 
 The driver can enter the junction, but must yield to other traffic.
 
@@ -24,7 +26,7 @@ The driver can enter the junction, but must yield to other traffic.
 
 In reality this is still an unprotected turn, because there's still a risk of collision. However, the driver has to yield to other traffic, reducing that risk.
 
-### Protected turns
+## Protected turns
 
 The driver must stop and wait for the lights to change before they can enter the junction.
 

@@ -40,7 +40,10 @@ You will see a confirmation dialog asking if you are sure:
 #### Does this affect frame rate or cause lag?
 > Temporarily. There might be some lag if large numbers of vehicles need to respawn (lots of work for pathfinder).
 
-#### [Which vehicles are affected?](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/35)
+#### Which vehicles are affected?
+
+Read more: [Which vehicles are affected?](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/35)
+
 > These are removed:
 > * Bicycles, busses, taxis
 > * Cars, motorcycles, vans, trucks, lorries

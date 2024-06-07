@@ -1,8 +1,9 @@
+# Could not load type TrafficManager.Traffic.Data.VehicleState
 > Verified: February 2020
 
 ## Symptom
 
-You see an error on-screen or in the [log file](Share-your-Cities-Skylines-log-file.) like this:
+You see an error on-screen or in the [log file](Share-your-Cities-Skylines-log-file.md) like this:
 
 * `Could not load type 'TrafficManager.Traffic.Data.VehicleState' from assembly ...`
 
@@ -22,8 +23,8 @@ Note: The mod is not in the Steam Workshop and seems to have been part of a clos
 
 > Tip: If you are using CSUR, try the [CSUR ToolBox](https://steamcommunity.com/sharedfiles/filedetails/?id=1959342332) mod which fixes a number of issues related to those roads.
 
-## Fixed?
+## Was it Fixed?
 
 If not, [please contact **authors of CSUR project**](https://steamcommunity.com/sharedfiles/filedetails/?id=1959216109) for assistance.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

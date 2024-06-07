@@ -1,6 +1,9 @@
+# Buttons Missing in Asset Editor
+
 > Article verified: October 2019
 
-> TM:PE does not currently run in the asset editor, although there are [plans to make it available in future](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/pull/288).
+> TM:PE does not currently run in the asset editor, although there
+> are [plans to make it available in the future](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/pull/288).
 
 ## Symptom
 
@@ -19,8 +22,9 @@ Disable the RICO mod:
 * Navigate to: Main Menu > Content Manager > Mods > Ploppable RICO
 * Disable the mod
 
-## Fixed?
+## Was it Fixed?
 
-If not, there are lots of other mods that don't properly check to see if the asset editor is being used. You'll have to try disabling them one by one.
+If not, there are lots of other mods that don't properly check to see if the asset editor is being used. You'll have to
+try disabling them one by one.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

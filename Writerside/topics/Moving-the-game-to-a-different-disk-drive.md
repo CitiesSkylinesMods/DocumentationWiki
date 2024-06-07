@@ -1,3 +1,4 @@
+# Moving the Game to a Different Disk Drive
 > Article verified: January 2020
 
 If you just copy the game to a new drive, things go horribly wrong - especially with mods.

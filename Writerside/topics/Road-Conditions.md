@@ -12,14 +12,14 @@ The **Snowfall DLC** introduced new game mechanics relating to road condition: M
 
 * Road Maintenance depot sends out trucks to maintain your roads
 * Well maintained roads allow vehicles to travel _slightly faster_
-* [Road Maintenance Info View](Road Maintenance Info View) shows road state
+* [](Road-Maintenance-Info-View.md) shows road state
 
 #### Snow Coverage (only Winter biomes):
 
 * Snow covered roads cause vehicles to travel _more slowly_
     * Studded Tires policy reduces the speed penalty
 * Snow Dumps send out trucks to clear away the snow
-* [Snow Info View](Snow Info View) shows road state
+* [](Snow-Info-View.md) shows road state
 
 There are, however, two notable features missing:
 
@@ -70,31 +70,26 @@ You can reduce snow coverage using the **Snow Plough** service, and improve road
 
 > Note: This option was called **Realistic driving speeds** in TM:PE version 10.20 and earlier.
 
-If [](Individual Driving Styles) is enabled, its speed calculations are applied _after_ the
+If [](Individual-Driving-Styles.md) is enabled, its speed calculations are applied _after_ the
 road condition calculations above. However, at any time it is guaranteed that the resulting speed limit does not fall
 below 10 km/h.
 
 ## FAQ
 
-#### Does it affect framerate or cause lag?
+> Q: Does it affect frame rate or cause lag?
+> > A: Slightly, but barely noticeable - even on big cities.
 
-> Slightly, but barely noticeable - even on big cities.
+> Q: Does it affect train/tram/monorail/metro tracks?
+> > A: Not currently.
 
-#### Does it affect train/tram/monorail/metro tracks?
+> Q: Does it affect pedestrians and cyclists?
+> > A: Not currently.
 
-> Not currently.
+> Q: Does it affect ships and aircraft?
+> > A: Not currently.
 
-#### Does it affect pedestrians and cyclists?
-
-> Not currently.
-
-#### Does it affect ships and aircraft?
-
-> Not currently.
-
-#### Does it affect breaking and acceleration?
-
-> Not directly, but by changing speeds it affects the amount of breaking and acceleration required by vehicles.
+> Q: Does it affect breaking and acceleration?
+> > A: Not directly, but by changing speeds it affects the amount of breaking and acceleration required by vehicles.
 
 ## See also
 

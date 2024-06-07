@@ -1,3 +1,4 @@
+# Removing Ghost Nodes and Broken Nodes
 > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
 
 ## Overview
@@ -8,9 +9,9 @@ This guide explains how to fix two node-related problems which can adversely aff
 
 > This issue is usually caused by bugs in anarchy mods; luckily it is trivial to fix!
 
-Ghost nodes are a rare issue that might cause [Simulation error Array index is out of range](Simulation error Array index is out of range) errors while in-game.
+Ghost nodes are a rare issue that might cause [](Simulation-error-Array-index-is-out-of-range.md) errors while in-game.
 
-For more details, see: [Array Index - Symptom 9](Array Index - Symptom 9)
+For more details, see: [](Array-Index---Symptom-9.md)
 
 ### Broken Nodes
 

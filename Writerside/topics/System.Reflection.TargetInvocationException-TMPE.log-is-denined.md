@@ -1,3 +1,5 @@
+# System.Reflection.TargetInvocationException TMPE.log is denied
+
 > Article verified: February 2022 - TM:PE 11.6.5.7
 
 > Note to TM:PE team: Check the folder path for stuff like `DODI-Repacks` which indicates pirated copy of the game.
@@ -7,9 +9,11 @@
 This issue is most common on Windows for users who have tried moving the game to a different drive:
 
 * A `System.Exception` error is shown in the game (or sometimes a `System.IO.IOException` error)
-* On inspecting [your log file](Share-your-Cities-Skylines-log-file.), you find something mentioning `TMPE.log is denined`
+* On inspecting [your log file](Share-your-Cities-Skylines-log-file.md), you find something
+  mentioning `TMPE.log is denied`
 
 Example log messages (folder path truncated for sake of brevity):
+
 ```
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --->
 System.TypeInitializationException: An exception was thrown by the type initializer for TrafficManager.State.GlobalConfig --->
@@ -32,4 +36,4 @@ at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess acc
 
 ## Cause & Solution
 
-For all error messages above (including `System.Reflection...`), please see: [[System.IO.IOException]]
+For all error messages above (including `System.Reflection...`), please see: [](System.IO.IOException.md)

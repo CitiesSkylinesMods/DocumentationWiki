@@ -45,6 +45,6 @@ Post the link wherever it was you were discussing the problem (usually a Steam d
 For TM:PE users only:
 
 * If it relates to an existing **GitHub** issue, just post it in to the text box and click the green button
-    * To create a new issue, see: [Report a bug](Report-a-Bug.md)
+    * To create a new issue, see: [](Report-a-Bug.md)
 * If you're communicating via **Discord** please add some text saying what the image is (otherwise we won't know what
   we're supposed to be looking at)

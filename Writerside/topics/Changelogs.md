@@ -79,4 +79,4 @@ The tags are:
     * Note: Changelog items are autoamtically sorted in to the order shown above
 * `[/Version]` - must appear at end of each version block
 
-The [`TMPE.log`](TMPE.log) file will detail any errors in the parsing process (you'll usually see an error on the main menu screen as well).
+The [`TMPE.log`](TMPE.log.md) file will detail any errors in the parsing process (you'll usually see an error on the main menu screen as well).

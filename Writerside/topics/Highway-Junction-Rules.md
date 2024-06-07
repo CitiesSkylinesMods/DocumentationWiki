@@ -1,4 +1,5 @@
 # Highway Junction Rules
+
 > Under construction
 
 Use this feature to make highway traffic more realistic.
@@ -16,7 +17,8 @@ Activate **Enable highway specific lane merging/splitting rules** in the [](Poli
 
 ### Customise
 
-Once the feature is enabled, it applies to all highways automatically. However, for best results you should make the following additional customisations...
+Once the feature is enabled, it applies to all highways automatically. However, for best results you should make the
+following additional customisations...
 
 **Lane parity**
 
@@ -27,9 +29,10 @@ At junctions, the number of incoming lanes should be equal to the number of outg
 In the image above:
 
 * The junction on the left is optimal - 4 lanes enter, and 4 lanes leave.
-* The junction on the right is sub-optimal - 4 lanes enter, but only 3 lanes leave. This will impair traffic flow.
+* The junction on the right is suboptimal - 4 lanes enter, but only 3 lanes leave. This will impair traffic flow.
 
-The same applies to highway exits. For example, if a 3 lane highway has a 1 lane exit ramp, the remaining highway should only have 2 lanes.
+The same applies to highway exits. For example, if a 3 lane highway has a 1 lane exit ramp, the remaining highway should
+only have 2 lanes.
 
 **Speed parity**
 
@@ -40,11 +43,13 @@ On highway junctions:
 
 These speed changes help avoid collisions between traffic travelling at different speeds.
 
-To do this, use the [](Speed-Limits.md) tool to create a **speed gradient** along the highway ramp. The end nearest the highway should be fastest, and the end nearest your normal road system should be slower.
+To do this, use the [](Speed-Limits.md) tool to create a **speed gradient** along the highway ramp. The end nearest the
+highway should be fastest, and the end nearest your normal road system should be slower.
 
 (todo: image)
 
-As vehicles drive up an entry ramp, their speed should increase. As they drive down an exit ramp, their speed should decrease.
+As vehicles drive up an entry ramp, their speed should increase. As they drive down an exit ramp, their speed should
+decrease.
 
 ## FAQ
 
@@ -52,14 +57,20 @@ As vehicles drive up an entry ramp, their speed should increase. As they drive d
 > Very little.
 
 **I've enabled the setting but nothing seems to change**
-> Due to the large amount of traffic on highways, a decision was made not to instantly update it (it would cause huge numbers of path finder operations). So you'll have to wait a while for new vehicles to spawn to see the effects. Alternatively, you could [Clear Traffic](Clear-Traffic.md) to remove all the existing traffic that's using the old rules.
+> Due to the large amount of traffic on highways, a decision was made not to instantly update it (it would cause huge
+> numbers of pathfinder operations). So you'll have to wait a while for new vehicles to spawn to see the effects.
+> Alternatively, you could [Clear Traffic](Clear-Traffic.md) to remove all the existing traffic that's using the old
+> rules.
 
 **Why can't I use the [](Lane-Arrows.md) tool?**
-> When highway rules are active, the lane arrows are automatically set and can't be changed. However, you can still use [](Lane-Connectors.md) and/or the [](Lane Changes) features if you need to apply some further customisations.
+> When highway rules are active, the lane arrows are automatically set and can't be changed. However, you can still
+> use [](Lane-Connectors.md) and/or the [](Lane-Changes.md) features if you need to apply some further customisations.
 
 **Vanilla highway roads are somewhat limited, what are the alternatives?**
-> There are many highway, expressway, motorway, freeway, and national road assets in the Steam Workshop; notably, many have fully rendered tunnels and asymmetric variants for entry/exit lanes. Some of our favourites are:
-> * [Vanilla+ Roads: Highways](https://steamcommunity.com/workshop/filedetails/?id=2124252245) (these match perfectly the style of vanilla highways)
+> There are many highway, expressway, freeway, freeway, and national road assets in the Steam Workshop; notably, many
+> have fully rendered tunnels and asymmetric variants for entry/exit lanes. Some of our favourites are:
+> * [Vanilla+ Roads: Highways](https://steamcommunity.com/workshop/filedetails/?id=2124252245) (these match perfectly
+    the style of vanilla highways)
 > * [Highway over a concrete wall](https://steamcommunity.com/workshop/filedetails/?id=1336987320)
 > * [Concrete Highways](https://steamcommunity.com/workshop/filedetails/?id=1888581095)
 > * [中国高速 Langshao China Expressway](https://steamcommunity.com/workshop/filedetails/?id=1292187026)
@@ -84,7 +95,7 @@ As vehicles drive up an entry ramp, their speed should increase. As they drive d
 
 Guides:
 
-* [Dedicated Turning Lanes](Dedicated Turning Lanes)
-* [Heavy Truck Highway Rules](Heavy Truck Highway Rules)
-* [](High Priority Roads)
-* [](Roundabout Policies)
+* [](Dedicated-Turning-Lanes.md)
+* [](Heavy-Truck-Highway-Rules.md)
+* [](High-Priority-Roads.md)
+* [](Roundabout-Policies.md)

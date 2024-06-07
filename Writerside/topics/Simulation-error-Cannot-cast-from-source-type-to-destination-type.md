@@ -1,8 +1,10 @@
+# Simulation error Cannot cast from source type to destination type
+
 > Article verified: August 2019
 
 ## Symptom
 
-An error on screen or in [log file](Share-your-Cities-Skylines-log-file.):
+An error on screen or in [log file](Share-your-Cities-Skylines-log-file.md):
 
 * `Simulation error: Cannot cast from source type to destination type`
 
@@ -21,8 +23,8 @@ One known cause is the [Real Construction](https://steamcommunity.com/sharedfile
 * Completely unsubscribe the Real Construction mod
 * Exit to desktop to flush the mod code from RAM
 
-## Fixed?
+## Was it Fixed?
 
-If not, and you believe the issue is with TM:PE, please let us know: [Report a bug](Report a bug)
+If not, and you believe the issue is with TM:PE, please let us know: [](Report-a-Bug.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

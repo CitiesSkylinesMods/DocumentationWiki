@@ -7,7 +7,7 @@
 > * It detects broken / incompatible / outdated mods
 > * It recommends alternatives and fixes
 >
-> [![Compatibility Report](picCompatibilityReport.jpeg)](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869)
+> [![Compatibility Report](picCompatibilityReport.jpeg){style="inline"}](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869)
 
 ## Overview
 

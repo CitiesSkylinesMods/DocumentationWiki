@@ -47,5 +47,5 @@ Guides:
 [Cities: Skylines wiki](https://skylines.paradoxwikis.com/):
 
 * [Wiki: Road Maintenance](https://skylines.paradoxwikis.com/Roads#Maintenance)
-* [Snow info view](https://skylines.paradoxwikis.com/Info_views#Snow)
+* [](https://skylines.paradoxwikis.com/Info_views#Snow)
 * [Snowfall DLC](https://store.steampowered.com/app/420610/Cities_Skylines__Snowfall/)

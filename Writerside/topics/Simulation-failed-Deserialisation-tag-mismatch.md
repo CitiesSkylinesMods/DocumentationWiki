@@ -1,3 +1,4 @@
+# Simulation failed Deserialisation tag mismatch
 > Verified: April 2022 - TM:PE 11.6.5.2
 
 ## Symptoms
@@ -33,8 +34,8 @@ In both cases, make sure you don't have any incompatible mods: [Compatibility Re
 
 (Thanks to BloodyPenguin, Dymanoid, AquilaSol and 夕林樱花Adonis for info about these errors)
 
-## Fixed?
+## Was it Fixed?
 
 If not, there's probably no way to recover the city, unless you have backups of older saves?
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

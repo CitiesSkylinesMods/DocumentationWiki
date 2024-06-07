@@ -137,7 +137,7 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 * If enabled, a warning will be shown if another mod overwrites or conflicts with TM:PE code
 * Conflicts will always be logged to the [](TMPE.log.md) file, regardless of this setting
-* See also: [](Incompatible-Mods)
+* See also: [](Incompatible-Mods.md)
 
 ## FAQ
 
@@ -158,4 +158,4 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>

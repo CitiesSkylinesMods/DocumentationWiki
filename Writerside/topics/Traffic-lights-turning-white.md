@@ -1,23 +1,25 @@
+# Traffic Lights Turning White
+
 > Article verified: August 2019
 
-> # Fixed!
->  
+> # 🛠️ Fixed!
+>
 > The "More Flags" mod has been updated to fix the problem with traffic lights.
 
-# Symptoms
+## Symptoms
 
 * Traffic lights are turning white
 
-# Cause
+## Cause
 
 It's caused by the [More Flags (+ Flag Replacer)](https://steamcommunity.com/workshop/filedetails/?id=595017353) mod.
 
-# Solution
+## Solution
 
 Unsubscribe [More Flags (+ Flag Replacer)](https://steamcommunity.com/workshop/filedetails/?id=595017353) mod.
 
-# Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a Bug](Report a Bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other problems? See: [Troubleshooting](Troubleshooting)
+Other problems? See: [](Troubleshooting.md)

@@ -1,3 +1,5 @@
+# Blue Void Roads or Tracks
+
 > Verified: March 2022 - TM:PE 11.6.5.1
 
 ## Symptom
@@ -24,11 +26,11 @@ Some related discussions on Steam:
 
 * [Metro Plaza Station, Blue void](https://steamcommunity.com/app/255710/discussions/0/3193620054615106529/)
 
-## Fixed?
+## Was it Fixed?
 
 If not, it might be caused by other issues:
 
-* [](Section of road becomes blue void)
-* [Blue void showing near roads](Blue void showing near roads)
+* [](Section-of-road-becomes-blue-void.md)
+* [](Blue-void-showing-near-roads.md)
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

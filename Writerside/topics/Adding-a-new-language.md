@@ -48,13 +48,13 @@ You will see two lists being populated, both need updating to include the new la
 
 Add the language code, for example if the filename is `lang_es.txt` you'd add:
 
-```csharp
+```c#
 AVAILABLE_LANGUAGE_CODES.Add("es");
 ```
 
 Then add the label that will appear in the drop-down language select list in [](General.md) in [](Settings.md), for example:
 
-```csharp
+```c#
 LANGUAGE_LABELS["es"] = "Español";
 ```
 

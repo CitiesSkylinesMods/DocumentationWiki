@@ -12,7 +12,7 @@ Before building, some files need updating (in addition to the [Changelogs](Chang
 
 * [`/TLM/SharedAssemblyInfo.cs`](https://github.com/CitiesSkylinesMods/TMPE/blob/master/TLM/SharedAssemblyInfo.cs):
     * `AssemblyVersion`
-    * `AssemblyCopyright` (if necesasry)
+    * `AssemblyCopyright` (if necessary)
 * [`/TLM/TLM/UI/WhatsNew/WhatsNew.cs`](https://github.com/CitiesSkylinesMods/TMPE/blob/master/TLM/TLM/UI/WhatsNew/WhatsNew.cs)
     * `CurrentVersion`
 
@@ -31,7 +31,7 @@ Choose build config as applicable:
 * `RELEASE` - STABLE releases
 * `RELEASE TEST` - TEST releases
 
-Test in game, in particular the `What's New` panel should popup. Check the [`TMPE.log`](TMPE.log) to make
+Test in game, in particular the `What's New` panel should popup. Check the [`TMPE.log`](TMPE.log.md) to make
 sure `Expected C:SL` and `Actual C:SL` versions match.
 
 ## Release tag
@@ -40,8 +40,8 @@ On
 the [Draft a new release](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/releases/new)
 screen:
 
-* **Tag** = Version number (eg. `11.6.4.0`; don't prefix with `v`)
-    * If it's a hotfix, you can postfix the verison with something like `-hotfix-1` etc.
+* **Tag** = Version number (e.g. `11.6.4.0`; don't prefix with `v`)
+    * If it's a hotfix, you can postfix the version with something like `-hotfix-1` etc.
 * **Release title** = Same as **Tag**
 * **Description** = Changelog
     * You can usually find the changelog in the description of

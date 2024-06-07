@@ -1,3 +1,1 @@
-# 🪦 Readme and Changelog
-
-Start typing here...
+# 🚧 Readme and Changelog

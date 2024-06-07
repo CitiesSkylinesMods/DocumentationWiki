@@ -37,14 +37,14 @@ _Use these options to set default traffic policies at road junctions..._
 
 #### Vehicles may turn at red traffic lights
 
-* Allow vehicles to [Turn on Red](Turn-on-Red.md) in to a _near-side_ road:
+* Allow vehicles to [](Turn-on-Red.md) in to a _near-side_ road:
     * Depending on which side traffic drives on, it can turn in that direction
     * Example: If traffic drives on the right, it's a right turn
 * Override any junction with [](Junction-Restrictions.md) tool
 
 #### Also apply to left & right turns between one-way streets
 
-* Allows vehicles to [Turn on Red](Turn-on-Red.md) in to a _far-side_ road:
+* Allows vehicles to [](Turn-on-Red.md) in to a _far-side_ road:
     * Depending on which side traffic drives on, it can turn in the opposite direction
     * Example: If traffic drives on the right, it's a left turn
     * Only applied if the destination is a **one-way road**
@@ -60,7 +60,7 @@ _Use these options to set default traffic policies at road junctions..._
 #### Vehicles follow priority rules at junctions with timed traffic lights
 
 * Makes vehicles yield at unprotected turning lights.
-* See: [](Priority-Signs.md) and [Unprotected Turns](Unprotected-Turns.md)
+* See: [](Priority-Signs.md) and [](Unprotected-Turns.md)
 
 #### Automatically add traffic lights if applicable
 
@@ -71,7 +71,7 @@ _Use these options to set default traffic policies at road junctions..._
 
 > It may take _a few minutes_ before changes to this setting take effect.
 
-* If enabled, roads entering junctions will be given [Dedicated Turning Lanes](Dedicated-Turning-Lanes.md), where
+* If enabled, roads entering junctions will be given [](Dedicated-Turning-Lanes.md), where
   feasible
 * Override any junction with [](Lane-Arrows.md) or [](Lane-Connectors.md) tools
 
@@ -109,7 +109,7 @@ _Use these options to control vehicles on highways and ramps..._
 #### Heavy vehicles prefer outer lanes on highways
 
 * Encourage large vehicles to use outside lane on highways
-* See: [Heavy Truck Highway Rules](Heavy-Truck-Highway-Rules.md)
+* See: [](Heavy-Truck-Highway-Rules.md)
 
 ### In Case of Emergency
 
@@ -127,7 +127,7 @@ _Use this option to give evacuation buses more flexibility during disasters..._
 
 _Use these options to customise the [](High-Priority-Roads.md) bulk applicators..._
 
-> Important: Provide [Collector Roads](Collector-Roads.md) (or tunnels/bridges) to enable cims and vehicles to reach the
+> Important: Provide [](Collector-Roads.md) (or tunnels/bridges) to enable cims and vehicles to reach the
 > other side of a high priority road.
 
 #### Allow pedestrian crossings on main road
@@ -140,7 +140,7 @@ _Use these options to customise the [](High-Priority-Roads.md) bulk applicators.
 
 * Determines whether vehicles can cut across oncoming traffic on the priority road
 * If disabled, vehicles will need another way to reach the other side (traffic
-  lights, [collector roads](Collector-Roads.md)...)
+  lights, [](Collector-Roads.md)...)
 * Override any junction with [](Lane-Arrows.md) or [](Lane-Connectors.md) tools
 
 #### Allow cars on yield road to enter blocked main road
@@ -243,4 +243,4 @@ Guides:
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>

@@ -6,8 +6,13 @@
 for [Cities: Skylines](https://store.steampowered.com/app/255710/Cities_Skylines), which improves lane usage and
 parking, and provides tools for customising traffic management on roads, rails and junctions!
 
-## [Getting Started](Getting-Started.md)
-## [](Guides.md)
+## Getting Started
+
+See [Getting Started](Getting-Started.md)
+
+## Guides
+
+See [](Guides.md)
 
 ## Key Features
 
@@ -26,7 +31,7 @@ table below.
 |                                                       | • [](Enter-Blocked-Junctions.md) |    ✔️    |    ✔️     |   ❌    |  ❌   |    ❌    |
 |                                                       | • [](Pedestrian-Crossings.md)       |    ✔️    |    ✔️     |   ❌    |  ✔️  |    ❌    |
 |                                                       | • [](U-Turns.md)                                 |    ✔️    |    ✔️     |   ❌    |  ❔*  |    ❌    |
-|                                                       | • [Turn on Red](Turn-on-Red.md)                         |    ✔️    |     ❌     |   ❌    |  ❌   |    ❌    |
+|                                                       | • [](Turn-on-Red.md)                         |    ✔️    |     ❌     |   ❌    |  ❌   |    ❌    |
 |                                                       | • [](Lane-Changes.md)                       |    ✔️    |     ❌     |   ❌    |  ❌   |    ❌    |
 |          ![](btnSpeedLimits.png)          | [](Speed-Limits.md)                         |    ❌     |     ❌     |   ❌    |  ❌   |   ✔️    |
 |  ![](btnParkingRestrictions.png)  | [](Parking-Restrictions.md)         |    ❌     |     ❌     |   ❌    |  ❌   |   ✔️    |

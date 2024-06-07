@@ -1,3 +1,5 @@
+# Simulation error EndDeserialize(GameAreaManager) tag mismatch
+
 ## Symptom
 
 In your log file, you see an error like:
@@ -6,14 +8,16 @@ In your log file, you see an error like:
 
 ## Cause
 
-This happens when you save a city with [81 Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=576327847) mod active, but then later load that city without the 81 Tiles mod.
+This happens when you save a city with [81 Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=576327847) mod
+active, but then later load that city without the 81 Tiles mod.
 
 ## Solution
 
-The [81 Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=576327847) mod must be active when the city is loaded.
+The [81 Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=576327847) mod must be active when the city is
+loaded.
 
-## Fixed?
+## Was it Fixed?
 
 If not, check the workshop page for 81 Tiles.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

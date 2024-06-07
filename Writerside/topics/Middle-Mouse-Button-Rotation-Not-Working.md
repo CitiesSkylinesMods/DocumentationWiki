@@ -1,3 +1,5 @@
+# Middle Mouse Camera Rotation Not Working
+
 > Verified: April 2022 - TM:PE 11.6.5.2
 
 ## Symptom
@@ -13,7 +15,8 @@ This bug is _not_ caused by TM:PE.
 
 ## Solution
 
-First, try `Alt`+`Tab` to switch to another application, then `Alt`+`Tab` to return to the game - this sometimes fixes it.
+First, try `Alt`+`Tab` to switch to another application, then `Alt`+`Tab` to return to the game - this sometimes fixes
+it.
 
 If that doesn't work:
 
@@ -22,12 +25,15 @@ If that doesn't work:
 3. Find the rotate map shortcut that is currently assigned to **Middle Mouse Button**
 4. Click that shortcut to edit it, then press `Middle Mouse Button`
 
-If pressing the `Middle Mouse Button` doesn't change the shortcut, then it is likely a problem with your mouse. Try a different mouse and see if that solves the issue.
+If pressing the `Middle Mouse Button` doesn't change the shortcut, then it is likely a problem with your mouse. Try a
+different mouse and see if that solves the issue.
 
-If the shortcut changes to something like **Alt + Middle Mouse Button** (or some other modifier key) then you've got a sticky key on your keyboard. Pressing the key a few times might un-stick it, in which case you'll need to set the shortcut again (it will now just show **Middle Mouse Button**).
+If the shortcut changes to something like **Alt + Middle Mouse Button** (or some other modifier key) then you've got a
+sticky key on your keyboard. Pressing the key a few times might un-stick it, in which case you'll need to set the
+shortcut again (it will now just show **Middle Mouse Button**).
 
-## Fixed?
+## Was it Fixed?
 
 If not, consult the internets :/
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

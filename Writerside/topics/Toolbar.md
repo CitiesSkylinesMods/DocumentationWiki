@@ -37,7 +37,7 @@ Use the [Hints Panel](Hints-Panel.md) to quickly see what shortcuts are availabl
 The first time you use the toolbar or a tool, advisor tutorials will be displayed. You can turn them off
 in [](General.md) in [](Settings.md) if desired.
 
-> ![?](iconQuestion.png)  
+> ![?](iconQuestion.png){style="inline"}  
 > You can redisplay context-sensitive advisor tutorials at any time by clicking the green **(?)** button near the roads
 > menu on the game's menu bar.
 

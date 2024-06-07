@@ -1,3 +1,5 @@
+# Simulation error Division by zero
+
 ## Symptom
 
 On-screen or in the log file you will see an error like:
@@ -10,7 +12,8 @@ This will often crash the game.
 
 We have not yet identified the cause, but it is likely caused by a mod or incompatiiblity between mods.
 
-The error will sometimes include `at TrafficManager.Custom.AI ...`. While TM:PE might be mentioned, it's not the cause of the error, it's just affected by the error.
+The error will sometimes include `at TrafficManager.Custom.AI ...`. While TM:PE might be mentioned, it's not the cause
+of the error, it's just affected by the error.
 
 ## Solution
 
@@ -48,10 +51,11 @@ We are currently investigating the following mods:
 * Mayoral City Service Info
 * "DB WLS" font for Procedural Objects
 
-If you have some of those, try disabling them, exit to desktop (to flush them from RAM), then reload your save to see if it works. If you find a mod that causes the problem, please let us know!
+If you have some of those, try disabling them, exit to desktop (to flush them from RAM), then reload your save to see if
+it works. If you find a mod that causes the problem, please let us know!
 
-## Fixed?
+## Was it Fixed?
 
 If not... meh.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

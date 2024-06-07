@@ -6,11 +6,10 @@
 
 * Try the [Compatibility Report](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869) mod - it finds
   broken and incompatible mods real quick.
-* Check the **[Troubleshooting](Troubleshooting.md)** guide, which contains solutions to common problems.
-* You can also view lists of issues for [**known bugs
-  **](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues?q=is%3Aissue+is%3Aopen+label%3Abug), [
-  **mod conflicts
-  **](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3AEXTERNAL+),
+* Check the **[](Troubleshooting.md)** guide, which contains solutions to common problems.
+* You can also view lists of issues for 
+  [**known bugs**](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues?q=is%3Aissue+is%3Aopen+label%3Abug), 
+  [**mod conflicts**](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues?q=is%3Aissue+label%3AEXTERNAL+),
   or [**all open issues**](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues).
 
 ## Create a bug report
@@ -25,7 +24,7 @@ Bugs can be reported in following places:
 * **Github**
     * _This is our preferred way of getting bug reports because it ensures they are properly tracked._
     * [**Click here to report a bug
-      **](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/new?labels=bug%2C+triage&template=bug-report.md) (
+      **](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/new?labels=bug%2C+triage%26template=bug-report.md) (
       you'll need a _free_ personal GitHub account to do this)
     * Please provide as much info as you can to help us understand the problem
 * **Discord chat**

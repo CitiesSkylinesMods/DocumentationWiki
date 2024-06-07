@@ -30,4 +30,4 @@ You forgot to change driving direction when starting a new game.
 
 If not, it's likely due to some mods not updating themselves when the driving side changes and you're only option will be to start a new game, sorry.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

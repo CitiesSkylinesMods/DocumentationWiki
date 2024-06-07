@@ -1,3 +1,1 @@
-# 🪦 Policies and Restrictions
-
-Start typing here...
+# 🚧 Policies and Restrictions

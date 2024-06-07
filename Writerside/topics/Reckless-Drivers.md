@@ -5,7 +5,7 @@ Use this option to make some of your cims drive like lunatics.
 
 ## Overview
 
-By default, cims are well behaved and obey your traffic rules and road customisations.
+By default, cims are well-behaved and obey your traffic rules and road customisations.
 
 To add realism, you can some of them drive recklessly, causing them to **ignore**:
 
@@ -40,8 +40,8 @@ The feature can be disabled at any time by changing back to 0% in settings.
 
 Guides:
 
-* [Evacuation Bus Rules](Evacuation Bus Rules)
-* [Flexible Bus Routing](Flexible Bus Routing)
+* [](Evacuation-Bus-Rules.md)
+* [](Flexible-Bus-Routing.md)
 * [](Highway-Junction-Rules.md)
 * [](Individual-Driving-Styles.md) (formerly called "Realistic Speeds")
 * [](Road-Conditions.md)

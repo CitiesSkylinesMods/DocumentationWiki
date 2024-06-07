@@ -1,3 +1,5 @@
+# System.StackOverflowException
+
 > Article verified: February 2020
 
 ## Symptom
@@ -7,21 +9,23 @@ One or both of the following:
 * A `System.StackOverflowException` error occurs and game might crash to desktop.
 * Log file might show `StackOverflowException` error
 
-# Causes
+## Causes
 
 We have identified several mods that cause this error:
 
 * Senior Citizens mod
 * Favorite Cims
-* Any mod that causes [Invalid list detected](Invalid list detected) error
+* Any mod that causes [](Invalid-list-detected.md) error
 
-There is also a possibility that Procedual Objects mod can cause the error if there's a malformed font installed, although we haven't been able to confirm that yet.
+There is also a possibility that Procedural Objects mod can cause the error if there's a malformed font installed,
+although we haven't been able to confirm that yet.
 
 ## Solutions
 
 Senior Citizens mod:
 
-* Unsubscribe the [Nursing Homes for Senior Citizens](https://steamcommunity.com/sharedfiles/filedetails/?id=554232266) mod
+* Unsubscribe the [Nursing Homes for Senior Citizens](https://steamcommunity.com/sharedfiles/filedetails/?id=554232266)
+  mod
 * Unsubscribe any assets it uses (retirement homes, nursing homes, hospice, etc)
 * Exit to desktop then restart the game
 
@@ -32,10 +36,10 @@ Favorite Cims:
 
 Other mods:
 
-* See: [Invalid list detected](Invalid list detected)
+* See: [](Invalid-list-detected.md)
 
-## Fixed?
+## Was it Fixed?
 
-If not, ask for support in usual locations (Steam discussions, Discord, etc).
+If not, ask for support in usual locations (Steam discussions, Discord, etc.).
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

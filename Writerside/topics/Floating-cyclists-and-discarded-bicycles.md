@@ -1,12 +1,16 @@
+# Floating Cyclists and Discarded Bicycles
+
 > Verified: April 2022 - TM:PE 11.6.5.2
 
 ## Symptoms
 
-[#1472](https://github.com/CitiesSkylinesMods/TMPE/issues/1472): You see discarded bicycles and the cyclists are "hovering" down the road without their bike:
+[#1472](https://github.com/CitiesSkylinesMods/TMPE/issues/1472): You see discarded bicycles and the cyclists are "
+hovering" down the road without their bike:
 
 ![Floating cyclist](https://user-images.githubusercontent.com/1386719/158747056-013833b5-c327-4016-a997-047baa017621.png)
 
-> This article is specifically about cyclists/bikes. If you are seeing floating cars/trucks, see [Floating vehicles](Floating vehicles) instead.
+> This article is specifically about cyclists/bikes. If you are seeing floating cars/trucks,
+> see [](Floating-vehicles.md) instead.
 
 ## Cause
 
@@ -15,7 +19,8 @@ It appears load sequence of certain mod causes this issue:
 * [Realistic Walking speed](https://steamcommunity.com/sharedfiles/filedetails/?id=1412844620)
 * [Optimized Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498)
 
-Both of these mods usually work fine, however sometimes they conflict depending on which mod loads first. It's possible there is also some other mod which affects them, but we've not been able to track it down.
+Both of these mods usually work fine, however sometimes they conflict depending on which mod loads first. It's possible
+there is also some other mod which affects them, but we've not been able to track it down.
 
 ## Solution
 
@@ -29,10 +34,14 @@ First, try this:
 
 If that fixes the problem, try resubscribing the mods - they'll usually work fine.
 
-If you are still having problems, try the [Loading Order Mod (LOM)](https://steamcommunity.com/sharedfiles/filedetails/?id=2620852727) which ensures mods load in a known-working sequence.
+If you are still having problems, try
+the [Loading Order Mod (LOM)](https://steamcommunity.com/sharedfiles/filedetails/?id=2620852727) which ensures mods load
+in a known-working sequence.
 
-## Fixed?
+## Was it Fixed?
 
-If not, try unsubscribing other mods, particulary any listed in [Issue #1472](https://github.com/CitiesSkylinesMods/TMPE/issues/1472) - if you find another mod that causes the problemm please leave a comment in that issue.
+If not, try unsubscribing other mods, particularly any listed
+in [Issue #1472](https://github.com/CitiesSkylinesMods/TMPE/issues/1472) - if you find another mod that causes the
+problem please leave a comment in that issue.
 
-Other issues? See: [Troubleshooting](Troubleshooting)
+Other issues? See: [](Troubleshooting.md)

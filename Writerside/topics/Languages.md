@@ -4,7 +4,8 @@
 
 TM:PE has been translated to [multiple languages](https://crowdin.com/project/tmpe):
 
-> [![Click to view current translation progress](picLanguages_progress.png)](https://crowdin.com/project/tmpe)  
+> [![Click to view current translation progress](picLanguages_progress.png){style="inline"}](https://crowdin.com/project/tmpe)
+> 
 > [![Crowdin](https://badges.crowdin.net/tmpe/localized.svg)](https://crowdin.com/project/tmpe)
 
 It defaults to same language as game, but you can select different language

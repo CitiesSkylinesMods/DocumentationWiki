@@ -1,6 +1,9 @@
+# Exception BuildingInfo ..._Data failed
+
 Will finish this later but just jotting down some notes for now so I don't forget...
 
-If you see stuff like this, usually a road asset, or asset containing a road asset, it's due to missing DLC such as Mass Transit, Industries or After Dark.
+If you see stuff like this, usually a road asset, or asset containing a road asset, it's due to missing DLC such as Mass
+Transit, Industries or After Dark.
 
 ```
 Custom Assets: 1908620939.Hwy3-4-2-2_On-Ramp_Data: NetInfo missing

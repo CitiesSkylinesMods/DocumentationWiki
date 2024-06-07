@@ -29,7 +29,7 @@ You can look at [Closed Milestones] to see examples of formatting of the **Descr
 the milestone to see the markdown). In general, each entry should stat with a word that indicates the nature of the
 change, as applicable:
 
-```md
+```
 * Added: _summarise new feature_ (_refs_)
 * Improved: _summarise improvement (a partial fix or enhancement)_ (_refs_)
 * Fixed: _summarise a bug fix_ (_refs_)

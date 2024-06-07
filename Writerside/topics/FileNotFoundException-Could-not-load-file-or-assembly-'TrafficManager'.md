@@ -1,21 +1,24 @@
+# FileNotFoundException Could not load file or assembly 'TrafficManager'
+
 > Article verified: June 2019
 
-# Symptom
+## Symptom
 
 You get this error in your log file:
 
 ```FileNotFoundException: Could not load file or assembly 'TrafficManager'```
 
-# Cause
+## Cause
 
-This is caused by the [Advanced Junction Rule](https://steamcommunity.com/sharedfiles/filedetails/?id=1647686914) mod, which requires TM:PE to work. If you disable TM:PE, the Advanced Junction Rule mod will report that error.
+This is caused by the [Advanced Junction Rule](https://steamcommunity.com/sharedfiles/filedetails/?id=1647686914) mod,
+which requires TM:PE to work. If you disable TM:PE, the Advanced Junction Rule mod will report that error.
 
-# Solution
+## Solution
 
 If you disable or unsubscribe **TM:PE**, you must also disable or unsubscribe **Advanced Junction Rule**.
 
-# Fixed?
+## Was it Fixed?
 
-If not, please let us know: [Report a Bug](Report a Bug)
+If not, please let us know: [](Report-a-Bug.md)
 
-Other problems? See: [Troubleshooting](Troubleshooting)
+Other problems? See: [](Troubleshooting.md)
