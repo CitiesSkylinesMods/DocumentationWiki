@@ -12,7 +12,7 @@ This issue only seems to affect Windows users.
 
 ## Cause
 
-This is caused by insufficient permissions on the folder that contain the TM:PE [Global Configuration](Global Configuration) file.
+This is caused by insufficient permissions on the folder that contain the TM:PE [Global Configuration](Global-Configuration.md) file.
 
 ## Solution
 

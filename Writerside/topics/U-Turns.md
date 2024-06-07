@@ -15,16 +15,16 @@ U-turns can help simplify and shorten vehicle routes, but at junctions they can 
 
 There are two ways to enable U-turns at junctions:
 
-* [Junction Restrictions](Junction Restrictions), or
-* [Lane Connectors](Lane Connectors) (create a link from an incoming lane to an outgoing lane on the same road)
+* [Junction Restrictions](Junction-Restrictions.md), or
+* [Lane Connectors](Lane-Connectors.md) (create a link from an incoming lane to an outgoing lane on the same road)
 
-> To use them, the features must be enabled in [Maintenance](Maintenance) [Settings](Settings).
+> To use them, the features must be enabled in [Maintenance](Maintenance.md) [Settings](Settings.md).
 
 ## Applicators
 
-If you want to customise individual junctions, use either the [Junction Restrictions](Junction Restrictions) or [Lane Connectors](Lane Connectors) tool.
+If you want to customise individual junctions, use either the [Junction Restrictions](Junction-Restrictions.md) or [Lane Connectors](Lane-Connectors.md) tool.
 
-If you want to set the default for all junctions, use the **Vehicles may do U-turns at junctions** option in [Policies](Policies) [settings](settings).
+If you want to set the default for all junctions, use the **Vehicles may do U-turns at junctions** option in [Policies](Policies.md) [settings](Settings.md).
 
 Realistically, U-turns are impractical on smaller roads (which usually require a [three point turn](https://en.wikipedia.org/wiki/Three-point_turn)). U-turns are best suited to medium/large roads, particularly those with a central median.
 
@@ -38,7 +38,7 @@ The vanilla game allows U-turns at **terminal nodes**. TM:PE allows you to exten
 
 If TM:PE is presented with multiple ways to turn a vehicle round - for example driving round the block vs. U-turn at a terminal node vs. U-turn at a junction - it will favour the option with the fewest number of lane changes.
 
-As a U-turn is technically always `1` lane change, vehicles would always U-turn at junctions and transitions. However, this doesn't happen in real life; U-turns are cumbersome and sometimes dangerous, so drivers generally prefer a slightly longer (easier and safer) route. To mimic this behaviour in game, TM:PE treats U-turns at transition and junction nodes as `2` lane changes; drivers will look for a nearby alternative before doing a U-turn. This value is defined by the `UTurnLaneDistance` setting in [Global Configuration](Global Configuration). A lower value makes U-turns more desirable, a higher value makes them less desirable.
+As a U-turn is technically always `1` lane change, vehicles would always U-turn at junctions and transitions. However, this doesn't happen in real life; U-turns are cumbersome and sometimes dangerous, so drivers generally prefer a slightly longer (easier and safer) route. To mimic this behaviour in game, TM:PE treats U-turns at transition and junction nodes as `2` lane changes; drivers will look for a nearby alternative before doing a U-turn. This value is defined by the `UTurnLaneDistance` setting in [Global Configuration](Global-Configuration.md). A lower value makes U-turns more desirable, a higher value makes them less desirable.
 
 # FAQ
 

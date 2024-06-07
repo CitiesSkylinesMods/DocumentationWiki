@@ -28,7 +28,7 @@ For documentation on any button, click the icons below:
 [![Despawn](btnToggleDespawn.png){style=inline}](Toggle-Despawn.md "Toggle Despawn")
 
 The toolbar and most tools can be accessed via keyboard shortcuts, which you can customise
-in [Keybinds](Keybinds.md) [settings](Settings.md).
+in [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 Use the [Hints Panel](Hints-Panel.md) to quickly see what shortcuts are available for the active tool.
 

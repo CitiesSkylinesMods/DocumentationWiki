@@ -63,7 +63,7 @@ If a mod is about to become compatible, don't remove it from the list until it b
 
 ## The list isn't a silver bullet
 
-The mod checker feature can be a source of friction with the community, so we added options to [General](General) [Settings](Settings) that allow users to disable it completely, or ignore disabled mods. This means that mod incompatibility issues may still arise, even for known incompatible mods.
+The mod checker feature can be a source of friction with the community, so we added options to [General](General.md) [Settings](Settings.md) that allow users to disable it completely, or ignore disabled mods. This means that mod incompatibility issues may still arise, even for known incompatible mods.
 
 The [Troubleshooting](Troubleshooting) guide should always be first place to look when users report any errors or issues.
 

@@ -15,15 +15,15 @@ To make traffic more realistic, TM:PE can give each cim their own unique driving
 
 ## Usage
 
-Enable the **Individual driving styles** option in [Gameplay](Gameplay) [settings](settings).
+Enable the **Individual driving styles** option in [Gameplay](Gameplay.md) [settings](Settings.md).
 
 Once activated, the feature is automatically applied to all drivers. The feature can be disabled at any time by turning off the option in Gameplay settings.
 
 For even more realism, you could also activate the following options:
 
-* [Reckless Drivers](Reckless Drivers)
+* [Reckless Drivers](Reckless-Drivers.md)
 * [Road Conditions](Road Conditions)
-* [Dynamic Lane Selection](Dynamic Lane Selection)
+* [Dynamic Lane Selection](Dynamic-Lane-Selection.md)
 
 ## Notes
 
@@ -33,7 +33,7 @@ When the feature is activated, each cim is given a unique 'pseudo-random seed' w
 
 The driving style of a cim determines when and where they will make lane changes. It helps reduce "single lane bunching", particularly near junctions ([Dedicated Turning Lanes](Dedicated Turning Lanes) also help with that).
 
-The effect is applied in the pathfinder and, if activated, the [Advanced Vehicle AI](Advanced Vehicle AI) - specifically its [Dynamic Lane Selection](Dynamic Lane Selection) (DLS) feature. DLS further reduces lane bunching along long stretches of road, however it adds extra workload to the CPU which might be problematic on older computers.
+The effect is applied in the pathfinder and, if activated, the [Advanced Vehicle AI](Advanced Vehicle AI) - specifically its [Dynamic Lane Selection](Dynamic-Lane-Selection.md) (DLS) feature. DLS further reduces lane bunching along long stretches of road, however it adds extra workload to the CPU which might be problematic on older computers.
 
 #### Driving speed
 
@@ -45,8 +45,8 @@ This means that if two cims were to drive the same vehicle asset, on the same ro
 
 Maximum vehicle speeds are determined by roads and vehicles:
 
-* Roads: [Speed limits](Speed limits) and, if activated, the [Road conditions](Road conditions)
-    * [Reckless drivers](Reckless drivers) ignore speed limits
+* Roads: [Speed limits](Speed-Limits.md) and, if activated, the [Road conditions](Road conditions)
+    * [Reckless drivers](Reckless-Drivers.md) ignore speed limits
 * Vehicles: Maximum speed defined by the vehicle asset
     * [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) mod can be used to view/alter the vehicle speed
     * If vehicles assets are made too fast, it can adversely affect the AIs
@@ -60,7 +60,7 @@ The vehicle category defines a scale of speed modification. The individual drivi
 | Category             | Speed modification |
 | :---                 | :---:              |
 | Heavy vehicles       | -10% .. ±0%        |
-| [Reckless Drivers](Reckless Drivers) | +10% .. +60%       |
+| [Reckless Drivers](Reckless-Drivers.md) | +10% .. +60%       |
 | All other vehicles   | -20% .. +30%       |
 
 Note: Emergency vehicles will behave like reckless drivers when they are responding to an emergency (as indicated by flashing lights and sirens).
@@ -70,7 +70,7 @@ Note: Emergency vehicles will behave like reckless drivers when they are respond
 #### Does this reduce frame rate or cause lag?
 > On its own, the effect is minimal, even in large cities.
 >  
-> However, if you activate the [Dynamic Lane Selection](Dynamic Lane Selection) feature, the effects will be much more noticeable - especially in large cities.
+> However, if you activate the [Dynamic Lane Selection](Dynamic-Lane-Selection.md) feature, the effects will be much more noticeable - especially in large cities.
 
 #### What are "Heavy Vehicles"?
 > * Ships (cargo, ferry)
@@ -82,16 +82,16 @@ Note: Emergency vehicles will behave like reckless drivers when they are respond
 
 ## See also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Gameplay](Gameplay)
+* [Gameplay](Gameplay.md)
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Speed Limits](Speed Limits)
+* [Speed Limits](Speed-Limits.md)
 
 Guides:
 
-* [Reckless Drivers](Reckless Drivers)
+* [Reckless Drivers](Reckless-Drivers.md)
 * [Road Conditions](Road Conditions)
-* [Dynamic Lane Selection](Dynamic Lane Selection)
+* [Dynamic Lane Selection](Dynamic-Lane-Selection.md)

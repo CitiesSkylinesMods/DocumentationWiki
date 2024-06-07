@@ -14,7 +14,7 @@ Red roads are poorly maintained.
 
 Vehicles can drive slightly faster on well maintained roads.
 
-However, if you have enabled **Road condition has a bigger impact on vehicle speed** in [Gameplay](Gameplay) [settings](settings):
+However, if you have enabled **Road condition has a bigger impact on vehicle speed** in [Gameplay](Gameplay.md) [settings](Settings.md):
 
 * Unmaintained roads are slower
 * Wet/flooded roads will be significantly slower
@@ -30,18 +30,18 @@ To help vehicles drive faster:
 
 ## See also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Speed Limits](Speed Limits) - customise road speeds
+* [Speed Limits](Speed-Limits.md) - customise road speeds
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Gameplay](Gameplay) - option: **Road condition has a bigger impact on vehicle speed**
+* [Gameplay](Gameplay.md) - option: **Road condition has a bigger impact on vehicle speed**
 
 Guides:
 
 * [Road Conditions](Road Conditions) - how vehicle speed is affected by conditions
-* [Reckless Drivers](Reckless Drivers) - can drive faster than speed limit
+* [Reckless Drivers](Reckless-Drivers.md) - can drive faster than speed limit
 
 [Cities: Skylines wiki](https://skylines.paradoxwikis.com/):
 

@@ -4,11 +4,11 @@ Some tools require you to select a junction before you can use them...
 
 ## Choose tool
 
-If you haven't already done so, select the desired tool from the [Toolbar](Toolbar):
+If you haven't already done so, select the desired tool from the [Toolbar](Toolbar.md):
 
-* [Junction Restrictions](Junction Restrictions)
-* [Lane Connectors](Lane Connectors)
-* [Priority Signs](Priority Signs)
+* [Junction Restrictions](Junction-Restrictions.md)
+* [Lane Connectors](Lane-Connectors.md)
+* [Priority Signs](Priority-Signs.md)
 * [Traffic Lights](Traffic Lights)
 
 ## Select

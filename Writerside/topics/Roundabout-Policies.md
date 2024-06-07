@@ -1,6 +1,6 @@
 ![Untitled](https://user-images.githubusercontent.com/26344691/81202134-d2269400-8fce-11ea-9ec2-80e2d29b0ae7.png)
 
-Setting up a roundabout in Traffic manager can be tricky. For your convenience TMPE offers ways to quickly setup a roundabout by setting the following rules (can be modified in [policies](policies) [settings](settings)) (see screenshot above):
+Setting up a roundabout in Traffic manager can be tricky. For your convenience TMPE offers ways to quickly setup a roundabout by setting the following rules (can be modified in [policies](Policies.md) [settings](Settings.md)) (see screenshot above):
 * ban pedestrian crossing to the center of the roundabout (and optionally on the branches too)
 * cars entering the roundabout must yield and keep clear of blocked junctions.
 * cars on the roundabout enter blocked junction.

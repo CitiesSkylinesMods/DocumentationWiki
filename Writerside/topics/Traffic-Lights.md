@@ -28,5 +28,5 @@ See pages linked above for tool-specific FAQs.
 [Issue Tracker](https://github.com/CitiesSkylinesMods/TMPE/issues):
 
 * <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/TRAFFIC LIGHTS">
-<img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/TRAFFIC LIGHTS?label=TRAFFIC LIGHTS&logo=github" alt="Issues" />
+<img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/TRAFFIC LIGHTS?label=TRAFFIC LIGHTS&logo=github" alt="Issues" />
 </a>

@@ -4,7 +4,7 @@
 
 ## Overview
 
-The hints panel appears below the [Toolbar](Toolbar); it provides guidance on how to use the selected tool, and lists time-saving keyboard & mouse shortcuts:
+The hints panel appears below the [Toolbar](Toolbar.md); it provides guidance on how to use the selected tool, and lists time-saving keyboard & mouse shortcuts:
 
 ![Hints panel](https://user-images.githubusercontent.com/1386719/145758607-6f9b8ddb-3d21-497e-84c2-b9c90322d347.png)
 
@@ -12,11 +12,11 @@ The hints panel appears below the [Toolbar](Toolbar); it provides guidance on ho
 
 ## Usage
 
-The hints panel is visible by default. You can toggle it on/off by clicking the small ❔ icon in the top-right corner of the [Toolbar](Toolbar):
+The hints panel is visible by default. You can toggle it on/off by clicking the small ❔ icon in the top-right corner of the [Toolbar](Toolbar.md):
 
 ![Hints Toggle](https://user-images.githubusercontent.com/1386719/145758299-ffa63962-7fe3-4966-9152-7b306f52d471.png)
 
-You can adjust the scaling and transparency of the TM:PE user interface in [General](General) [settings](settings).
+You can adjust the scaling and transparency of the TM:PE user interface in [General](General.md) [settings](Settings.md).
 
 > Want to help with translations? See: [Localisation](Localisation)
 
@@ -24,7 +24,7 @@ You can adjust the scaling and transparency of the TM:PE user interface in [Gene
 
 Note that the content of the hints panel will update depending on what you're doing.
 
-For exmaple, there are several layers of interaction in the [Lane Connectors](Lane Connectors) tool, and the hints panel guides you every step of the way:
+For exmaple, there are several layers of interaction in the [Lane Connectors](Lane-Connectors.md) tool, and the hints panel guides you every step of the way:
 
 ![Stage 1](https://user-images.githubusercontent.com/1386719/145759627-fbde3381-bed1-4e6a-a364-5b6df6e3b8e2.png)
 

@@ -20,33 +20,33 @@
 
 </details>
 
-#### [Toolbar](Toolbar):
+#### [Toolbar](Toolbar.md):
 
-* [Hints Panel](Hints Panel)
+* [Hints Panel](Hints-Panel.md)
 * Road & Rail:
     * [Adjust Roads](Adjust Roads)
-    * [Parking Restrictions](Parking Restrictions)
-    * [Speed Limits](Speed Limits)
-    * [Vehicle Restrictions](Vehicle Restrictions)
+    * [Parking Restrictions](Parking-Restrictions.md)
+    * [Speed Limits](Speed-Limits.md)
+    * [Vehicle Restrictions](Vehicle-Restrictions.md)
 * Junctions:
-    * [Junction Restrictions](Junction Restrictions)
-    * [Lane Arrows](Lane Arrows)
-    * [Lane Connectors](Lane Connectors)
-    * [Priority Signs](Priority Signs)
+    * [Junction Restrictions](Junction-Restrictions.md)
+    * [Lane Arrows](Lane-Arrows.md)
+    * [Lane Connectors](Lane-Connectors.md)
+    * [Priority Signs](Priority-Signs.md)
     * [Traffic Lights](Traffic Lights)
 * Despawning:
-    * [Clear Traffic](Clear Traffic)
-    * [Toggle Despawn](Toggle Despawn)
+    * [Clear Traffic](Clear-Traffic.md)
+    * [Toggle Despawn](Toggle-Despawn.md)
 
-#### [Settings](Settings)
+#### [Settings](Settings.md)
 
-* [General](General)
-* [Gameplay](Gameplay)
-* [Policies](Policies)
-* [Overlays](Overlays)
-* [Maintenance](Maintenance)
-* [Keybinds](Keybinds)
-* [Global Configuration](Global Configuration)
+* [General](General.md)
+* [Gameplay](Gameplay.md)
+* [Policies](Policies.md)
+* [Overlays](Overlays.md)
+* [Maintenance](Maintenance.md)
+* [Key Bindings](Keybinds.md)
+* [Global Configuration](Global-Configuration.md)
 
 #### Guides:
 
@@ -84,10 +84,10 @@
     * [Trains](Trains)
     * [Prevent Unnecessary Transfers](Prevent Unnecessary Transfers)
 * Vehicles:
-    * [Dynamic Lane Selection](Dynamic Lane Selection) (DLS)
+    * [Dynamic Lane Selection](Dynamic-Lane-Selection.md) (DLS)
     * [Individual Driving Styles](Individual Driving Styles)
-    * [Parking AI](Parking AI)
-    * [Reckless Drivers](Reckless Drivers)
+    * [Parking AI](Parking-AI.md)
+    * [Reckless Drivers](Reckless-Drivers.md)
     * [Advanced AI](Advanced AI)
 
 Todo:

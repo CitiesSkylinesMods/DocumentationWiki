@@ -10,13 +10,13 @@ This allows you improve traffic flow on a busy route, at the expense of increase
 
 ## Usage
 
-Choose **Priority Signs** on the [Toolbar](Toolbar):
+Choose **Priority Signs** on the [Toolbar](Toolbar.md):
 
 ![Priority Signs tool](https://imgur.com/Txc7Oqd.png)
 
-> Button missing? Enable **Priority Signs** in [Maintenance](Maintenance) settings.
+> Button missing? Enable **Priority Signs** in [Maintenance](Maintenance.md) settings.
 
-You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds) [settings](settings).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 ### Applicators
 
@@ -44,7 +44,7 @@ Selection:
     * Any previously selected junction will be deselected
     * You can now apply basic applicators
 * `Esc` or `Right mouse click` - exit Priority Signs tool
-    * This returns focus to the [Toolbar](Toolbar) and enables its [Adjust Roads](Adjust Roads) mode.
+    * This returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
 
 Applicators:
 
@@ -60,7 +60,7 @@ Overlays:
     * It will try going "straight ahead" at junctions
     * On one-way roads, it will try and find roundabouts / semi-roundabouts
     * If no suitable ongoing route is found, the route will terminate at that junction
-* `Control` - show persistent summary overlays for [Junction Restrictions](Junction Restrictions) and [Speed Limits](Speed Limits)
+* `Control` - show persistent summary overlays for [Junction Restrictions](Junction-Restrictions.md) and [Speed Limits](Speed-Limits.md)
 
 Bulk applicatators:
 
@@ -91,13 +91,13 @@ While the tool is active, summary overlays show which junctions have been custom
 
 ![Priority Signs](https://user-images.githubusercontent.com/1386719/145757519-a3dea2d4-5b14-4e8f-bf79-5e2f1e104943.png)
 
-To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General) [settings](settings).
+To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General.md) [settings](Settings.md).
 
-When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the Toolbar is visible, in [Overlays](Overlays) [settings](settings).
+When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the Toolbar is visible, in [Overlays](Overlays.md) [settings](Settings.md).
 
 ### Icon Themes
 
-Depending on your languge settings (see [General](General) [settings](settings)), TM:PE can show locaised signs.
+Depending on your languge settings (see [General](General.md) [settings](Settings.md)), TM:PE can show locaised signs.
 
 Currently available localisations:
 
@@ -110,9 +110,9 @@ Currently available localisations:
 
 When you make changes, only vehicles spawned _after_ that point will be aware of them.
 
-To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [General](General) [settings](settings). This may add some momentary lag on old potato computers or on big cities.
+To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [General](General.md) [settings](Settings.md). This may add some momentary lag on old potato computers or on big cities.
 
-Alternatively, use the [Clear Traffic](Clear Traffic) tool to delete all existing vehicles; it puts less strain on CPU so it's faster than the option above if you have old computer or big city.
+Alternatively, use the [Clear Traffic](Clear-Traffic.md) tool to delete all existing vehicles; it puts less strain on CPU so it's faster than the option above if you have old computer or big city.
 
 ## Notes
 
@@ -150,25 +150,25 @@ Now, taffic can flow much more freely along _Jim Street_ because it knows it has
 > If you make changes to your roads, it's difficult for TM:PE to determine what to do, so it does nothing. It's why we highlight junctions and routes when using the tools - you're actually deciding what to do and the highligts are just visual encouragement for you to do that work ;)
 
 #### Some vehicles seem to ignore the rules!
-> * [Reckless Drivers](Reckless Drivers) ignore priority rules
+> * [Reckless Drivers](Reckless-Drivers.md) ignore priority rules
 > * Emergency vehicles, while responding to emergencies, can ignore the rules
-> * Evacuation busses can ignore priority signs if **Evacuation busses may ignore traffic rules** is enabled in [Policies](Policies) [settings](settings)
-> * Traffic lights cause priority signs to be ignored unless **Vehicles follow priority rules at junctions with timed traffic lights** is enabled in [Policies](Policies) [settings](settings)
+> * Evacuation busses can ignore priority signs if **Evacuation busses may ignore traffic rules** is enabled in [Policies](Policies.md) [settings](Settings.md)
+> * Traffic lights cause priority signs to be ignored unless **Vehicles follow priority rules at junctions with timed traffic lights** is enabled in [Policies](Policies.md) [settings](Settings.md)
 > * If a road or rail segment entering the junction is too short, there isn't enough room for vehicles to slow down properly and they will drive in to the junction before AI has time to stop them
 
 ## See Also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
 * [Adjust Roads](Adjust Roads) - has similar bulk applicators
 * [Traffic Lights](Traffic Lights)
-* [Junction Restrictions](Junction Restrictions)
+* [Junction Restrictions](Junction-Restrictions.md)
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Policies](Policies)
-* [Overlays](Overlays)
-* [Global Configuration](Global Configuration) - contains fine-tuning parameters for priority signs
+* [Policies](Policies.md)
+* [Overlays](Overlays.md)
+* [Global Configuration](Global-Configuration.md) - contains fine-tuning parameters for priority signs
 
 Guides:
 
@@ -183,4 +183,4 @@ Guides:
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/PRIORITY SIGNS"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/PRIORITY SIGNS?label=PRIORITY SIGNS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/PRIORITY SIGNS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/PRIORITY SIGNS?label=PRIORITY SIGNS&logo=github" /></a>

@@ -6,15 +6,15 @@
 
 Lane arrows can be used to organise traffic flow across road junctions and level crossings.
 
-> Arrows only affect normal road traffic. To customise tracked junctions, use [Lane Connectors](Lane Connectors) instead.
+> Arrows only affect normal road traffic. To customise tracked junctions, use [Lane Connectors](Lane-Connectors.md) instead.
 
 ## Usage
 
-Choose **Lane Arrows** on the [Toolbar](Toolbar):
+Choose **Lane Arrows** on the [Toolbar](Toolbar.md):
 
 ![Lane arrows tool](https://imgur.com/y9KjHFD.png)
 
-You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds) [settings](settings).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 ### Applicators
 
@@ -30,17 +30,17 @@ You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds)
 
 Lane arrows can't be changed on junctions using:
 
-* [Lane Connectors](Lane Connectors)
+* [Lane Connectors](Lane-Connectors.md)
     * Lane connectors take precedence over lane arrows.
 * [Highway Junction Rules](Highway Junction Rules)
-    * See: **Enable highway-specific lane merging/splitting rules** in [Policies](Policies) [settings](settings)
-    * You can use [Lane Connectors](Lane Connectors) to override such junctions
+    * See: **Enable highway-specific lane merging/splitting rules** in [Policies](Policies.md) [settings](Settings.md)
+    * You can use [Lane Connectors](Lane-Connectors.md) to override such junctions
 
 ### Vehicle Routing
 
 Vehicles calculate their route _before_ starting their journey. As a result, when you change lane arrows, only vehicles spawned _after_ that point will be aware of your changes.
 
-To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General) [settings](settings).
+To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General.md) [settings](Settings.md).
 
 ### Shortcuts
 
@@ -53,7 +53,7 @@ Selection:
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Lane Arrows** tool as if you pressed `Esc`
 * `Esc` - exit **Lane Arrows** tool
-    * Returns focus to the [Toolbar](Toolbar) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
 
 Basic Applicators:
 
@@ -71,7 +71,7 @@ Bulk applicators:
 * `Control`+`Click a junction` - Give all roads at the junction a turning lane
     * Same as `Alt`+`Click`, but configures all segments entering the junction
     * Repeat the shortcut to cycle through alternate configurations
-* [Priority Signs](Priority Signs) bulk applicators can add turning lanes for an entire route
+* [Priority Signs](Priority-Signs.md) bulk applicators can add turning lanes for an entire route
 
 Camera / Overlays:
 
@@ -84,7 +84,7 @@ Camera / Overlays:
 
 ## Notes
 
-Unlike [Lane Connectors](Lane Connectors), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows just set a _general direction_.
+Unlike [Lane Connectors](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows just set a _general direction_.
 
 (todo: image)
 
@@ -97,11 +97,11 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 
 #### Vehicles are ignoring the changes I made
 > * Vehicles responding to emergencies ignore lane arrows
-> * [Reckless Drivers](Reckless Drivers) will sometimes ignore lane arrows
+> * [Reckless Drivers](Reckless-Drivers.md) will sometimes ignore lane arrows
 > * Passenger, sightseeing and evacuation buses can ignore lane arrows, if enabled to do so...
 
 #### Lane arrows are causing buses to take strange routes
-> Buses often need extra flexibility to reach their next stop. In [Policies](Policies) [settings](settings):
+> Buses often need extra flexibility to reach their next stop. In [Policies](Policies.md) [settings](Settings.md):
 > * Enable **Busses may ignore lane arrows** for passenger and sightseeing buses
 > * Enable **Evacuation busses may ignore traffic rules** for emergency evacuation buses
 
@@ -121,15 +121,15 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 
 ## See Also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Priority Signs](Priority Signs) -- bulk applicators can set lane arrows
-* [Lane Connectors](Lane Connectors) -- a more powerful way to control traffic routes through junctions
-* [Junction Restrictions](Junction Restrictions) -- additional settings for junctions
+* [Priority Signs](Priority-Signs.md) -- bulk applicators can set lane arrows
+* [Lane Connectors](Lane-Connectors.md) -- a more powerful way to control traffic routes through junctions
+* [Junction Restrictions](Junction-Restrictions.md) -- additional settings for junctions
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Policies](Policies) - allow buses to ignore lane arrows
+* [Policies](Policies.md) - allow buses to ignore lane arrows
 
 Guides:
 
@@ -138,4 +138,4 @@ Guides:
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>

@@ -4,7 +4,7 @@
 
 **Settings**:
 [General](General.md) | [Gameplay](Gameplay.md) | [Policies](Policies-panel-missing.md) |
-[Overlays](Overlays.md) | [Maintenance](Maintenance.md) | [Keybinds](Keybinds.md)
+[Overlays](Overlays.md) | [Maintenance](Maintenance.md) | [Key Bindings](Keybinds.md)
 
 ## Overview
 
@@ -33,7 +33,7 @@ The settings are arranged in tabs, for more info click links below:
 * [Policies](Policies.md) - set city-wide default policies, etc
 * [Overlays](Overlays.md) - enable persistent overlays
 * [Maintenance](Maintenance.md) - enable mod features, etc.
-* [Keybinds](Keybinds.md) - keyboard shortcuts
+* [Key Bindings](Keybinds.md) - keyboard shortcuts
 
 Settings are saved directly to the save game, so you can have different settings on different cities.
 
@@ -63,4 +63,4 @@ take effect.
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS&logo=github" /></a>

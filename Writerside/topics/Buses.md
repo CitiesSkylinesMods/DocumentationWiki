@@ -118,11 +118,11 @@ There are several ways to overcome such issues:
 
 Bus lanes allow busses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam Workshop.
 
-You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [Policies](Policies) settings.
+You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [Policies](Policies.md) settings.
 
-Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much faster/shorter alternative, the bus will use that lane instead. Use [Vehicle Restrictions](Vehicle Restrictions) to discourage buses from using undesirable routes.
+Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much faster/shorter alternative, the bus will use that lane instead. Use [Vehicle Restrictions](Vehicle-Restrictions.md) to discourage buses from using undesirable routes.
 
-> Tip: [Vehicle Restrictions](Vehicle Restrictions) can be used to create fake bus lanes (by banning cars/trucks from a normal lane), however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use them.
+> Tip: [Vehicle Restrictions](Vehicle-Restrictions.md) can be used to create fake bus lanes (by banning cars/trucks from a normal lane), however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use them.
 
 ## Lane changes
 
@@ -131,9 +131,9 @@ Busses will often need to change lanes several times to achieve the most direct 
 > ![Cumbersome bus route](https://i.imgur.com/3Boqd3y.png)  
 > The bus travelling from A to B couldn't change lane, so it had to take a detour!
 
-If [Lane Arrows](Lane Arrows) are causing problems, enable **Busses may ignore lane arrows** in [Policies](Policies) settings to make bus routing more flexible.
+If [Lane Arrows](Lane-Arrows.md) are causing problems, enable **Busses may ignore lane arrows** in [Policies](Policies.md) settings to make bus routing more flexible.
 
-For evacuation buses, enabling **Evacuation busses may ignore traffic rules** in [Policies](Policies) settings makes them behave like [Reckless Drivers](Reckless Drivers) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
+For evacuation buses, enabling **Evacuation busses may ignore traffic rules** in [Policies](Policies.md) settings makes them behave like [Reckless Drivers](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
 
 You can also provide more places where vehicles can change lanes by adding additional nodes to your road network:
 
@@ -197,7 +197,7 @@ We found these guides useful too:
 **Does this affect frame rate or cause lag?**
 > No. If you optimise your bus routes (use bus lanes, ensure enough lane changes can be made, etc.) you can acutally _reduce_ CPU load by making pathfinding easier between stops.
 
-**Can busses ignore [Lane Connectors](Lane Connectors)?**
+**Can busses ignore [Lane Connectors](Lane-Connectors.md)?**
 > No. If you use lane connectors, busses must always adhere to those regardless of policy settings.
 
 ## Troubleshooting
@@ -214,16 +214,16 @@ Having problems? See these troubleshooting guides:
 
 ## See Also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Policies](Policies) - set policies for busses and junctions
+* [Policies](Policies.md) - set policies for busses and junctions
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Vehicle Restrictions](Vehicle Restrictions)
-* [Lane Arrows](Lane Arrows)
-* [Lane Connectors](Lane Connectors)
-* [Junction Restrictions](Junction Restrictions)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)
+* [Lane Arrows](Lane-Arrows.md)
+* [Lane Connectors](Lane-Connectors.md)
+* [Junction Restrictions](Junction-Restrictions.md)
 
 Advanced:
 

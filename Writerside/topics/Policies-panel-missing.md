@@ -1,6 +1,6 @@
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-Note: This issue relates to the vanilla game [city and district policies](https://skylines.paradoxwikis.com/Policies), _not_ the TM:PE [Policies](Policies) settings.
+Note: This issue relates to the vanilla game [city and district policies](https://skylines.paradoxwikis.com/Policies), _not_ the TM:PE [Policies](Policies.md) settings.
 
 # Symptoms
 

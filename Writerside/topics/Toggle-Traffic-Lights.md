@@ -1,3 +1,5 @@
+# Traffic Lights: Toggle
+
 > Verified: February 2020 - TM:PE 11.0
 
 ## Overview
@@ -18,11 +20,11 @@ Notably, it can _not_ be applied to:
 
 ### Activate
 
-Choose **Toggle Traffic Lights** on the [Toolbar](Toolbar):
+Choose **Toggle Traffic Lights** on the [Toolbar](Toolbar.md):
 
 ![Toggle Traffic Lights tool](https://imgur.com/WPaP08X.png)
 
-You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds) [settings](settings).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 ### Overlays
 
@@ -30,25 +32,27 @@ While the tool is active, suitable junctions will have icons depicting whether j
 
 (todo: image)
 
-To see icons for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General) [settings](settings).
+To see icons for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might
+need to zoom in a little. You can set the **Overlay Transparency** in [General](General.md) [settings](Settings.md).
 
 When the tool is deactivated, overlays will be removed.
 
-You can enable a persistent summary overlay for [Timed Traffic Lights](Timed Traffic Lights), which is visible whenever the [Toolbar](Toolbar) is visible, in [Overlays](Overlays) [settings](settings).
+You can enable a persistent summary overlay for [Timed Traffic Lights](Timed-Traffic-Lights.md), which is visible
+whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [settings](Settings.md).
 
 ### Icons
 
-|Icon|Meaning|
-|:---:|:---|
-|(todo)|No traffic light|
-|(todo)|Normal traffic light|
-|(todo)|[Timed Traffic Lights](Timed Traffic Lights)|
+|  Icon  | Meaning                                         |
+|:------:|:------------------------------------------------|
+| (todo) | No traffic light                                |
+| (todo) | Normal traffic light                            |
+| (todo) | [Timed Traffic Lights](Timed-Traffic-Lights.md) |
 
 ### Customise
 
 While the tool is active, click on a traffic light to toggle it on/off.
 
-> Use the [Timed Traffic Lights](Timed Traffic Lights) tool to add/remove timed traffic lights.
+> Use the [Timed Traffic Lights](Timed-Traffic-Lights.md) tool to add/remove timed traffic lights.
 
 ### Shortcuts
 
@@ -57,7 +61,7 @@ Camera / Overlays:
 * **Mouse wheel** - zoom in or out
     * If you zoom out too far, icons may disappear
 * **PageDown** - underground view
-    * This also activates a simplified version of the [Traffic Info View](Traffic Info View)!
+    * This also activates a simplified version of the [Traffic Info View](Traffic-Info-View.md)!
 * **PageUp** - overground view
 
 Selection:
@@ -70,8 +74,9 @@ Basic applicators:
 
 Bulk applicators:
 
-* **Remove all exising traffic lights** in [Maintenance](Maintenance) [settings](settings) - remove all **normal** traffic lights
-    * Does _not_ remove [Timed Traffic Lights](Timed Traffic Lights)
+* **Remove all existing traffic lights** in [Maintenance](Maintenance.md) [settings](Settings.md) - remove all **normal**
+  traffic lights
+    * Does _not_ remove [Timed Traffic Lights](Timed-Traffic-Lights.md)
 
 ### Deactivate
 
@@ -79,32 +84,40 @@ Press **Esc** or switch to any other tool when you're finished.
 
 ## Notes
 
-The tool is very similar to **[Info Views > Traffic Routes > Junctions](https://skylines.paradoxwikis.com/Roads#Traffic_Routes)** but with the advantage of not being able to accidentially delete [Timed Traffic Lights](Timed Traffic Lights) which can be time-consuming to program.
+The tool is very similar to *
+*[Info Views > Traffic Routes > Junctions](https://skylines.paradoxwikis.com/Roads#Traffic_Routes)** but with the
+advantage of not being able to accidentally delete [Timed Traffic Lights](Timed-Traffic-Lights.md) which can be
+time-consuming to program.
 
-> [Reckless drivers](Reckless drivers) ignore traffic lights!
+> [Reckless drivers](Reckless-Drivers.md) ignore traffic lights!
 
 ## FAQ
 
 #### Does it affect frame rate or cause lag?
+
 > No. It's just an easy way to do something the game already does.
 
 #### Traffic lights aren't appearing at the junction
-> This can happen on custom road assets if they don't include traffic light props; check with the asset author. Highways, in particular, rarely have traffic lights as they will be expecting on/off ramps instead.
+
+> This can happen on custom road assets if they don't include traffic light props; check with the asset author.
+> Highways, in particular, rarely have traffic lights as they will be expecting on/off ramps instead.
 
 #### There's different styles of traffic lights at my junction!
-> The traffic light props are defined by the road or track asset. If you have two different assets it's possible that they have different traffic light styles.
+
+> The traffic light props are defined by the road or track asset. If you have two different assets it's possible that
+> they have different traffic light styles.
 
 ## See Also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Policies](Policies) - toggle automatic traffic lights where applicable
-* [Maintenance](Maintenance) - bulk delete all normal traffic lights on the map
+* [Policies](Policies.md) - toggle automatic traffic lights where applicable
+* [Maintenance](Maintenance.md) - bulk delete all normal traffic lights on the map
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Timed Traffic Lights](Timed Traffic Lights)
-* [Manual Traffic Lights](Manual Traffic Lights)
-* [Junction Restrictions](Junction Restrictions)
-* [Lane Arrows](Lane Arrows)
-* [Lane Connectors](Lane Connectors)
+* [Timed Traffic Lights](Timed-Traffic-Lights.md)
+* [Manual Traffic Lights](Manual-Traffic-Lights.md)
+* [Junction Restrictions](Junction-Restrictions.md)
+* [Lane Arrows](Lane-Arrows.md)
+* [Lane Connectors](Lane-Connectors.md)

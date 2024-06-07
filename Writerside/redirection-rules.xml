@@ -22,4 +22,8 @@
         <description><![CDATA[Created after removal of "<_Footer.md>" from TMPE-doc]]></description>
         <accepts>_Footer.html</accepts>
     </rule>
+    <rule id="4c18c00d">
+        <description><![CDATA[Created after removal of "<Maintenance-Tab.md>" from TMPE-doc]]></description>
+        <accepts>Maintenance-Tab.html</accepts>
+    </rule>
 </rules>

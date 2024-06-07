@@ -39,15 +39,15 @@ To diagnose issues with outside connections, see: [Outside connections not worki
 
 ### TM:PE Users
 
-* Check your [Vehicle Restrictions](Vehicle Restrictions):
-    * In [Policies](Policies) settings, set [Vehicle Restriction Aggression](Vehicle Restriction Aggression) to **Low**
+* Check your [Vehicle Restrictions](Vehicle-Restrictions.md):
+    * In [Policies](Policies.md) settings, set [Vehicle Restriction Aggression](Vehicle Restriction Aggression) to **Low**
     * If that works, you've blocked some routes with vehicle restrictions
-* Check your [Junction Restrictions](Junction Restrictions):
+* Check your [Junction Restrictions](Junction-Restrictions.md):
     * Did you block pedestrian crossings near a station?
-* Check your [Lane Arrows](Lane Arrows) and [Lane Connectors](Lane Connectors):
+* Check your [Lane Arrows](Lane-Arrows.md) and [Lane Connectors](Lane-Connectors.md):
     * Did you block off access to a lane on a road by mistake?
     * Upgrading roads sometimes resets some or all of the lane settings - so always check!!
-* Turn off [Parking AI](Parking AI):
+* Turn off [Parking AI](Parking-AI.md):
     * If that fixes it, please let us know: [Report a bug](Report a bug)
 
 ### Mods

@@ -50,7 +50,7 @@ Add the language code, for example if the filename is `lang_es.txt` you'd add:
 AVAILABLE_LANGUAGE_CODES.Add("es");
 ```
 
-Then add the label that will appear in the drop-down language select list in [General](General) [Settings](Settings), for example:
+Then add the label that will appear in the drop-down language select list in [General](General.md) [Settings](Settings.md), for example:
 
 ```csharp
 LANGUAGE_LABELS["es"] = "Español";
@@ -67,7 +67,7 @@ As you can see the label should be the translated name of the language.
 * Start a new game, and then go in to TM:PE mod options and change the language.
 * In particular, test:
     * Text in the mod options - make sure no overlaps
-    * Tool tips on the [Toolbar](Toolbar)
+    * Tool tips on the [Toolbar](Toolbar.md)
     * Text in the [Traffic Lights](Traffic Lights) editor window
     * Help popups (with a TM:PE tool active, click the games' `?` advisor button)
 

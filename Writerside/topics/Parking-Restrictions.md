@@ -8,11 +8,11 @@ Use this tool to toggle roadside parking lanes on or off.
 
 ## Usage
 
-Choose **Parking Restrictions** on the [Toolbar](Toolbar):
+Choose **Parking Restrictions** on the [Toolbar](Toolbar.md):
 
 ![Parking button](https://imgur.com/JgZQ7ke.png)
 
-> Button missing? Enable **Parking Restrictions** in [Maintenance](Maintenance) [settings](settings).
+> Button missing? Enable **Parking Restrictions** in [Maintenance](Maintenance.md) [settings](Settings.md).
 
 ### Applicators
 
@@ -31,7 +31,7 @@ The following shortcuts are available when the Parking Restrictions tool is acti
 Selection:
 
 * `Esc` or `Right mouse click` - exit **Parking Restrictions** tool
-    * Returns focus to the [Toolbar](Toolbar) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
 
 Basic applicators:
 
@@ -52,9 +52,9 @@ While the tool is active, icons show the state of nearby parking lanes:
 
 (todo: image)
 
-To see icons for distant roads, move the camera towards them. **Overlay transparency** can be set in [General](General) [settings](settings).
+To see icons for distant roads, move the camera towards them. **Overlay transparency** can be set in [General](General.md) [settings](Settings.md).
 
-When the tool is deactivated, overlays will be removed. A persistent overlay, which shows where parking is restricted whenever the [Toolbar](Toolbar) is visible, can be enabled in [Overlays](Overlays) [settings](settings).
+When the tool is deactivated, overlays will be removed. A persistent overlay, which shows where parking is restricted whenever the [Toolbar](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) [settings](Settings.md).
 
 ## FAQ
 
@@ -69,7 +69,7 @@ When the tool is deactivated, overlays will be removed. A persistent overlay, wh
 
 #### What happens if I disable all roadside parking?
 > * Cims will be limited to using parking spaces in buildings
-> * If you have enabled [Parking AI](Parking AI), it might prevent cims reaching their destination
+> * If you have enabled [Parking AI](Parking-AI.md), it might prevent cims reaching their destination
 > * A lack of parking near public transport hubs and stations could prevent cims using them
 
 #### Can I repurpose the parking lane in to something else?
@@ -77,14 +77,14 @@ When the tool is deactivated, overlays will be removed. A persistent overlay, wh
 
 #### Some roads don't have parking icons?
 > * The road has to support in-road parking lanes; there's no way to add parking to roads that don't support it.
-> * Green 'parking allowed' icons aren't shown in the persistent summary [Overlays](Overlays); they only appear while the parking restrictions tool is active.
+> * Green 'parking allowed' icons aren't shown in the persistent summary [Overlays](Overlays.md); they only appear while the parking restrictions tool is active.
 > * Parking icons disappear if the road is too far from the camera; move the camera closer to the road.
 
 #### I have a one way road with parking on both sides, but only get one parking icon
 > This is a known issue which will hopefully be fixed in future update; see: [Issue #516](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/516)
 
 #### Some vehicles still use the parking lanes
-> [Reckless Drivers](Reckless Drivers) ignore parking restrictions.
+> [Reckless Drivers](Reckless-Drivers.md) ignore parking restrictions.
 
 #### Does it work on [Parking Lot Roads](https://steamcommunity.com/sharedfiles/filedetails/?id=1285201733)?
 > No. They use special 'building props': Use [Find It!](https://steamcommunity.com/sharedfiles/filedetails/?id=837734529) to add, [Move It!](https://steamcommunity.com/sharedfiles/filedetails/?id=1619685021) to move/copy, and bulldozer to delete. For better placement of Parking lots, try the [Parking Lot Snapping](https://steamcommunity.com/sharedfiles/filedetails/?id=2594569657) mod.
@@ -103,16 +103,16 @@ When the tool is deactivated, overlays will be removed. A persistent overlay, wh
 
 ## See Also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Parking AI](Parking AI) - improved parking, particularly in large car parks
-* [Overlays](Overlays) - toggle persistent overlay
+* [Parking AI](Parking-AI.md) - improved parking, particularly in large car parks
+* [Overlays](Overlays.md) - toggle persistent overlay
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Vehicle Restrictions](Vehicle Restrictions)
-* [Junction Restrictions](Junction Restrictions)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)
+* [Junction Restrictions](Junction-Restrictions.md)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/PARKING"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/PARKING?label=PARKING&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/PARKING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/PARKING?label=PARKING&logo=github" /></a>

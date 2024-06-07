@@ -1,6 +1,6 @@
 ## Overview
 
-The [Timed Traffic Lights](Timed Traffic Lights) UI includes some button images which can be translated to other languages if desired; this article explains how.
+The [Timed Traffic Lights](Timed-Traffic-Lights.md) UI includes some button images which can be translated to other languages if desired; this article explains how.
 
 ## Images
 
@@ -25,9 +25,9 @@ Once you're done, or if you need any help, let us know via [Discord chat](https:
 
 ## See also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [General](General) - select language to use
+* [General](General.md) - select language to use
 
 [Contributing](Contributing):
 

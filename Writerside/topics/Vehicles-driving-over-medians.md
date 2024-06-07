@@ -1,6 +1,6 @@
 > Article verified: June 2019
 
-> Want to stop vehicles doing u-turns at junctions? See: [Junction Restrictions](Junction Restrictions)
+> Want to stop vehicles doing u-turns at junctions? See: [Junction Restrictions](Junction-Restrictions.md)
 
 # Symptom
 
@@ -22,7 +22,7 @@ TM:PE provides features that allow you to gain more control over where vehicles 
 # Solution
 
 * First, unsubscribe any [Broken Road Assets](Broken Road Assets) - these will cause issues no matter what you do
-* Use [Lane Connectors](Lane Connectors) or [Lane Arrows](Lane Arrows) to precisely control where vehicles can go
+* Use [Lane Connectors](Lane-Connectors.md) or [Lane Arrows](Lane-Arrows.md) to precisely control where vehicles can go
     * The **Straight Ahead** feature  of the lane connector is often useful for this
 
 # Fixed?

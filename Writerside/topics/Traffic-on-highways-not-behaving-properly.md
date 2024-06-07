@@ -15,9 +15,9 @@ One or more of the following may occur:
 >  
 > **For performance reasons, changes to highways do not update existing vehicles. Only vehicles spawned after the change will be aware of it.**
 > 
-> The **Customisations come in to effect immediately** option in [General](General) settings **does not apply to highways!**
+> The **Customisations come in to effect immediately** option in [General](General.md) settings **does not apply to highways!**
 >  
-> You have to wait for newly spawned vehicles to see the effect of changes. You can use [Clear Traffic](Clear Traffic) tool to remove old vehicles.
+> You have to wait for newly spawned vehicles to see the effect of changes. You can use [Clear Traffic](Clear-Traffic.md) tool to remove old vehicles.
 
 These symptoms are usually caused by incorrect mod settings, or not realising that highway traffic doesn't update until new vehicles spawn.
 
@@ -25,8 +25,8 @@ These symptoms are usually caused by incorrect mod settings, or not realising th
 
 If traffic is not using all lanes:
 
-* **Enable Advanced AI** in [Gameplay](Gameplay) settings - this makes all traffic use more lanes
-* You can then use **Dynamic lane selection** (DLS) in [Gameplay](Gameplay) settings for even more lane changes
+* **Enable Advanced AI** in [Gameplay](Gameplay.md) settings - this makes all traffic use more lanes
+* You can then use **Dynamic lane selection** (DLS) in [Gameplay](Gameplay.md) settings for even more lane changes
 
 When using DLS, you might see traffic jams caused by vehicles all trying to use the middle lane just before junctions:
 
@@ -35,7 +35,7 @@ When using DLS, you might see traffic jams caused by vehicles all trying to use 
 
 If traffic is not behaving properly at highway junctions:
 
-* **Enable highway-specific lane merging/splitting rules** in [Policies](Policies) settings
+* **Enable highway-specific lane merging/splitting rules** in [Policies](Policies.md) settings
 
 # Fixed?
 

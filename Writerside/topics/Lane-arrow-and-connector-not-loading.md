@@ -11,7 +11,7 @@ If the game is "Paused on load", the first simulation step won't complete until 
 ## Solution
 
 * Unpause the game so the first simulation step can complete.
-* Additionally, check you have [Lane Connectors](Lane Connectors) enabled in [Maintenance](Maintenance) [settings](settings)
+* Additionally, check you have [Lane Connectors](Lane-Connectors.md) enabled in [Maintenance](Maintenance.md) [settings](Settings.md)
 
 Note also that some roads don't include lane arrow decals (or don't have a full set of lane arrows) so there might not be any visual indicator of the lane arrows loading.
 

@@ -25,7 +25,7 @@ Check vehicle capacities:
 * Make sure vehicle capacities are similar to the [Vanilla capacities](Vanilla capacities)
 * You'll need to clear vehicles of that type to ensure changes take effect
     * If using AVO mod, click the button to remove existing vehicles
-    * If you have TM:PE installed, use [Clear Traffic](Clear Traffic)
+    * If you have TM:PE installed, use [Clear Traffic](Clear-Traffic.md)
     * Otherwise, save then exit to desktop, then reload
 
 Other things to try:

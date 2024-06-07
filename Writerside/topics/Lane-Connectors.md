@@ -6,7 +6,7 @@
 
 Use this tool to customise the allowed routes traffic can take at junctions and nodes.
 
-> Tip: If you want a simpler alternative, use [Lane Arrows](Lane Arrows) instead.
+> Tip: If you want a simpler alternative, use [Lane Arrows](Lane-Arrows.md) instead.
 
 ## Usage
 
@@ -21,13 +21,13 @@ This tool can be applied to nodes and junctions on:
 
 ### Activate
 
-Choose **Lane Arrows** on the [Toolbar](Toolbar):
+Choose **Lane Arrows** on the [Toolbar](Toolbar.md):
 
 ![Lane Connector tool](https://imgur.com/fhxfKzv.png)
 
-Button missing? Enable **Lane Connectors** in [Maintenance](Maintenance) [settings](settings).
+Button missing? Enable **Lane Connectors** in [Maintenance](Maintenance.md) [settings](Settings.md).
 
-You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds) [settings](settings).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 ### Overlays
 
@@ -39,7 +39,7 @@ To see the lane connectors for more distant nodes, scroll the camera towards the
 
 Unlike most other overlays, lane connectors don't currently support transparency settings.
 
-When the tool is deactivated, overlays will be removed. You can enable a persistent detailed overlay, which is visible whenever the [Toolbar](Toolbar) is visible, in [Overlays](Overlays) [settings](settings).
+When the tool is deactivated, overlays will be removed. You can enable a persistent detailed overlay, which is visible whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [settings](Settings.md).
 
 ### Customise
 
@@ -82,9 +82,9 @@ Vehicles calculate their path before starting their journey. As a result, when y
 
 To force a refresh, you can:
 
-* Enable **Customisations come in to effect immediately** in [General](General) [settings](settings) to force vehicles to automatically recalculate their paths when lane connectors change.
+* Enable **Customisations come in to effect immediately** in [General](General.md) [settings](Settings.md) to force vehicles to automatically recalculate their paths when lane connectors change.
     * This may add some momentary lag on old potato computers or on big cities.
-* Or use the [Clear Traffic](Clear Traffic) tool to remove all existing traffic from the map, leaving only newly spawned traffic that is aware of your changes. This causes less lag, but you have to do it every time.
+* Or use the [Clear Traffic](Clear-Traffic.md) tool to remove all existing traffic from the map, leaving only newly spawned traffic that is aware of your changes. This causes less lag, but you have to do it every time.
 
 ### Deactivate
 
@@ -92,13 +92,13 @@ Press **Esc** or switch to any other tool when you're finished.
 
 ## Notes
 
-Unlike [Lane Arrows](Lane Arrows), which set a general direction that an incoming lane can exit by, lane connectors explicitly link to one or more outgoing lanes in any direction. Essentially, you are hard-wiring the paths that can be taken through the junction.
+Unlike [Lane Arrows](Lane-Arrows.md), which set a general direction that an incoming lane can exit by, lane connectors explicitly link to one or more outgoing lanes in any direction. Essentially, you are hard-wiring the paths that can be taken through the junction.
 
 If an incoming lane does not connect to any outgoing lanes, it will be treated as a "lane arrow" lane - the game will deicde which outgoing lanes it can connect to.
 
 If an outgoing lane is not connected to any incoming lanes then it is likely that no traffic can enter it, unless there is a suitable "lane arrow" incoming lane. Inaccessible outgoing lanes can wreak havoc in your city if they prevent vehicles reaching a destination.
 
-If you have enabled **Enable highway-specific lane merging/splitting rules** in [Policies](Policies) [settings](settings), and you override a highway junction with lane connectors, the highway rules will automatically be disabled for that junction and it will act like a normal city road junction - for all lanes at the junction, including any that aren't connected. We recommend either connecting all lanes at a highway junction, or no lanes, in order to avoid unexpected vehicle behaviour.
+If you have enabled **Enable highway-specific lane merging/splitting rules** in [Policies](Policies.md) [settings](Settings.md), and you override a highway junction with lane connectors, the highway rules will automatically be disabled for that junction and it will act like a normal city road junction - for all lanes at the junction, including any that aren't connected. We recommend either connecting all lanes at a highway junction, or no lanes, in order to avoid unexpected vehicle behaviour.
 
 ## FAQ
 
@@ -109,19 +109,19 @@ If you have enabled **Enable highway-specific lane merging/splitting rules** in 
 > Try unpausing the game. See [Lane arrow and connector not loading](Lane arrow and connector not loading) for details.
 
 #### Can I allow buses to ignore lane connections to avoid them taking detours?
-> No. Unlike [Lane Arrows](Lane Arrows), the lane connectors are very strict and must be obeyed by all buses.
+> No. Unlike [Lane Arrows](Lane-Arrows.md), the lane connectors are very strict and must be obeyed by all buses.
 
 #### Can any vehicles ignore lane connections?
 > * Only emergency vehicles which are _responding to an emergency_ can ignore lane connectors.
-> * All other vehicles, including  [Reckless Drivers](Reckless Drivers) and buses, must strictly obey the lane connectors at all times.
+> * All other vehicles, including  [Reckless Drivers](Reckless-Drivers.md) and buses, must strictly obey the lane connectors at all times.
 
 ## See Also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Lane Arrows](Lane Arrows) - a simpler and more flexible alternative to lane connectors
-* [Junction Restrictions](Junction Restrictions) - additional settings for junctions
+* [Lane Arrows](Lane-Arrows.md) - a simpler and more flexible alternative to lane connectors
+* [Junction Restrictions](Junction-Restrictions.md) - additional settings for junctions
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/LANE ROUTING"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/LANE ROUTING?label=LANE ROUTING&logo=github" /></a>

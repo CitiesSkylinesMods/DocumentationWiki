@@ -9,7 +9,7 @@ Use these features to allow vehicles to perform [Unprotected Turns](Unprotected 
 
 ## Usage
 
-> To use these features, both **Junction Restrictions** and **Turn on Red** must be enabled in [Maintenance](Maintenance) [settings](settings).
+> To use these features, both **Junction Restrictions** and **Turn on Red** must be enabled in [Maintenance](Maintenance.md) [settings](Settings.md).
 
 There are two kinds of **Turn on Red**...
 
@@ -29,13 +29,13 @@ A far-side turn means the first road on the opposite side that traffic drives on
 
 To set **city-wide defaults** for **near-side turns**:
 
-1. Open [Maintenance](Maintenance) [settings](settings)
+1. Open [Maintenance](Maintenance.md) [settings](Settings.md)
 2. Set **Vehicles may turn at red traffic lights** to the desired state
 
 To set **junction-specific** overrides for **near-side turns**:
 
-1. Open the [Toolbar](Toolbar)
-2. Select the [Junction Restrictions](Junction Restrictions) tool  
+1. Open the [Toolbar](Toolbar.md)
+2. Select the [Junction Restrictions](Junction-Restrictions.md) tool  
 ![Junction Restrictions](https://imgur.com/KDDmUbj.png)
 4. Select the junction to customise
 3. Toggle the **Turn on Red** icons to the desired state (allow/deny)  
@@ -45,7 +45,7 @@ To set **junction-specific** overrides for **near-side turns**:
 
 To also allow **far-side turns** between **one-way roads**:
 
-1. Open [Maintenance](Maintenance) [settings](settings)
+1. Open [Maintenance](Maintenance.md) [settings](Settings.md)
 2. Enable **Also apply to left & right turns between one-way streets** option
 3. Any road where **Turn on Red** is enabled can now also make far-side turns between one-way roads
 
@@ -56,7 +56,7 @@ For best results, you should also create some [Dedicated Turning Lanes](Dedicate
 #### Does it affect frame rate or cause lag?
 > It can do, particularly on larger cities with lots of traffic lights (even if most of them don't have turn on red, the mod still has to check every frame).
 
-#### Does **Turn on Red** work with normal traffic lights or does it need [Timed Traffic Lights](Timed Traffic Lights)?
+#### Does **Turn on Red** work with normal traffic lights or does it need [Timed Traffic Lights](Timed-Traffic-Lights.md)?
 > It works on both normal and timed traffic lights.
 
 #### Is there a way to make traffic lights indicate when vehicles can turn on red?
@@ -78,15 +78,15 @@ For best results, you should also create some [Dedicated Turning Lanes](Dedicate
 
 ## See also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Junction Restrictions](Junction Restrictions)
+* [Junction Restrictions](Junction-Restrictions.md)
 * [Traffic Lights](Traffic Lights)
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Policies](Policies) - set city-wide defaults
-* [Maintenance](Maintenance) - enable/disable the features
+* [Policies](Policies.md) - set city-wide defaults
+* [Maintenance](Maintenance.md) - enable/disable the features
 
 Wikipedia:
 

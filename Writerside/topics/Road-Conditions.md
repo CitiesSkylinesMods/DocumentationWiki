@@ -28,14 +28,14 @@ You can instruct TM:PE to add those missing features...
 
 ## Usage
 
-Choose the **Road condition has a bigger impact on vehicle speed** in [Gameplay](Gameplay) [settings](settings):
+Choose the **Road condition has a bigger impact on vehicle speed** in [Gameplay](Gameplay.md) [settings](Settings.md):
 
 * Once activated, the feature is automatically applied to all roads on the map.
 * The feature can be disabled at any time by turning off the option in Gameplay settings.
 
 ## Notes
 
-The maximum speed for a road segment is based on [Speed limits](Speed limits) which are then increased or decreased depending on the road conditions as shown in the tables below.
+The maximum speed for a road segment is based on [Speed limits](Speed-Limits.md) which are then increased or decreased depending on the road conditions as shown in the tables below.
 
 #### Non-winter biomes
 
@@ -86,9 +86,9 @@ If [Individual Driving Styles](Individual Driving Styles) is enabled, its speed 
 
 ## See also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Gameplay](Gameplay) - option: **Road condition has a bigger impact on vehicle speed**
+* [Gameplay](Gameplay.md) - option: **Road condition has a bigger impact on vehicle speed**
 
 Info Views:
 

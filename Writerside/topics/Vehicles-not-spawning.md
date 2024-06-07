@@ -35,10 +35,10 @@ There are many possible causes for this, including:
 
 ### TM:PE users: Try these first...
 
-* In [Policies](Policies) settings, set **[Vehicle restriction aggression](Vehicle restriction aggression)** to **Low**
-    * If that fixed it, your [Vehicle Restrictions](Vehicle Restrictions) and/or [Speed Limits](Speed Limits) are the problem
+* In [Policies](Policies.md) settings, set **[Vehicle restriction aggression](Vehicle restriction aggression)** to **Low**
+    * If that fixed it, your [Vehicle Restrictions](Vehicle-Restrictions.md) and/or [Speed Limits](Speed-Limits.md) are the problem
     * A route that's too slow or incurs too many restriction penalties will prevent routing
-* Check your [Lane Connectors](Lane Connectors) and [Lane Arrows](Lane Arrows) - can vehicles reach their destinations? ([example](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/256))
+* Check your [Lane Connectors](Lane-Connectors.md) and [Lane Arrows](Lane-Arrows.md) - can vehicles reach their destinations? ([example](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/256))
     * Sometimes drawing a temporary bus route can help find problems
 * Likewise, check any [Traffic Lights](Traffic Lights) - do they have 'green time' for the required route?
 
@@ -50,7 +50,7 @@ Install a mod that lists game limits and check Vehicle, Citizen, and Path limits
     * **Note:** Don't use [Show Limits](https://steamcommunity.com/sharedfiles/filedetails/?id=494094728) or [Show More Limits](https://steamcommunity.com/sharedfiles/filedetails/?id=531738447) mods; they are older and do not list all game limits.
 
 * **Vehicle limit reached?**
-    * TM:PE users: Use the [Clear Traffic](Clear Traffic) tool, and also the **Despawn... buttons** found in [Maintenance](Maintenance) [settings](settings). This will eradicate any "stuck vehicles".
+    * TM:PE users: Use the [Clear Traffic](Clear-Traffic.md) tool, and also the **Despawn... buttons** found in [Maintenance](Maintenance.md) [settings](Settings.md). This will eradicate any "stuck vehicles".
     * Use [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) mod to reduce amount of industry traffic, especially in farms and forestry areas.
     * Use [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) mod to ensure cargo vehicles are more fully filled with cargo.
     * Use [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) to increase capacity of vehicles. Don't go crazy - AIs get confused if the capacity is too big (see: [Vanilla Capacities](Vanilla Capacities)).

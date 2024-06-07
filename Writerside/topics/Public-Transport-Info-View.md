@@ -8,7 +8,7 @@ Red buildings are those which are difficult to reach.
 
 ## Incoming vs. Outgoing demand
 
-If you have [Parking AI](Parking AI) enabled, you will notice a button near the top of the info view which allows you to toggle between incoming and outgoing demand:
+If you have [Parking AI](Parking-AI.md) enabled, you will notice a button near the top of the info view which allows you to toggle between incoming and outgoing demand:
 
 * **Incoming demand:** Indicates which buildings are difficult to reach via public transport
 * **Outgoing demand:** Indicates that cims leaving the building were struggling to reach their destination via public transport

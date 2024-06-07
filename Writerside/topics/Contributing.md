@@ -35,9 +35,9 @@
 
 > Use PNG format for all textures, unless stated otherwise in the guide...
 
-* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise UI for [Priority Signs](Priority Signs)
-* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed Limits)
-* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed Traffic Lights)
+* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise UI for [Priority Signs](Priority-Signs.md)
+* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed-Limits.md)
+* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed-Traffic-Lights.md)
 * [Creating animated GIFs](Creating animated GIFs)
 * [Credits](Credits) - images should be credited to their author
 

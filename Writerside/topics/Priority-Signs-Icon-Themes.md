@@ -1,6 +1,6 @@
 ## Overview
 
-This guide explains how to create new country-specific icons for TM:PE [Priority Signs](Priority Signs) tool and its persistent overlays.
+This guide explains how to create new country-specific icons for TM:PE [Priority Signs](Priority-Signs.md) tool and its persistent overlays.
 
 ## Icons
 
@@ -28,12 +28,12 @@ Once you're done, or if you need any help, let us know via [Discord chat](https:
 
 ## See also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [General](General) - select language to use
+* [General](General.md) - select language to use
 
 [Contributing](Contributing):
 
 * [Localisation](Localisation) - help us localise TM:PE
-* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed Limits)
-* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed Traffic Lights)
+* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed-Limits.md)
+* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed-Traffic-Lights.md)

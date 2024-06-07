@@ -8,11 +8,11 @@ The **Vehicle Restriction Aggression** setting lets you set how harsh the penalt
 
 ### Enable
 
-Before you can use this feature, you must enable **Vehicle Restrictions** in the [Maintenance](Maintenance) settings.
+Before you can use this feature, you must enable **Vehicle Restrictions** in the [Maintenance](Maintenance.md) settings.
 
 ### Customise
 
-In the [Policies](Policies) settings, choose the desired **Vehicle Restriction Aggression** from the list (default setting is **Medium**):
+In the [Policies](Policies.md) settings, choose the desired **Vehicle Restriction Aggression** from the list (default setting is **Medium**):
 
 | Level  |  Penalty |
 | ------ | -------: |
@@ -32,7 +32,7 @@ For beginners, we recommend using **Low** or **Medium** level. For advanced user
 
 The penalty influences how likely a vehicle is to obey or disobey your vehicle restrictions.
 
-The **Strict** level virtually removes the restricted lanes from the road or rail network for that type of vehicle, even those driven by [Reckless Drivers](Reckless Drivers).
+The **Strict** level virtually removes the restricted lanes from the road or rail network for that type of vehicle, even those driven by [Reckless Drivers](Reckless-Drivers.md).
 
 The penalty is cumulative from one road segment to the next; if you apply the restriction along an entire stretch of road (multiple segments) it will stack up as the vehicle considers each subsequent segment on that road.
 
@@ -50,4 +50,4 @@ Commercial and industry buildings require road access for delivery vans and truc
 
 ## See also
 
-* [Vehicle Restrictions](Vehicle Restrictions)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)

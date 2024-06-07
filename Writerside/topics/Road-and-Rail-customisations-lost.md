@@ -2,7 +2,7 @@
 
 # Symptom
 
-> Note: If it's the mod [settings](settings) (mod options screen) that are lost, see [TMPE mod options lost](TMPE mod options lost) instead.
+> Note: If it's the mod [settings](Settings.md) (mod options screen) that are lost, see [TMPE mod options lost](TMPE mod options lost) instead.
 
 * In-game road/rail customisations (lane arrows, traffic lights, restrictions, etc.) are not loading/saving properly
 

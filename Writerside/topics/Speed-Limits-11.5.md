@@ -2,7 +2,7 @@
 
 > # This documentation is for **TM:PE 11.5.2 and earlier**.  
 >  
-> If you are using **TM:PE 11.6 or later**, please refer to the new documentation: [Speed Limits](Speed Limits)
+> If you are using **TM:PE 11.6 or later**, please refer to the new documentation: [Speed Limits](Speed-Limits.md)
 
 ## Overview
 
@@ -20,13 +20,13 @@ This tool can be applied to:
 
 ### Activate
 
-Choose **Speed Limits** on the [Toolbar](Toolbar):
+Choose **Speed Limits** on the [Toolbar](Toolbar.md):
 
 ![Speed limit button](https://i.imgur.com/9iZWRpN.png)
 
-Button missing? Enable **Speed Limits** in [Maintenance](Maintenance) [settings](settings).
+Button missing? Enable **Speed Limits** in [Maintenance](Maintenance.md) [settings](Settings.md).
 
-You can set a keyboard shortcut to activate the tool in the [Keybinds](Keybinds) [settings](settings).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
 
 ### Overlays
 
@@ -34,9 +34,9 @@ While the tool is active, detailed overlays show the current speeds of all roads
 
 ![Speeds overlay](https://i.imgur.com/NnOCHKP.png)
 
-To see speeds for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General) [settings](settings).
+To see speeds for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General.md) [settings](Settings.md).
 
-When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the [Toolbar](Toolbar) is visible, in [Overlays](Overlays) [settings](settings).
+When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [settings](Settings.md).
 
 ### Customise
 
@@ -82,7 +82,7 @@ The palette has some other options:
     > * See [Issue #12](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/12) for discussion of improvements
 * **Show lane-wise speed limits:** When enabled, you can set the speed for each lane individually.
 * **Display speed limits as MPH instead of km/h:** When enabled, speeds will be shown in miles per hour
-    > You can also customise the icon style in [General](General) [settings](settings).
+    > You can also customise the icon style in [General](General.md) [settings](Settings.md).
 
 ### Refresh
 
@@ -102,8 +102,8 @@ Press **Esc** or switch to any other tool when you're finished.
 #### Some drivers ignore speed limits
 > The following vehicles can ignore speed limits:
 > * Emergency vehicles when their sirens are active (responding to emergency)
-> * [Reckless Drivers](Reckless Drivers); if **Reckless driving** enabled in [Gameplay](Gameplay) settings
-> * Evacuation [Buses](Buses); if **Evacuation busses may ignore traffic rules** enabled in [Policies](Policies) settings
+> * [Reckless Drivers](Reckless-Drivers.md); if **Reckless driving** enabled in [Gameplay](Gameplay.md) settings
+> * Evacuation [Buses](Buses); if **Evacuation busses may ignore traffic rules** enabled in [Policies](Policies.md) settings
 
 #### Pedestrian and cycle paths don't get speed icons
 > Use these mods to control their speeds:
@@ -112,16 +112,16 @@ Press **Esc** or switch to any other tool when you're finished.
 
 ## See Also
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [General](General) - choose MPH speed icon style (British, German, USA)
-* [Keybinds](Keybinds) - choose shortcut to activate tool
+* [General](General.md) - choose MPH speed icon style (British, German, USA)
+* [Key Bindings](Keybinds.md) - choose shortcut to activate tool
 
 [Advanced](Advanced):
 
-* [Reckless Drivers](Reckless Drivers)
+* [Reckless Drivers](Reckless-Drivers.md)
 * [Road Conditions](Road Conditions)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SPEED LIMITS"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SPEED LIMITS?label=SPEED LIMITS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SPEED LIMITS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SPEED LIMITS?label=SPEED LIMITS&logo=github" /></a>

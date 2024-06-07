@@ -27,9 +27,9 @@ But it can affect other vehicles too, for example [Issue #1115](https://github.c
 Please note that TM:PE also affects vehicle speeds, mostly for road vehicles, in numerous ways:
 
 * [Individual driving styles](Individual driving styles) (formerly called "Realistic Driving Speeds")
-* [Reckless Drivers](Reckless Drivers)
+* [Reckless Drivers](Reckless-Drivers.md)
 * [Road Conditions](Road Conditions)
-* [Speed Limits](Speed Limits) (of the road)
+* [Speed Limits](Speed-Limits.md) (of the road)
 
 The speed you see vehicles moving in-game might be slower or faster than that defined by the vehicle asset due to the factors above.
 
@@ -61,7 +61,7 @@ If you're creating such roads, please let us know if you run in to problems!
 
 ## Road speed limits
 
-If your road or rails (including tram, metro, monorail) doesn't work with the [Speed Limits](Speed Limits) tool, ensure the following criteria are met (items marked 📜 are reported in the [[TMPE.log]] file):
+If your road or rails (including tram, metro, monorail) doesn't work with the [Speed Limits](Speed-Limits.md) tool, ensure the following criteria are met (items marked 📜 are reported in the [[TMPE.log]] file):
 
 * Property `name` must _not_ be `null` or empty string 📜 
 * Property `m_netAI` must _not_ be `null` 📜 
@@ -79,7 +79,7 @@ If your road does not meet the above criteria, the speed limits tool will not re
 * Property `name` must _not_ be `null` or empty string 📜 
 
 ## Parking lanes
-If your road's parking lanes don't work with the [Parking Restrictions](Parking Restrictions) tool, ensure the following criteria are met (items marked 📜 are reported in the [[TMPE.log]] file):
+If your road's parking lanes don't work with the [Parking Restrictions](Parking-Restrictions.md) tool, ensure the following criteria are met (items marked 📜 are reported in the [[TMPE.log]] file):
 
 * The `m_direction` or `m_finalDirection` must be forward or backward 📜 
 * errors are only logged by `DEBUG` builds with debug switch `2` (`BasicParkingAILog`) enabled

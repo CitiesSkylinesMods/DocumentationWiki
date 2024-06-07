@@ -3,7 +3,7 @@
 # Symptom
 
 * Cars are driving through red traffic lights
-* This primarily affects [Timed traffic lights](Timed traffic lights) but can also affect normal traffic lights too
+* This primarily affects [Timed traffic lights](Timed-Traffic-Lights.md) but can also affect normal traffic lights too
 
 # Cause
 

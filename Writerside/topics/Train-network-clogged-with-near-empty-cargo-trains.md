@@ -1,6 +1,8 @@
+# Train Network Clogged With Cargo Trains
+
 ## Symptom
 
-* Train network is clogged up with nearly empty cargo trains
+Train network is clogged up with nearly empty cargo trains
 
 ## Cause
 
@@ -15,7 +17,7 @@ First, check that your rail network is properly configured. You should make use 
 
 Second, it is always a good idea to separate your cargo and passenger train networks to reduce changes of congestion and train jams:
 
-* If you have TM:PE, you can use [Vehicle Restrictions](Vehicle Restrictions) on the train tracks to control what type of train can use the tracks.
+* If you have TM:PE, you can use [Vehicle Restrictions](Vehicle-Restrictions.md) on the train tracks to control what type of train can use the tracks.
 * Alternatively, see [this Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=564699396) for some ways to achieve similar results in the vanilla game.
 
 Third, make sure you haven't altered the train tracks in the station with Move It mod - this can confuse the AIs which don't always register changes to station tracks, particularly if you only changed the length of the station tracks:

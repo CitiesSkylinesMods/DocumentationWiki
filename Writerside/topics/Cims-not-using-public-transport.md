@@ -83,8 +83,8 @@ Try disabling mods like that, exit to desktop and then reload the game to see wh
 ### Traffic Manager: President Edition (TM:PE):
 
 * Make sure you are using TM:PE 10.21.1 or later; earlier versions had bad bugs in Parking AI
-* In [Policies](Policies) settings, set **Vehicle restrictions aggression** to **Low** - if that works, your [Vehicle restrictions](Vehicle restrictions) are causing the problem.
-* Check your [Junction Restrictions](Junction Restrictions) - in particular, disabled pedestrian crossings can sometimes [confuse the pathfinder](https://github.com/VictorPhilipp/Cities-Skylines-Traffic-Manager-President-Edition/issues/168)
+* In [Policies](Policies.md) settings, set **Vehicle restrictions aggression** to **Low** - if that works, your [Vehicle restrictions](Vehicle-Restrictions.md) are causing the problem.
+* Check your [Junction Restrictions](Junction-Restrictions.md) - in particular, disabled pedestrian crossings can sometimes [confuse the pathfinder](https://github.com/VictorPhilipp/Cities-Skylines-Traffic-Manager-President-Edition/issues/168)
 
 ### [Metro Overhaul Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=816260433) (MOM) users:
 

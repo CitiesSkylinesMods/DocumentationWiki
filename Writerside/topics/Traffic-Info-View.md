@@ -1,6 +1,6 @@
 ## Overview
 
-If the [Parking AI](Parking AI) is active, the **Traffic** info view indicates where it's difficult to find parking.
+If the [Parking AI](Parking-AI.md) is active, the **Traffic** info view indicates where it's difficult to find parking.
 
 > todo: image
 
@@ -22,8 +22,8 @@ Red buildings indicate places where cims struggled to find parking. Often they'l
 
 Tools:
 
-* [Parking Restrictions](Parking Restrictions)
-* [Junction Restrictions](Junction Restrictions)
+* [Parking Restrictions](Parking-Restrictions.md)
+* [Junction Restrictions](Junction-Restrictions.md)
 
 Info Views:
 

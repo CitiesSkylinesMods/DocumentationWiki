@@ -47,7 +47,7 @@ Where possible, try and avoid tiny segments, particularly if using mods such as 
     * Tracks from the workshop do not generate the "fake station" that appears at edge of map
     * Solve this by using vanilla tracks for outside connection = you get the fake station
     * After the end of the fake station (you see an "X" crossing in the tracks) you can then start using workshop tracks again
-* TM:PE users: Check your [Vehicle Restrictions](Vehicle Restrictions) - if you ban certain trains from a section of track, is there an alternate route for them?
+* TM:PE users: Check your [Vehicle Restrictions](Vehicle-Restrictions.md) - if you ban certain trains from a section of track, is there an alternate route for them?
 * Some station assets don't have spawn points, fix that with the [**Spawn Points Fix**](https://steamcommunity.com/sharedfiles/filedetails/?id=820157360) mod
 
 ### Metro with [Metro Overhaul Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=816260433):

@@ -26,4 +26,4 @@ However, for best results, use highways that have 3 or more lanes.
 # See Also
 
 * [Highway Junction Rules](Highway Junction Rules)
-* [Vehicle Restrictions](Vehicle Restrictions)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)

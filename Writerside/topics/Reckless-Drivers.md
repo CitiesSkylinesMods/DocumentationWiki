@@ -8,23 +8,23 @@ By default, cims are well behaved and obey your traffic rules and road customisa
 
 To add realism, you can some of them drive recklessly, causing them to **ignore**:
 
-* [Speed Limits](Speed Limits)
-* [Priority Signs](Priority Signs)
+* [Speed Limits](Speed-Limits.md)
+* [Priority Signs](Priority-Signs.md)
 * Red [Traffic Lights](Traffic Lights)
-* [Lane Arrows](Lane Arrows)
-* [Vehicle Restrictions](Vehicle Restrictions)
-* [Parking Restrictions](Parking Restrictions)
+* [Lane Arrows](Lane-Arrows.md)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)
+* [Parking Restrictions](Parking-Restrictions.md)
 
 However, they will still obey some rules:
 
-* [Lane Connectors](Lane Connectors)
-* [Enter Blocked Junctions](Enter Blocked Junctions) setting in [Junction Restrictions](Junction Restrictions)
+* [Lane Connectors](Lane-Connectors.md)
+* [Enter Blocked Junctions](Enter Blocked Junctions) setting in [Junction Restrictions](Junction-Restrictions.md)
 
 > Note: Emergency vehicles, when responding to emergencies, also drive recklessly, regardless of this setting.
 
 ### Usage
 
-To enable reckless drivers, choose a non-zero percentage from the **Reckless Drivers** drop-down list in [Gameplay](Gameplay) [settings](settings).
+To enable reckless drivers, choose a non-zero percentage from the **Reckless Drivers** drop-down list in [Gameplay](Gameplay.md) [settings](Settings.md).
 
 There are no further customisations required. After the feature is enabled, the specified percentage of newly spawned vehicles will be reckless drivers.
 

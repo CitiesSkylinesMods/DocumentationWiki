@@ -8,11 +8,11 @@ Use this tool to separate vehicle categories in to different lanes on your **roa
 
 ## Usage
 
-Choose **Vehicle Restrictions** on the [Toolbar](Toolbar):
+Choose **Vehicle Restrictions** on the [Toolbar](Toolbar.md):
 
 ![Vehicle Restrictions tool](https://imgur.com/CbeZf0L.png)
 
-> Button missing? Enable **Vehicle Restrictions** in [Maintenance](Maintenance) [settings](settings).
+> Button missing? Enable **Vehicle Restrictions** in [Maintenance](Maintenance.md) [settings](Settings.md).
 
 ### Applicators
 
@@ -52,7 +52,7 @@ Trains:
 
 Vehicles calculate their route _before_ starting their journey. As a result, when you change restrictions, only vehicles spawned _after_ that point will be aware of your changes.
 
-To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General) [settings](settings).
+To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General.md) [settings](Settings.md).
 
 ### Shortcuts
 
@@ -65,7 +65,7 @@ Selection:
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Vehicle Restrictions** tool as if you pressed `Esc`
 * `Esc` - exit **Vehicle Restrictions** tool
-    * Returns focus to the [Toolbar](Toolbar) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
 
 Basic applicators:
 
@@ -88,9 +88,9 @@ While the tool is active, icons summarise vehicle restrictions on nearby roads/t
 
 ![Summary Icons](https://user-images.githubusercontent.com/1386719/146060897-4b2ffb50-e262-4fda-a5fb-bf9bd84fdc70.png)
 
-To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [General](General) [settings](settings).
+To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [General](General.md) [settings](Settings.md).
 
-When the tool is deactivated overlays will be removed. A persistent overlay, which summarises vehicle restrictions whenever the [Toolbar](Toolbar) is visible, can be enabled in [Overlays](Overlays) [settings](settings).
+When the tool is deactivated overlays will be removed. A persistent overlay, which summarises vehicle restrictions whenever the [Toolbar](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) [settings](Settings.md).
 
 ## Notes
 
@@ -104,7 +104,7 @@ This tool is designed to provide fine tuning of traffic restrictions, for exampl
 
 Remember to provide alternate routes for vehicles, otherwise they might not be able to reach their destination.
 
-* [Reckless Drivers](Reckless Drivers) ignore vehicle restrictions
+* [Reckless Drivers](Reckless-Drivers.md) ignore vehicle restrictions
 * Emergency vehicles, when responding to an emergency (red/blue lights flashing), also ingore vehicle restrictions
 
 ### How it works
@@ -130,10 +130,10 @@ If you want to limit coverage of service buildings, use these mods instead:
 ## FAQ
 
 #### Does it affect framerate or cause lag?
-> Yes, a little; it adds extra work for the pathfinder especially if you use the feature extensively. If that's a problem, you can disable the feature in [Maintenance](Maintenance) settings.
+> Yes, a little; it adds extra work for the pathfinder especially if you use the feature extensively. If that's a problem, you can disable the feature in [Maintenance](Maintenance.md) settings.
 
 #### Some traffic is unexpectedly avoiding my roads
-> * Check [Lane Arrows](Lane Arrows), [Lane Connectors](Lane Connectors), [Traffic Lights](Traffic Lights), [Speed Limits](Speed Limits), and [Settings](Settings), all of which affect vehicle route pathfinding.
+> * Check [Lane Arrows](Lane-Arrows.md), [Lane Connectors](Lane-Connectors.md), [Traffic Lights](Traffic Lights), [Speed Limits](Speed-Limits.md), and [Settings](Settings.md), all of which affect vehicle route pathfinding.
 > * Fires and disasters will block roads to most traffic (emergency services can still get through).
 > * [City and District Policies](City and District Policies) can impose additional restrictions
 
@@ -171,17 +171,17 @@ If you want to limit coverage of service buildings, use these mods instead:
 
 ## See also
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Parking Restrictions](Parking Restrictions)
-* [Junction Restrictions](Junction Restrictions)
+* [Parking Restrictions](Parking-Restrictions.md)
+* [Junction Restrictions](Junction-Restrictions.md)
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [General](General) - should changes take effect immediately?
-* [Policies](Policies) - should bus lanes automatically restrict cars & trucks?
-* [Overlays](Overlays) - toggle persistent overlay
+* [General](General.md) - should changes take effect immediately?
+* [Policies](Policies.md) - should bus lanes automatically restrict cars & trucks?
+* [Overlays](Overlays.md) - toggle persistent overlay
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/VEHICLE RESTRICTIONS"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/VEHICLE RESTRICTIONS?label=VEHICLE RESTRICTIONS&logo=github" /></a>
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/VEHICLE RESTRICTIONS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/VEHICLE RESTRICTIONS?label=VEHICLE RESTRICTIONS&logo=github" /></a>
