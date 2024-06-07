@@ -1,10 +1,14 @@
-> TM:PE support team: See [Tips for working with savegames](Tips for working with savegames)
+# Share Your Savegame on Steam
+
+> TM:PE support team: See [Tips for working with savegames](Tips-for-working-with-savegames.md)
 
 ### Why we need the savegame
 
-We can investigate and fix bugs faster if we can replicate them - the easiest way to achieve that is with a savegame shared to the workshop (and the URL to its page in the workshop).
+We can investigate and fix bugs faster if we can replicate them - the easiest way to achieve that is with a savegame
+shared to the workshop (and the URL to its page in the workshop).
 
-You can keep your mods enabled when sharing; the more closely we can replicate your game setup the more chance we have of recreating the bug you are seeing.
+You can keep your mods enabled when sharing; the more closely we can replicate your game setup the more chance we have
+of recreating the bug you are seeing.
 
 ### Uploading a savegame to Steam
 
@@ -19,7 +23,7 @@ Find your savegame in the Steam Workshop:
 
 * Click on your username at the top of the Steam app, and choose **View My Profile**
 * Choose the **Workshop Items** link
-* Click your savegame to view it's details page
+* Click your savegame to view its details page
 
 If there is a warning about the file being private or friends only:
 
@@ -32,7 +36,7 @@ It will look something like this:
 
 > ```https://steamcommunity.com/sharedfiles/filedetails/?id=1564441481```
 
-Send us your URL and we'll be able to load your savegame and hopefully reproduce the error you were having.
+Send us your URL, and we'll be able to load your savegame and hopefully reproduce the error you were having.
 
 ### Where to post the URL
 
@@ -41,5 +45,6 @@ Post the link wherever it was you were discussing the problem (usually a Steam d
 For TM:PE users only:
 
 * If it relates to an existing **GitHub** issue, ensure the issue contains a description of the problem.
-    * To create a new issue, see: [Report a bug](Report a bug)
-* If you're communicating via **Discord** please also include a brief description of the problem as well (we answer lots of support queries and it's difficult to remember who's posting what and why they are posting it).
+    * To create a new issue, see: [Report a bug](Report-a-Bug.md)
+* If you're communicating via **Discord** please also include a brief description of the problem as well (we answer lots
+  of support queries, and it's difficult to remember who's posting what and why they are posting it).

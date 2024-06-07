@@ -1,3 +1,5 @@
+# Hints Panel
+
 > Verified: Dcember 2021 - TM:PE 11.6
 
 ## Overview

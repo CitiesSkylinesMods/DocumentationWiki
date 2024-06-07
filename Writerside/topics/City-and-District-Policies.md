@@ -1,14 +1,18 @@
+# Overview: City and District Policies
+
 > Article verified: May2020 TM:PE 11.5.0
 
-> Looking for the TM:PE features? See: [Policies](Policies) [Settings](Settings) and/or [Vehicle Restrictions](Vehicle Restrictions).
+> Looking for the TM:PE features? See: [Policies](Policies.md) [Settings](Settings.md)
+> and/or [Vehicle Restrictions](Vehicle-Restrictions.md).
 
-# Overview
 
-The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) can affect traffic in your city in many ways...
+The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) can affect traffic in your city in many
+ways...
 
 ## Vehicle Restrictions
 
-> These are separate to TM:PE's [Vehicle Restrictions](Vehicle Restrictions), and in effect act as an additional layer of restrictions.
+> These are separate to TM:PE's [Vehicle Restrictions](Vehicle-Restrictions.md), and in effect act as an additional layer
+> of restrictions.
 
 * **Bike ban on sidewalks** (After Dark DLC)
     * Cyclists cannot use sidewalks (pavements) and must instead use bike paths or dedicated cycle lanes
@@ -55,7 +59,7 @@ The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) 
 
 * **Automated Sorting** (Industries DLC)
     * Increase mail capacity by 20%
-    * May increase number of mail vans,  may reduce number of mail lorries.
+    * May increase number of mail vans, may reduce number of mail lorries.
 * **Fast Recovery** (Natural Disasters DLC)
     * No searching for survivors after disasters
     * Fewer disaster recovery vehicles on the roads
@@ -63,7 +67,7 @@ The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) 
 * **Free WiFi** (Industries DLC)
     * Reduce mail accumulation by 15%
     * Fewer postal service vehicles in those areas
-* **Harsh prison dentences** (After Dark DLC)
+* **Harsh prison sentences** (After Dark DLC)
     * Reduces crime rate
     * Fewer police vehicles in those areas
 * **Helicopter priority** (Natural Disasters DLC)
@@ -126,7 +130,7 @@ The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) 
 * **Main Park** (Park areas in Park Life DLC)
     * Increases number of visitors to park
 * **Match Security** (Stadiums in Match Day DLC)
-    * Less crime = less police and prison vehicles
+    * Less crime = fewer police and prison vehicles
 * **Night tours** (Park areas in Park Life DLC)
     * Park gets 30% more custom at night (more traffic)
     * Note: Not sure if it actually affects traffic that much
@@ -138,7 +142,7 @@ The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) 
     * Parks, Plazas and Park Areas draw 10% more visitors
 * **Recreational Use**
     * Slightly more tourists
-    * Slightly less criminals = fewer police vehicles
+    * Slightly fewer criminals = fewer police vehicles
 * **School's out** (After Dark DLC)
     * Cims prefer work to school
     * May increase traffic near workplaces, may reduce traffic near education buildings
@@ -152,35 +156,39 @@ The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) 
     * Slightly better health = fewer ambulances/hearses
 * **Studded tires** (Winter maps in Snowfall DLC)
     * Snow doesn't slow down traffic speeds as much
-    * See also: [Road Conditions](Road Conditions)
+    * See also: [Road Conditions](Road-Conditions.md)
 * **Student Healthcare** (Campus areas in Campus DLC)
     * Slightly better health = fewer ambulances/hearses
 * **Tourist Travel Card** (Sunset Harbor DLC)
-    * The city will receive 8% more tourists. 
+    * The city will receive 8% more tourists.
 * **VIP** (Natural Disasters DLC)
     * Limits emergency shelter use to local cims
 
 ## See also:
 
-[Settings](Settings):
+[Settings](Settings.md):
 
-* [Gameplay](Gameplay)
-* [Policies](Policies)
+* [Gameplay](Gameplay.md)
+* [Policies](Policies.md)
 
-[Toolbar](Toolbar):
+[Toolbar](Toolbar.md):
 
-* [Parking Restrictions](Parking Restrictions)
-* [Vehicle Restrictions](Vehicle Restrictions)
+* [Parking Restrictions](Parking-Restrictions.md)
+* [Vehicle Restrictions](Vehicle-Restrictions.md)
 
 Info views:
 
-* [Public Transport](Public-Transport-Info-View.)
-* [Traffic](Traffic-Info-View.)
-* [Traffic Routes](Traffic-Routes-Info-View.)
+* [Public Transport](Public-Transport-Info-View.md)
+* [Traffic](Traffic-Info-View.md)
+* [Traffic Routes](Traffic-Routes-Info-View.md)
 
 Mods:
 
-* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - Cims get daily schedules, creates rush hours
-* [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) - helps tame traffic spawned at outside connections
-* [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) - tames industry area traffic
-* [Realistic walking speed](https://steamcommunity.com/sharedfiles/filedetails/?id=1412844620) - makes cims walk at human speed
+* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - Cims get daily schedules, creates
+  rush hours
+* [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) - helps tame
+  traffic spawned at outside connections
+* [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) - tames industry area
+  traffic
+* [Realistic walking speed](https://steamcommunity.com/sharedfiles/filedetails/?id=1412844620) - makes cims walk at
+  human speed

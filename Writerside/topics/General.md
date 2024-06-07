@@ -1,10 +1,14 @@
+# General Settings
+
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings): **General** | [Gameplay](Gameplay) | [Policies](Policies) | [Overlays](Overlays) | [Maintenance](Maintenance) | [Keybinds](Keybinds)
+[Settings](Settings): **General
+** | [Gameplay](Gameplay) | [Policies](Policies) | [Overlays](Overlays) | [Maintenance](Maintenance) | [Keybinds](Keybinds)
 
 ## Overview
 
-Use these [settings](settings) to set general options such as language, user inteface, simulation, and mod compatibility checks.
+Use these [settings](settings) to set general options such as language, user inteface, simulation, and mod compatibility
+checks.
 
 ## Settings
 
@@ -15,7 +19,8 @@ _Use these options to apply regional language and icon themes to TM:PE..._
 #### Select language
 
 * Defaults to same language as the game, but you can choose a different language if desired
-* For a list of current translations, see: [Languages](Languages). To contribute translations, see: [Localisation](Localisation).
+* For a list of current translations, see: [Languages](Languages). To contribute translations,
+  see: [Localisation](Localisation).
 
 #### Display speed limits as MPH instead of km/h
 
@@ -38,22 +43,27 @@ _Use these options to further customise the TM:PE user interface..._
 
 #### Lock main menu button position
 
-* If enabled, it locks the position of the button that shows/hides the [Toolbar](Toolbar). Otherwise, you can drag it around the screen.
+* If enabled, it locks the position of the button that shows/hides the [Toolbar](Toolbar). Otherwise, you can drag it
+  around the screen.
 * Has no effect if you've put the button in [Unified UI](Unified UI).
 
 #### Lock main menu position
 
-* If enabled, the position of the [Toolbar](Toolbar) cannot be changed. Otherwise, you can drag the toolbar around the screen.
+* If enabled, the position of the [Toolbar](Toolbar) cannot be changed. Otherwise, you can drag the toolbar around the
+  screen.
 
 #### Use UnifiedUI
 
 > This option added in TM:PE 11.6.1. For earlier verisons, you can use the "Grabber" tool in Unified UI mod.
 
-* When selected, the main menu button moves in to the [Unified UI](Unified UI) panel (requires [UnifiedUI mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2255219025))
+* When selected, the main menu button moves in to the [Unified UI](Unified UI) panel (
+  requires [UnifiedUI mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2255219025))
 
 #### User interface scale
 
-> TM:PE v11.1.1 replaced the **Compact main menu** option with this **UI Scaling** option. Subsequent versions made more panels respect the setting, including the [Speed Limits](Speed Limits) panel in v11.6.2. As of v11.6.1 TM:PE is also fully compatible with [UI Resolution mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2487213155).
+> TM:PE v11.1.1 replaced the **Compact main menu** option with this **UI Scaling** option. Subsequent versions made more
+> panels respect the setting, including the [Speed Limits](Speed Limits) panel in v11.6.2. As of v11.6.1 TM:PE is also
+> fully compatible with [UI Resolution mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2487213155).
 
 * You can use the slider to shrink or grow the size of UI panels
 * The main menu button size is always set the same size as the vanilla Info Views button.
@@ -93,7 +103,8 @@ _Use these options to cusomise vehicle simulation detail and updates..._
 
 #### Apply AI changes right away
 
-> This option was previously called **Customisations come in to effect immediately** and has been completely removed in TM:PE 11.6.5.1 (changes will always come in to effect immediately now).
+> This option was previously called **Customisations come in to effect immediately** and has been completely removed in
+> TM:PE 11.6.5.1 (changes will always come in to effect immediately now).
 
 * If enabled, the routes of _existing_ vehicles will be recalculated (from their current position) whenever you alter:
     * [Junction Restrictions](Junction Restrictions)
@@ -102,7 +113,8 @@ _Use these options to cusomise vehicle simulation detail and updates..._
     * [Vehicle Restrictions](Vehicle Restrictions)
     * Notably, it doesn't apply to [Highway Junction Rules](Highway Junction Rules) or [Speed Limits](Speed Limits).
 * If disabled, vehicles will continue along their route as normal without being notified of changes:
-    * If they run in to a problem (eg. desired lane change no longer available), their route will be recalculated at that point.
+    * If they run in to a problem (eg. desired lane change no longer available), their route will be recalculated at
+      that point.
     * Vehicles spawned _after_ you make changes will always be aware of those changes.
 
 ### Compatibility
@@ -130,7 +142,8 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 #### Do these settings alter frame rate or cause lag?
 
-> The **Simulation accuracy** can have a significant effect on in-game frame rate due to increased CPU workload, particularly on **Medium**, **High**, or **Very High** setting.
+> The **Simulation accuracy** can have a significant effect on in-game frame rate due to increased CPU workload,
+> particularly on **Medium**, **High**, or **Very High** setting.
 
 ## See Also
 
