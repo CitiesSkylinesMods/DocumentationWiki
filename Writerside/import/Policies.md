@@ -1,0 +1,234 @@
+> Verified: March 2022 - TM:PE 11.6.5.1
+
+[Settings](Settings): [General](General) | [Gameplay](Gameplay) | **Policies** | [Overlays](Overlays) | [Maintenance](Maintenance) | [Keybinds](Keybinds)
+
+## Overview
+
+Use these [settings](settings) to set the _default_ transport and road customisation policies in your entire city.
+
+Most policies can be overriden for individual lanes, junctions or roads using the features of the [Toolbar](Toolbar).
+
+## Settings
+
+### At Junctions
+
+_Use these options to set default traffic policies at road junctions..._
+
+#### Busses may ignore lane arrows
+
+> In TM:PE 11.6.5.1 and later, this option is enabled by default for new cities.
+
+* When enabled, [Buses](Buses) can ignore [Lane Arrows](Lane Arrows), making bus routes more flexible
+* Note: Buses must always obey [Lane Connectors](Lane Connectors), regardless of this setting
+
+#### Vehicles may enter blocked junctions
+
+* Determines whether vehicles can [Enter Blocked Junctions](Enter Blocked Junctions)
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Vehicles may do U-turns at junctions
+
+* Allow vehicles to do [U-Turns](U-Turns) at junctions
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Vehicles may turn at red traffic lights
+
+* Allow vehicles to [Turn on Red](Turn on Red) in to a _near-side_ road:
+    * Depending on which side traffic drives on, it can turn in that direction
+    * Example: If traffic drives on the right, it's a right turn
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Also apply to left & right turns between one-way streets
+
+* Allows vehicles to [Turn on Red](Turn on Red) in to a _far-side_ road:
+    * Depending on which side traffic drives on, it can turn in the opposite direction
+    * Example: If traffic drives on the right, it's a left turn
+    * Only applied if the destination is a **one-way road**
+    * They must stop and wait for clear path before making the turn
+* Requires the incoming road to have **Turn on Red** enabled
+
+#### Vehicles going straight on may change lanes at junctions
+
+* Allows vehicles going straight ahead at a junction to make [Lane Changes](Lane Changes)
+* Override any junction with [Junction Restrictions](Junction Restrictions) or [Lane Connectors](Lane Connectors) tools
+
+#### Vehicles follow priority rules at junctions with timed traffic lights
+
+* Makes vehicles yield at unprotected turning lights.
+* See: [Priority Signs](Priority Signs) and [Unprotected Turns](Unprotected Turns)
+
+#### Automatically add traffic lights if applicable
+
+* If enabled, traffic lights will automatically be added to big junctions
+* Override any junction with [Traffic Lights](Traffic Lights) tools
+
+#### Dedicated turning lanes
+
+> It may take _a few minutes_ before changes to this setting take effect.
+
+* If enabled, roads entering junctions will be given [Dedicated Turning Lanes](Dedicated Turning Lanes), where feasible
+* Override any junction with [Lane Arrows](Lane Arrows) or [Lane Connectors](Lane Connectors) tools
+
+### On Roads
+
+#### Vehicle restrictions aggression
+
+* Set the pathfinding penalty incurred by [Vehicle Restrictions](Vehicle Restrictions)
+* See: [Vehicle Restriction Aggression](Vehicle Restriction Aggression)
+
+#### Ban private cars and trucks on bus lanes
+
+> Note: Vehicles will still be able to use bus lane when spawning, delivering, or arriving at destination.
+
+* When enabled, only [Buses](Buses) can use bus lanes
+* If disabled: Override any bus lanes with [Vehicle Restrictions](Vehicle Restrictions) tool
+
+#### At a segment to segment transition, only the smaller segment gets crossings
+
+> For definition of **transition nodes**, see [[Nodes, Segments, Lanes]]
+
+* Normally **transition nodes** will get two pedestrian crossings, one for each segment
+* When enabled, this option removes the crossing from the larger road
+* If both roads are the same size, neither crossing is removed
+
+### On Highways
+
+_Use these options to control vehicles on highways and ramps..._
+
+#### Enable highway-specific lane merging/splitting rules
+
+* Force [Highway Junction Rules](Highway Junction Rules) on all highway roads
+* Override any junction with [Lane Connectors](Lane Connectors) tool
+
+#### Heavy vehicles prefer outer lanes on highways
+
+* Encourage large vehicles to use outside lane on highways
+* See: [Heavy Truck Highway Rules](Heavy Truck Highway Rules)
+
+### In Case of Emergency
+
+> This section is only shown if you have [Natural Disasters DLC](https://store.steampowered.com/app/515191/Cities_Skylines__Natural_Disasters/).
+
+_Use this option to give evacuation buses more flexibility during disasters..._
+
+#### Evacuation busses may ignore traffic rules
+
+* Allows evacuation busses to ignore the rules and possibly save more people
+* For more information, see: [Buses](Buses)
+
+### High priority roads
+
+_Use these options to customise the [High Priority Roads](High Priority Roads) bulk applicators..._
+
+> Important: Provide [Collector Roads](Collector Roads) (or tunnels/bridges) to enable cims and vehicles to reach the other side of a high priority road.
+
+#### Allow pedestrian crossings on main road
+
+* Determines whether pedestrians can cross over the priority road
+* If disabled, cims will need another way to cross (bridge, traffic lights...)
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Allow cars to take far turn from/into main road (not recommended)
+
+* Determines whether vehicles can cut across oncoming traffic on the priority road
+* If disabled, vehicles will need another way to reach the other side (traffic lights, [collector roads](collector roads)...)
+* Override any junction with [Lane Arrows](Lane Arrows) or [Lane Connectors](Lane Connectors) tools
+
+#### Allow cars on yield road to enter blocked main road
+
+> This option is _ignored_ if you enable **Use stop signs when entering main road**.
+
+* If enabled, traffic entering via **Yield** [Priority Signs](Priority Signs) can [Enter Blocked Junctions](Enter Blocked Junctions) 
+    * Reduces congestion on side-roads, but disrupts priority road traffic
+    * Vehicles already on the priority road can always enter blocked junctions
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Use stop signs when entering main road
+
+* If enabled, side-roads use **Stop** signs instead of **Yield** signs
+    * Reduces disruption of priority road traffic, but increases congestion on side-roads
+* Override any junction with [Priority Signs](Priority Signs) tool
+
+### Roundabouts
+
+Use these options to customise the [Roundabout Policies](Roundabout Policies) bulk applicators...
+
+> Note: If [High Priority Roads](High Priority Roads) bulk applicators encounter a roundabout, they'll use these settings at the roundabout junction.
+
+#### Pedestrians shall not cross to the center of roundabout
+
+* Removes pedestrian crossings that connect to center of roundabout
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Pedestrians shall not cross the roads approaching the roundabout
+
+* Removes pedestrian crossings that cross roads entering/leaving the roundabout
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Stay in lane inside the roundabout
+
+* Discourage vehicles from changing lanes in the roundabout
+* Override any junction/node with [Lane Connectors](Lane Connectors) tool
+
+#### Stay in lane on the roads approaching the roundabout
+
+* Prevent lane changes at nodes close to the roundabout
+* Forces traffic to get in correct lane sooner
+* Override any junction/node with [Lane Connectors](Lane Connectors) tool
+
+#### Allocate dedicated exit lanes
+
+* Dedicate outer lane of roundabout to traffic leaving at next exit
+    * This improves lane utilisation and flow inside the roundabout
+* Override any junction/node with [Lane Connectors](Lane Connectors) tool
+
+#### Add priority signs on the roundabout junction
+
+* Vehicles in the roundabout have priority over vehicles entering the roundabout
+* Override any junction with [Priority Signs](Priority Signs) tool
+
+#### Yielding vehicles keep clear of blocked roundabout
+
+* Traffic entering via **Yield** [Priority Signs](Priority Signs) will not be able to [Enter Blocked Junctions](Enter Blocked Junctions) 
+* Override any junction with [Junction Restrictions](Junction Restrictions) tool
+
+#### Assign realistic speed limits to roundabouts
+
+* If enabled, the speed limits on roundabouts will be adjusted based on road curvature
+    * This is just to make roundabout traffic look more realistic
+
+#### Put parking ban inside roundabouts
+
+* If enabled, any parking lanes on the roundabout itself (1-way roads) will be disabled
+* Override any segment with [Parking Restrictions](Parking Restrictions) tool
+
+#### Put parking bans on roundabout branches
+
+* If enabled, parking lanes on roads at junctions on the roundabout will be disabled
+* Override any segment with [Parking Restrictions](Parking Restrictions) tool
+
+## FAQ
+
+#### Do these settings affect frame rate or cause lag?
+
+> * Not directly; policies just change global defaults for the [Toolbar](Toolbar) tools.
+> * See documentation of each tool for specific details.
+
+#### What happens if I change the policies later in the game?
+
+> * Roads, junctions, etc., which were using default values will be updated
+> * However, custom settings (via [Toolbar](Toolbar)) will be retained
+
+## See Also
+
+Guides:
+
+* [City and District policies](City and District policies)
+
+[TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki) (old documentation):
+
+* [Policies & Restrictions options](https://tmpe.viathinksoft.com/wiki/index.php?title=Options#Policies_.26_Restrictions)
+
+[Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
+
+* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS&logo=github" /></a>

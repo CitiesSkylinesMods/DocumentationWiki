@@ -1,0 +1,8 @@
+> Verified: March 2022 - TM:PE 11.6.5.1
+
+Use the [Compatibility Report](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869) mod from Steam Workshop:
+
+* It scans your mods and will report any that are broken or incompatibile
+* It suggests fixed versions or alternatives that you can use instead
+
+[![Compatibility Report](https://imgur.com/0nfe3VY.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869)

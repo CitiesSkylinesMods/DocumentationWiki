@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="67708d9a">
+        <description><![CDATA[Created after removal of "<_Sidebar1.md>" from TMPE-doc]]></description>
+        <accepts>_Sidebar1.html</accepts>
+    </rule>
+    <rule id="44d38e76">
+        <description><![CDATA[Created after removal of "<_Footer1.md>" from TMPE-doc]]></description>
+        <accepts>_Footer1.html</accepts>
+    </rule>
+    <rule id="2ff473f2">
+        <description><![CDATA[Created after removal of "<_Sidebar.md>" from TMPE-doc]]></description>
+        <accepts>_Sidebar.html</accepts>
+    </rule>
+    <rule id="30a70f98">
+        <description><![CDATA[Created after removal of "<_Footer.md>" from TMPE-doc]]></description>
+        <accepts>_Footer.html</accepts>
+    </rule>
+</rules>
