@@ -22,7 +22,7 @@ Notably, it can _not_ be applied to:
 
 Choose **Toggle Traffic Lights** on the [](Toolbar.md):
 
-![Toggle Traffic Lights tool](https://imgur.com/WPaP08X.png)
+![Toggle Traffic Lights tool](btnToggleTL.png)
 
 You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 

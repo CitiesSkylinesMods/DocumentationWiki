@@ -7,4 +7,4 @@ Use the [Compatibility Report](https://steamcommunity.com/sharedfiles/filedetail
 * It scans your mods and will report any that are broken or incompatible
 * It suggests fixed versions or alternatives that you can use instead
 
-[![Compatibility Report](https://imgur.com/0nfe3VY.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869)
+[![Compatibility Report](picCompatibilityReport.jpeg)](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869)

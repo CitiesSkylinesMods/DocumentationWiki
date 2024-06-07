@@ -3,7 +3,7 @@
 
 * Cims stand in middle of a road (or some other strange location) waiting for taxi
 
-![Screenshot](https://i.imgur.com/0RhSqvL.png)
+![Screenshot](picCimsTaxi_bug.png)
 
 ## Cause
 

@@ -7,6 +7,7 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md">
+        <toc-element topic="Key-Features.md"/>
         <toc-element topic="Guides.md">
             <toc-element topic="Vehicles.md">
                 <toc-element topic="Realistic-Speeds.md"/>

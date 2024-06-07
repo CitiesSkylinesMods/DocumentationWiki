@@ -4,7 +4,7 @@
 
 TM:PE has been translated to [multiple languages](https://crowdin.com/project/tmpe):
 
-> [![Click to view current translation progress](picLanguages_progress.png){style="inline"}](https://crowdin.com/project/tmpe)
+> [![Click to view current translation progress](picCrowdin_languages.png){style="inline"}](https://crowdin.com/project/tmpe)
 > 
 > [![Crowdin](https://badges.crowdin.net/tmpe/localized.svg)](https://crowdin.com/project/tmpe)
 

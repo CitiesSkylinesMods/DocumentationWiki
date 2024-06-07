@@ -13,7 +13,7 @@ routes at the junction. For more information, see [](Priority-Routes.md).
 
 Choose **Priority Signs** on the [](Toolbar.md):
 
-![Priority Signs tool](https://imgur.com/Txc7Oqd.png)
+![Priority Signs tool](btnPrioritySigns.png)
 
 > Button missing? Enable **Priority Signs** in [](Maintenance.md).
 
@@ -25,13 +25,13 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 > If the icons don't appear, try moving/zooming the camera closer to selected junction
 
-|                     Icon                     | Purpose                                                                                                                        |
-|:--------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------|
-| ![Empty spot](https://imgur.com/xLNF3ZD.png) | Placeholder for a priority sign. <br /><br /> Click to cycle through the signs (Priority > Yield > Stop > back to Priority...) |
-|  ![Priority](https://imgur.com/P6OJc3b.png)  | **Priority** - traffic on this route has right of way when entering the junction.                                              |
-|   ![Yield](https://imgur.com/97UNtLt.png)    | **Yield / Give Way** - traffic must slow down and only enter the junction if there are no priority vehicles waiting to enter.  |
-|    ![Stop](https://imgur.com/QfXBx82.png)    | **Stop** - similar to Yield, but traffic must _always_ come to a complete stop even if the junction is clear.                  |
-|                 (todo: icon)                 | **Reset** - clears all the priority signs at the junction.                                                                     |
+|                  Icon                  | Purpose                                                                                                                        |
+|:--------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------|
+| ![Empty spot](picPrioritySigns_ph.png) | Placeholder for a priority sign. <br /><br /> Click to cycle through the signs (Priority > Yield > Stop > back to Priority...) |
+| ![Priority](picPrioritySigns_main.png) | **Priority** - traffic on this route has right of way when entering the junction.                                              |
+|  ![Yield](picPrioritySigns_yield.png)  | **Yield / Give Way** - traffic must slow down and only enter the junction if there are no priority vehicles waiting to enter.  |
+|   ![Stop](picPrioritySigns_stop.png)   | **Stop** - similar to Yield, but traffic must _always_ come to a complete stop even if the junction is clear.                  |
+|              (todo: icon)              | **Reset** - clears all the priority signs at the junction.                                                                     |
 
 > ProTip: Start by setting aside road to **Yield**; all empty spots will get **Priority** signs
 
@@ -63,7 +63,7 @@ Overlays:
     * If no suitable ongoing route is found, the route will terminate at that junction
 * `Control` - show persistent summary overlays for [](Junction-Restrictions.md) and [](Speed-Limits.md)
 
-Bulk applicatators:
+Bulk applicators:
 
 > These apply customisations along the highlighted route, which is shown as soon as you press `Shift` key (so you can
 > check the route before clicking).
@@ -91,7 +91,7 @@ Camera:
 
 While the tool is active, summary overlays show which junctions have been customised:
 
-![](https://user-images.githubusercontent.com/1386719/145757519-a3dea2d4-5b14-4e8f-bf79-5e2f1e104943.png)
+![](picPrioritySigns_overlay.png)
 
 To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you
 might need to zoom in a little. You can set the **Overlay Transparency** in [](General.md) in [](Settings.md).
@@ -159,7 +159,8 @@ wait a bit longer, we've improved overall traffic flow for the majority of vehic
 #### What happens if Yield or Stop traffic waits too long?
 
 > If traffic on a Yield or Stop road is sat waiting too long, they'll eventually get annoyed and just drive in to the
-> junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that hepls. If it's
+> junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that hepls. If
+> it's
 > still not working, it's time to invest in some [](Traffic-Lights.md)!
 
 #### I altered my roads but customisations didn't update

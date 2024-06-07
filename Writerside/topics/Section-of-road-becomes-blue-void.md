@@ -6,7 +6,7 @@
 
 A section of road turns in to blue void, usually while defining the road in **Traffic Routes > Adjust Roads** info view.
 
-![Image](https://i.imgur.com/x8mzV89.png)
+![Image](picBlueVoid_3.png)
 
 > Similar issue (not caused by "Adjust Roads" info view): [](Blue-void-showing-near-roads.md)
 
@@ -27,7 +27,7 @@ From initial experimentations, this issue seems to be caused by some combination
 In Routes info view > Adjust Roads tab, examine the road. If one end is blue void grab the green circle at the end of
 the 'road path' line and drag it to where the road is no longer blue void.
 
-![Image](https://i.imgur.com/ONBX7y0.png)
+![Image](picBlueVoid_3solution.png)
 
 That _should_ sort it out, as shown in image above. Sometimes bulldozing / upgrading / replacing the road will fix it
 too.

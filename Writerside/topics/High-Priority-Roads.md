@@ -20,7 +20,7 @@ High Priority Roads tackle those problem head-on:
 The result is essentially a minor arterial road capable of carrying moderate-to-large volumes of traffic at fairly high
 speed:
 
-![Customized Road Example](https://user-images.githubusercontent.com/26344691/81164743-87d6f000-8f99-11ea-840f-fa8456b22841.png)
+![Customized Road Example](picHighPriorityRoads_example.png)
 
 > The road pictured above was visually customised with
 > the [Continues Junction Median](https://steamcommunity.com/sharedfiles/filedetails/?id=2104976832)
@@ -53,7 +53,7 @@ The [](Adjust-Roads.md) panel (see link for details) allows you to define your o
 
 1. Select/customise a route
 2. Click the **High Priority Road** button to apply your policies to the route  
-   ![High Priority Button](https://imgur.com/uxnCXGD.png)
+   ![High Priority Button](btnStreetDoubleLine.png)
     * Click the button a second time to remove the customisations
 
 ### Priority Signs tool
@@ -71,7 +71,7 @@ The [](Priority-Signs.md) tool chooses the route for you (see **Route Detection*
 When using the Priority Signs shortcuts, the route will be determined based on the roads connected to the junction:
 
 * A small road joins a bigger road (regardless of junction angle)
-* A two-way road splits in to two one-way roads (Y-junction or "fork")
+* A two-way road splits into two one-way roads (Y-junction or "fork")
 * A road forms a T-junction with a one way road (like a roundabout junction)
 
 Also, where applicable, Yield signs will automatically be removed to improve traffic flow.
@@ -79,9 +79,9 @@ Also, where applicable, Yield signs will automatically be removed to improve tra
 The image bellow shows 3 applications of High priority road. Clicking on each part of the image bellow gives you more
 information about that setup.
 
-[![screenshot B2](https://user-images.githubusercontent.com/26344691/81387797-f8a81480-911f-11ea-87e8-8b5c29ea94b9.png)](High-Priority-Roads.md#2-split-road-fork-y-junction)
-[![screenshot B3](https://user-images.githubusercontent.com/26344691/81387796-f8a81480-911f-11ea-95f8-08e418cf6cc2.png)](High-Priority-Roads.md#1-alley-joins-a-main-road-see-screenshot-above)
-[![screenshot B4](https://user-images.githubusercontent.com/26344691/81387792-f80f7e00-911f-11ea-9fec-97ff32394a17.png)](High-Priority-Roads.md#3-highway-roundabout-overpass)
+[![screenshot B2](picHighPriorityRoads_example2.png)](High-Priority-Roads.md#2-split-road-fork-y-junction)
+[![screenshot B3](picHighPriorityRoads_example3.png)](High-Priority-Roads.md#1-alley-joins-a-main-road-see-screenshot-above)
+[![screenshot B4](picHighPriorityRoads_example4.png)](High-Priority-Roads.md#3-highway-roundabout-overpass)
 
 ### 1. alley joins a main road (see screenshot above).
 
@@ -89,28 +89,28 @@ information about that setup.
 
 Be careful not cut your city in half. For example in the screenshot bellow if you set the highlighted road as high
 priority road, cars to the south (notice the compass in the image) of the main road cannot go west and cars to the north
-of the main road cannot go east. Also pedestrians cannot cross the highlighted main road.
-![screenshot A2w](https://user-images.githubusercontent.com/26344691/81374696-8415ab80-9108-11ea-88b6-bbd7c1514efb.png)
+of the main road cannot go east. Also, pedestrians cannot cross the highlighted main road.
+![screenshot A2w](picHighPriorityRoads_collectorRoad.png)
 
 As is the case in the real world you need to create a collector road (
 see https://steamcommunity.com/sharedfiles/filedetails/?id=522776740 Traffic 102 - Road Hierarchy and Zoning):
-![Screenshot (1047)](https://user-images.githubusercontent.com/26344691/81374830-d8b92680-9108-11ea-9064-4def70f424a2.png)
+![Screenshot (1047)](picHighPriorityRoads_collectorRoad2.png)
 
 At the intersection of the collector road and main road, remember to remove high priority rules you set up earlier.
 
 - [](Lane-Arrows.md) tool: use Control+click on the junction.
 - [](Junction-Restrictions.md) tool: Select the junction and press delete to clear high priority rules
-- Optionally you can setup a traffic light.
+- Optionally you can set up a traffic light.
 
 Now cars can use the collector road to take the far turn and pedestrians can use it to cross to the other side.
 
 ### 2. Split road (Fork- Y junction):
 
-![Screenshot (1032)](https://user-images.githubusercontent.com/26344691/81173896-71389500-8fa9-11ea-8e05-0fcb2eee9993.png)
+![Screenshot (1032)](picHighPriorityRoads_yFork.png)
 
 ### 3. highway/roundabout overpass
 
-![Screenshot (1030)](https://user-images.githubusercontent.com/26344691/81167529-0766be00-8f9e-11ea-9692-f7362471a2a9.png)
+![Screenshot (1030)](picHighPriorityRoads_overpass.png)
 
 Note that in addition to all the rules discussed before, the incoming ramp (see red arrow) does NOT yield or keep clear
 of the main road. This only happens if [](Lane-Arithmetic.md) is observed. It would be fitting to
@@ -118,22 +118,22 @@ use [](Lane-Connectors.md) [](Stay-in-Lane.md) as well to get the lane connectio
 
 ## How rules are applied at road's end
 
-`Shift+click` short cut - which sets up priority signs - can mess up your roundabout if its resides at road's end.
+`Shift+click` shortcut - which sets up priority signs - can mess up your roundabout if its resides at road's end.
 `Ctrl+Shift+Click` does NOT have this problem. As you can see from the screenshot bellow it understands there is a
 roundabout at roads end and does not mess up the roundabout. The two nodes at road ends marked by red circle in the
-screenshot bellow are treated differently than the intermediate nodes so as to avoid said problem.
-![Screenshot (992)](https://user-images.githubusercontent.com/26344691/81174381-69c5bb80-8faa-11ea-9eb5-a512e1e5c0f9.png)
+screenshot bellow are treated differently than the intermediate nodes to avoid said problem.
+![Screenshot (992)](picHighPriorityRoads_end.png)
 
 ### FAQ:
 
 > Q: Why Roundabout offers dedicated turning lane but high priority road does not?
 >
->> A: allocating dedicated turning lane will cause most cars to drive on the inner most lane (TODO explain why?). So not
+>> A: allocating dedicated turning lane will cause most cars to drive on the innermost lane (TODO explain why?). So not
 >> a good idea
 
 > Q: High priority road feature is not working for me
 >
->> A: High priority road feature looks at the road's width/lanes in order to decided which road is high priority and
+>> A: High priority road feature looks at the road's width/lanes in order to decide which road is high priority and
 >> which road is alley. if all the roads are the same size, high priority road gets confused as to which road is the main
 >> road. Coming soon: When setting up high priority road along a route, The highlighted path is considered high priority.
 

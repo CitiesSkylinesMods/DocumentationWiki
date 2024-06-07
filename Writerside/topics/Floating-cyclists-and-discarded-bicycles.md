@@ -7,7 +7,7 @@
 [#1472](https://github.com/CitiesSkylinesMods/TMPE/issues/1472): You see discarded bicycles and the cyclists are "
 hovering" down the road without their bike:
 
-![Floating cyclist](https://user-images.githubusercontent.com/1386719/158747056-013833b5-c327-4016-a997-047baa017621.png)
+![Floating cyclist](picFloatingCyclist_bug.png)
 
 > This article is specifically about cyclists/bikes. If you are seeing floating cars/trucks,
 > see [](Floating-vehicles.md) instead.

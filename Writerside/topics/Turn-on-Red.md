@@ -43,10 +43,11 @@ To set **junction-specific** overrides for **near-side turns**:
 
 1. Open the [](Toolbar.md)
 2. Select the [](Junction-Restrictions.md) tool  
-   ![Junction Restrictions](https://imgur.com/KDDmUbj.png){style="inline"}
+   ![Junction Restrictions](btnJunctionRestrictions.png){style="inline"}
 3. Select the junction to customise
 4. Toggle the **Turn on Red** icons to the desired state (allow/deny)  
-   ![Allow Turn Right on Red](https://imgur.com/GYo4GqF.png){style="inline"} ![Deny Turn Right on Red](https://imgur.com/BxJDYLT.png){style="inline"}
+   ![Allow Turn Right on Red](picJunctionRestrictions_trorAllow.png){style="inline"}
+   ![Deny Turn Right on Red](picJunctionRestrictions_trorDeny.png){style="inline"}
 
 > The arrows on the icons above will point the other way if you're on a map where traffic drives on the left.
 
@@ -82,7 +83,7 @@ red**, otherwise traffic wishing to turn will get stuck behind traffic waiting t
      works on left- and right-hand traffic).
 >> 3. Replace the traffic lights on the road with props that contain 'turn on red' signals. Whenever the traffic light
      goes red, the 'turn on red' signal will light up (note the green arrow on the left):  
->> ![Green arrow](https://user-images.githubusercontent.com/1386719/146990432-42a43c61-c355-49f8-ac0a-fc9d90175fc3.png)
+>> ![Green arrow](picTurnOnRed_extraSection.png)
 
 > Q: How to create traffic light props with 'turn on red' indicators?
 >> A: Use

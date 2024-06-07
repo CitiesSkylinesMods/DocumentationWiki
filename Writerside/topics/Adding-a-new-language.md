@@ -26,7 +26,7 @@ The localisation file must be placed in `TLM/TLM/Resources` folder, where all th
 
 Open Visual Studio and under the `TLM` project, find and right-click the `Resources` folder then choose `Add existing item...`:
 
-![Add to resources](https://user-images.githubusercontent.com/1386719/58388665-9b53aa00-8019-11e9-8863-bb8a528106a1.png)
+![Add to resources](picAddNewLanguage_1.png)
 
 Locate the new file (you might need to set file types to `All Files` in the file dialog) and add it.
 
@@ -36,7 +36,7 @@ Once added:
 * Choose `Properties...`
 * Make sure `Build Action` is set to `Embedded Resource`
 
-![Embed as resource](https://user-images.githubusercontent.com/1386719/58388698-f08fbb80-8019-11e9-9834-d7eb6c25533e.png)
+![Embed as resource](picAddNewLanguage_2.png)
 
 ## Edit `Translation.cs` class
 

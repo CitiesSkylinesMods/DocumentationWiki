@@ -7,7 +7,7 @@
 
 * When using the [](Lane-Arrows.md) tool, the arrows are missing from buttons like so:
 
-![Missing arrows](https://i.imgur.com/r0HcaMD.png)
+![Missing arrows](picLegacyLaneArrows_bug.png)
 
 ## Cause
 

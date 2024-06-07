@@ -11,7 +11,7 @@ medium/large [](Roundabouts.md).
 
 The bulk applicators are accessed from the **Adjust Roads** panel:
 
-![Adjust Roads Panel](https://imgur.com/J3UAixh.png)
+![Adjust Roads Panel](picAdjustRoads_ui.png)
 
 To open the panel, either:
 
@@ -25,14 +25,14 @@ To open the panel, either:
 
 Click the desired button to apply changes to the route:
 
-|                         Button                         | Purpose                                                                                              | Customisations                                                                                                                |
-|:------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-|    ![Delete Button](https://imgur.com/yAZDkkq.png)     | Deletes all customisations along the route (_except_ vehicle restrictions and timed traffic lights). |                                                                                                                               |
-|     ![Stop Button](https://imgur.com/FYLtZgW.png)      | Toggle **Stop** signs on/off along [](Priority-Routes.md).                                           | [](Priority-Signs.md)                                                                                                         |
-|     ![Yield Button](https://imgur.com/1l6roVW.png)     | Toggle **Yield** signs on/off along [](Priority-Routes.md).                                          | [](Priority-Signs.md)                                                                                                         |
-| ![High Priority Button](https://imgur.com/uxnCXGD.png) | Toggle [](High-Priority-Roads.md) policies on/off along a route.                                     | [](Priority-Signs.md), [](Lane-Arrows.md), [](Junction-Restrictions.md)                                                       |
-|  ![Roundabout Button](https://imgur.com/9UKwrmp.png)   | Toggle [](Roundabout-Policies.md) on/off on a roundabout.                                            | [](Priority-Signs.md), [](Lane-Connectors.md), [](Junction-Restrictions.md), [](Speed-Limits.md), [](Parking-Restrictions.md) |
-|  ![Adjust Road Button](https://imgur.com/0k5ZaU6.png)  | Select/alter the route (see next section)                                                            |                                                                                                                               |
+|                  Button                   | Purpose                                                                                              | Customisations                                                                                                                |
+|:-----------------------------------------:|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
+|       ![Delete](btnDeleteWhite.png)       | Deletes all customisations along the route (_except_ vehicle restrictions and timed traffic lights). |                                                                                                                               |
+|        ![Stop](btnStreetStop.png)         | Toggle **Stop** signs on/off along [](Priority-Routes.md).                                           | [](Priority-Signs.md)                                                                                                         |
+|       ![Yield](btnStreetYield.png)        | Toggle **Yield** signs on/off along [](Priority-Routes.md).                                          | [](Priority-Signs.md)                                                                                                         |
+| ![High Priority](btnStreetDoubleLine.png) | Toggle [](High-Priority-Roads.md) policies on/off along a route.                                     | [](Priority-Signs.md), [](Lane-Arrows.md), [](Junction-Restrictions.md)                                                       |
+|     ![Roundabout](btnRoundabout.png)      | Toggle [](Roundabout-Policies.md) on/off on a roundabout.                                            | [](Priority-Signs.md), [](Lane-Connectors.md), [](Junction-Restrictions.md), [](Speed-Limits.md), [](Parking-Restrictions.md) |
+|    ![Adjust Road](btnAdjustRoads.png)     | Select/alter the route (see next section)                                                            |                                                                                                                               |
 
 Note:
 
@@ -50,13 +50,13 @@ The selected route is indicated by a thick green bar along the road or roundabou
 If you want to alter the route:
 
 1. Click the **Adjust Road** button:  
-   ![Adjust Road Button](https://imgur.com/0k5ZaU6.png)
+   ![Adjust Road Button](btnAdjustRoads.png)
 2. Click any road/roundabout to set it as the route
 3. Drag the green circles to extend or alter the route:
     * The large circles at the ends of the green bar define start/end points
     * The smaller circle, somewhere in the middle, can anchor the route to a specific road
 
-![Example Route](https://user-images.githubusercontent.com/26344691/81401282-ab37a180-9137-11ea-81a8-09b09c8397d2.png)
+![Example Route](picAdjustRoads_example.png)
 
 ### Renaming the route
 
@@ -91,7 +91,7 @@ Camera / Overlays:
 While the **Adjust Roads** panel is open, multiple TM:PE [Overlays](Overlays.md) will be visible, such as speed limits,
 lane connectors, and priority signs. To reduce clutter, these overlays only show where changes have been made:
 
-![Overlays](https://user-images.githubusercontent.com/1386719/150238814-172b89e6-ac62-45aa-8ac1-aa99e9427848.jpg)
+![Overlays](picAdjustRoads_overlays.jpg)
 
 To see overlays for more distant roads, scroll the camera towards them. Depending on camera position, you might need to
 zoom in a little.

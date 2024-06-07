@@ -12,7 +12,7 @@ Lane arrows can be used to organise traffic flow across road junctions and level
 
 Choose **Lane Arrows** on the [](Toolbar.md):
 
-![Lane arrows tool](https://imgur.com/y9KjHFD.png)
+![Lane arrows tool](btnLaneArrows.png)
 
 You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
@@ -22,8 +22,9 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 1. **Click a road segment at a junction** to edit it.
 2. A panel appears showing arrows for each lane:  
-    ![](https://user-images.githubusercontent.com/1386719/146688808-4f8882a7-ba22-4073-9d41-7eca7034c335.png)  
-    > In the image above, traffic entering from **Lane 1** must turn left, while **Lane 2** can go straight ahead or right.
+   ![](picLaneArrows_ui.png)
+   > In the image above, traffic entering from **Lane 1** must turn left, while **Lane 2** can go straight ahead or
+   right.
 3. **Click arrow buttons** to toggle direction on/off for the associated lane.
 
 ### Limitations
@@ -38,9 +39,11 @@ Lane arrows can't be changed on junctions using:
 
 ### Vehicle Routing
 
-Vehicles calculate their route _before_ starting their journey. As a result, when you change lane arrows, only vehicles spawned _after_ that point will be aware of your changes.
+Vehicles calculate their route _before_ starting their journey. As a result, when you change lane arrows, only vehicles
+spawned _after_ that point will be aware of your changes.
 
-To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [](General.md) in [](Settings.md).
+To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away**
+in [](General.md) in [](Settings.md).
 
 ### Shortcuts
 
@@ -84,39 +87,51 @@ Camera / Overlays:
 
 ## Notes
 
-Unlike [](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows just set a _general direction_.
+Unlike [](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows
+just set a _general direction_.
 
 (todo: image)
 
-You could think of this as an arc drawn around the edge of the junction, and depending on the lane arrow the arc will be mostly to the left, ahead, right, or a mixture of those. Any road containing outgoing lanes that is within the arc is seen as a valid exit from the junction.
+You could think of this as an arc drawn around the edge of the junction, and depending on the lane arrow the arc will be
+mostly to the left, ahead, right, or a mixture of those. Any road containing outgoing lanes that is within the arc is
+seen as a valid exit from the junction.
 
 ## FAQ
 
 #### Does it affect frame rate or cause lag?
+
 > No. Vanilla game already has lane arrows, we just change where they point.
 
 #### Vehicles are ignoring the changes I made
+
 > * Vehicles responding to emergencies ignore lane arrows
 > * [](Reckless-Drivers.md) will sometimes ignore lane arrows
 > * Passenger, sightseeing and evacuation buses can ignore lane arrows, if enabled to do so...
 
 #### Lane arrows are causing buses to take strange routes
+
 > Buses often need extra flexibility to reach their next stop. In [](Policies.md) in [](Settings.md):
 > * Enable **Busses may ignore lane arrows** for passenger and sightseeing buses
 > * Enable **Evacuation busses may ignore traffic rules** for emergency evacuation buses
 
 #### Painted road arrows are not reflecting my changes
-> The arrows painted on the road surface are determined by the road asset, not TM:PE. Some roads have missing arrows, or don't show arrows at all, or show incorrect arrows (particularly if the asset was designed for traffic driving on the other side of the road).
+
+> The arrows painted on the road surface are determined by the road asset, not TM:PE. Some roads have missing arrows, or
+> don't show arrows at all, or show incorrect arrows (particularly if the asset was designed for traffic driving on the
+> other side of the road).
 
 #### When I load my city, my lane arrow customisations are gone
+
 > Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
 
 #### Can I customise the painted road arrows?
-> Yes, use [BOB, the Tree and Prop Replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850) mod (or similar):
+
+> Yes, use [BOB, the Tree and Prop Replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850) mod (or
+> similar):
 > 1. Open BOB and select a road
 > 2. Set replacements for the arrows:  
->     ![Arrow Decals](https://user-images.githubusercontent.com/1386719/146689817-030b086a-aa30-4b31-bf7b-c58753009b8e.png)
->  
+     > ![Arrow Decals](picLaneArrows_decals.png)
+>
 > Note that some roads may have different names for the arrows (the arrows are toggled by hidden flags, not by name).
 
 ## See Also

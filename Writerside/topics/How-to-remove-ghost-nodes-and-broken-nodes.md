@@ -27,7 +27,7 @@ Broken nodes are another rare error, and they cause vehicles to despawn - usuall
     * Relaunch the game and enable the mod (Main Menu > Content Manager > Mods > Broken Nodes Detector > Enable)
     * Reload your save
 * In-game, press `Ctrl` + `0` (zero) to open the detector
-    > ![Broken node detector](https://imgur.com/5KYclfW.png)
+    > ![Broken node detector](picBrokenNodeDetector.png)
 
 To fix **Ghost Nodes**:
 

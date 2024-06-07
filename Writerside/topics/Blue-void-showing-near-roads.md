@@ -27,7 +27,7 @@ Sometimes the network (road, path, tracks...) are the problem, causing part of t
 hole". Common causes are placing a bus stop, or zooming out (junctions sometimes turn blue). Here's an example of a road
 that doesn't properly handle bus stops:
 
-![Road tearing due to broken bus stop mesh](https://i.imgur.com/qCFuPJh.png)
+![Road tearing due to broken bus stop mesh](picBlueVoid_2.png)
 
 ## Solutions
 

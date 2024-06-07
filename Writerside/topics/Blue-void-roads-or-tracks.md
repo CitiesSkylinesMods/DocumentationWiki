@@ -6,7 +6,7 @@
 
 After placing an asset that contains roads and/or tracks, the roads/tracks turn in to blue void, for example:
 
-![screenshot](https://imgur.com/wMSemYL.png)
+![screenshot](picBlueVoid_1.png)
 
 ## Cause
 

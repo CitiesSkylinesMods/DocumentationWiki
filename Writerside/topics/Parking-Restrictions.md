@@ -10,7 +10,7 @@ Use this tool to toggle roadside parking lanes on or off.
 
 Choose **Parking Restrictions** on the [](Toolbar.md):
 
-![Parking button](https://imgur.com/JgZQ7ke.png)
+![Parking button](btnParkingRestrictions.png)
 
 > Button missing? Enable **Parking Restrictions** in [](Maintenance.md) in [](Settings.md).
 
@@ -18,9 +18,9 @@ Choose **Parking Restrictions** on the [](Toolbar.md):
 
 **Click an icon** to toggle the parking state of the associated lane.
 
-|                  Allow                  |                  Deny                  |
-|:---------------------------------------:|:--------------------------------------:|
-| ![Allow](https://imgur.com/HXSjolO.png) | ![Deny](https://imgur.com/LMf5HwQ.png) |
+|             Allow              |             Deny             |
+|:------------------------------:|:----------------------------:|
+| ![Allow](picParking_allow.png) | ![Deny](picParking_deny.png) |
 
 Changes are applied instantly and any cars already parked there will teleport to other parking spaces nearby. However,
 some traffic that was planning to park in the area might still try parking, but will quickly notice the changes and look
@@ -116,10 +116,12 @@ whenever the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md
 > > can remove parking meter props from networks.
 
 > Q: Why don't lane markings change?
-> > A: Lane markings are 'hard coded' in to the road design; they won't change to reflect parking availability. If you want
+> > A: Lane markings are 'hard coded' in to the road design; they won't change to reflect parking availability. If you
+> > want
 > > full control over lane markings, you could
 > > try [Blank Roads 3](https://steamcommunity.com/workshop/filedetails/?id=2625740281) assets along with
-> > the [Intersections Marking Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2140418403) (it can be used on
+> > the [Intersections Marking Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2140418403) (it can be used
+> > on
 > > road segments too, not just junctions).
 
 > Q: Why are only local residents parking here?

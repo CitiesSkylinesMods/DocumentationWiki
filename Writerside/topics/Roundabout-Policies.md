@@ -1,6 +1,6 @@
 # Roundabout Policies
 
-![Untitled](https://user-images.githubusercontent.com/26344691/81202134-d2269400-8fce-11ea-9ec2-80e2d29b0ae7.png)
+![Untitled](picRoundaboutPolicies_1.png)
 
 Setting up a roundabout in Traffic manager can be tricky. For your convenience TMPE offers ways to quickly set up a
 roundabout by setting the following rules (can be modified in [](Policies.md) in [](Settings.md)) (see screenshot
@@ -35,7 +35,7 @@ using:
 * use [](Adjust-Roads.md) panel
 * `Control+Click` on each entry of the roundabout.
 
-![screenshot semi roundabout](https://user-images.githubusercontent.com/26344691/81376912-17e97680-910d-11ea-9279-fa71f263fa71.png)
+![screenshot semi roundabout](picRoundaboutPolicies_semi.png)
 
 ### Notes
 

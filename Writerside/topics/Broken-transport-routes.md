@@ -25,7 +25,7 @@ When any of those happen, the game will check any bus, tram, monorail, train and
 
 Click the image below to watch a YouTube video of the game automatically re-routing bus lines:
 
-[![Game reroutes a bus line](http://img.youtube.com/vi/hq_of4ahRAs/0.jpg)](http://www.youtube.com/watch?v=hq_of4ahRAs)
+[![Game reroutes a bus line](picBrokenTransportRoutes_youtube.jpg)](http://www.youtube.com/watch?v=hq_of4ahRAs)
 
 Sometimes this process goes horribly wrong, or no viable alternate route can be found. In particular, if you bulldoze a road or station that contains a stop, that stop might "orphaned" which prevents makes it impossible to move for both you and the game.
 
@@ -48,7 +48,7 @@ If a route is so horribly broken that it's beyond repair, you can delete it as f
 
 If you have some time, click the image below for a YouTube video showing how to deal with broken routes:
 
-[![Fixing routes](http://img.youtube.com/vi/V40FuyQywGs/0.jpg)](http://www.youtube.com/watch?v=V40FuyQywGs)
+[![Fixing routes](picFixingRoutes_youtube.jpg)](http://www.youtube.com/watch?v=V40FuyQywGs)
 
 Sometimes it's caused by a broken node (vanilla game bug):
 

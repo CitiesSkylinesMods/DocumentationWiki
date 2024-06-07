@@ -130,7 +130,7 @@ Bus lanes are preferred when routing between spots on a bus route. However, if a
 
 Buses will often need to change lanes several times to achieve the most direct route to their next stop. If there aren't enough opportunities for them to change lane, they could be forced to take a more complex (and slower) route.
 
-> ![Cumbersome bus route](https://i.imgur.com/3Boqd3y.png)  
+> ![Cumbersome bus route](picBusRoute_bug.png)  
 > The bus travelling from A to B couldn't change lane, so it had to take a detour!
 
 If [](Lane-Arrows.md) are causing problems, enable **Buses may ignore lane arrows** in [](Policies.md) to make bus routing more flexible.

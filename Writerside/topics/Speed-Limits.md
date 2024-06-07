@@ -15,7 +15,7 @@ Use this tool to set speed limits for **road** and **tracked** (metro, train, mo
 
 Choose **Speed Limits** on the [](Toolbar.md):
 
-![Speed limit button](https://i.imgur.com/9iZWRpN.png)
+![Speed limit button](btnSpeedLimits.png)
 
 > Button missing? Enable **Speed Limits** in [](Maintenance.md) in [](Settings.md).
 
@@ -26,7 +26,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 The speed palette controlls the various modes of the speed limits tool, and determines what speed will be set when
 clicking speed icons on the map.
 
-![Speed Palette](https://user-images.githubusercontent.com/1386719/147000591-b47725b7-40a2-4eb6-93d4-a1f76baf62f7.png)
+![Speed Palette](picSpeedLimits_paletteNew.png)
 
 > Reposition it by dragging the title bar. Change the size and opacity of the palette in [](General.md)
 > in [](Settings.md).
@@ -35,11 +35,11 @@ clicking speed icons on the map.
 
 These buttons determine how speeds are applied.
 
-|                                             Button                                             | Purpose                                                                                                                                                                                                          |
-|:----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   ![Segment mode](https://imgur.com/jeEDwJU.png) ![Lane mode](https://imgur.com/2e3pq27.png)   | Toggles between **Segment** vs. **Lane** mode. <br /><br /> The button shows the current mode; clicking it changes to the other mode. <br /><br /> See **Setting Speeds** section for details.                   |
-| ![Override mode](https://imgur.com/u2cCTm7.png) ![Default mode](https://imgur.com/CJ3INDR.png) | Toggles between **Speed Overrides** vs. **Default Speeds** mode. <br /><br /> The button shows the current mode; clicking it changes to the other mode. <br /><br /> See **Default Speeds** section for details. |
-|          ![MPH](https://imgur.com/E8Vhg5m.png) ![km/h](https://imgur.com/jcClHfS.png)          | Toggles between **Miles Per Hour** (MPH) and **Kilometers per Hour** (km/h) mode. <br /><br /> See **Icon Themes** section for details.                                                                          |
+|                                          Button                                           | Purpose                                                                                                                                                                                                          |
+|:-----------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     ![Segment mode](picSpeedLimits_segment.png) ![Lane mode](picSpeedLimits_lane.png)     | Toggles between **Segment** vs. **Lane** mode. <br /><br /> The button shows the current mode; clicking it changes to the other mode. <br /><br /> See **Setting Speeds** section for details.                   |
+| ![Override mode](picSpeedLimits_override.png) ![Default mode](picSpeedLimits_default.png) | Toggles between **Speed Overrides** vs. **Default Speeds** mode. <br /><br /> The button shows the current mode; clicking it changes to the other mode. <br /><br /> See **Default Speeds** section for details. |
+|              ![MPH](picSpeedLimits_mph.png) ![km/h](picSpeedLimits_kmph.png)              | Toggles between **Miles Per Hour** (MPH) and **Kilometers per Hour** (km/h) mode. <br /><br /> See **Icon Themes** section for details.                                                                          |
 
 #### Speed bar buttons
 
@@ -55,12 +55,12 @@ These buttons choose the speed to be applied.
 
 Default speeds are represented by green circular speed icons:
 
-![Default speed icon](https://imgur.com/oGHZmMY.png)
+![Default speed icon](picSpeedLimits_defaultIcon.png)
 
-Default speeds are defined by network assets (roads, tracks, etc), but you can customise them if desired:
+Default speeds are defined by network assets (roads, tracks, etc.), but you can customise them if desired:
 
 1. Activate default speeds mode (button lit)  
-   ![Default mode](https://imgur.com/CJ3INDR.png)
+   ![Default mode](picSpeedLimits_default.png)
 2. Select desired speed on the Speed Bar
 3. Click a speed icon on the map to apply that speed
 
@@ -70,12 +70,12 @@ This will set the default speed for all elevations (ground, elevated, bridge, sl
 
 Lane and segment speed overrides are shown in your chosen speed icon theme (see **Icon Themes** section for details):
 
-![Various Speeds](https://user-images.githubusercontent.com/1386719/147005610-b3e4dabd-3793-4b69-a9be-c8a0db8f4952.png)
+![Various Speeds](picSpeedLimits_example.png)
 
 To change a speed:
 
 1. Choose **Segment** or **Lane** mode  
-   ![Segment mode](https://imgur.com/jeEDwJU.png) ![Lane mode](https://imgur.com/2e3pq27.png)
+   ![Segment mode](picSpeedLimits_segment.png) ![Lane mode](picSpeedLimits_lane.png)
 2. Select desired speed on the Speed Bar
 3. Click a speed icon on the map to apply that speed
 
@@ -124,10 +124,10 @@ Speeds:
 > These select/change speed on the speed bar.
 
 * `Alt`+`0-9` - pick speed (eg. `Alt`+`1` = 10, `Alt`+`6` = 60, etc.)
-* `-` or `Numpad -` - reduce picked speed (eg. if speed bar is `50`, it will change to `45`)
+* `-` or `Numpad -` - reduce picked speed (e.g. if speed bar is `50`, it will change to `45`)
 * `=` or `Numpad +` - increase picked speed
 * `/` - pick unlimited speed
-* `Delete` or `Backspace` - pick speed resetter
+* `Delete` or `Backspace` - speed reset tool
 
 Applicators:
 
@@ -151,7 +151,7 @@ Camera / Overlays:
 
 While the tool is active, icons indicate speeds (relevant to current tool mode) of nearby roads and tracks:
 
-![Speeds overlay](https://i.imgur.com/NnOCHKP.png)
+![Speeds overlay](picSpeedLimits_speedsOverlay.png)
 
 To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set
 in [](General.md) in [](Settings.md).
@@ -164,23 +164,23 @@ the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) in [](S
 The icon theme is set via [](General.md) in [](Settings.md) and determines the visual appearance of overlay icons and
 also the units to use - either `km/h` (kilometers per hour) or `MPH` (miles per hour) scale, depending on the theme.
 
-> The game uses it's own speed units, which are neither `km/h` or `mph`.
+> The game uses its own speed units, which are neither `km/h` nor `mph`.
 > See [`Constants.cs`](https://github.com/CitiesSkylinesMods/TMPE/blob/master/TLM/TLM/Constants.cs) for details on how
 > we
 > convert between game units and real units.
 
-| Style        |                    Example                     |      Units      |
-|:-------------|:----------------------------------------------:|:---------------:|
-| American     |   ![American](https://imgur.com/z9aLcTa.png)   |       MPH       |
-| Brazilian    |  ![Brazilian](https://imgur.com/AU8ylSc.png)   |      km/h       |
-| British      |   ![British](https://imgur.com/C6flCEc.png)    |       MPH       |
-| Canadian     |   ![Canadian](https://imgur.com/dzEdUFg.png)   |      km/h       |
-| French       |    ![French](https://imgur.com/aSoUEOJ.png)    |      km/h       |
-| German       |    ![German](https://imgur.com/2uISL75.png)    | km/h <br /> MPH |
-| Indonesian   |  ![Indonesian](https://imgur.com/L4NM7Vm.png)  |      km/h       |
-| Japanese     |   ![Japanese](https://imgur.com/sKB1W5d.png)   |      km/h       |
-| South Korean | ![South Korean](https://imgur.com/eqGr8X0.png) |      km/h       |
-| Swedish      |   ![Swedish](https://imgur.com/BybYqKL.png)    |      km/h       |
+| Style        |                   Example                   |      Units      |
+|:-------------|:-------------------------------------------:|:---------------:|
+| American     |     ![American](picSpeedLimits_usa.png)     |       MPH       |
+| Brazilian    |   ![Brazilian](picSpeedLimits_brazil.png)   |      km/h       |
+| British      |      ![British](picSpeedLimits_uk.png)      |       MPH       |
+| Canadian     |   ![Canadian](picSpeedLimits_canada.png)    |      km/h       |
+| French       |    ![French](picSpeedLimits_france.png)     |      km/h       |
+| German       |    ![German](picSpeedLimits_germany.png)    | km/h <br /> MPH |
+| Indonesian   | ![Indonesian](picSpeedLimits_indonesia.png) |      km/h       |
+| Japanese     |    ![Japanese](picSpeedLimits_japan.png)    |      km/h       |
+| South Korean | ![South Korean](picSpeedLimits_sKorea.png)  |      km/h       |
+| Swedish      |    ![Swedish](picSpeedLimits_sweden.png)    |      km/h       |
 
 > Want to contribute an icon theme for your country? See: [](Speed-Limit-Icon-Themes.md)
 

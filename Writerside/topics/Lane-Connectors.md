@@ -23,7 +23,7 @@ This tool can be applied to nodes and junctions on:
 
 Choose **Lane Arrows** on the [](Toolbar.md):
 
-![Lane Connector tool](https://imgur.com/fhxfKzv.png)
+![Lane Connector tool](btnLaneConnectors.png)
 
 Button missing? Enable **Lane Connectors** in [](Maintenance.md) in [](Settings.md).
 

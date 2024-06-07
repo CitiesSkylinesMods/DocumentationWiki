@@ -3,7 +3,7 @@
 
 ## Symptom
 
-![screenshot](https://imgur.com/48gzm6G.png)
+![screenshot](picIntercityTrains_ui.png)
 
 * The "Allow Intercity Trains" button on train station info panel is no longer working.
 

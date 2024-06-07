@@ -9,7 +9,7 @@ doesn't have Steam Workshop, so you'll need to manually download and install the
 
 Make sure you have the latest version of the game. You can do this by turning on auto-update feature in Origin:
 
-> ![Origin auto-update](https://user-images.githubusercontent.com/1386719/60513570-811f8280-9ccf-11e9-8f34-845aa09e0d56.png)
+> ![Origin auto-update](picOrigin_autoUpdate.png)
 
 ## 2. Downloads
 

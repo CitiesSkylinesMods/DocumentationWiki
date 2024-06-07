@@ -11,4 +11,4 @@ In real world when an alley joins a main road the central barrier remain unbroke
 * cars entering the main road shall yield.
 * no left turns from/into the alleys.
 
-![Screenshot (1029)](https://user-images.githubusercontent.com/26344691/81164743-87d6f000-8f99-11ea-840f-fa8456b22841.png)
+![Screenshot (1029)](picHighPriorityRoads_example.png)

@@ -24,7 +24,7 @@ This tool can be applied to:
 
 Choose **Speed Limits** on the [](Toolbar.md):
 
-![Speed limit button](https://i.imgur.com/9iZWRpN.png)
+![Speed limit button](btnSpeedLimits.png)
 
 Button missing? Enable **Speed Limits** in [](Maintenance.md) in [](Settings.md).
 
@@ -34,7 +34,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 While the tool is active, detailed overlays show the current speeds of all roads and tracks on the map:
 
-![Speeds overlay](https://i.imgur.com/NnOCHKP.png)
+![Speeds overlay](picSpeedLimits_speedsOverlay.png)
 
 To see speeds for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might
 need to zoom in a little. You can set the **Overlay Transparency** in [](General.md) in [](Settings.md).
@@ -46,7 +46,7 @@ whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Setting
 
 When the tool is active, you'll see a palette containing available speed options:
 
-![Speed palette](https://i.imgur.com/BcEfb6d.png)
+![Speed palette](picSpeedLimits_palette.png)
 
 To change speeds, copy them from the palette and paste them on to icons on the map:
 

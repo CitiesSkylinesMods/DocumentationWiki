@@ -16,7 +16,7 @@ In the [**log file**](Share-your-Cities-Skylines-log-file.md), you'll see one of
 
 You might notice issues like this in the build menus (particularly healthcare):
 
-![Healthcare panel issue](https://imgur.com/ewfD7i8.png)
+![Healthcare panel issue](picHealthCare_bug.png)
 
 ## Cause
 
@@ -24,7 +24,7 @@ This error is known to be caused by
 the [Nursing Homes for Senior Citizens](https://steamcommunity.com/sharedfiles/filedetails/?id=554232266) mod, which
 also sometimes causes game-breaking [[System.StackOverflowException]] errors.
 
-> ![debug image](https://imgur.com/PNBn2aC.png)
+> ![debug image](picHealthCare_debug.png)
 > Image taken from dnSpy debugger while tracking down source of array index error
 
 See also: [BoostHungry/SeniorCitizenCenterMod/issues/2](https://github.com/BoostHungry/SeniorCitizenCenterMod/issues/2)

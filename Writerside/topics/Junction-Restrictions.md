@@ -10,7 +10,7 @@ Use this tool to customise traffic policies at road junctions (including those w
 
 Choose **Junction Restrictions** on the [](Toolbar.md):
 
-![Junction restrictions](https://imgur.com/KDDmUbj.png)
+![Junction restrictions](btnJunctionRestrictions.png)
 
 > Button missing? Enable **Junction Restrictions** in [](Maintenance.md) in [](Settings.md).
 
@@ -20,7 +20,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 [](Select-a-Junction.md) you want to customise; a detailed overlay will show available options and their current state:
 
-![Junction Restrictions](https://user-images.githubusercontent.com/1386719/146278228-bfabe0aa-d588-4734-9e0f-1692e4b4a4ee.png)
+![Junction Restrictions](picJunctionRestrictions_junction.png)
 
 **Click an icon** to toggle its current state (on or off).
 
@@ -28,24 +28,24 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 Junction nodes:
 
-|                                                             Icon                                                             | Purpose                                    |
-|:----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------|
-| ![Allow Enter Blocked Junction](https://imgur.com/0eVCJuH.png) ![Deny Enter Blocked Junction](https://imgur.com/duJO1QZ.png) | Allow/Deny [](Enter-Blocked-Junctions.md). |
-|           ![Allow Switch Lanes](https://imgur.com/chCdtd7.png) ![Deny Switch Lanes](https://imgur.com/ogINO6r.png)           | Allow/Deny [](Lane-Changes.md).            |
-|                 ![Allow U-Turn](https://imgur.com/WrcpoKL.png) ![Deny U-Turn](https://imgur.com/Rfqca7L.png)                 | Allow/Deny [](U-Turns.md).                 |
+|                                                                   Icon                                                                    | Purpose                                    |
+|:-----------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------|
+| ![Allow Enter Blocked Junction](picJunctionRestrictions_ebsAllow.png) ![Deny Enter Blocked Junction](picJunctionRestrictions_ebsDeny.png) | Allow/Deny [](Enter-Blocked-Junctions.md). |
+|        ![Allow Switch Lanes](picJunctionRestrictions_switchAllow.png) ![Deny Switch Lanes](picJunctionRestrictions_switchDeny.png)        | Allow/Deny [](Lane-Changes.md).            |
+|               ![Allow U-Turn](picJunctionRestrictions_uturnAllow.png) ![Deny U-Turn](picJunctionRestrictions_uturnDeny.png)               | Allow/Deny [](U-Turns.md).                 |
 
 Junction, bend, and transition nodes:
 
-|                                               Icon                                               | Purpose                                 |
-|:------------------------------------------------------------------------------------------------:|:----------------------------------------|
-| ![Allow Crossing](https://imgur.com/3pHHufv.png) ![Deny Crossing](https://imgur.com/907BIzf.png) | Allow/Deny [](Pedestrian-Crossings.md). |
+|                                                          Icon                                                           | Purpose                                 |
+|:-----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------|
+| ![Allow Crossing](picJunctionRestrictions_crossingAllow.png) ![Deny Crossing](picJunctionRestrictions_crossingDeny.png) | Allow/Deny [](Pedestrian-Crossings.md). |
 
 Junctions with traffic lights (icon shown depends on which side of the road traffic drives on):
 
-|                                                        Icon                                                        | Purpose                                            |
-|:------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------|
-|  ![Allow Turn Left on Red](https://imgur.com/TkeYuJG.png) ![Deny Turn Left on Red](https://imgur.com/15IuDg3.png)  | Allow/Deny **Left** [](Turn-on-Red.md) (LHT/RHD).  |
-| ![Allow Turn Right on Red](https://imgur.com/GYo4GqF.png) ![Deny Turn Right on Red](https://imgur.com/BxJDYLT.png) | Allow/Deny **Right** [](Turn-on-Red.md) (RHT/LHD). |
+|                                                               Icon                                                                | Purpose                                            |
+|:---------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------|
+|  ![Allow Turn Left on Red](picJunctionRestrictions_tlorAllow.png) ![Deny Turn Left on Red](picJunctionRestrictions_tlorDeny.png)  | Allow/Deny **Left** [](Turn-on-Red.md) (LHT/RHD).  |
+| ![Allow Turn Right on Red](picJunctionRestrictions_trorAllow.png) ![Deny Turn Right on Red](picJunctionRestrictions_trorDeny.png) | Allow/Deny **Right** [](Turn-on-Red.md) (RHT/LHD). |
 
 ### Shortcuts
 

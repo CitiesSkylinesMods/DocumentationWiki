@@ -10,7 +10,7 @@ Use this tool to separate vehicle categories in to different lanes on your **roa
 
 Choose **Vehicle Restrictions** on the [](Toolbar.md):
 
-![Vehicle Restrictions tool](https://imgur.com/CbeZf0L.png)
+![Vehicle Restrictions tool](btnVehicleRestrictions.png)
 
 > Button missing? Enable **Vehicle Restrictions** in [](Maintenance.md) in [](Settings.md).
 
@@ -18,35 +18,35 @@ Choose **Vehicle Restrictions** on the [](Toolbar.md):
 
 **Click a road or rail segment** to edit the vehicle restrictions for each lane:
 
-![](https://user-images.githubusercontent.com/1386719/146057746-56a6f2e1-28d6-4e8a-8615-9ad346b7a161.png)
+![](picVehicleRestrictions_example.png)
 
 > If the icons don't appear, try moving/zooming the camera closer to selected segment.
 
 Clicking the icons toggle between **allowed** vs. **discouraged** states, for example:
 
-|                Allowed Car                |                Discouraged Car                |
-|:-----------------------------------------:|:---------------------------------------------:|
-| ![Allowed](https://imgur.com/jKzwoFH.png) | ![Discouraged](https://imgur.com/idivPcu.png) |
+|                     Allowed Car                     |                    Discouraged Car                     |
+|:---------------------------------------------------:|:------------------------------------------------------:|
+| ![Allowed](picVehicleRestrictions_privateAllow.png) | ![Discouraged](picVehicleRestrictions_privateDeny.png) |
 
 ### Icons
 
 Roads:
 
-|                    Icon                     | Vehicles                                                             
-|:-------------------------------------------:|----------------------------------------------------------------------     
-|    ![Car](https://imgur.com/ZMWihtV.png)    | **Cars**  - passenger cars and motorbikes                            
-|    ![Bus](https://imgur.com/R97DqGw.png)    | **Buses** - passenger, sightseeing and evacuation buses              
-|   ![Taxi](https://imgur.com/cKEIIXb.png)    | **Taxis**                                                            
-|   ![Truck](https://imgur.com/kgSv0IM.png)   | **Trucks** - all types of industry trucks and vans                   
-|  ![Service](https://imgur.com/bNzEW56.png)  | **Services** - all services including emergency services             
-| ![Emergency](https://imgur.com/eObYv2z.png) | **Emergencies** - Vehicles responding to emergencies (active sirens) 
+|                          Icon                           | Vehicles                                                             |
+|:-------------------------------------------------------:|----------------------------------------------------------------------|    
+|     ![Car](picVehicleRestrictions_privateAllow.png)     | **Cars**  - passenger cars and motorbikes                            |                            
+|       ![Bus](picVehicleRestrictions_busAllow.png)       | **Buses** - passenger, sightseeing and evacuation buses              |              
+|      ![Taxi](picVehicleRestrictions_taxiAllow.png)      | **Taxis**                                                            |                                                            
+|     ![Truck](picVehicleRestrictions_truckAllow.png)     | **Trucks** - all types of industry trucks and vans                   |                   
+|   ![Service](picVehicleRestrictions_serviceAllow.png)   | **Services** - all services including emergency services             |             
+| ![Emergency](picVehicleRestrictions_emergencyAllow.png) | **Emergencies** - Vehicles responding to emergencies (active sirens) | 
 
 Trains:
 
-| Icon                                        | Vehicles                                       
-|---------------------------------------------|------------------------------------------------
-| ![Passenger](https://imgur.com/EIkaiTa.png) | **Passenger Trains** - both local and regional 
-| ![Cargo](https://imgur.com/XNGltEP.png)     | **Cargo Trains** - both local and regional     
+| Icon                                                 | Vehicles                                       |
+|------------------------------------------------------|------------------------------------------------|
+| ![Passenger](picVehicleRestrictions_trainAllow.png)  | **Passenger Trains** - both local and regional |
+| ![Cargo](picVehicleRestrictions_cargoTrainAllow.png) | **Cargo Trains** - both local and regional     |
 
 ### Vehicle Routing
 
@@ -88,7 +88,7 @@ Camera / Overlays:
 
 While the tool is active, icons summarise vehicle restrictions on nearby roads/tracks:
 
-![Summary Icons](https://user-images.githubusercontent.com/1386719/146060897-4b2ffb50-e262-4fda-a5fb-bf9bd84fdc70.png)
+![Summary Icons](picVehicleRestrictions_summary.png)
 
 To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set
 in [](General.md) in [](Settings.md).

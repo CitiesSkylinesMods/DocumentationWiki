@@ -2,11 +2,11 @@
 
 Three tools are available on the [](Toolbar.md):
 
-|                   Icon                   | Tool                                              |
-|:----------------------------------------:|:--------------------------------------------------|
-| ![Toggle](https://imgur.com/WPaP08X.png) | [Toggle Traffic Lights](Toggle-Traffic-Lights.md) |
-| ![Manual](https://imgur.com/CsD5YfD.png) | [Manual Traffic Lights](Manual-Traffic-Lights.md) |
-| ![Timed](https://imgur.com/WxKOlyS.png)  | [](Timed-Traffic-Lights.md)                       |
+|            Icon            | Tool                                |
+|:--------------------------:|:------------------------------------|
+| ![Toggle](btnToggleTL.png) | [](Toggle-Traffic-Lights.md)        |
+| ![Manual](btnManualTL.png) | [ Lights](Manual-Traffic-Lights.md) |
+|  ![Timed](btnTimedTL.png)  | [](Timed-Traffic-Lights.md)         |
 
 ## FAQ
 

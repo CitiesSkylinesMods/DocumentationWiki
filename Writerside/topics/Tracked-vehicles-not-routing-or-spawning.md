@@ -36,7 +36,7 @@ segment correctly joins to the next (no gaps) and taking care to ensure bends ar
 
 Gaps are sometimes, but not always, visible on the map:
 
-![Gaps in tracks](https://i.imgur.com/yuqLHfi.jpg)
+![Gaps in tracks](picTrackedVehiclesNotSpawning.jpg)
 
 Note that if you use the 'straight track' tool when drawing tracks, it has a habit of creating sharp "angular" bends,
 which is bad for any kind of tracked vehicle. What you want is gradual, smooth curved bends. Either use the 'curved

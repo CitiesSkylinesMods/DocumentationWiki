@@ -22,7 +22,7 @@ It does not:
 
 Click **Clear Traffic** on the [](Toolbar.md):
 
-![Clear Traffic tool](https://imgur.com/Kt069B0.png)
+![Clear Traffic tool](btnClearTraffic.png)
 
 You will see a confirmation dialog asking if you are sure:
 

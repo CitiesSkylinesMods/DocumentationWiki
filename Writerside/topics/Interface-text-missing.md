@@ -17,7 +17,7 @@ This issue seems most common on Linux distros with non-standard font mappings.
 Find out which font the game is using and ensure it (or an alias to an alternative) exists on your machine. The game
 should bundle its own fonts, listed below:
 
-> ![fonts](https://user-images.githubusercontent.com/1386719/57154425-bd6a5b80-6dd0-11e9-8a1f-2519b58dc8e0.jpg)
+> ![fonts](picInterfaceTextMissing_fonts.jpg)
 
 Alternatively, you can change the font with one of these mods:
 

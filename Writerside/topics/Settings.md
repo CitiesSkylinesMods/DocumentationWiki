@@ -21,7 +21,7 @@ To access the setting screen:
 
 > You can also access the TM:PE options via the **Options** button on the TM:PE mod entry in **Content Manager > Mods**.
 
-![Settings screen](https://imgur.com/1uv2ubJ.png)
+![Settings screen](picSettings.png)
 > Location of **TM:PE** mod in **Mod Settings** list may be different to that shown above.
 
 ## Settings tabs

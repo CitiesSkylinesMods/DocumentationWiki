@@ -3,7 +3,7 @@
 
 ## Symptom
 
-![Screenshot](https://i.imgur.com/0sdm0AD.jpg)
+![Screenshot](picCimsStuckCrosswalk.png)
 
 * A large number of cims are stuck waiting to cross the road
 * Note: Traffic jam in image above was unrelated (was just traffic lights on red)

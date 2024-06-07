@@ -11,9 +11,9 @@ To move the TM:PE button in to the UUI window, follow these steps:
 
 1. Subscribe and enable UUI mod
 2. In TM:PE [](General.md) in [](Settings.md), enable **Use UnifiedUI**:  
-   ![UnifiedUI Option](https://user-images.githubusercontent.com/1386719/145760974-1d324674-27ec-4888-a8f0-e51d8356f766.png)
+   ![UnifiedUI Option](picSettings_unifiedUI.png)
 3. The TM:PE button will be moved in to the UUI panel:  
-   ![UUI Panel](https://user-images.githubusercontent.com/1386719/145761227-fa7631c6-c426-42f8-a3b5-e54152e2e521.png)
+   ![UUI Panel](picUnifiedUI.png)
 
 Clicking the button will open the TM:PE [](Toolbar.md) as normal.
 

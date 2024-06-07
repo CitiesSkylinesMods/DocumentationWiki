@@ -16,10 +16,10 @@ bottlenecks in your road network.
 
 Click the **Toggle Despawn** button on the [](Toolbar.md) to toggle it on/off:
 
-|                     Button Icon                     | Meaning                 |
-|:---------------------------------------------------:|:------------------------|
-| ![Despawn prevented](https://imgur.com/gdnZLHp.png) | Despawning is prevented |
-|  ![Despawn allowed](https://imgur.com/SEBGRVX.png)  | Despawning is allowed   |
+|                  Button Icon                   | Meaning                 |
+|:----------------------------------------------:|:------------------------|
+| ![Despawn prevented](btnDespawn_prevented.png) | Despawning is prevented |
+|   ![Despawn allowed](btnDespawn_allowed.png)   | Despawning is allowed   |
 
 You can also use the option in [](Gameplay.md) in [](Settings.md) which does the exact same thing.
 

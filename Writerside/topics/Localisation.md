@@ -21,7 +21,7 @@ Once your account is set up, navigate to the [TM:PE on Crowdin](https://crowdin.
 
 Your preferred languages (as defined in your user account) are donated with a ⭐️ icon and should appear at the top of the list, for example:
 
-> [![TM:PE Languages](https://imgur.com/Xr55vNX.png)](https://crowdin.com/project/tmpe)
+> [![TM:PE Languages](picCrowdin_languages.png)](https://crowdin.com/project/tmpe)
 >  
 > _If your language isn't listed yet, contact us via [Discord Chat](https://discord.gg/faKUnST) or leave a comment on the TM:PE workshop page._
 
@@ -31,7 +31,7 @@ Click a language to view its files...
 
 TM:PE translations are split into several language files, which look like this:
 
-> ![TM:PE Language Files](https://i.imgur.com/TUjwpyel.png)
+> ![TM:PE Language Files](picCrowdin_files.jpg)
 
 The progress bar depicts the current status of each file:
 
@@ -45,7 +45,7 @@ Click a language file to display its strings...
 
 The translations strings are listed in the column on the left:
 
-> ![TM:PE Strings](https://i.imgur.com/JR4tM63.png)
+> ![TM:PE Strings](picCrowdin_strings.png)
 
 The icons on the left show the status of each string:
 
@@ -55,7 +55,7 @@ The icons on the left show the status of each string:
 
 Click on any string to show its detail screen:
 
-> ![TM:PE String detail](https://i.imgur.com/qXXaWdXl.png)
+> ![TM:PE String detail](picCrowdin_stringDetails.png)
 
 In the top box you'll see the **Source string**, which is the **key** TM:PE uses to locate a translation.
 
@@ -66,7 +66,7 @@ The **Context** section provides some additional detail about where the string i
 Below the context panel, the current translation (if there is one) is shown. Add or edit the translation, then click the **Save** button to submit it for approval.
 
 > You may see some on-screen warnings when saving, like this:
-> ![TM:PE Save warning](https://i.imgur.com/8k9G4W8.png)  
+> ![TM:PE Save warning](picCrowdin_saveWarning.png)  
 > Ignore them and click the "Save Anyway" button.
 
 After saving a string, you'll automatically be taken to the next untranslated string in the current file.
@@ -77,11 +77,11 @@ _Our team will get notified of any new or changed translations and will review t
 
 If you've finished making changes in a file and want to switch to another file, click the button in the top-left corner of the screen:
 
-> ![TM:PE Menu button](https://i.imgur.com/0I1NQGZm.png)
+> ![TM:PE Menu button](picCrowdin_hamburgerMenu.jpg)
 
 You'll see a menu like this:
 
-> ![TM:PE Menu](https://i.imgur.com/dhKSCA8m.png)
+> ![TM:PE Menu](picCrowdin_changeLanguage.jpg)
 
 Then click "Open..." and you'll get the list of Language files again.
 

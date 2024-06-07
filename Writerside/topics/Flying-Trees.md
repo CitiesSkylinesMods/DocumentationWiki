@@ -3,7 +3,7 @@
 ## Symptom
 
 * Trees are floating in the air  
-  ![](https://i.imgur.com/Qrpgleb.png)
+  ![](picFloatingTree_bug.png)
 
 ## Cause
 
