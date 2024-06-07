@@ -1,8 +1,10 @@
+# Speed Limit Icon Themes
+
 > Verified: December 2021 - TM:PE 11.6.1 TEST
 
 ## Overview
 
-This guide explains how to create new country-specific themes for icons shown in TM:PE [Speed Limits](Speed-Limits.md) tool and persistent [overlays](Overlays.md).
+This guide explains how to create new country-specific themes for icons shown in TM:PE [](Speed-Limits.md) tool and persistent [overlays](Overlays.md).
 
 ## Icons
 
@@ -25,12 +27,12 @@ Once you're done, or if you need any help, let us know via [Discord chat](https:
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [General](General.md) - select language to use
+* [](General.md) - select language to use
 
-[Contributing](Contributing):
+[](Contributing.md):
 
-* [Localisation](Localisation) - help us localise TM:PE
-* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise UI for [Priority Signs](Priority-Signs.md)
-* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed-Traffic-Lights.md)
+* [](Localisation.md) - help us localise TM:PE
+* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
+* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)

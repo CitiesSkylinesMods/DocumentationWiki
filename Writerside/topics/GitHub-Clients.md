@@ -1,3 +1,5 @@
+# GitHub Clients
+
 To clone the repository, you'll need a GitHub client app on your PC. There are several to choose from...
 
 ## GitExtensions
@@ -6,7 +8,8 @@ https://gitextensions.github.io/
 
 ## GitHub Desktop
 
-> This is easiest to use, and it's made by GitHub. That being said, recently it's been suffering some issues with Windows Mandatory ASLR and also symlinked GitHub Org repositories (like TMPE).
+> This is easiest to use, and it's made by GitHub. That being said, recently it's been suffering some issues with
+> Windows Mandatory ASLR and also symlinked GitHub Org repositories (like TMPE).
 
 https://desktop.github.com/
 

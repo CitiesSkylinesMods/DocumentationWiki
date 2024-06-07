@@ -1,6 +1,8 @@
+# Traffic Info View
+
 ## Overview
 
-If the [Parking AI](Parking-AI.md) is active, the **Traffic** info view indicates where it's difficult to find parking.
+If the [](Parking-AI.md) is active, the **Traffic** info view indicates where it's difficult to find parking.
 
 > todo: image
 
@@ -22,14 +24,14 @@ Red buildings indicate places where cims struggled to find parking. Often they'l
 
 Tools:
 
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Junction Restrictions](Junction-Restrictions.md)
+* [](Parking-Restrictions.md)
+* [](Junction-Restrictions.md)
 
 Info Views:
 
-* [Public Transport Info View](Public Transport Info View)
-* [Traffic Routes Info View](Traffic Routes Info View)
+* [](Public-Transport-Info-View.md)
+* [](Traffic-Routes-Info-View.md)
 
 Mods:
 
-* [Crossings](https://steamcommunity.com/sharedfiles/filedetails/?id=427258853) - add extra crossings to roads
+* [Crossings](https://steamcommunity.com/sharedfiles/filedetails/?id=427258853) — add extra crossings to roads

@@ -4,7 +4,8 @@
 
 ## Overview
 
-Use these tools to create [Priority Routes](Priority Routes), [High Priority Roads](High Priority Roads), and optimise medium/large [Roundabouts](Roundabouts).
+Use these tools to create [](Priority-Routes.md), [](High-Priority-Roads.md), and optimise
+medium/large [](Roundabouts.md).
 
 ## Usage
 
@@ -14,40 +15,42 @@ The bulk applicators are accessed from the **Adjust Roads** panel:
 
 To open the panel, either:
 
-* Open the TM:PE [Toolbar](Toolbar.md), then click the road/roundabout you want to customise
+* Open the TM:PE [](Toolbar.md), then click the road/roundabout you want to customise
     * This only works if none of the TM:PE tools are active; if you are in a tool, exit it first.
 * Or, click the _name_ of the road/roundabout you want to customise
-    * This is a shortcut for opening the [Traffic Routes](Traffic-Routes-Info-View.) info view, then selecting the **Adjust Roads** tab, then clicking the road/roundabout you want to customise :)
+    * This is a shortcut for opening the [](Traffic-Routes-Info-View.md) info view, then selecting the *
+      *Adjust Roads** tab, then clicking the road/roundabout you want to customise :)
 
 ### Applicators
 
 Click the desired button to apply changes to the route:
 
-| Button | Purpose | Customisations |
-| :---: | :--- | :--- |
-| ![Delete Button](https://imgur.com/yAZDkkq.png) | Deletes all customisations along the route (_except_ vehicle restrictions and timed traffic lights). | |
-| ![Stop Button](https://imgur.com/FYLtZgW.png) | Toggle **Stop** signs on/off along [Priority Routes](Priority Routes). | [Priority Signs](Priority-Signs.md) |
-| ![Yield Button](https://imgur.com/1l6roVW.png) | Toggle **Yield** signs on/off along [Priority Routes](Priority Routes). | [Priority Signs](Priority-Signs.md) |
-| ![High Priority Button](https://imgur.com/uxnCXGD.png) | Toggle [High Priority Roads](High Priority Roads) policies on/off along a route. | [Priority Signs](Priority-Signs.md), [Lane Arrows](Lane-Arrows.md), [Junction Restrictions](Junction-Restrictions.md) |
-| ![Roundabout Button](https://imgur.com/9UKwrmp.png) | Toggle [Roundabout Policies](Roundabout Policies) on/off on a roundabout. | [Priority Signs](Priority-Signs.md), [Lane Connectors](Lane-Connectors.md), [Junction Restrictions](Junction-Restrictions.md), [Speed Limits](Speed-Limits.md), [Parking Restrictions](Parking-Restrictions.md) |
-| ![Adjust Road Button](https://imgur.com/0k5ZaU6.png) | Select/alter the route (see next section) | |
+|                         Button                         | Purpose                                                                                              | Customisations                                                                                                                |
+|:------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
+|    ![Delete Button](https://imgur.com/yAZDkkq.png)     | Deletes all customisations along the route (_except_ vehicle restrictions and timed traffic lights). |                                                                                                                               |
+|     ![Stop Button](https://imgur.com/FYLtZgW.png)      | Toggle **Stop** signs on/off along [](Priority-Routes.md).                                           | [](Priority-Signs.md)                                                                                                         |
+|     ![Yield Button](https://imgur.com/1l6roVW.png)     | Toggle **Yield** signs on/off along [](Priority-Routes.md).                                          | [](Priority-Signs.md)                                                                                                         |
+| ![High Priority Button](https://imgur.com/uxnCXGD.png) | Toggle [](High-Priority-Roads.md) policies on/off along a route.                                     | [](Priority-Signs.md), [](Lane-Arrows.md), [](Junction-Restrictions.md)                                                       |
+|  ![Roundabout Button](https://imgur.com/9UKwrmp.png)   | Toggle [](Roundabout-Policies.md) on/off on a roundabout.                                            | [](Priority-Signs.md), [](Lane-Connectors.md), [](Junction-Restrictions.md), [](Speed-Limits.md), [](Parking-Restrictions.md) |
+|  ![Adjust Road Button](https://imgur.com/0k5ZaU6.png)  | Select/alter the route (see next section)                                                            |                                                                                                                               |
 
 Note:
 
 * Clicking the button a second time will remove the customisations (TM:PE 11.6 or later).
 * The roundabout button will only be enabled if the route consists entirely of one-way road.
-* To ensure customisations are applied, the features must be enabled in [Maintenance](Maintenance.md) [settings](Settings.md).
+* To ensure customisations are applied, the features must be enabled in [](Maintenance.md) in [](Settings.md).
 
 ### Setting the route
 
 The selected route is indicated by a thick green bar along the road or roundabout.
 
-> If you opened the **Adjust Roads** panel via the TM:PE [Toolbar](Toolbar.md), the route will only be shown when the mouse hovers an applicator button.
+> If you opened the **Adjust Roads** panel via the TM:PE [](Toolbar.md), the route will only be shown when the mouse
+> hovers an applicator button.
 
 If you want to alter the route:
 
 1. Click the **Adjust Road** button:  
-![Adjust Road Button](https://imgur.com/0k5ZaU6.png)
+   ![Adjust Road Button](https://imgur.com/0k5ZaU6.png)
 2. Click any road/roundabout to set it as the route
 3. Drag the green circles to extend or alter the route:
     * The large circles at the ends of the green bar define start/end points
@@ -85,55 +88,68 @@ Camera / Overlays:
 
 ### Overlays
 
-While the **Adjust Roads** panel is open, multiple TM:PE [Overlays](Overlays.md) will be visible, such as speed limits, lane connectors, and priority signs. To reduce clutter, these overlays only show where changes have been made:
+While the **Adjust Roads** panel is open, multiple TM:PE [Overlays](Overlays.md) will be visible, such as speed limits,
+lane connectors, and priority signs. To reduce clutter, these overlays only show where changes have been made:
 
 ![Overlays](https://user-images.githubusercontent.com/1386719/150238814-172b89e6-ac62-45aa-8ac1-aa99e9427848.jpg)
 
-To see overlays for more distant roads, scroll the camera towards them. Depending on camera position, you might need to zoom in a little.
+To see overlays for more distant roads, scroll the camera towards them. Depending on camera position, you might need to
+zoom in a little.
 
-You can set the transparency of overlays in [General](General.md) [settings](Settings.md). When the **Adjust Roads** panel is closed, overlays will be removed.
+You can set the transparency of overlays in [](General.md) in [](Settings.md). When the **Adjust Roads** panel is
+closed, overlays will be removed.
 
 ## FAQ
 
 **Some vehicles ignore the customisations**
 
-> * [Reckless Drivers](Reckless-Drivers.md) ignore most traffic policies.
+> * [](Reckless-Drivers.md) ignore most traffic policies.
 > * Vehicles which are already driving aren't notified about changes by default:
->     * Enable **Apply AI changes right away** in [General](General.md) [settings](Settings.md) if you want immediate updates.
+    >
+
+* Enable **Apply AI changes right away** in [](General.md) in [](Settings.md) if you want immediate updates.
+
 > * Short road segments entering junctions can confuse the vehicle AIs (eg. not enough time to yeild/stop):
->     * Use [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod to locate them
->     * Increasing the length of the segment usually fixes it, and setting a lower speed for the segment also sometimes works
+    >
+
+* Use [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod to locate them
+
+>     * Increasing the length of the segment usually fixes it, and setting a lower speed for the segment also sometimes
+
+        works
 
 **Does it affect frame rate or cause lag?**
 
-> Not directly; the bulk applicators are just alternate ways to apply customisations. Some of those customisations, however, might cause a little lag (see their wiki pages for more details).
+> Not directly; the bulk applicators are just alternate ways to apply customisations. Some of those customisations,
+> however, might cause a little lag (see their wiki pages for more details).
 
 **After changing the route (green bar), my roads disappeared!**
 
-> This is either a game bug or broken workshop road assets. For more details, and how to fix, see: [Section of road becomes blue void](Section of road becomes blue void).
+> This is either a game bug or broken workshop road assets. For more details, and how to fix,
+> see: [](Section-of-road-becomes-blue-void.md).
 
 ## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Junction Restrictions](Junction-Restrictions.md)
-* [Lane Connectors](Lane-Connectors.md)
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Priority Signs](Priority-Signs.md) - has similar bulk applicators
-* [Speed Limits](Speed-Limits.md)
+* [](Junction-Restrictions.md)
+* [](Lane-Connectors.md)
+* [](Parking-Restrictions.md)
+* [](Priority-Signs.md) - has similar bulk applicators
+* [](Speed-Limits.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - configure high priority road and roundabout policies
+* [](Policies.md) - configure high priority road and roundabout policies
 
 Guides:
 
 * Info views:
-    * [Traffic Routes](Traffic-Routes-Info-View.)
+    * [](Traffic-Routes-Info-View.md)
 * Roads:
-    * [Priority Routes](Priority Routes)
-    * [High Priority Roads](High Priority Roads)
-    * [Roundabouts](Roundabouts)
+    * [](Priority-Routes.md)
+    * [](High-Priority-Roads.md)
+    * [](Roundabouts.md)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

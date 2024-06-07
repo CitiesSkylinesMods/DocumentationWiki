@@ -1,3 +1,5 @@
+# Section of Road Becomes Blue Void
+
 > Verified: March 2022 - TM:PE 11.6.5.1
 
 ## Symptom

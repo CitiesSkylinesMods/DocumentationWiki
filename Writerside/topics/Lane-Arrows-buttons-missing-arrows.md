@@ -4,7 +4,7 @@
 
 > This issue only affects TM:PE versions 10.21.1 and earlier
 
-* When using the [Lane Arrows](Lane-Arrows.md) tool, the arrows are missing from buttons like so:
+* When using the [](Lane-Arrows.md) tool, the arrows are missing from buttons like so:
 
 ![Missing arrows](https://i.imgur.com/r0HcaMD.png)
 

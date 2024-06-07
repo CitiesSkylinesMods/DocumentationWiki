@@ -109,7 +109,7 @@ Note that for **Variant 2** you might be able to fix the asset if you created a 
 * Look for the `LocalRICOSettings.xml` file, it's usually in `C:\Program Files (x86)\Steam\steamapps\common\Cities_Skylines`
 * You can delete it, which will get rid of all local RICO settings (should fix the errors)
 * Or you can edit it to fix the values:
-    * Edit in a text editor (see [Text Editors](Text Editors) for a list of compatible text editors)
+    * Edit in a text editor (see [](Text Editors) for a list of compatible text editors)
     * Look for `construction-cost=""` or `construction-cost="0"`...
     * Change it to any postive number, for example `construction-cost="10"`
     * Save the file

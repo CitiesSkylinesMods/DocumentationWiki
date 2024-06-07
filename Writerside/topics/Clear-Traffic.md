@@ -15,12 +15,12 @@ When used, this tool will:
 
 It does not:
 
-* Despawn parked cars - you can **Remove parked vehicles** in [Maintenance](Maintenance.md) [settings](Settings.md)
-* Despawn cims - you can **Reset stuck cims and vehicles** in [Maintenance](Maintenance.md) [settings](Settings.md)
+* Despawn parked cars - you can **Remove parked vehicles** in [](Maintenance.md) in [](Settings.md)
+* Despawn cims - you can **Reset stuck cims and vehicles** in [](Maintenance.md) in [](Settings.md)
 
 ### Activate
 
-Click **Clear Traffic** on the [Toolbar](Toolbar.md):
+Click **Clear Traffic** on the [](Toolbar.md):
 
 ![Clear Traffic tool](https://imgur.com/Kt069B0.png)
 
@@ -57,15 +57,15 @@ You will see a confirmation dialog asking if you are sure:
 > * Birds, livestock (farm animals) and other wildlife (deer, dolphins...)
 
 #### Can I despawn specific categories of vehicles?
-> Yes - use the filtered `Despawn` tool in [Maintenance](Maintenance.md) [settings](Settings.md).
+> Yes - use the filtered `Despawn` tool in [](Maintenance.md) in [](Settings.md).
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Gameplay](Gameplay.md) - toggle despawn
-* [Maintenance](Maintenance.md) - few additional reset/remove tools
+* [](Gameplay.md) - toggle despawn
+* [](Maintenance.md) - few additional reset/remove tools
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
 * [Toggle Despawn](Toggle-Despawn.md)

@@ -1,4 +1,4 @@
-# TMPE.log Log File
+# TMPE.log
 
 > > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6.2
 

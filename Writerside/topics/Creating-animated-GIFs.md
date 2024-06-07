@@ -1,3 +1,5 @@
+# Creating animated GIFs
+
 > This is a work in progress
 
 ### Graphics quality

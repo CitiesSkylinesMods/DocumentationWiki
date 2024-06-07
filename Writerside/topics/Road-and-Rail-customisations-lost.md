@@ -2,7 +2,7 @@
 
 # Symptom
 
-> Note: If it's the mod [settings](Settings.md) (mod options screen) that are lost, see [TMPE mod options lost](TMPE mod options lost) instead.
+> Note: If it's the mod [](Settings.md) (mod options screen) that are lost, see [TMPE mod options lost](TMPE mod options lost) instead.
 
 * In-game road/rail customisations (lane arrows, traffic lights, restrictions, etc.) are not loading/saving properly
 
@@ -19,7 +19,7 @@ There are other causes, such as incorrectly moving Steam library to a different 
 * Make sure you only have **one version** of TM:PE subscribed
     * Disabling mods is not sufficient, you _must_ completely unsubscribe them
     * Do this from **Content Manager > Mods**, or from **Steam Workshop**
-* Make sure you don't have any [Incompatible Mods](Incompatible Mods)
+* Make sure you don't have any [](Incompatible Mods)
     * If you do, unsubscribe those as well
 * After changing mod subscriptions, always exit the game to desktop to flush old code from RAM
 

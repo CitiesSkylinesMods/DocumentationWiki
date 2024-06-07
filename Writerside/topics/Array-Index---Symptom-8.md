@@ -24,7 +24,7 @@ We suspect the issue is actually another mod conflicting with NExt2, maybe some 
 
 Try disabling any milestone or building unlocker mods you have, exit to desktop then restart game and see if that helps.
 
-Failing that, you would need to disable or unsubscribe Network Extensions 2 - there is a very specific process for doing that, see: [How to remove workshop networks](How to remove workshop networks)
+Failing that, you would need to disable or unsubscribe Network Extensions 2 - there is a very specific process for doing that, see: [](How to remove workshop networks)
 
 ## Fixed?
 

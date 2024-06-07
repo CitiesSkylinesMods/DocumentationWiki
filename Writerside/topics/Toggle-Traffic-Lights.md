@@ -1,4 +1,4 @@
-# Traffic Lights: Toggle
+# Toggle Traffic Lights
 
 > Verified: February 2020 - TM:PE 11.0
 
@@ -20,11 +20,11 @@ Notably, it can _not_ be applied to:
 
 ### Activate
 
-Choose **Toggle Traffic Lights** on the [Toolbar](Toolbar.md):
+Choose **Toggle Traffic Lights** on the [](Toolbar.md):
 
 ![Toggle Traffic Lights tool](https://imgur.com/WPaP08X.png)
 
-You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
 ### Overlays
 
@@ -33,12 +33,12 @@ While the tool is active, suitable junctions will have icons depicting whether j
 (todo: image)
 
 To see icons for more distant roads and tracks, scroll the camera towards them. Depending on camera position, you might
-need to zoom in a little. You can set the **Overlay Transparency** in [General](General.md) [settings](Settings.md).
+need to zoom in a little. You can set the **Overlay Transparency** in [](General.md) in [](Settings.md).
 
 When the tool is deactivated, overlays will be removed.
 
-You can enable a persistent summary overlay for [Timed Traffic Lights](Timed-Traffic-Lights.md), which is visible
-whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [settings](Settings.md).
+You can enable a persistent summary overlay for [](Timed-Traffic-Lights.md), which is visible
+whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
 ### Icons
 
@@ -46,13 +46,13 @@ whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [setti
 |:------:|:------------------------------------------------|
 | (todo) | No traffic light                                |
 | (todo) | Normal traffic light                            |
-| (todo) | [Timed Traffic Lights](Timed-Traffic-Lights.md) |
+| (todo) | [](Timed-Traffic-Lights.md) |
 
 ### Customise
 
 While the tool is active, click on a traffic light to toggle it on/off.
 
-> Use the [Timed Traffic Lights](Timed-Traffic-Lights.md) tool to add/remove timed traffic lights.
+> Use the [](Timed-Traffic-Lights.md) tool to add/remove timed traffic lights.
 
 ### Shortcuts
 
@@ -61,7 +61,7 @@ Camera / Overlays:
 * **Mouse wheel** - zoom in or out
     * If you zoom out too far, icons may disappear
 * **PageDown** - underground view
-    * This also activates a simplified version of the [Traffic Info View](Traffic-Info-View.md)!
+    * This also activates a simplified version of the [](Traffic-Info-View.md)!
 * **PageUp** - overground view
 
 Selection:
@@ -74,9 +74,9 @@ Basic applicators:
 
 Bulk applicators:
 
-* **Remove all existing traffic lights** in [Maintenance](Maintenance.md) [settings](Settings.md) - remove all **normal**
+* **Remove all existing traffic lights** in [](Maintenance.md) in [](Settings.md) - remove all **normal**
   traffic lights
-    * Does _not_ remove [Timed Traffic Lights](Timed-Traffic-Lights.md)
+    * Does _not_ remove [](Timed-Traffic-Lights.md)
 
 ### Deactivate
 
@@ -86,10 +86,10 @@ Press **Esc** or switch to any other tool when you're finished.
 
 The tool is very similar to *
 *[Info Views > Traffic Routes > Junctions](https://skylines.paradoxwikis.com/Roads#Traffic_Routes)** but with the
-advantage of not being able to accidentally delete [Timed Traffic Lights](Timed-Traffic-Lights.md) which can be
+advantage of not being able to accidentally delete [](Timed-Traffic-Lights.md) which can be
 time-consuming to program.
 
-> [Reckless drivers](Reckless-Drivers.md) ignore traffic lights!
+> [](Reckless-Drivers.md) ignore traffic lights!
 
 ## FAQ
 
@@ -109,15 +109,15 @@ time-consuming to program.
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - toggle automatic traffic lights where applicable
-* [Maintenance](Maintenance.md) - bulk delete all normal traffic lights on the map
+* [](Policies.md) - toggle automatic traffic lights where applicable
+* [](Maintenance.md) - bulk delete all normal traffic lights on the map
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Timed Traffic Lights](Timed-Traffic-Lights.md)
+* [](Timed-Traffic-Lights.md)
 * [Manual Traffic Lights](Manual-Traffic-Lights.md)
-* [Junction Restrictions](Junction-Restrictions.md)
-* [Lane Arrows](Lane-Arrows.md)
-* [Lane Connectors](Lane-Connectors.md)
+* [](Junction-Restrictions.md)
+* [](Lane-Arrows.md)
+* [](Lane-Connectors.md)

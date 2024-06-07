@@ -24,7 +24,7 @@ This problem occurs when your savegame includes a road asset which is no longer 
 # Solution
 
 * Quick fix: Subscribe and enable [Safenets](https://steamcommunity.com/sharedfiles/filedetails/?id=1620588636) mod
-* Otherwise, see: [How to remove workshop networks](How to remove workshop networks)
+* Otherwise, see: [](How to remove workshop networks)
 
 # Fixed?
 

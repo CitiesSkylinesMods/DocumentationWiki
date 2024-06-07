@@ -1,3 +1,5 @@
+# Attaching Debugger to Cities Skylines
+
 > **Notes:**
 > * Attaching a debugger can significantly reduce frame rate and cause lots of lag.
 > * This has only been tested on Windows.
@@ -13,7 +15,8 @@ First, let's backup your current ```mono.dll```:
 
 > The location of ```<%STEAM%>``` is usually ```C:\Program Files (x86)\Steam```
 
-Next, download the following files from [```https://github.com/0xd4d/dnSpy/releases```](https://github.com/0xd4d/dnSpy/releases):
+Next, download the following files
+from [```https://github.com/0xd4d/dnSpy/releases```](https://github.com/0xd4d/dnSpy/releases):
 
 * ```dnSpy-net472.zip```
 * ```Unity-debugging-5.x.zip```
@@ -74,28 +77,35 @@ Now run the game and attach **dnSpy**:
     * There will be some duplicates
 * **Right-click** on any of them, then **Sort Assemblies** to make the list easier to work with
 
-That's it, you are debugging. Now your mods are sure to be bugless :P 
+That's it, you are debugging. Now your mods are sure to be bugless :P
 
 ### Tips
 
 * Use **Search** tab _(Ctrl+Shift+K)_ for to find class, property, field, method, etc...
 * You can right-click a method definition then select **Analyze** to see where it's used
 
-If you're struggling to step in to some code, note that the compiler creates a temporary class/method `<>c` for each delegate you create:
+If you're struggling to step in to some code, note that the compiler creates a temporary class/method `<>c` for each
+delegate you create:
 
-* From the **Debug** menu, choose **Options -> Decompiler** then enable **Show hidden compiler generated types and methods**
+* From the **Debug** menu, choose **Options -> Decompiler** then enable **Show hidden compiler generated types and
+  methods**
 * Then place your breakpoint in the compiler generated class/method to make debugger stop there.
 * Alternatively, you could add `Debugger.Break()` in your code to create a breakpoint (not tested, but should work).
 
 ### Notes
 
-* You will see each mod's assembly at least twice in the module list. This is because of how Cities:Skylines loads the mods.
-    * There is always a single instance that is loaded in so-called reflection-only context. Its code can only be inspected, the assembly itself cannot execute. If you set any breakpoints using dnSpy inside of such an assembly, those breakpoints will never be hit.
-    * All other instances are executable instances. There will be at least one of them. Usually, you will have one read-only and one executable instance.
+* You will see each mod's assembly at least twice in the module list. This is because of how Cities:Skylines loads the
+  mods.
+    * There is always a single instance that is loaded in so-called reflection-only context. Its code can only be
+      inspected, the assembly itself cannot execute. If you set any breakpoints using dnSpy inside of such an assembly,
+      those breakpoints will never be hit.
+    * All other instances are executable instances. There will be at least one of them. Usually, you will have one
+      read-only and one executable instance.
 * Only the executable instances of each library will have working breakpoints
     * After sorting assemblies, it's usually the first instance of a listed file
     * Once you know which one it is, you can safely remove the other from Assembly Explorer
-* Don't rebuild your mod library with game running, otherwise you'll have to clear Assembly Explorer and open the modules again, which means the duplicates come back
+* Don't rebuild your mod library with game running, otherwise you'll have to clear Assembly Explorer and open the
+  modules again, which means the duplicates come back
 
 ### Reverting
 

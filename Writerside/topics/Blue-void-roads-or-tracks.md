@@ -28,7 +28,7 @@ Some related discussions on Steam:
 
 If not, it might be caused by other issues:
 
-* [Section of road becomes blue void](Section of road becomes blue void)
+* [](Section of road becomes blue void)
 * [Blue void showing near roads](Blue void showing near roads)
 
 Other issues? See: [Troubleshooting](Troubleshooting)

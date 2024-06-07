@@ -50,7 +50,7 @@ Another alternative is to place rocks, trees/bushes, props or some other asset o
 
 If not, see if any of these guides help:
 
-* [Section of road becomes blue void](Section of road becomes blue void) - when using "Adjust Roads" info view
+* [](Section of road becomes blue void) - when using "Adjust Roads" info view
 * [Blue void roads or tracks](Blue void roads or tracks) - when placing buildings that contain road/track
 * [[Road texture flickers, or terrain showing through roads]]
 

@@ -1,39 +1,41 @@
+# High Priority Roads
+
 > Under construction  
 >  
-> Note: A similar feature exists for roundabouts, see: [Roundabout Policies](Roundabout Policies)
+> Note: A similar feature exists for roundabouts, see: [](Roundabout Policies)
 
 ## Overview
 
-[Priority Routes](Priority Routes) utilise [Priority Signs](Priority-Signs.md) to minimise disruption caused by joining traffic. But there is an even worse form of disruption: Traffic and pedestrians crossing multiple lanes, including oncoming traffic, to reach the other side of the road.
+[](Priority Routes) utilise [](Priority-Signs.md) to minimise disruption caused by joining traffic. But there is an even worse form of disruption: Traffic and pedestrians crossing multiple lanes, including oncoming traffic, to reach the other side of the road.
 
 High Priority Roads tackle those problem head-on:
 
 * They ban 'far-side turns' so vehicles can't cut across oncoming traffic
-    * Use [Collector Roads](Collector Roads) or [Traffic Lights](Traffic Lights) to allow traffic to reach the other side
+    * Use [Collector Roads](Collector Roads) or [](Traffic-Lights.md) to allow traffic to reach the other side
 * They ban pedestrian crossings on the road
     * Use pedestrian bridges/tunnels to allow cims to reach the other side
 
 The result is essentially a minor arterial road capable of carrying moderate-to-large volumes of traffic at fairly high speed:
 
-![High Priority Roads](https://user-images.githubusercontent.com/26344691/81164743-87d6f000-8f99-11ea-840f-fa8456b22841.png)
+![Customized Road Example](https://user-images.githubusercontent.com/26344691/81164743-87d6f000-8f99-11ea-840f-fa8456b22841.png)
 
 > The road pictured above was visually customised with the [Continues Junction Median](https://steamcommunity.com/sharedfiles/filedetails/?id=2104976832) and [Hide TMPE Crosswalks](https://steamcommunity.com/sharedfiles/filedetails/?id=1934023593) mods.
 
 ## Usage
 
-The default **High Priority Roads** traffic policies are listed below; you can change them in [Policies](Policies.md) [settings](Settings.md):
+The default **High Priority Roads** traffic policies are listed below; you can change them in [](Policies.md) in [](Settings.md):
 
-* [Priority Signs](Priority-Signs.md):
+* [](Priority-Signs.md):
     * Joining traffic must **Yield** (you can change to **Stop**)
     * Priority road traffic always has **Priority**
-* [Junction Restrictions](Junction-Restrictions.md):
+* [](Junction-Restrictions.md):
     * **Pedestrian crossings** - disallowed (build some pedestrian bridges!)
     * **Enter blocked junction** - disallowed for side-roads (always allowed for vehicles on the priority road)
-* [Lane Arrows](Lane-Arrows.md):
+* [](Lane-Arrows.md):
     * Prevent vehicles crossing oncoming traffic
     * You will need [Collector Roads](Collector Roads) to allow vehicles to reach other side of priority road
 
-> The related features must be enabled in [Maintenance](Maintenance.md) [settings](Settings.md) for them to be applied.
+> The related features must be enabled in [](Maintenance.md) in [](Settings.md) for them to be applied.
 
 ### Applicators
 
@@ -41,7 +43,7 @@ Choose the applicator that best suits your needs...
 
 ### Adjust Roads panel
 
-The [Adjust Roads](Adjust Roads) panel (see link for details) allows you to define your own route.
+The [](Adjust Roads) panel (see link for details) allows you to define your own route.
 
 1. Select/customise a route
 2. Click the **High Priority Road** button to apply your policies to the route  
@@ -50,13 +52,13 @@ The [Adjust Roads](Adjust Roads) panel (see link for details) allows you to defi
 
 ### Priority Signs tool
 
-The [Priority Signs](Priority-Signs.md) tool chooses the route for you (see **Route Detection** section below):
+The [](Priority-Signs.md) tool chooses the route for you (see **Route Detection** section below):
 
 * `Ctrl/Cmd`+`Click a junction` - applies your policies to the selected junction only
     * Use the shortcut a second time to remove the customisations
 * `Ctrl/Cmd`+`Shift`+`Click a junction` - applies you policies along the entire route
     * Use the shortcut a second time to remove the customisations
-    * If the junction is on a roundabout, it will apply [Roundabout Policies](Roundabout Policies) instead.
+    * If the junction is on a roundabout, it will apply [](Roundabout Policies) instead.
 
 ### Route Detection
 
@@ -82,8 +84,8 @@ As is the case in the real world you need to create a collector road (see https:
 ![Screenshot (1047)](https://user-images.githubusercontent.com/26344691/81374830-d8b92680-9108-11ea-9064-4def70f424a2.png)
 
 At the intersection of the collector road and main road, remember to remove high priority rules you set up earlier.
- - [Lane Arrows](Lane-Arrows.md) tool: use Control+click on the junction.
- - [Junction Restrictions](Junction-Restrictions.md) tool: Select the junction and press delete to clear high priority rules
+ - [](Lane-Arrows.md) tool: use Control+click on the junction.
+ - [](Junction-Restrictions.md) tool: Select the junction and press delete to clear high priority rules
  - Optionally you can setup a traffic light.
 
 Now cars can use the collector road to take the far turn and pedestrians can use it to cross to the other side.
@@ -94,7 +96,7 @@ Now cars can use the collector road to take the far turn and pedestrians can use
 ### 3. highway/roundabout overpass
 ![Screenshot (1030)](https://user-images.githubusercontent.com/26344691/81167529-0766be00-8f9e-11ea-9692-f7362471a2a9.png)
 
-Note that in addition to all the rules discussed before, the incoming ramp (see red arrow) does NOT yield or keep clear of the main road. This only happens if [lane arithmetic](lane arithmetic) is observed. It would be fitting to use [lane connectors](Lane-Connectors.md) [stay in lane](stay in lane) as well to get the lane connections show in the screenshot.
+Note that in addition to all the rules discussed before, the incoming ramp (see red arrow) does NOT yield or keep clear of the main road. This only happens if [lane arithmetic](lane arithmetic) is observed. It would be fitting to use [](Lane-Connectors.md) [](stay in lane) as well to get the lane connections show in the screenshot.
 
 ## How rules are applied at road's end
 `Shift+click` short cut - which sets up priority signs - can mess up your roundabout if its resides at road's end.
@@ -115,22 +117,22 @@ A: High priority road feature looks at the road's width/lanes in order to decide
 
 ## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Junction Restrictions](Junction-Restrictions.md)
-* [Lane Arrows](Lane-Arrows.md)
-* [Priority Signs](Priority-Signs.md)
+* [](Junction-Restrictions.md)
+* [](Lane-Arrows.md)
+* [](Priority-Signs.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - configure high priority road policies
+* [](Policies.md) - configure high priority road policies
 
 Guides:
 
 * Roads:
-    * [Priority Routes](Priority Routes)
-    * [High Priority Roads](High Priority Roads)
-    * [Roundabouts](Roundabouts)
+    * [](Priority Routes)
+    * [](High Priority Roads)
+    * [](Roundabouts)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

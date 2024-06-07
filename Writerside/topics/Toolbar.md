@@ -10,7 +10,7 @@ Use the Toolbar to access all the main features of TM:PE:
 
 ![Toolbar buttons](uiMainWindow.png)
 
-> Buttons missing? Enable features in [Maintenance](Maintenance.md) [settings](Settings.md).
+> Buttons missing? Enable features in [](Maintenance.md) in [](Settings.md).
 
 For documentation on any button, click the icons below:
 
@@ -28,14 +28,14 @@ For documentation on any button, click the icons below:
 [![Despawn](btnToggleDespawn.png){style=inline}](Toggle-Despawn.md "Toggle Despawn")
 
 The toolbar and most tools can be accessed via keyboard shortcuts, which you can customise
-in [Key Bindings](Keybinds.md) [settings](Settings.md).
+in [Key Bindings](Keybinds.md) in [](Settings.md).
 
 Use the [Hints Panel](Hints-Panel.md) to quickly see what shortcuts are available for the active tool.
 
 ## Advisor tutorials
 
 The first time you use the toolbar or a tool, advisor tutorials will be displayed. You can turn them off
-in [General](General.md) [settings](Settings.md) if desired.
+in [](General.md) in [](Settings.md) if desired.
 
 > ![?](iconQuestion.png)  
 > You can redisplay context-sensitive advisor tutorials at any time by clicking the green **(?)** button near the roads
@@ -45,7 +45,7 @@ in [General](General.md) [settings](Settings.md) if desired.
 
 You can drag the menu button and toolbar around the screen with the left mouse button.
 
-To avoid accidental repositioning, you can lock their positions in [General](General.md) [Settings](Settings.md).
+To avoid accidental repositioning, you can lock their positions in [](General.md) in [](Settings.md).
 
 If you want to declutter your screen, you can move the activation buttons of multiple mods - including TM:PE - in to
 the [Unified UI](Unified-UI.md) panel.
@@ -55,8 +55,8 @@ the [Unified UI](Unified-UI.md) panel.
 Most tools have an accompanying persistent summary overlay which visualies customisations of that tool on the map. The
 persistent overlays will be visible whenever the Toolbar is visible, regardless of which tool is active.
 
-You can enable persistent overlays in [Overlays](Overlays.md) [settings](Settings.md) and set their transparency
-in [General](General.md) [settings](Settings.md).
+You can enable persistent overlays in [Overlays](Overlays.md) in [](Settings.md) and set their transparency
+in [](General.md) in [](Settings.md).
 
 Note that while a tool is active, it will often replace the persistent summary overlay with a more detailed overlay that
 contains more information.

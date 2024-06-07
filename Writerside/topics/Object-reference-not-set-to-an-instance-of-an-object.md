@@ -26,7 +26,7 @@ This is caused when a mod tries to access a game object (usually) that no longer
 
 First:
 
-* Open the **[log file](Share-your-Cities-Skylines-log-file.)** in notepad or some other [Text Editors](Text Editors)
+* Open the **[log file](Share-your-Cities-Skylines-log-file.)** in notepad or some other [](Text Editors)
 * Search for `Object reference not set`
 
 What we're interested in is the stuff that appears on the next few lines after the error message. That stuff will _usually_ be several lines starting with `  at`. Look for any of the following strings in that text: 
@@ -56,7 +56,7 @@ What we're interested in is the stuff that appears on the next few lines after t
     * This error happens when your save (or a building you have subscribed) contains a road, rail or other transport asset that is not avaialble
         * Sometimes triggers side-effects, eg. `Building.PlayAudio` or `Building.CalculateGroupData` errors
     * Can often be fixed with [Safenets](https://steamcommunity.com/sharedfiles/filedetails/?id=1620588636) mod
-        * See also [How to remove workshop networks](How to remove workshop networks)
+        * See also [](How to remove workshop networks)
     * More info and fixes: [Simulation error Object reference not set](Simulation error Object reference not set)
 * `WaterSimulation.ReleaseWaterWave`:
     * Possibly caused by [Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=811352708), [Natural Disasters Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=1801953480) or some other mod that alters natural disasters (particularly the tsunami "tidal wave").

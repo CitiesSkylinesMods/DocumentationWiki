@@ -1,3 +1,5 @@
+# How to Remove Workshop Networks
+
 > Article verified: December 2021 - TM:PE 11.5.2
 
 ## Symptom
@@ -15,7 +17,7 @@ If you placed a workshop network (or a building that contains one) in your city 
 
 Luckily there's some mods and workshop assets that can usually get you back up and running :)
 
-> Tip: After applying either of the solutions below, use the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod to check for side-effects of network removal (such as broken transport lines, stops, and ghost nodes). If you use TM:PE it's probably also worth using the [Clear Traffic](Clear-Traffic.md) button to remove all existing traffic, and also check for any broken junction settings (particularly broken [Lane Connectors](Lane-Connectors.md)).
+> Tip: After applying either of the solutions below, use the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod to check for side-effects of network removal (such as broken transport lines, stops, and ghost nodes). If you use TM:PE it's probably also worth using the [Clear Traffic](Clear-Traffic.md) button to remove all existing traffic, and also check for any broken junction settings (particularly broken [](Lane-Connectors.md)).
 
 ## Solution 1 - Replace before removing
 

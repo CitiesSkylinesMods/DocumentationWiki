@@ -31,7 +31,7 @@ For junctions on roads and tracks, particularly if the terrain is sloped, try an
 
 If not, see if any of these guides help:
 
-* [Section of road becomes blue void](Section of road becomes blue void) - when using "Adjust Roads" info view
+* [](Section of road becomes blue void) - when using "Adjust Roads" info view
 * [Blue void roads or tracks](Blue void roads or tracks) - when placing buildings that contain road/track
 * [Blue void showing near roads](Blue void showing near roads) - also applies to paths, tracks, etc.
 

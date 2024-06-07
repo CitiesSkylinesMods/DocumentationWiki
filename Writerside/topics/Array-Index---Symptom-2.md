@@ -31,7 +31,7 @@ It appears that MOM is not correctly handling deletion of metro assets or routes
 
 ## Solution
 
-> Do NOT just unsubscribe MOM, as that will cause loads of other errors. The bullet points below suggest a way to recover from the error without unsubscribing. However, if you want to unsubscribe MOM, do it properly - see: [How to remove workshop networks](How to remove workshop networks). Note that unsubscribing probably won't fix the error.
+> Do NOT just unsubscribe MOM, as that will cause loads of other errors. The bullet points below suggest a way to recover from the error without unsubscribing. However, if you want to unsubscribe MOM, do it properly - see: [](How to remove workshop networks). Note that unsubscribing probably won't fix the error.
 
 First, try this:
 

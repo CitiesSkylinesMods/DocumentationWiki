@@ -1,6 +1,8 @@
+# Heavy Truck Highway Rules
+
 Use this feature to make large trucks prefer the outer lanes on highways.
 
-### Overview
+## Overview
 
 In the vanilla game, trucks will use any lane of the highway, and behave like other road vehicles.
 
@@ -8,22 +10,22 @@ In real life, however, trucks prefer to drive on the outermost lanes on highways
 
 You can enable this feature to make trucks behave in a more realistic manner.
 
-### Enable
+## Enable
 
-Choose the **Heavy trucks prefer outer lanes on highways** option in [Policies and Restrictions](Policies and Restrictions) settings.
+Choose the **Heavy trucks prefer outer lanes on highways** option in [](Policies-and-Restrictions.md) settings.
 
-### Customise
+## Customise
 
 No further customisation is required; the option applies to all highways.
 
 However, for best results, use highways that have 3 or more lanes.
 
-# FAQs
+## FAQs
 
 **Does this affect frame rate or cause lag?**
 > Only a small amount. The effect is applied during path finding, but it doesn't add much overhead.
 
-# See Also
+## See Also
 
-* [Highway Junction Rules](Highway Junction Rules)
-* [Vehicle Restrictions](Vehicle-Restrictions.md)
+* [](Highway-Junction-Rules.md)
+* [](Vehicle-Restrictions.md)

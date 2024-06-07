@@ -15,7 +15,7 @@ This error is _not_ caused by TM:PE.
 It's caused by mods that do not properly maintain their Harmony patch/redirect state.
 
 > **Update (August 2019):**  
-> Adding NExt 2 or MOM 9 (not sure which yet) seems to trigger this error, especially on lots of the "\<verb> It!" mods. So, if you're seeing multiple mods reporting the `KeyNotFoundException` try disabling NExt/MOM (see: [How to remove workshop networks](How to remove workshop networks)) and see if that helps.
+> Adding NExt 2 or MOM 9 (not sure which yet) seems to trigger this error, especially on lots of the "\<verb> It!" mods. So, if you're seeing multiple mods reporting the `KeyNotFoundException` try disabling NExt/MOM (see: [](How to remove workshop networks)) and see if that helps.
 
 ## Solution
 

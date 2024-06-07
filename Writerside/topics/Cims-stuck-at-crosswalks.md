@@ -24,12 +24,12 @@
     * Use pedestrian path networks to create a bridge/tunnel
     * [Automatic Pedestrian Bridge Builder](https://steamcommunity.com/sharedfiles/filedetails/?id=2030755273) mod makes it easy to add bridges (and tunnels!) at junctions
 * Disable crosswalks that are causing problems
-    * Use [Junction Restrictions](Junction-Restrictions.md) tool to disable the crosswalks
+    * Use [](Junction-Restrictions.md) tool to disable the crosswalks
 * Check for broken nodes, etc.
     * Use the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984&searchtext=broken+nodes+detector) mod to scan for and fix some common road problems.
     * See guide: [How to remove ghost nodes and broken nodes](How to remove ghost nodes and broken nodes)
 * Try to "free" the cims:
-    * Click **Reset stuck cims and vehicles** button in [Settings](Settings.md) [Maintenance](Maintenance.md).
+    * Click **Reset stuck cims and vehicles** button in [](Settings.md) [](Maintenance.md).
 
 # Fixed?
 

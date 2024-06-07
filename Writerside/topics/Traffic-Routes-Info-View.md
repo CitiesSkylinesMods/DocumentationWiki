@@ -1,3 +1,5 @@
+# Traffic Routes Info View
+
 > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
 
 ## Overview
@@ -15,7 +17,7 @@ With the info view active, you can click any of the following to see associated 
 * Pedestrians and cyclists
     * Works the same way as vehicles (see above)
 
-> Selecting any road in this view activates [Adjust Roads](Adjust Roads) panel which provides bulk applicators for [High Priority Roads](High Priority Roads) and [Roundabout Policies](Roundabout Policies).
+> Selecting any road in this view activates [](Adjust-Roads.md) panel which provides bulk applicators for [](High Priority Roads) and [](Roundabout Policies).
 
 ## Real Time mod
 
@@ -40,8 +42,8 @@ Red buildings indicate that journey times are taking _too long_, and in some cas
 
 Info Views:
 
-* [Public Transport Info View](Public Transport Info View)
-* [Traffic Info View](Traffic Info View)
+* [](Public Transport Info View)
+* [](Traffic Info View)
 
 Mods:
 

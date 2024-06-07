@@ -2,13 +2,13 @@
 
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings.md): [General](General.md) | **Gameplay**
-| [Policies](Policies.md) | [Overlays](Overlays.md) | [Maintenance](Maintenance.md)
+[](Settings.md): [](General.md) | **Gameplay**
+| [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md)
 | [Keybindings](Keybinds.md)
 
 ## Overview
 
-Use these [settings](Settings.md) to make traffic more realistic.
+Use these [](Settings.md) to make traffic more realistic.
 
 ## Settings
 
@@ -18,7 +18,7 @@ _Use these options to control some key aspects of vehicle behaviour throughout y
 
 #### Reckless drivers percentage
 
-* Determines the percentage of vehicles that become [Reckless Drivers](Reckless-Drivers.md)
+* Determines the percentage of vehicles that become [](Reckless-Drivers.md)
 * Set to Holy City (0%) to disable
 
 #### Individual driving styles
@@ -30,7 +30,7 @@ _Use these options to control some key aspects of vehicle behaviour throughout y
     * They will choose different places to make lane changes
 * For best results with lane changes, enable the **Advanced Vehicle AI** and set **Dynamic Lane Selection** slider to a
   non-zero value.
-* See: [Individual Driving Styles](Individual-Driving-Styles.md)
+* See: [](Individual-Driving-Styles.md)
 
 #### Road condition has a bigger impact on vehicle speed
 
@@ -41,7 +41,7 @@ _Use these options to control some key aspects of vehicle behaviour throughout y
     * Wet/flooded roads will cause vehicles to slow down (non-winter biomes)
 *
 
-See: [Road Conditions](Road-Conditions.md), [Snow Info View](Snow-Info-View.md), [Road Maintenance Info View](Road-Maintenance-Info-View.md)
+See: [](Road-Conditions.md), [Snow Info View](Snow-Info-View.md), [Road Maintenance Info View](Road-Maintenance-Info-View.md)
 
 #### Disable despawning
 
@@ -83,7 +83,7 @@ _Use this option to make car parking behaviour mandatory and more realistic..._
     * Prevents "magic pocket cars" (where cims magically have a car after getting off the bus, for example)
     * Encourages cims to actually find a parking space near their destination
     * Encourages cims to return to their car to drive home afterward
-* See: [Parking AI](Parking-AI.md)
+* See: [](Parking-AI.md)
 
 ### Public Transport
 
@@ -111,15 +111,15 @@ _Use this option to make cims behave more realistically at stations..._
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md)
+* [](Policies.md)
 * [Global Configuration](Global-Configuration.md) - if you want to fine-tune gameplay values
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Speed Limits](Speed-Limits.md)
+* [](Parking-Restrictions.md)
+* [](Speed-Limits.md)
 * [Toggle Despawn](Toggle-Despawn.md)
 
 [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki):

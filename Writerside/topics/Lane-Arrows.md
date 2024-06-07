@@ -6,15 +6,15 @@
 
 Lane arrows can be used to organise traffic flow across road junctions and level crossings.
 
-> Arrows only affect normal road traffic. To customise tracked junctions, use [Lane Connectors](Lane-Connectors.md) instead.
+> Arrows only affect normal road traffic. To customise tracked junctions, use [](Lane-Connectors.md) instead.
 
 ## Usage
 
-Choose **Lane Arrows** on the [Toolbar](Toolbar.md):
+Choose **Lane Arrows** on the [](Toolbar.md):
 
 ![Lane arrows tool](https://imgur.com/y9KjHFD.png)
 
-You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
 ### Applicators
 
@@ -22,7 +22,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 1. **Click a road segment at a junction** to edit it.
 2. A panel appears showing arrows for each lane:  
-    ![Lane Arrows](https://user-images.githubusercontent.com/1386719/146688808-4f8882a7-ba22-4073-9d41-7eca7034c335.png)  
+    ![](https://user-images.githubusercontent.com/1386719/146688808-4f8882a7-ba22-4073-9d41-7eca7034c335.png)  
     > In the image above, traffic entering from **Lane 1** must turn left, while **Lane 2** can go straight ahead or right.
 3. **Click arrow buttons** to toggle direction on/off for the associated lane.
 
@@ -30,17 +30,17 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 Lane arrows can't be changed on junctions using:
 
-* [Lane Connectors](Lane-Connectors.md)
+* [](Lane-Connectors.md)
     * Lane connectors take precedence over lane arrows.
-* [Highway Junction Rules](Highway Junction Rules)
-    * See: **Enable highway-specific lane merging/splitting rules** in [Policies](Policies.md) [settings](Settings.md)
-    * You can use [Lane Connectors](Lane-Connectors.md) to override such junctions
+* [](Highway Junction Rules)
+    * See: **Enable highway-specific lane merging/splitting rules** in [](Policies.md) in [](Settings.md)
+    * You can use [](Lane-Connectors.md) to override such junctions
 
 ### Vehicle Routing
 
 Vehicles calculate their route _before_ starting their journey. As a result, when you change lane arrows, only vehicles spawned _after_ that point will be aware of your changes.
 
-To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General.md) [settings](Settings.md).
+To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [](General.md) in [](Settings.md).
 
 ### Shortcuts
 
@@ -53,7 +53,7 @@ Selection:
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Lane Arrows** tool as if you pressed `Esc`
 * `Esc` - exit **Lane Arrows** tool
-    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
 
 Basic Applicators:
 
@@ -71,7 +71,7 @@ Bulk applicators:
 * `Control`+`Click a junction` - Give all roads at the junction a turning lane
     * Same as `Alt`+`Click`, but configures all segments entering the junction
     * Repeat the shortcut to cycle through alternate configurations
-* [Priority Signs](Priority-Signs.md) bulk applicators can add turning lanes for an entire route
+* [](Priority-Signs.md) bulk applicators can add turning lanes for an entire route
 
 Camera / Overlays:
 
@@ -79,12 +79,12 @@ Camera / Overlays:
 
 * `Mouse wheel` - zoom in or out
 * `PageDown` - underground view
-    * This activates a simplified version of the [Traffic Info View](Traffic Info View)
+    * This activates a simplified version of the [](Traffic Info View)
 * `PageUp` - overground view
 
 ## Notes
 
-Unlike [Lane Connectors](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows just set a _general direction_.
+Unlike [](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows just set a _general direction_.
 
 (todo: image)
 
@@ -97,11 +97,11 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 
 #### Vehicles are ignoring the changes I made
 > * Vehicles responding to emergencies ignore lane arrows
-> * [Reckless Drivers](Reckless-Drivers.md) will sometimes ignore lane arrows
+> * [](Reckless-Drivers.md) will sometimes ignore lane arrows
 > * Passenger, sightseeing and evacuation buses can ignore lane arrows, if enabled to do so...
 
 #### Lane arrows are causing buses to take strange routes
-> Buses often need extra flexibility to reach their next stop. In [Policies](Policies.md) [settings](Settings.md):
+> Buses often need extra flexibility to reach their next stop. In [](Policies.md) in [](Settings.md):
 > * Enable **Busses may ignore lane arrows** for passenger and sightseeing buses
 > * Enable **Evacuation busses may ignore traffic rules** for emergency evacuation buses
 
@@ -121,19 +121,19 @@ You could think of this as an arc drawn around the edge of the junction, and dep
 
 ## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Priority Signs](Priority-Signs.md) -- bulk applicators can set lane arrows
-* [Lane Connectors](Lane-Connectors.md) -- a more powerful way to control traffic routes through junctions
-* [Junction Restrictions](Junction-Restrictions.md) -- additional settings for junctions
+* [](Priority-Signs.md) -- bulk applicators can set lane arrows
+* [](Lane-Connectors.md) -- a more powerful way to control traffic routes through junctions
+* [](Junction-Restrictions.md) -- additional settings for junctions
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - allow buses to ignore lane arrows
+* [](Policies.md) - allow buses to ignore lane arrows
 
 Guides:
 
-* [[Nodes, Segments, Lanes]]
+* [](Nodes,-Segments,-Lanes.md)
 * [Dedicated Turning Lanes](Dedicated Turning Lanes)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):

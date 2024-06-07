@@ -8,13 +8,13 @@ Use this tool to customise traffic policies at road junctions (including those w
 
 ## Usage
 
-Choose **Junction Restrictions** on the [Toolbar](Toolbar.md):
+Choose **Junction Restrictions** on the [](Toolbar.md):
 
 ![Junction restrictions](https://imgur.com/KDDmUbj.png)
  
-> Button missing? Enable **Junction Restrictions** in [Maintenance](Maintenance.md) [Settings](Settings.md).
+> Button missing? Enable **Junction Restrictions** in [](Maintenance.md) in [](Settings.md).
 
-You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [Settings](Settings.md).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
 ### Applicators
 
@@ -30,15 +30,15 @@ Junction nodes:
 
 | Icon  | Purpose |
 | :---: | :---    |
-| ![Allow Enter Blocked Junction](https://imgur.com/0eVCJuH.png) ![Deny Enter Blocked Junction](https://imgur.com/duJO1QZ.png) | Allow/Deny [Enter Blocked Junctions](Enter Blocked Junctions). |
-| ![Allow Switch Lanes](https://imgur.com/chCdtd7.png) ![Deny Switch Lanes](https://imgur.com/ogINO6r.png) | Allow/Deny [Lane Changes](Lane Changes). |
-| ![Allow U-Turn](https://imgur.com/WrcpoKL.png) ![Deny U-Turn](https://imgur.com/Rfqca7L.png) | Allow/Deny [U-Turns](U-Turns). |
+| ![Allow Enter Blocked Junction](https://imgur.com/0eVCJuH.png) ![Deny Enter Blocked Junction](https://imgur.com/duJO1QZ.png) | Allow/Deny [](Enter Blocked Junctions). |
+| ![Allow Switch Lanes](https://imgur.com/chCdtd7.png) ![Deny Switch Lanes](https://imgur.com/ogINO6r.png) | Allow/Deny [](Lane Changes). |
+| ![Allow U-Turn](https://imgur.com/WrcpoKL.png) ![Deny U-Turn](https://imgur.com/Rfqca7L.png) | Allow/Deny [](U-Turns). |
 
 Junction, bend, and transition nodes:
 
 | Icon  | Purpose |
 | :---: | :---    |
-| ![Allow Crossing](https://imgur.com/3pHHufv.png) ![Deny Crossing](https://imgur.com/907BIzf.png) | Allow/Deny [Pedestrian Crossings](Pedestrian Crossings). |
+| ![Allow Crossing](https://imgur.com/3pHHufv.png) ![Deny Crossing](https://imgur.com/907BIzf.png) | Allow/Deny [](Pedestrian Crossings). |
 
 Junctions with traffic lights (icon shown depends on which side of the road traffic drives on):
 
@@ -59,24 +59,24 @@ Selection:
 * `Right-click anywhere` - deselect current junction
     * If no junction selected, it will exit the Junction Restrictions tool as if you pressed `Esc`
 * `Esc` - exit Junction Restrictions tool
-    * This returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
+    * This returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
 
 Basic applicators:
 
-> These change junction restrictions for the selected junction. Set city-wide defaults in [Policies](Policies.md) [settings](Settings.md).
+> These change junction restrictions for the selected junction. Set city-wide defaults in [](Policies.md) in [](Settings.md).
 
 * `Click a restriction icon` - toggle it on/off
 
 Bulk applicators:
 
-* See [High Priority Roads](High Priority Roads)
+* See [](High Priority Roads)
 
 Camera / Overlays:
 
 * `Mouse wheel` - zoom in or out
     * If you zoom out too far, overlays may disappear
 * `PageDown` - underground view
-    * This also activates a simplified version of the [Traffic Info View](Traffic Info View)
+    * This also activates a simplified version of the [](Traffic Info View)
 * `PageUp` - overground view
 
 ### Overlays
@@ -87,15 +87,15 @@ While the tool is active, summary overlays are displayed on the map. To reduce c
 
 To see the restrictions for more distant roads and rails, scroll the camera towards them. Depending on camera position, you might need to zoom in a little.
 
-You can set the transparency of overlays in [General](General.md) [settings](Settings.md).
+You can set the transparency of overlays in [](General.md) in [](Settings.md).
 
-When the tool is deactivated overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the [Toolbar](Toolbar.md) is visible, in [Overlays](Overlays.md) [settings](Settings.md).
+When the tool is deactivated overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
 ### Refresh
 
 When you make changes, only vehicles spawned _after_ that point will be aware of them.
 
-To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [General](General.md) [settings](Settings.md). This may add some momentary lag on old potato computers or on big cities.
+To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [](General.md) in [](Settings.md). This may add some momentary lag on old potato computers or on big cities.
 
 Alternatively, you can use the [Clear Traffic](Clear-Traffic.md) tool to remove all existing traffic from the map, leaving only newly spawned traffic that is aware of your changes.
 
@@ -109,20 +109,20 @@ Alternatively, you can use the [Clear Traffic](Clear-Traffic.md) tool to remove 
 
 ## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Lane Arrows](Lane-Arrows.md)
-* [Lane Connectors](Lane-Connectors.md)
-* [Priority Signs](Priority-Signs.md)
-* [Traffic Lights](Traffic Lights)
+* [](Lane-Arrows.md)
+* [](Lane-Connectors.md)
+* [](Priority-Signs.md)
+* [](Traffic-Lights.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - set default junction restrictions
+* [](Policies.md) - set default junction restrictions
 
 Advanced:
 
-* [Reckless Drivers](Reckless-Drivers.md) - they ignore junction restrictions
+* [](Reckless-Drivers.md) - they ignore junction restrictions
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

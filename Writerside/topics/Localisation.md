@@ -1,3 +1,5 @@
+# Localisation Guidelines
+
 > Verified: April 2020 (TM:PE 11.4.0)
 
 We are hugely appreciative of anyone who can help us translate TM:PE in to other Languages.
@@ -84,16 +86,16 @@ Then click "Open..." and you'll get the list of Language files again.
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [General](General.md) - select language to use
+* [](General.md) - select language to use
 
-[Contributing](Contributing):
+[](Contributing.md):
 
-* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise UI for [Priority Signs](Priority-Signs.md)
-* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed-Limits.md)
-* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed-Traffic-Lights.md)
+* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
+* [](Speed-Limit-Icon-Themes.md) - localise UI for [](Speed-Limits.md)
+* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)
 
 Old stuff:
 
-* [[Localisation (Old Format)]] - no longer used, but retained for historians
+* [](Localisation-(Old-Format).md) - no longer used, but retained for historians

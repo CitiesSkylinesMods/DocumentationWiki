@@ -19,8 +19,7 @@ to other segments, and may curve and/or elevate between those two nodes.
 
 > Mods such as [Node Controller](https://steamcommunity.com/sharedfiles/filedetails/?id=2085403475)
 > and [Node Controller Renewal](https://steamcommunity.com/sharedfiles/filedetails/?id=2472062376) also allow the ends
-> of
-> segments to be _twisted_ and _stretched_.
+> of segments to be _twisted_ and _stretched_.
 
 ![Segment with node either end](picNodesSegmentsLanes_segment.png)
 
@@ -29,11 +28,11 @@ Depending on the asset, there will be several segment styles ("elevations" / "pr
 * **Ground** (G) - segment follows or flattens the terrain
 * **Elevated** (E) - small raised section or short bridge
 * **Bridge** (B) - robust bridge, can span long distances
-* **Slope** (S) - transition between tunnel and other elevations (ie. it's the tunnel entrance)
+* **Slope** (S) - transition between tunnel and other elevations (i.e. it's the tunnel entrance)
 * **Tunnel** (T) - fully underground
 
-> Tip: For great looking bridges, try this sequence of segments: GEBEG (depends on the particular road as to how well it
-> works)
+> Tip: For great looking bridges, try this sequence of segments: G→E→B→E→G (depends on the particular road as to how
+> well it works)
 
 ## Lanes
 
@@ -44,7 +43,7 @@ Depending on the asset, there will be several segment styles ("elevations" / "pr
 > Technically, there can also be non-vehicle lanes, upon which nothing can travel, for example road-side prop lanes,
 > tree lanes, medians, etc.
 
-[Lane Changes](Lane-Changes.md) cannot occur in the middle of a segment; they can only occur at nodes. While _road
+[](Lane-Changes.md) cannot occur in the middle of a segment; they can only occur at nodes. While _road
 vehicles_ can change lanes at each node along a route, _tracked vehicles_ can only change lanes at junctions and
 stations.
 
@@ -82,8 +81,8 @@ cul-de-sacs'.
 
 #### Roads (Terminal)
 
-* [U-Turns](U-Turns.md) can always be performed on terminal nodes
-* [Pedestrian Crossings](Pedestrian-Crossings.md) (no road markings) are always enabled
+* [](U-Turns.md) can always be performed on terminal nodes
+* [](Pedestrian-Crossings.md) (no road markings) are always enabled
 
 #### Tracks (Terminal)
 
@@ -102,7 +101,7 @@ cul-de-sacs'.
 
 #### Roads (Middle)
 
-* [Lane Changes](Lane-Changes.md) can occur
+* [](Lane-Changes.md) can occur
 * Pedestrians can join nearby pedestrian paths from these nodes
 
 #### Tracks (Middle)
@@ -125,8 +124,8 @@ At first glance, a **bend node** looks like a **middle node**. However, on close
 
 #### Roads (Bend)
 
-* [Lane Changes](Lane-Changes.md) can occur
-* [Pedestrian Crossings](Pedestrian-Crossings.md) (no road makrings) are enabled by default
+* [](Lane-Changes.md) can occur
+* [](Pedestrian-Crossings.md) (no road makrings) are enabled by default
 
 #### Tracks (Bend)
 
@@ -142,9 +141,9 @@ road is different size or elevation, you'll get a junction instead of a bend/mid
 
 #### Roads (Two-Segment Junctions)
 
-* [Lane Changes](Lane-Changes.md) can occur
-* [Pedestrian Crossings](Pedestrian-Crossings.md) (with road markings) are enabled by default
-* [U-turns](U-Turns.md) are disabled by default
+* [](Lane-Changes.md) can occur
+* [](Pedestrian-Crossings.md) (with road markings) are enabled by default
+* [](U-Turns.md) are disabled by default
     * Unless one of the segments is one-way; otherwise there is no way to reach the other side of the two-way road
 
 #### Tracks (Two-Segment Junctions)
@@ -159,10 +158,10 @@ Asymmetric nodes occur where asymmetric roads change direction (basically a styl
 
 #### Roads (Asymmetric)
 
-* [Lane Changes](Lane-Changes.md) can occur
+* [](Lane-Changes.md) can occur
     * Vehicles in the terminated lane _must_ merge in to one of the remaining lanes
-* [Pedestrian Crossings](Pedestrian-Crossings.md) are disabled by default
-* [U-Turns](U-Turns.md) are disabled by default
+* [](Pedestrian-Crossings.md) are disabled by default
+* [](U-Turns.md) are disabled by default
 
 #### Tracks (Asymmetric)
 
@@ -177,15 +176,15 @@ Junction nodes occur at the confluence of three or more segments of road or trac
 
 #### Roads (Junction)
 
-* [Lane Changes](Lane-Changes.md) can occur
+* [](Lane-Changes.md) can occur
     * Vehicles can change to any outgoing lane
-* [U-turns](U-Turns.md) can optionally be allowed
-* [Pedestrian Crossings](Pedestrian-Crossings.md) (with road markings) are enabled by default
+* [](U-Turns.md) can optionally be allowed
+* [](Pedestrian-Crossings.md) (with road markings) are enabled by default
 * Vanilla: Traffic Lights and Stop Signs can be used for additional control
 
 #### Tracks (Junction)
 
-* [Lane Changes](Lane-Changes.md) can occur
+* [](Lane-Changes.md) can occur
 * Vanilla: Stop signs can control right-of-way
 
 ### Level crossing nodes
@@ -201,11 +200,11 @@ side of the junction).
 
 #### Roads (Level Crossing)
 
-* [Lane Changes](Lane-Changes.md) can occur
+* [](Lane-Changes.md) can occur
     * Vehicles can change to any outgoing _road_ lane
     * Vehicles cannot cross the tracks while barrier is down
-* [U-turns](U-Turns.md) are disabled
-* [Pedestrian Crossings](Pedestrian-Crossings.md) (no road markings) are enabled by default
+* [](U-Turns.md) are disabled
+* [](Pedestrian-Crossings.md) (no road markings) are enabled by default
     * Pedestrians cannot cross the tracks while barrier is down
 
 #### Tracks (Level Crossing)
@@ -244,7 +243,7 @@ to achieve extremely flexible urban roads:
 
 ## See also
 
-* [Enter Blocked Junctions](Enter-Blocked-Junctions.md)
-* [Lane Changes](Lane-Changes.md)
-* [Pedestrian Crossings](Pedestrian-Crossings.md)
-* [U-turns](U-Turns.md)
+* [](Enter-Blocked-Junctions.md)
+* [](Lane-Changes.md)
+* [](Pedestrian-Crossings.md)
+* [](U-Turns.md)

@@ -17,16 +17,16 @@ We have replicated the following bugs and have temporary workarounds:
     * Try the [Crazy Tourists Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=1759269367) mod
 * [#244](https://github.com/CitiesSkylinesMods/TMPE/issues/244): Changing roads (adding junctions, upgrading, etc) breaks nearby transport routes.
     * Caused by Network Extensions 2 (NExt2)
-    * How to fix - replace NExt2 roads with normal road asset replicas: [How to remove workshop networks](How to remove workshop networks)
+    * How to fix - replace NExt2 roads with normal road asset replicas: [](How to remove workshop networks)
 
 > Tip: Our feature documentaion pages often have an "Issues" link at the bottom which will display currently known problems and ideas for that feature.
 
 ## General
 
-* [How to remove workshop networks](How to remove workshop networks) -- Roads, tracks, MOM, NExt2, etc.
+* [](How to remove workshop networks) -- Roads, tracks, MOM, NExt2, etc.
     * [RON - Replace Our Networks](https://steamcommunity.com/sharedfiles/filedetails/?id=2405917899) mod is highly recommended
 * Mods:
-    * [Incompatible Mods](Incompatible Mods) (mods that are incompatible with TM:PE)
+    * [](Incompatible Mods) (mods that are incompatible with TM:PE)
     * [Online list of game breaking mods](https://docs.google.com/spreadsheets/d/1mVFkj_7ij4FLzKs2QJaONNmb9Z-SRqUeG6xFGqEX1ew/htmlview)
     * [Recommended Mod Substitutions](Recommended Mod Substitutions) -- our recommendations
 * Assets:
@@ -89,7 +89,7 @@ We have replicated the following bugs and have temporary workarounds:
 * "Blue Void":
     * [Blue void showing near roads](Blue void showing near roads) - also applies to paths, tracks, etc.
     * [Blue void roads or tracks](Blue void roads or tracks) - usually after placing buildings that contain road/tracks
-    * [Section of road becomes blue void](Section of road becomes blue void) - often happens after renaming a road / changing route
+    * [](Section of road becomes blue void) - often happens after renaming a road / changing route
 * [Bulldozing road causes vehicles to despawn nearby](Bulldozing road causes vehicles to despawn nearby)
 * [Flickering blue road building guides](Flickering blue road building guides)
 * [Flying Trees](Flying Trees)

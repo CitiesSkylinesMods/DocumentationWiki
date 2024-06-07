@@ -6,17 +6,17 @@
 
 Use priority signs to define who has right of way at junctions of roads, tracks, and level crossings.
 
-This allows you improve traffic flow on a busy route, at the expense of increased congestion/disruption to the other routes at the junction. For more information, see [Priority Routes](Priority Routes).
+This allows you improve traffic flow on a busy route, at the expense of increased congestion/disruption to the other routes at the junction. For more information, see [](Priority Routes).
 
 ## Usage
 
-Choose **Priority Signs** on the [Toolbar](Toolbar.md):
+Choose **Priority Signs** on the [](Toolbar.md):
 
 ![Priority Signs tool](https://imgur.com/Txc7Oqd.png)
 
-> Button missing? Enable **Priority Signs** in [Maintenance](Maintenance.md) settings.
+> Button missing? Enable **Priority Signs** in [](Maintenance.md).
 
-You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
 ### Applicators
 
@@ -44,7 +44,7 @@ Selection:
     * Any previously selected junction will be deselected
     * You can now apply basic applicators
 * `Esc` or `Right mouse click` - exit Priority Signs tool
-    * This returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
+    * This returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
 
 Applicators:
 
@@ -60,7 +60,7 @@ Overlays:
     * It will try going "straight ahead" at junctions
     * On one-way roads, it will try and find roundabouts / semi-roundabouts
     * If no suitable ongoing route is found, the route will terminate at that junction
-* `Control` - show persistent summary overlays for [Junction Restrictions](Junction-Restrictions.md) and [Speed Limits](Speed-Limits.md)
+* `Control` - show persistent summary overlays for [](Junction-Restrictions.md) and [](Speed-Limits.md)
 
 Bulk applicatators:
 
@@ -68,14 +68,14 @@ Bulk applicatators:
 
 * `Shift`+`Click a segment` - apply priority signs to junctions along the route
     * Repeat the shortcut to cycle through various configurations of priority signs
-* `Ctrl`+`Click a junction` - apply [High Priority Roads](High Priority Roads) policies to that junction
+* `Ctrl`+`Click a junction` - apply [](High Priority Roads) policies to that junction
     * Use the shortcut a second time to remove the customisations
 * `Ctrl`+`Shift`+`Click a segment` - depends on the route:
     * If route is a roundabout (loop of one-way roads) or semi-roundabout:
-        * Applies [Roundabout Policies](Roundabout Policies)
+        * Applies [](Roundabout Policies)
     * If not a roundabout:
-        * Applies [High Priority Roads](High Priority Roads) policies
-        * If a junction on roundabout is encountered, that junction will have [Roundabout Policies](Roundabout Policies) applied
+        * Applies [](High Priority Roads) policies
+        * If a junction on roundabout is encountered, that junction will have [](Roundabout Policies) applied
     * Use the shortcut a second time to remove the customisations
 
 Camera:
@@ -89,15 +89,15 @@ Camera:
 
 While the tool is active, summary overlays show which junctions have been customised:
 
-![Priority Signs](https://user-images.githubusercontent.com/1386719/145757519-a3dea2d4-5b14-4e8f-bf79-5e2f1e104943.png)
+![](https://user-images.githubusercontent.com/1386719/145757519-a3dea2d4-5b14-4e8f-bf79-5e2f1e104943.png)
 
-To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [General](General.md) [settings](Settings.md).
+To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you might need to zoom in a little. You can set the **Overlay Transparency** in [](General.md) in [](Settings.md).
 
-When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the Toolbar is visible, in [Overlays](Overlays.md) [settings](Settings.md).
+When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible whenever the Toolbar is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
 ### Icon Themes
 
-Depending on your languge settings (see [General](General.md) [settings](Settings.md)), TM:PE can show locaised signs.
+Depending on your languge settings (see [](General.md) in [](Settings.md)), TM:PE can show locaised signs.
 
 Currently available localisations:
 
@@ -110,7 +110,7 @@ Currently available localisations:
 
 When you make changes, only vehicles spawned _after_ that point will be aware of them.
 
-To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [General](General.md) [settings](Settings.md). This may add some momentary lag on old potato computers or on big cities.
+To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [](General.md) in [](Settings.md). This may add some momentary lag on old potato computers or on big cities.
 
 Alternatively, use the [Clear Traffic](Clear-Traffic.md) tool to delete all existing vehicles; it puts less strain on CPU so it's faster than the option above if you have old computer or big city.
 
@@ -144,42 +144,42 @@ Now, taffic can flow much more freely along _Jim Street_ because it knows it has
 > If the tool can't determine which is the main road vs. side roads, it won't do anything.
 
 #### What happens if Yield or Stop traffic waits too long?
-> If traffic on a Yield or Stop road is sat waiting too long, they'll eventually get annoyed and just drive in to the junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that hepls. If it's still not working, it's time to invest in some [Traffic Lights](Traffic Lights)!
+> If traffic on a Yield or Stop road is sat waiting too long, they'll eventually get annoyed and just drive in to the junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that hepls. If it's still not working, it's time to invest in some [](Traffic-Lights.md)!
 
 #### I altered my roads but customisations didn't update
 > If you make changes to your roads, it's difficult for TM:PE to determine what to do, so it does nothing. It's why we highlight junctions and routes when using the tools - you're actually deciding what to do and the highligts are just visual encouragement for you to do that work ;)
 
 #### Some vehicles seem to ignore the rules!
-> * [Reckless Drivers](Reckless-Drivers.md) ignore priority rules
+> * [](Reckless-Drivers.md) ignore priority rules
 > * Emergency vehicles, while responding to emergencies, can ignore the rules
-> * Evacuation busses can ignore priority signs if **Evacuation busses may ignore traffic rules** is enabled in [Policies](Policies.md) [settings](Settings.md)
-> * Traffic lights cause priority signs to be ignored unless **Vehicles follow priority rules at junctions with timed traffic lights** is enabled in [Policies](Policies.md) [settings](Settings.md)
+> * Evacuation busses can ignore priority signs if **Evacuation busses may ignore traffic rules** is enabled in [](Policies.md) in [](Settings.md)
+> * Traffic lights cause priority signs to be ignored unless **Vehicles follow priority rules at junctions with timed traffic lights** is enabled in [](Policies.md) in [](Settings.md)
 > * If a road or rail segment entering the junction is too short, there isn't enough room for vehicles to slow down properly and they will drive in to the junction before AI has time to stop them
 
 ## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Adjust Roads](Adjust Roads) - has similar bulk applicators
-* [Traffic Lights](Traffic Lights)
-* [Junction Restrictions](Junction-Restrictions.md)
+* [](Adjust Roads) - has similar bulk applicators
+* [](Traffic-Lights.md)
+* [](Junction-Restrictions.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md)
+* [](Policies.md)
 * [Overlays](Overlays.md)
 * [Global Configuration](Global-Configuration.md) - contains fine-tuning parameters for priority signs
 
 Guides:
 
 * Roads:
-    * [Priority Routes](Priority Routes)
-    * [High Priority Roads](High Priority Roads)
-    * [Roundabouts](Roundabouts)
+    * [](Priority Routes)
+    * [](High Priority Roads)
+    * [](Roundabouts)
 
-[Contributing](Contributing):
+[](Contributing.md):
 
-* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise icons for priority signs
+* [](Priority-Signs-Icon-Themes.md) - localise icons for priority signs
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

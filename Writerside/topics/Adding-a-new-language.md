@@ -1,4 +1,6 @@
-> If you are a translator, please see: [Localisation](Localisation)
+# Adding a New Language
+
+> If you are a translator, please see: [](Localisation.md)
 
 ## Overview
 
@@ -16,7 +18,7 @@ Common errors are:
 * Translated keys (they should all be in English)
 * Missing keys - copy them over from `lang.txt`, including the English values; they can be translated later
 
-See: [Localisation](Localisation) for full details.
+See: [](Localisation.md) for full details.
 
 ## Embed the resource
 
@@ -50,7 +52,7 @@ Add the language code, for example if the filename is `lang_es.txt` you'd add:
 AVAILABLE_LANGUAGE_CODES.Add("es");
 ```
 
-Then add the label that will appear in the drop-down language select list in [General](General.md) [Settings](Settings.md), for example:
+Then add the label that will appear in the drop-down language select list in [](General.md) in [](Settings.md), for example:
 
 ```csharp
 LANGUAGE_LABELS["es"] = "Español";
@@ -67,10 +69,10 @@ As you can see the label should be the translated name of the language.
 * Start a new game, and then go in to TM:PE mod options and change the language.
 * In particular, test:
     * Text in the mod options - make sure no overlaps
-    * Tool tips on the [Toolbar](Toolbar.md)
-    * Text in the [Traffic Lights](Traffic Lights) editor window
+    * Tool tips on the [](Toolbar.md)
+    * Text in the [](Traffic-Lights.md) editor window
     * Help popups (with a TM:PE tool active, click the games' `?` advisor button)
 
 If it all looks good, submit a PR (or commit to the existing PR) ready for code review.
 
-Remember to update the [Languages](Languages) page in the wiki after the PR is merged.
+Remember to update the [](Languages.md) page in the wiki after the PR is merged.

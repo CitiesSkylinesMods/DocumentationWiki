@@ -26,8 +26,8 @@ This can be caused by:
 
 If you provide good transport service, cims are more likely to use PT. That means they need to be able to find good public transport from where they live (residential areas) to where they work (offices, industry, commerce), shop (commerce), get educated (schools, universities, campuses) and play (parks, unique buildings, monuments, etc).
 
-* TM:PE highlights problems with public transport on the [Public Transport Info View](Public Transport Info View).
-* TM:PE highlights problems with parking (cims often drive to stations) on the [Traffic Info View](Traffic Info View)
+* TM:PE highlights problems with public transport on the [](Public Transport Info View).
+* TM:PE highlights problems with parking (cims often drive to stations) on the [](Traffic Info View)
 * [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod highlights which buildings cims are struggling to reach on the [Traffic Routes Info View](Traffic Routes Info View)
 
 ### Mods:
@@ -83,8 +83,8 @@ Try disabling mods like that, exit to desktop and then reload the game to see wh
 ### Traffic Manager: President Edition (TM:PE):
 
 * Make sure you are using TM:PE 10.21.1 or later; earlier versions had bad bugs in Parking AI
-* In [Policies](Policies.md) settings, set **Vehicle restrictions aggression** to **Low** - if that works, your [Vehicle restrictions](Vehicle-Restrictions.md) are causing the problem.
-* Check your [Junction Restrictions](Junction-Restrictions.md) - in particular, disabled pedestrian crossings can sometimes [confuse the pathfinder](https://github.com/VictorPhilipp/Cities-Skylines-Traffic-Manager-President-Edition/issues/168)
+* In [](Policies.md), set **Vehicle restrictions aggression** to **Low** - if that works, your [](Vehicle-Restrictions.md) are causing the problem.
+* Check your [](Junction-Restrictions.md) - in particular, disabled pedestrian crossings can sometimes [confuse the pathfinder](https://github.com/VictorPhilipp/Cities-Skylines-Traffic-Manager-President-Edition/issues/168)
 
 ### [Metro Overhaul Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=816260433) (MOM) users:
 

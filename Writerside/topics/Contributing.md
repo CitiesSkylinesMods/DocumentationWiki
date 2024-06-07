@@ -1,3 +1,5 @@
+# Contributing and Development
+
 <p align="center"><img src="https://user-images.githubusercontent.com/16494272/59316295-ee189d00-8c7a-11e9-93a2-266292b6f3e9.png" width="740" height="232" /></p>
 
 ### Ideas & Feedback
@@ -13,46 +15,47 @@
 
 ### Code changes
 
-* [Reviewing pull request using Visual studio](Reviewing pull request using Visual studio)
-* [Reviewing pull requesst using CI artefact](Reviewing pull requesst using CI artefact) (recommended to include link in all PRs)
-* [GitHub Clients](GitHub Clients)
-* [Dev Tools](Dev Tools)
-* [Code style and naming](Code style and naming)
+* [](Reviewing-pull-request-using-Visual-studio.md)
+* [](Reviewing-pull-request-using-CI-artefact.md) (recommended to include link
+  in all PRs)
+* [](GitHub-Clients.md)
+* [](Dev-Tools.md)
+* [](Code-style-and-naming.md)
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [Building from Source](https://github.com/CitiesSkylinesMods/TMPE/blob/master/docs/BUILDING_INSTRUCTIONS.md)
 * [Building from Pull Requests](https://github.com/CitiesSkylinesMods/TMPE/blob/master/docs/PR_REVIEW_INSTRUCTIONS.md)
 * Random info snippets:
-    * [Vehicle Flags](Vehicle Flags) - some info on `Vehicle.Flags`
+    * [](Vehicle-Flags.md) - some info on `Vehicle.Flags`
 
 ### Text changes
 
-* [Text Editors](Text Editors) - ⚠️ Do _not_ use rich text or word processors!
-* [Localisation](Localisation) (translations)
-* [Documentation](Documentation)
-* [Incompatible Mods List](Incompatible Mods List)
+* [](Text-Editors.md) - ⚠️ Do _not_ use rich text or word processors!
+* [](Localisation.md) (translations)
+* [](Documentation.md)
+* [](Incompatible-Mods-List.md)
 
 ### Images and animations
 
 > Use PNG format for all textures, unless stated otherwise in the guide...
 
-* [Priority Signs Icon Themes](Priority Signs Icon Themes) - localise UI for [Priority Signs](Priority-Signs.md)
-* [Speed Limit Icon Themes](Speed Limit Icon Themes) - localise UI for [Speed Limits](Speed-Limits.md)
-* [Timed Traffic Light Buttons](Timed Traffic Light Buttons) - localise UI for [Timed Traffic Lights](Timed-Traffic-Lights.md)
-* [Creating animated GIFs](Creating animated GIFs)
-* [Credits](Credits) - images should be credited to their author
+* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
+* [](Speed-Limit-Icon-Themes.md) - localise UI for [](Speed-Limits.md)
+* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)
+* [](Creating-animated-GIFs.md)
+* [](Credits.md) - images should be credited to their author
 
 ### User experience
 
-* [Interface style guide](Interface style guide)
+* [](Interface-style-guide.md)
 
 ### Testing
 
-* [Attaching Debugger to Cities Skylines](Attaching Debugger to Cities Skylines)
-* [Roads to Test](Roads to Test) - if major changes to code, test it works on these crazy roads
+* [](Attaching-Debugger-to-Cities-Skylines.md)
+* [](Roads-to-Test.md) - if major changes to code, test it works on these crazy roads
 
 ### Release process
 
-* [Milestone](Milestone)
-* [Changelogs](Changelogs)
-* [Release Binaries](Release Binaries)
-* [Steam Workshop](Steam Workshop)
+* [](Milestone.md)
+* [](Changelogs.md)
+* [](Release-Binaries.md)
+* [](Steam-Workshop.md)

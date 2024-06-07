@@ -1,3 +1,5 @@
+# U-Turns
+
 ## Overview
 
 Use these features to control where vehicles can make U-turns (180° turn, allowing them to travel back the way they came).
@@ -15,16 +17,16 @@ U-turns can help simplify and shorten vehicle routes, but at junctions they can 
 
 There are two ways to enable U-turns at junctions:
 
-* [Junction Restrictions](Junction-Restrictions.md), or
-* [Lane Connectors](Lane-Connectors.md) (create a link from an incoming lane to an outgoing lane on the same road)
+* [](Junction-Restrictions.md), or
+* [](Lane-Connectors.md) (create a link from an incoming lane to an outgoing lane on the same road)
 
-> To use them, the features must be enabled in [Maintenance](Maintenance.md) [Settings](Settings.md).
+> To use them, the features must be enabled in [](Maintenance.md) in [](Settings.md).
 
 ## Applicators
 
-If you want to customise individual junctions, use either the [Junction Restrictions](Junction-Restrictions.md) or [Lane Connectors](Lane-Connectors.md) tool.
+If you want to customise individual junctions, use either the [](Junction-Restrictions.md) or [](Lane-Connectors.md) tool.
 
-If you want to set the default for all junctions, use the **Vehicles may do U-turns at junctions** option in [Policies](Policies.md) [settings](Settings.md).
+If you want to set the default for all junctions, use the **Vehicles may do U-turns at junctions** option in [](Policies.md) in [](Settings.md).
 
 Realistically, U-turns are impractical on smaller roads (which usually require a [three point turn](https://en.wikipedia.org/wiki/Three-point_turn)). U-turns are best suited to medium/large roads, particularly those with a central median.
 
@@ -40,7 +42,7 @@ If TM:PE is presented with multiple ways to turn a vehicle round - for example d
 
 As a U-turn is technically always `1` lane change, vehicles would always U-turn at junctions and transitions. However, this doesn't happen in real life; U-turns are cumbersome and sometimes dangerous, so drivers generally prefer a slightly longer (easier and safer) route. To mimic this behaviour in game, TM:PE treats U-turns at transition and junction nodes as `2` lane changes; drivers will look for a nearby alternative before doing a U-turn. This value is defined by the `UTurnLaneDistance` setting in [Global Configuration](Global-Configuration.md). A lower value makes U-turns more desirable, a higher value makes them less desirable.
 
-# FAQ
+## FAQ
 
 **Does this affect frame rate or cause lag?**
 > No. Although the pathfinder has to do a few additional checks (for u-turn settings) the increased availability of u-turn locations helps many vehicles find shorter paths to their destination.
@@ -48,7 +50,7 @@ As a U-turn is technically always `1` lane change, vehicles would always U-turn 
 **My city is a grid layout, should I use U-turns?**
 > Grid layout provides lots of opportunities for vehicles to turn round, however U-turns might still be useful on some arterial routes - particularly in locations where there might be few alternate opportunities for vehicles to turn around.
 
-# See also
+## See also
 
-* [Lane Changes](Lane Changes)
-* [[Nodes, Segments, Lanes]]
+* [](Lane-Changes.md)
+* [](Nodes,-Segments,-Lanes.md)

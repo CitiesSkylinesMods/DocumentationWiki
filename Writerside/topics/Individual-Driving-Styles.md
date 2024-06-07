@@ -1,3 +1,5 @@
+# Individual Driving Styles
+
 > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
 
 > In TM:PE v10.20 and earlier, this feature was called **Realistic speeds**. In TM:PE v10.21 it was renamed to **Individual Driving Styles** due to additional features being added.
@@ -15,14 +17,14 @@ To make traffic more realistic, TM:PE can give each cim their own unique driving
 
 ## Usage
 
-Enable the **Individual driving styles** option in [Gameplay](Gameplay.md) [settings](Settings.md).
+Enable the **Individual driving styles** option in [](Gameplay.md) in [](Settings.md).
 
 Once activated, the feature is automatically applied to all drivers. The feature can be disabled at any time by turning off the option in Gameplay settings.
 
 For even more realism, you could also activate the following options:
 
-* [Reckless Drivers](Reckless-Drivers.md)
-* [Road Conditions](Road Conditions)
+* [](Reckless-Drivers.md)
+* [](Road-Conditions.md)
 * [Dynamic Lane Selection](Dynamic-Lane-Selection.md)
 
 ## Notes
@@ -39,14 +41,14 @@ The effect is applied in the pathfinder and, if activated, the [Advanced Vehicle
 
 The speed a cim drives at is determined by several factors. It can be summarised as: Maximum speed modified by individual driving style. The effect of the individual driving style is dependent on the category of vehicle being driven.
 
-This means that if two cims were to drive the same vehicle asset, on the same road, in the same [Road Conditions](Road Conditions), they would both drive at different speeds.
+This means that if two cims were to drive the same vehicle asset, on the same road, in the same [](Road-Conditions.md), they would both drive at different speeds.
 
 #### Maximum speeds
 
 Maximum vehicle speeds are determined by roads and vehicles:
 
-* Roads: [Speed limits](Speed-Limits.md) and, if activated, the [Road conditions](Road conditions)
-    * [Reckless drivers](Reckless-Drivers.md) ignore speed limits
+* Roads: [](Speed-Limits.md) and, if activated, the [](Road-Conditions.md)
+    * [](Reckless-Drivers.md) ignore speed limits
 * Vehicles: Maximum speed defined by the vehicle asset
     * [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) mod can be used to view/alter the vehicle speed
     * If vehicles assets are made too fast, it can adversely affect the AIs
@@ -60,7 +62,7 @@ The vehicle category defines a scale of speed modification. The individual drivi
 | Category             | Speed modification |
 | :---                 | :---:              |
 | Heavy vehicles       | -10% .. ±0%        |
-| [Reckless Drivers](Reckless-Drivers.md) | +10% .. +60%       |
+| [](Reckless-Drivers.md) | +10% .. +60%       |
 | All other vehicles   | -20% .. +30%       |
 
 Note: Emergency vehicles will behave like reckless drivers when they are responding to an emergency (as indicated by flashing lights and sirens).
@@ -82,16 +84,16 @@ Note: Emergency vehicles will behave like reckless drivers when they are respond
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Gameplay](Gameplay.md)
+* [](Gameplay.md)
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Speed Limits](Speed-Limits.md)
+* [](Speed-Limits.md)
 
 Guides:
 
-* [Reckless Drivers](Reckless-Drivers.md)
-* [Road Conditions](Road Conditions)
+* [](Reckless-Drivers.md)
+* [](Road-Conditions.md)
 * [Dynamic Lane Selection](Dynamic-Lane-Selection.md)

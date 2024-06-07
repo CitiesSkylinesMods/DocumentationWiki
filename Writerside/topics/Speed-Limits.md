@@ -12,13 +12,13 @@ Use this tool to set speed limits for **road** and **tracked** (metro, train, mo
 
 ## Usage
 
-Choose **Speed Limits** on the [Toolbar](Toolbar.md):
+Choose **Speed Limits** on the [](Toolbar.md):
 
 ![Speed limit button](https://i.imgur.com/9iZWRpN.png)
 
-> Button missing? Enable **Speed Limits** in [Maintenance](Maintenance.md) [settings](Settings.md).
+> Button missing? Enable **Speed Limits** in [](Maintenance.md) in [](Settings.md).
 
-You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) [settings](Settings.md).
+You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
 ### Applicators
 
@@ -26,7 +26,7 @@ The speed palette controlls the various modes of the speed limits tool, and dete
 
 ![Speed Palette](https://user-images.githubusercontent.com/1386719/147000591-b47725b7-40a2-4eb6-93d4-a1f76baf62f7.png)
 
-> Reposition it by dragging the title bar. Change the size and opacity of the palette in [General](General.md) [settings](Settings.md).
+> Reposition it by dragging the title bar. Change the size and opacity of the palette in [](General.md) in [](Settings.md).
 
 #### Mode buttons
 
@@ -103,7 +103,7 @@ The following shortcuts are applicable when the Speed Limits tool is active...
 Selection:
 
 * `Esc` or `Right mouse click` - exit Speed Limits tool
-    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
 
 Modes:
 
@@ -130,14 +130,14 @@ Applicators:
 
 Bulk Applicators:
 
-* [Roundabout Policies](Roundabout Policies) - set speed, based on curvature, for entire roundabout
+* [](Roundabout Policies) - set speed, based on curvature, for entire roundabout
 
 Camera / Overlays:
 
 * `Mouse wheel` - zoom in or out
     * If you zoom out too far, icons may disappear
 * `PageDown` - underground view
-    * This also activates a simplified version of the [Traffic Info View](Traffic Info View)
+    * This also activates a simplified version of the [](Traffic Info View)
 * `PageUp` - overground view
 
 ### Overlays
@@ -146,13 +146,13 @@ While the tool is active, icons indicate speeds (relevant to current tool mode) 
 
 ![Speeds overlay](https://i.imgur.com/NnOCHKP.png)
 
-To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [General](General.md) [settings](Settings.md).
+To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [](General.md) in [](Settings.md).
 
-When the tool is deactivated, overlays will be removed. A persistent overlay, which shows speed limits whenever the [Toolbar](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) [settings](Settings.md).
+When the tool is deactivated, overlays will be removed. A persistent overlay, which shows speed limits whenever the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) in [](Settings.md).
 
 ### Icon Themes
 
-The icon theme is set via [General](General.md) [settings](Settings.md) and determines the visual appearance of overlay icons and also the units to use - either `km/h` (kilometers per hour) or `MPH` (miles per hour) scale, depending on the theme.
+The icon theme is set via [](General.md) in [](Settings.md) and determines the visual appearance of overlay icons and also the units to use - either `km/h` (kilometers per hour) or `MPH` (miles per hour) scale, depending on the theme.
 
 > The game uses it's own speed units, which are neither `km/h` or `mph`. See [`Constants.cs`](https://github.com/CitiesSkylinesMods/TMPE/blob/master/TLM/TLM/Constants.cs) for details on how we convert between game units and real units.
 
@@ -173,7 +173,7 @@ The icon theme is set via [General](General.md) [settings](Settings.md) and dete
 
 </details>
 
-> Want to contribute an icon theme for your country? See: [Speed Limit Icon Themes](Speed Limit Icon Themes)
+> Want to contribute an icon theme for your country? See: [](Speed-Limit-Icon-Themes.md)
 
 ## FAQ
 
@@ -183,8 +183,8 @@ The icon theme is set via [General](General.md) [settings](Settings.md) and dete
 #### Some drivers ignore speed limits
 > The following vehicles can ignore speed limits:
 > * Emergency vehicles when their sirens are active (responding to emergency)
-> * [Reckless Drivers](Reckless-Drivers.md); if **Reckless driving** enabled in [Gameplay](Gameplay.md) settings
-> * Evacuation [Buses](Buses); if **Evacuation busses may ignore traffic rules** enabled in [Policies](Policies.md) settings
+> * [](Reckless-Drivers.md); if **Reckless driving** enabled in [](Gameplay.md)
+> * Evacuation [Buses](Buses); if **Evacuation busses may ignore traffic rules** enabled in [](Policies.md)
 
 #### Pedestrian and cycle paths don't get speed icons
 > Use these mods to control their speeds:
@@ -193,15 +193,15 @@ The icon theme is set via [General](General.md) [settings](Settings.md) and dete
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [General](General.md) - choose MPH speed icon style (British, German, USA)
+* [](General.md) - choose MPH speed icon style (British, German, USA)
 * [Key Bindings](Keybinds.md) - choose shortcut to activate tool
 
 [Advanced](Advanced):
 
-* [Reckless Drivers](Reckless-Drivers.md)
-* [Road Conditions](Road Conditions)
+* [](Reckless-Drivers.md)
+* [](Road-Conditions.md)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

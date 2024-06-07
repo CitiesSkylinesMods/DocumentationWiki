@@ -8,7 +8,7 @@ TM:PE has been translated to [multiple languages](https://crowdin.com/project/tm
 > [![Crowdin](https://badges.crowdin.net/tmpe/localized.svg)](https://crowdin.com/project/tmpe)
 
 It defaults to same language as game, but you can select different language
-via [General](General.md) [settings](Settings.md).
+via [](General.md) in [](Settings.md).
 
 ## Language mods
 
@@ -24,20 +24,20 @@ TM:PE is compatible with other language mods:
 
 Translations are contributed via our project on the Crowdin website.
 
-If you want to help us translate TM:PE, please read our [Localisation Guidelines](Localisation.md) first.
+If you want to help us translate TM:PE, please read our [](Localisation.md) first.
 
 Note: The game currently doesn't have proper support for RTL languages, such as Arabic, however we are working on our
 own custom UI system which could support that in the future.
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [General](General.md) - select language to use
+* [](General.md) - select language to use
 
-[Contributing](Contributing.md):
+[](Contributing.md):
 
-* [Speed Limit Icon Themes](Speed-Limit-Icon-Themes.md) - localise icons for [Speed Limits](Speed-Limits.md)
-* [Priority Signs Icon Themes](Priority-Signs-Icon-Themes.md) - localise icons for [Priority Signs](Priority-Signs.md)
-* [Timed Traffic Light Buttons](Timed-Traffic-Light-Buttons.md) - localise UI
-  for [Timed Traffic Lights](Timed-Traffic-Lights.md)
+* [](Speed-Limit-Icon-Themes.md) - localise icons for [](Speed-Limits.md)
+* [](Priority-Signs-Icon-Themes.md) - localise icons for [](Priority-Signs.md)
+* [](Timed-Traffic-Light-Buttons.md) - localise UI
+  for [](Timed-Traffic-Lights.md)

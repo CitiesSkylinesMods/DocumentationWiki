@@ -1,14 +1,14 @@
-# Maintenance of Settings
+# Maintenance Settings
 
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings.md): [General](General.md) | [Gameplay](Gameplay.md)
-| [Policies](Policies.md) | [Overlays](Overlays.md) | **Maintenance**
+[](Settings.md): [](General.md) | [](Gameplay.md)
+| [](Policies.md) | [Overlays](Overlays.md) | **Maintenance**
 | [Key Bindings](Keybinds.md)
 
 ## Overview
 
-Use these [settings](Settings.md) to perform some maintenance tasks, and also to enable or disable [Toolbar](Toolbar.md)
+Use these [](Settings.md) to perform some maintenance tasks, and also to enable or disable [](Toolbar.md)
 features.
 
 ## Settings
@@ -27,7 +27,7 @@ _These are just some general tools you may find useful on occasion..._
 
 * Removes all traffic lights on the map
 * To prevent more being automatically added, _disable_ **Automatically add traffic lights if applicable**
-  in [Policies](Policies.md)
+  in [](Policies.md)
 
 #### Reset speed limits
 
@@ -37,20 +37,20 @@ _These are just some general tools you may find useful on occasion..._
 
 ### Activated features
 
-_Use these options to enable or disable TM:PE features that appear on the main [Toolbar](Toolbar.md)..._
+_Use these options to enable or disable TM:PE features that appear on the main [](Toolbar.md)..._
 
 > Mod features will automatically be enabled if you enable another option that requires them (such
-> as [Overlays](Overlays.md) or [Policies](Policies.md)). Likewise, disabling a mod feature will automatically disable any
+> as [Overlays](Overlays.md) or [](Policies.md)). Likewise, disabling a mod feature will automatically disable any
 > options that rely on that feature.
 
-* [Priority signs](Priority-Signs.md)
-* [Timed traffic lights](Timed-Traffic-Lights.md) - this option is not available in asset editors, but is available in
+* [](Priority-Signs.md)
+* [](Timed-Traffic-Lights.md) - this option is not available in asset editors, but is available in
   map/scenario editor
-* [Speed limits](Speed-Limits.md)
-* [Vehicle restrictions](Vehicle-Restrictions.md)
-* [Parking restrictions](Parking-Restrictions.md)
-* [Junction restrictions](Junction-Restrictions.md)
-* [Lane connectors](Lane-Connectors.md)
+* [](Speed-Limits.md)
+* [](Vehicle-Restrictions.md)
+* [](Parking-Restrictions.md)
+* [](Junction-Restrictions.md)
+* [](Lane-Connectors.md)
 
 ### Despawn
 
@@ -66,7 +66,7 @@ _Use these options to immediately despawn one or more categories of vehicles in 
 
 ### Configuration
 
-> Note: Global options in [General](General.md) [settings](Settings.md) don't currently update when global config is
+> Note: Global options in [](General.md) in [](Settings.md) don't currently update when global config is
 > reloaded/reset.
 
 _Use these buttons to update the global configuration..._
@@ -101,13 +101,13 @@ _Use these buttons to update the global configuration..._
 
 > Some features are just customisations of the vanilla game functionality and are always enabled:
 > * [Toggle traffic lights](Toggle-Traffic-Lights.md)
-> * [Lane arrows](Lane-Arrows.md)
+> * [](Lane-Arrows.md)
 > * [Toggle despawn](Toggle-Despawn.md)
 > * [Clear traffic](Clear-Traffic.md)
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
 * [Global Configuration](Global-Configuration.md)
 

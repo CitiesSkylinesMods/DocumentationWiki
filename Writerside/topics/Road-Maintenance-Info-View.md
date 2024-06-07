@@ -1,3 +1,5 @@
+# Road Maintenance Info View
+
 > Under construction
 
 ## Overview
@@ -14,12 +16,12 @@ Red roads are poorly maintained.
 
 Vehicles can drive slightly faster on well maintained roads.
 
-However, if you have enabled **Road condition has a bigger impact on vehicle speed** in [Gameplay](Gameplay.md) [settings](Settings.md):
+However, if you have enabled **Road condition has a bigger impact on vehicle speed** in [](Gameplay.md) in [](Settings.md):
 
 * Unmaintained roads are slower
 * Wet/flooded roads will be significantly slower
 
-For detailed information, see: [Road Conditions](Road Conditions)
+For detailed information, see: [](Road-Conditions.md)
 
 ## How to fix
 
@@ -30,21 +32,21 @@ To help vehicles drive faster:
 
 ## See also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Speed Limits](Speed-Limits.md) - customise road speeds
+* [](Speed-Limits.md) - customise road speeds
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Gameplay](Gameplay.md) - option: **Road condition has a bigger impact on vehicle speed**
+* [](Gameplay.md) - option: **Road condition has a bigger impact on vehicle speed**
 
 Guides:
 
-* [Road Conditions](Road Conditions) - how vehicle speed is affected by conditions
-* [Reckless Drivers](Reckless-Drivers.md) - can drive faster than speed limit
+* [](Road-Conditions.md) - how vehicle speed is affected by conditions
+* [](Reckless-Drivers.md) - can drive faster than speed limit
 
 [Cities: Skylines wiki](https://skylines.paradoxwikis.com/):
 
-* [Road Maintenance](https://skylines.paradoxwikis.com/Roads#Maintenance)
+* [Wiki: Road Maintenance](https://skylines.paradoxwikis.com/Roads#Maintenance)
 * [Road Maintenance info view](https://skylines.paradoxwikis.com/Info_views#Road_maintenance)
 * [Snowfall DLC](https://store.steampowered.com/app/420610/Cities_Skylines__Snowfall/)

@@ -2,9 +2,13 @@
 
 This page outlines which TM:PE features can be applied to the various networks that are available in the game.
 
-> Although _not_ caused by TM:PE, we recommend all users take care when unsubscribing mods or asset that contain networks (roads, paths, rails, etc), particularly those marked with ⚠️ icon. This is due to a game bug which can break save games that were using those networks. For more information, see: [How to remove workshop networks](How to remove workshop networks).
->  
-> Items marked with ❤️ are some of our favourite networks. Note, however, they are often large assets which might cause problems on older computers or weak graphics cards.
+> Although _not_ caused by TM:PE, we recommend all users take care when unsubscribing mods or asset that contain
+> networks (roads, paths, rails, etc.), particularly those marked with ⚠️ icon. This is due to a game bug which can break
+> save games that were using those networks. For more information,
+> see: [](How-to-remove-workshop-networks.md).
+>
+> Items marked with ❤️ are some of our favourite networks. Note, however, they are often large assets which might cause
+> problems on older computers or weak graphics cards.
 
 ### Pedestrian paths, Bicycle paths/lanes
 
@@ -24,14 +28,15 @@ This page outlines which TM:PE features can be applied to the various networks t
 **Also works on:**
 
 * Road assets from the Steam Workshop
-    * Except a small number of [Broken Road Assets](Broken Road Assets)
+    * Except a small number of [](Broken-Road-Assets.md)
 * [CSUR](https://steamcommunity.com/workshop/filedetails/?id=1423096565) (and similar projects) ❤️
     * Some features might not be available, or act strangely, on nodeless roads
 * [Network Extensions 2](https://steamcommunity.com/sharedfiles/filedetails/?id=812125426) ⚠️
 * [Electric Roads](https://steamcommunity.com/sharedfiles/filedetails/?id=1689984220)
 * [Solar Highway](https://steamcommunity.com/sharedfiles/filedetails/?id=1615328614)
 * [Air Roads](https://steamcommunity.com/sharedfiles/filedetails/?id=1537917051)
-* [ULTra Personal Rapid Transport](https://steamcommunity.com/sharedfiles/filedetails/?id=2012742906) (they're bus roads)
+* [ULTra Personal Rapid Transport](https://steamcommunity.com/sharedfiles/filedetails/?id=2012742906) (they're bus
+  roads)
 * [Guided Bus Way](https://steamcommunity.com/sharedfiles/filedetails/?id=2003910724) (they're bus roads)
 * Invisible roads (from various authors)
 * Pedestrian roads (use vehicle restrictions to make them even better!)
@@ -88,7 +93,8 @@ This page outlines which TM:PE features can be applied to the various networks t
     * [Bypass Station Tracks](https://steamcommunity.com/sharedfiles/filedetails/?id=1577947171)
     * One Way Train Tracks
     * Single Train Tracks
-        * Remember to subscribe [Single Train Track AI](https://steamcommunity.com/sharedfiles/filedetails/?id=949504539)
+        * Remember to
+          subscribe [Single Train Track AI](https://steamcommunity.com/sharedfiles/filedetails/?id=949504539)
     * Shinkansen tracks - from various authors
 
 ### Monorail

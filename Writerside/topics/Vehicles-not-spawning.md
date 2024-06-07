@@ -35,12 +35,12 @@ There are many possible causes for this, including:
 
 ### TM:PE users: Try these first...
 
-* In [Policies](Policies.md) settings, set **[Vehicle restriction aggression](Vehicle restriction aggression)** to **Low**
-    * If that fixed it, your [Vehicle Restrictions](Vehicle-Restrictions.md) and/or [Speed Limits](Speed-Limits.md) are the problem
+* In [](Policies.md), set **[](Vehicle restriction aggression)** to **Low**
+    * If that fixed it, your [](Vehicle-Restrictions.md) and/or [](Speed-Limits.md) are the problem
     * A route that's too slow or incurs too many restriction penalties will prevent routing
-* Check your [Lane Connectors](Lane-Connectors.md) and [Lane Arrows](Lane-Arrows.md) - can vehicles reach their destinations? ([example](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/256))
+* Check your [](Lane-Connectors.md) and [](Lane-Arrows.md) - can vehicles reach their destinations? ([example](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/256))
     * Sometimes drawing a temporary bus route can help find problems
-* Likewise, check any [Traffic Lights](Traffic Lights) - do they have 'green time' for the required route?
+* Likewise, check any [](Traffic-Lights.md) - do they have 'green time' for the required route?
 
 ### Still not working? Check vehicle and citizen limits:
 
@@ -50,18 +50,18 @@ Install a mod that lists game limits and check Vehicle, Citizen, and Path limits
     * **Note:** Don't use [Show Limits](https://steamcommunity.com/sharedfiles/filedetails/?id=494094728) or [Show More Limits](https://steamcommunity.com/sharedfiles/filedetails/?id=531738447) mods; they are older and do not list all game limits.
 
 * **Vehicle limit reached?**
-    * TM:PE users: Use the [Clear Traffic](Clear-Traffic.md) tool, and also the **Despawn... buttons** found in [Maintenance](Maintenance.md) [settings](Settings.md). This will eradicate any "stuck vehicles".
+    * TM:PE users: Use the [Clear Traffic](Clear-Traffic.md) tool, and also the **Despawn... buttons** found in [](Maintenance.md) in [](Settings.md). This will eradicate any "stuck vehicles".
     * Use [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) mod to reduce amount of industry traffic, especially in farms and forestry areas.
     * Use [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) mod to ensure cargo vehicles are more fully filled with cargo.
     * Use [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) to increase capacity of vehicles. Don't go crazy - AIs get confused if the capacity is too big (see: [Vanilla Capacities](Vanilla Capacities)).
     * Use [Crazy Tourist Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=1759269367) mod prevent tourists getting stuck in your city.
-    * Certain [City and District Policies](City and District Policies) increase or decrease traffic
+    * Certain [](City and District Policies) increase or decrease traffic
     * If you have a decent computer, you could try [More Vehicles Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1764208250) which increases the vehicle limit
 * **Citizen limit reached?**
     * Use [Hide It, Bobby](https://steamcommunity.com/sharedfiles/filedetails/?id=2513657277) or [Remove All Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=1706704781) mods to despawn animals (which count towards citizen limit)
     * Use [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) mod to reduce number of outdoor workers in industry areas.
     * Use [Crazy Tourist Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=1706337219) mod prevent tourists getting stuck in your city.
-    * Certain [City and District Policies](City and District Policies) increase or decrease number of citizens in your city
+    * Certain [](City and District Policies) increase or decrease number of citizens in your city
 
 There's also some information in [this Steam discussion](https://steamcommunity.com/app/255710/discussions/0/1638661595064078533) about vehicle limits that might be of use.
 
@@ -80,7 +80,7 @@ There's also some information in [this Steam discussion](https://steamcommunity.
         * If it's not the road might be broken, or one-way section blocking traffic?
         * Check for sharp bends, or segments that aren't properly connected
         * Consider just rebuilding the road from scratch with smooth curves
-* **Check your [City and District Policies](City and District Policies):**
+* **Check your [](City and District Policies):**
     * In particular those (in link above) relating to **Vehicle Restrictions**, **Transport Preferences** and **Services**
     * If a policy that restricts vehicles blocks a route, build a bypass road to provide affected vehicles with an alternate route
 * **Ensure buildings are within 2 units (small zoning squares) of a road:**
@@ -102,7 +102,7 @@ There's also some information in [this Steam discussion](https://steamcommunity.
 
 ### Still not working? Check budgets, mods and assets:
 
-* Remove any [Broken Vehicle Assets](Broken Vehicle Assets) and [Broken Road Assets](Broken Road Assets)
+* Remove any [Broken Vehicle Assets](Broken Vehicle Assets) and [](Broken Road Assets)
 * Use [Compatibility Report](https://steamcommunity.com/sharedfiles/filedetails/?id=2633433869) mod to scan for any broken/outdated mods; it will also suggest better alternatives
 * **Outside connections:**
     * [Cargo Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1072157697) mod is broken since Industries DLC; prevents vehicles spawning on highways and causes [Array Index - Symptom 7](Array Index - Symptom 7) error.

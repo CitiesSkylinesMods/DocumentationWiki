@@ -2,8 +2,8 @@
 
 > Article verified: May2020 TM:PE 11.5.0
 
-> Looking for the TM:PE features? See: [Policies](Policies.md) [Settings](Settings.md)
-> and/or [Vehicle Restrictions](Vehicle-Restrictions.md).
+> Looking for the TM:PE features? See: [](Policies.md) in [](Settings.md)
+> and/or [](Vehicle-Restrictions.md).
 
 
 The [vanilla game and DLC policies](https://skylines.paradoxwikis.com/Policies) can affect traffic in your city in many
@@ -11,7 +11,7 @@ ways...
 
 ## Vehicle Restrictions
 
-> These are separate to TM:PE's [Vehicle Restrictions](Vehicle-Restrictions.md), and in effect act as an additional layer
+> These are separate to TM:PE's [](Vehicle-Restrictions.md), and in effect act as an additional layer
 > of restrictions.
 
 * **Bike ban on sidewalks** (After Dark DLC)
@@ -156,7 +156,7 @@ ways...
     * Slightly better health = fewer ambulances/hearses
 * **Studded tires** (Winter maps in Snowfall DLC)
     * Snow doesn't slow down traffic speeds as much
-    * See also: [Road Conditions](Road-Conditions.md)
+    * See also: [](Road-Conditions.md)
 * **Student Healthcare** (Campus areas in Campus DLC)
     * Slightly better health = fewer ambulances/hearses
 * **Tourist Travel Card** (Sunset Harbor DLC)
@@ -166,21 +166,21 @@ ways...
 
 ## See also:
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Gameplay](Gameplay.md)
-* [Policies](Policies.md)
+* [](Gameplay.md)
+* [](Policies.md)
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Vehicle Restrictions](Vehicle-Restrictions.md)
+* [](Parking-Restrictions.md)
+* [](Vehicle-Restrictions.md)
 
 Info views:
 
 * [Public Transport](Public-Transport-Info-View.md)
 * [Traffic](Traffic-Info-View.md)
-* [Traffic Routes](Traffic-Routes-Info-View.md)
+* [](Traffic-Routes-Info-View.md)
 
 Mods:
 

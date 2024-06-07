@@ -116,7 +116,7 @@ Just repeat the entire process only this time with your own "RESTORE" savegame.
 
 ## Attaching debugger
 
-If you have coding skills, you can attach a debug session to the live game and set breakpoints, etc., to see exactly what's going on under the hood. For more info see: [Attaching Debugger to Cities Skylines](Attaching Debugger to Cities Skylines).
+If you have coding skills, you can attach a debug session to the live game and set breakpoints, etc., to see exactly what's going on under the hood. For more info see: [](Attaching Debugger to Cities Skylines).
 
 ## Credits
 

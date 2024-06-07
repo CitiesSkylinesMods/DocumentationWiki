@@ -2,14 +2,14 @@
 
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings.md): [General](General.md) | [Gameplay](Gameplay.md) | [Policies](Policies.md)
-| **Overlays** | [Maintenance](Maintenance.md) | [Keybindings](Keybinds.md)
+[](Settings.md): [](General.md) | [](Gameplay.md) | [](Policies.md)
+| **Overlays** | [](Maintenance.md) | [Keybindings](Keybinds.md)
 
 ## Overview
 
-Use these [settings](Settings.md) to create persistent overlays:
+Use these [](Settings.md) to create persistent overlays:
 
-* They will be visible whenever the [Toolbar](Toolbar.md) is visible
+* They will be visible whenever the [](Toolbar.md) is visible
 * To reduce clutter, only non-default customisations are shown
 * They are not interactive, unless the associated tool is active
 
@@ -19,13 +19,13 @@ Use these [settings](Settings.md) to create persistent overlays:
 
 _Use these options to choose which overlays are shown..._
 
-* [Priority Signs](Priority-Signs.md)
-* [Timed Traffic Lights](Timed-Traffic-Lights.md)
-* [Speed Limits](Speed-Limits.md)
-* [Vehicle Restrictions](Vehicle-Restrictions.md)
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Junction Restrictions](Junction-Restrictions.md)
-* Connected Lanes = [Lane Connectors](Lane-Connectors.md)
+* [](Priority-Signs.md)
+* [](Timed-Traffic-Lights.md)
+* [](Speed-Limits.md)
+* [](Vehicle-Restrictions.md)
+* [](Parking-Restrictions.md)
+* [](Junction-Restrictions.md)
+* Connected Lanes = [](Lane-Connectors.md)
 
 ### Developer overlays:
 
@@ -41,7 +41,7 @@ _Use these overlays to show information about [Nodes, Segments and Lanes](Nodes,
 _Use this option to display number of queued tasks in the pathfinding manager..._
 
 * **Path Find Stats** - unlike other overlays, pathfinder stats are shown in green text under the
-  main [Toolbar](Toolbar.md).
+  main [](Toolbar.md).
 
 ### Debug overlays:
 
@@ -54,17 +54,17 @@ _Use this option to display number of queued tasks in the pathfinding manager...
 ## FAQ
 
 **Do they affect frame rate or cause lag?**
-> Yes, but only while the [Toolbar](Toolbar.md) is visible. The debug overlays, in particular, are extremely slow.
+> Yes, but only while the [](Toolbar.md) is visible. The debug overlays, in particular, are extremely slow.
 
 **An enabled overlay doesn't show**
-> * Ensure corresponding features are enabled in [Maintenance](Maintenance.md).
-> * The [Toolbar](Toolbar.md) must be visible to see the overlays.
+> * Ensure corresponding features are enabled in [](Maintenance.md).
+> * The [](Toolbar.md) must be visible to see the overlays.
 > * Distant overlays are hidden; move camera closer to reveal them.
 
 **Some icons disappear from overlays if associated tool is not active**
 > * To reduce clutter and reduce lag, only _non-default_ customisations are shown (anything using default values is
     hidden).
-> * If a tool is active (on the [Toolbar](Toolbar.md)), its associated overlay will always show full detail.
+> * If a tool is active (on the [](Toolbar.md)), its associated overlay will always show full detail.
 
 ## See also
 

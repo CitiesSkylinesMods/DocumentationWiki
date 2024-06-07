@@ -1,5 +1,7 @@
+# Stay In Lane
+
 ### Usage
-to use the stay-in-lane feature: Select the [lane connectors](Lane-Connectors.md) tool, select a node and then press the stay-in-lane hotkey (Default Hotkey for stay in lane is `CTRL+S` but hotkey can be modified in options). This cycles trough s the following configurations:
+to use the stay-in-lane feature: Select the [](Lane-Connectors.md) tool, select a node and then press the stay-in-lane hotkey (Default Hotkey for stay in lane is `CTRL+S` but hotkey can be modified in options). This cycles trough s the following configurations:
     1. All lanes in both directions can go directly ahead only
     2. (2 way road only) Lanes in one direction go directly ahead, the other direction has it's connectors removed
     3. (2 way road only) Like 2 above, but with the opposite direction

@@ -5,7 +5,7 @@
 ## Overview
 
 The **`TMPE_GlobalConfig.xml`** contains numerous parameters, many of which are not shown in the
-mod [settings](Settings.md) UI. You can change these parameters to fine-tune TM:PE to your requirements.
+mod [](Settings.md) UI. You can change these parameters to fine-tune TM:PE to your requirements.
 
 You can find the file in the following path (maybe different depending on where you installed the game):
 
@@ -33,7 +33,7 @@ within TM:PE.
 > Default values shown are correct as of TM:PE v11.0-alpha6 (August 2019)
 
 If editing the file, make sure you use a plain text editor, not a word processor. For more information,
-see: [Text Editors](Text-Editors.md)
+see: [](Text-Editors.md)
 
 Note that TM:PE only performs basic type checking on values. If you specify invalid value types, or values outside the
 specified range, you will get errors.
@@ -147,7 +147,7 @@ This section describes configuration parameters that are used the Gameplay modul
 
 ### `ParkingAI`
 
-This section describes configuration parameters that are used by the [Parking AI](Parking-AI.md).
+This section describes configuration parameters that are used by the [](Parking-AI.md).
 
 | Parameter                                | Range <br /> <sup>Type</sup> <br /> `Default`  | Notes                                                                                                                                                                                                                                                                                                    |
 |:-----------------------------------------|:----------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ This section describes configuration parameters that are used by the modified pa
 
 ### `PriorityRules`
 
-This section describes configuration parameters that are used for [Priority Signs](Priority-Signs.md).
+This section describes configuration parameters that are used for [](Priority-Signs.md).
 
 | Parameter                 |   Range <br /> <sup>Type</sup> <br /> `Default`   | Notes                                                                                                                                                                                                   |
 |:--------------------------|:-------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -208,7 +208,7 @@ This section describes configuration parameters that are used for [Priority Sign
 
 ### `TimedTrafficLights`
 
-This section describes configuration parameters that are used by [Timed Traffic Lights](Timed-Traffic-Lights.md).
+This section describes configuration parameters that are used by [](Timed-Traffic-Lights.md).
 
 | Parameter          |   Range <br /> <sup>Type</sup> <br /> `Default`    | Notes                                                                                                                                                                                                                                                                                                                                                                                                         |
 |:-------------------|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -221,9 +221,9 @@ _[FlowWaitCalcMode](https://github.com/krzychu124/Cities-Skylines-Traffic-Manage
 
 ## See also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Maintenance](Maintenance.md) - has options to reload/reset the global configuration
+* [](Maintenance.md) - has options to reload/reset the global configuration
 
 Old wiki:
 

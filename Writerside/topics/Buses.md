@@ -1,3 +1,5 @@
+# Buses
+
 > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
 
 This guide covers the various bus services in your city, and looks at how to optimise them using a mixture of TM:PE, vanilla game and DLC features.
@@ -79,8 +81,8 @@ Differnet types of bus have different definitions of "desirable route", which in
     * Don't forget to link to stations where tourists enter/leave the city
 * Ideally have two routes along the same path, but going in different directions
     * Example: Cim travels from home to work, and then from work to home
-* The [Public Transport Info View](Public Transport Info View) shows buildings that are difficult to reach via public transport
-* The [Traffic Routes Info View](Traffic Routes Info View) helps find where cims are travelling to
+* The [](Public Transport Info View) shows buildings that are difficult to reach via public transport
+* The [](Traffic Routes Info View) helps find where cims are travelling to
 
 #### Intercity buses (outside connection):
 
@@ -118,11 +120,11 @@ There are several ways to overcome such issues:
 
 Bus lanes allow busses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam Workshop.
 
-You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [Policies](Policies.md) settings.
+You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [](Policies.md).
 
-Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much faster/shorter alternative, the bus will use that lane instead. Use [Vehicle Restrictions](Vehicle-Restrictions.md) to discourage buses from using undesirable routes.
+Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much faster/shorter alternative, the bus will use that lane instead. Use [](Vehicle-Restrictions.md) to discourage buses from using undesirable routes.
 
-> Tip: [Vehicle Restrictions](Vehicle-Restrictions.md) can be used to create fake bus lanes (by banning cars/trucks from a normal lane), however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use them.
+> Tip: [](Vehicle-Restrictions.md) can be used to create fake bus lanes (by banning cars/trucks from a normal lane), however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use them.
 
 ## Lane changes
 
@@ -131,21 +133,21 @@ Busses will often need to change lanes several times to achieve the most direct 
 > ![Cumbersome bus route](https://i.imgur.com/3Boqd3y.png)  
 > The bus travelling from A to B couldn't change lane, so it had to take a detour!
 
-If [Lane Arrows](Lane-Arrows.md) are causing problems, enable **Busses may ignore lane arrows** in [Policies](Policies.md) settings to make bus routing more flexible.
+If [](Lane-Arrows.md) are causing problems, enable **Busses may ignore lane arrows** in [](Policies.md) to make bus routing more flexible.
 
-For evacuation buses, enabling **Evacuation busses may ignore traffic rules** in [Policies](Policies.md) settings makes them behave like [Reckless Drivers](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
+For evacuation buses, enabling **Evacuation busses may ignore traffic rules** in [](Policies.md) makes them behave like [](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
 
 You can also provide more places where vehicles can change lanes by adding additional nodes to your road network:
 
 * Add a junction by connecting a road to an existing road; this creates a junction node. Then delete the newly added road; the junction node turns in to a middle node, where vehicles can change lane.
 * Alternatively, and more easily, install [Network Multitool](https://steamcommunity.com/sharedfiles/filedetails/?id=2560782729) mod which includes a tool for adding nodes.
-* For more information on nodes, see: [[Nodes, Segments, Lanes]]
+* For more information on nodes, see: [](Nodes,-Segments,-Lanes.md)
 
 ## Turning points
 
 Sometimes busses need to turn around and travel back in the opposite direction. There's three ways they can do that:
 
-* At a junction that allows [U-turns](U-turns)
+* At a junction that allows [](U-turns)
 * Driving round the block or a roundabout (going through several junctions)
 * At the end of a cul-de-sac (dead-end road)
 
@@ -197,7 +199,7 @@ We found these guides useful too:
 **Does this affect frame rate or cause lag?**
 > No. If you optimise your bus routes (use bus lanes, ensure enough lane changes can be made, etc.) you can acutally _reduce_ CPU load by making pathfinding easier between stops.
 
-**Can busses ignore [Lane Connectors](Lane-Connectors.md)?**
+**Can busses ignore [](Lane-Connectors.md)?**
 > No. If you use lane connectors, busses must always adhere to those regardless of policy settings.
 
 ## Troubleshooting
@@ -214,18 +216,18 @@ Having problems? See these troubleshooting guides:
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md) - set policies for busses and junctions
+* [](Policies.md) - set policies for busses and junctions
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Vehicle Restrictions](Vehicle-Restrictions.md)
-* [Lane Arrows](Lane-Arrows.md)
-* [Lane Connectors](Lane-Connectors.md)
-* [Junction Restrictions](Junction-Restrictions.md)
+* [](Vehicle-Restrictions.md)
+* [](Lane-Arrows.md)
+* [](Lane-Connectors.md)
+* [](Junction-Restrictions.md)
 
 Advanced:
 
-* [Vehicle Restriction Aggression](Vehicle Restriction Aggression)
-* [[Nodes, Segments, Lanes]]
+* [](Vehicle Restriction Aggression)
+* [](Nodes,-Segments,-Lanes.md)

@@ -1,7 +1,7 @@
 > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
 >  
 > **Notes:**
-> * If the error is `IndexOutOfRangeException: Array index is out of range`, it might be caused by [Broken road assets](Broken road assets) (see that link for solutions).
+> * If the error is `IndexOutOfRangeException: Array index is out of range`, it might be caused by [](Broken road assets) (see that link for solutions).
 > * All versions of Loading Screen Mod include [Safe Mode options](https://steamcommunity.com/workshop/filedetails/discussion/667342976/1626286205707786286/) that can _sometimes_ help recover from the "Array index" errors. See **Loading Screen Mod** section at bottom of this guide for details.
 
 ## Symptom

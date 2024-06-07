@@ -8,17 +8,17 @@ Use this tool to separate vehicle categories in to different lanes on your **roa
 
 ## Usage
 
-Choose **Vehicle Restrictions** on the [Toolbar](Toolbar.md):
+Choose **Vehicle Restrictions** on the [](Toolbar.md):
 
 ![Vehicle Restrictions tool](https://imgur.com/CbeZf0L.png)
 
-> Button missing? Enable **Vehicle Restrictions** in [Maintenance](Maintenance.md) [settings](Settings.md).
+> Button missing? Enable **Vehicle Restrictions** in [](Maintenance.md) in [](Settings.md).
 
 ### Applicators
 
 **Click a road or rail segment** to edit the vehicle restrictions for each lane:
 
-![Vehicle Restrictions](https://user-images.githubusercontent.com/1386719/146057746-56a6f2e1-28d6-4e8a-8615-9ad346b7a161.png)
+![](https://user-images.githubusercontent.com/1386719/146057746-56a6f2e1-28d6-4e8a-8615-9ad346b7a161.png)
 
 > If the icons don't appear, try moving/zooming the camera closer to selected segment.
 
@@ -52,7 +52,7 @@ Trains:
 
 Vehicles calculate their route _before_ starting their journey. As a result, when you change restrictions, only vehicles spawned _after_ that point will be aware of your changes.
 
-To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [General](General.md) [settings](Settings.md).
+To force existing vehicles to calculate new routes when you make changes, enable **Apply AI changes right away** in [](General.md) in [](Settings.md).
 
 ### Shortcuts
 
@@ -65,7 +65,7 @@ Selection:
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Vehicle Restrictions** tool as if you pressed `Esc`
 * `Esc` - exit **Vehicle Restrictions** tool
-    * Returns focus to the [Toolbar](Toolbar.md) and enables its [Adjust Roads](Adjust Roads) mode.
+    * Returns focus to the [](Toolbar.md) and enables its [](Adjust Roads) mode.
 
 Basic applicators:
 
@@ -79,7 +79,7 @@ Camera / Overlays:
 * `Mouse wheel` - zoom in or out
     * If you zoom out too far, icons may disappear
 * `PageDown` - underground view
-    * This activates a simplified version of the [Traffic Info View](Traffic Info View)
+    * This activates a simplified version of the [](Traffic Info View)
 * `PageUp` - overground view
 
 ### Overlays
@@ -88,9 +88,9 @@ While the tool is active, icons summarise vehicle restrictions on nearby roads/t
 
 ![Summary Icons](https://user-images.githubusercontent.com/1386719/146060897-4b2ffb50-e262-4fda-a5fb-bf9bd84fdc70.png)
 
-To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [General](General.md) [settings](Settings.md).
+To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set in [](General.md) in [](Settings.md).
 
-When the tool is deactivated overlays will be removed. A persistent overlay, which summarises vehicle restrictions whenever the [Toolbar](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) [settings](Settings.md).
+When the tool is deactivated overlays will be removed. A persistent overlay, which summarises vehicle restrictions whenever the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) in [](Settings.md).
 
 ## Notes
 
@@ -104,13 +104,13 @@ This tool is designed to provide fine tuning of traffic restrictions, for exampl
 
 Remember to provide alternate routes for vehicles, otherwise they might not be able to reach their destination.
 
-* [Reckless Drivers](Reckless-Drivers.md) ignore vehicle restrictions
+* [](Reckless-Drivers.md) ignore vehicle restrictions
 * Emergency vehicles, when responding to an emergency (red/blue lights flashing), also ingore vehicle restrictions
 
 ### How it works
 
 * Restriction = pathfinding _penalty_
-* [Vehicle Restriction Aggression](Vehicle Restriction Aggression) sets penalty magnitude
+* [](Vehicle Restriction Aggression) sets penalty magnitude
 * Penalties are cumulative for a route
 * Pathfinder tries to avoid incurring penalties
 * If penalty is too high, and no alternative routes, the route is cancelled
@@ -130,15 +130,15 @@ If you want to limit coverage of service buildings, use these mods instead:
 ## FAQ
 
 #### Does it affect framerate or cause lag?
-> Yes, a little; it adds extra work for the pathfinder especially if you use the feature extensively. If that's a problem, you can disable the feature in [Maintenance](Maintenance.md) settings.
+> Yes, a little; it adds extra work for the pathfinder especially if you use the feature extensively. If that's a problem, you can disable the feature in [](Maintenance.md).
 
 #### Some traffic is unexpectedly avoiding my roads
-> * Check [Lane Arrows](Lane-Arrows.md), [Lane Connectors](Lane-Connectors.md), [Traffic Lights](Traffic Lights), [Speed Limits](Speed-Limits.md), and [Settings](Settings.md), all of which affect vehicle route pathfinding.
+> * Check [](Lane-Arrows.md), [](Lane-Connectors.md), [](Traffic-Lights.md), [](Speed-Limits.md), and [](Settings.md), all of which affect vehicle route pathfinding.
 > * Fires and disasters will block roads to most traffic (emergency services can still get through).
-> * [City and District Policies](City and District Policies) can impose additional restrictions
+> * [](City and District Policies) can impose additional restrictions
 
 #### Which city/district policies cause vehicle restrictions?
-> See: [City and District Policies](City and District Policies)
+> See: [](City and District Policies)
 
 #### Pedestrian and cycle paths don't show icons
 > Currently, this tool only supports road and train networks.
@@ -151,7 +151,7 @@ If you want to limit coverage of service buildings, use these mods instead:
 
 #### Cyclists?
 > * No, but it's being considered, see: [Issue #18](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/18)
-> * You can use [City and District Policies](City and District Policies): **Encourage biking** and/or **Bike ban on sidewalks**
+> * You can use [](City and District Policies): **Encourage biking** and/or **Bike ban on sidewalks**
 
 #### Regional vs. local traffic?
 > * No, but it's being considered, for trains, see: [Issue #158](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/158)
@@ -171,15 +171,15 @@ If you want to limit coverage of service buildings, use these mods instead:
 
 ## See also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Parking Restrictions](Parking-Restrictions.md)
-* [Junction Restrictions](Junction-Restrictions.md)
+* [](Parking-Restrictions.md)
+* [](Junction-Restrictions.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [General](General.md) - should changes take effect immediately?
-* [Policies](Policies.md) - should bus lanes automatically restrict cars & trucks?
+* [](General.md) - should changes take effect immediately?
+* [](Policies.md) - should bus lanes automatically restrict cars & trucks?
 * [Overlays](Overlays.md) - toggle persistent overlay
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):

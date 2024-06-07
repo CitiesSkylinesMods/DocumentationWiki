@@ -1,3 +1,4 @@
+# Highway Junction Rules
 > Under construction
 
 Use this feature to make highway traffic more realistic.
@@ -11,7 +12,7 @@ This feature implements two key changes to the way your highways work:
 
 ### Enable
 
-Activate **Enable highway specific lane merging/splitting rules** in the [Policies](Policies.md) [settings](Settings.md).
+Activate **Enable highway specific lane merging/splitting rules** in the [](Policies.md) in [](Settings.md).
 
 ### Customise
 
@@ -39,13 +40,13 @@ On highway junctions:
 
 These speed changes help avoid collisions between traffic travelling at different speeds.
 
-To do this, use the [Speed Limits](Speed-Limits.md) tool to create a **speed gradient** along the highway ramp. The end nearest the highway should be fastest, and the end nearest your normal road system should be slower.
+To do this, use the [](Speed-Limits.md) tool to create a **speed gradient** along the highway ramp. The end nearest the highway should be fastest, and the end nearest your normal road system should be slower.
 
 (todo: image)
 
 As vehicles drive up an entry ramp, their speed should increase. As they drive down an exit ramp, their speed should decrease.
 
-# FAQ
+## FAQ
 
 **Does this reduce frame rate or cause lag?**
 > Very little.
@@ -53,8 +54,8 @@ As vehicles drive up an entry ramp, their speed should increase. As they drive d
 **I've enabled the setting but nothing seems to change**
 > Due to the large amount of traffic on highways, a decision was made not to instantly update it (it would cause huge numbers of path finder operations). So you'll have to wait a while for new vehicles to spawn to see the effects. Alternatively, you could [Clear Traffic](Clear-Traffic.md) to remove all the existing traffic that's using the old rules.
 
-**Why can't I use the [Lane Arrows](Lane-Arrows.md) tool?**
-> When highway rules are active, the lane arrows are automatically set and can't be changed. However, you can still use [Lane Connectors](Lane-Connectors.md) and/or the [Lane Changes](Lane Changes) features if you need to apply some further customisations.
+**Why can't I use the [](Lane-Arrows.md) tool?**
+> When highway rules are active, the lane arrows are automatically set and can't be changed. However, you can still use [](Lane-Connectors.md) and/or the [](Lane Changes) features if you need to apply some further customisations.
 
 **Vanilla highway roads are somewhat limited, what are the alternatives?**
 > There are many highway, expressway, motorway, freeway, and national road assets in the Steam Workshop; notably, many have fully rendered tunnels and asymmetric variants for entry/exit lanes. Some of our favourites are:
@@ -69,21 +70,21 @@ As vehicles drive up an entry ramp, their speed should increase. As they drive d
 > * [Hangang Expressway](https://steamcommunity.com/workshop/filedetails/?id=2017707792)
 > * [North American Freeways](https://steamcommunity.com/workshop/filedetails/?id=2277553422)
 
-# See Also
+## See Also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
-* [Lane Arrows](Lane-Arrows.md)
-* [Lane Connectors](Lane-Connectors.md)
-* [Junction Restrictions](Junction-Restrictions.md)
+* [](Lane-Arrows.md)
+* [](Lane-Connectors.md)
+* [](Junction-Restrictions.md)
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Policies](Policies.md)
+* [](Policies.md)
 
 Guides:
 
 * [Dedicated Turning Lanes](Dedicated Turning Lanes)
 * [Heavy Truck Highway Rules](Heavy Truck Highway Rules)
-* [High Priority Roads](High Priority Roads)
-* [Roundabout Policies](Roundabout Policies)
+* [](High Priority Roads)
+* [](Roundabout Policies)

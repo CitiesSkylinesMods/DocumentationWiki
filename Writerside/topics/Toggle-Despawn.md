@@ -14,14 +14,14 @@ bottlenecks in your road network.
 
 ## Usage
 
-Click the **Toggle Despawn** button on the [Toolbar](Toolbar.md) to toggle it on/off:
+Click the **Toggle Despawn** button on the [](Toolbar.md) to toggle it on/off:
 
 |                     Button Icon                     | Meaning                 |
 |:---------------------------------------------------:|:------------------------|
 | ![Despawn prevented](https://imgur.com/gdnZLHp.png) | Despawning is prevented |
 |  ![Despawn allowed](https://imgur.com/SEBGRVX.png)  | Despawning is allowed   |
 
-You can also use the option in [Gameplay](Gameplay.md) [settings](Settings.md) which does the exact same thing.
+You can also use the option in [](Gameplay.md) in [](Settings.md) which does the exact same thing.
 
 ## Customise
 
@@ -29,8 +29,8 @@ You can also use the option in [Gameplay](Gameplay.md) [settings](Settings.md) w
 
 You can filter which vehicle types the despawn ban affects:
 
-* Click the filter button in [Gameplay](Gameplay.md) [settings](Settings.md), or
-* Right-click the **Toggle Despawn** button on the [Toolbar](Toolbar.md)
+* Click the filter button in [](Gameplay.md) in [](Settings.md), or
+* Right-click the **Toggle Despawn** button on the [](Toolbar.md)
 
 Note: Despawning must be disabled before you can customise filters.
 
@@ -46,14 +46,14 @@ despawn.
 **I am a lunatic, how can I get bigger traffic jams?**
 > Install the [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod and you will experience
 > spectacular traffic jams during rush hour periods. Also, Real Time tracks if cims get to work on time, so be sure to
-> check for red buildings on the [Traffic Routes Info View](Traffic-Routes-Info-View.md)!
+> check for red buildings on the [](Traffic-Routes-Info-View.md)!
 
 ## See also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
 * [Clear Traffic](Clear-Traffic.md) - despawn all traffic
 
-[Settings](Settings.md):
+[](Settings.md):
 
-* [Maintenance](Maintenance.md) - options to instantly despawn specific vehicle types
+* [](Maintenance.md) - options to instantly despawn specific vehicle types

@@ -2,13 +2,13 @@
 
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings.md): **General**
-| [Gameplay](Gameplay.md) | [Policies](Policies.md) | [Overlays](Overlays.md) | [Maintenance](Maintenance.md)
+[](Settings.md): **General**
+| [](Gameplay.md) | [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md)
 | [Keybindings](Keybinds.md)
 
 ## Overview
 
-Use these [settings](Settings.md) to set general options such as language, user interface, simulation, and mod compatibility
+Use these [](Settings.md) to set general options such as language, user interface, simulation, and mod compatibility
 checks.
 
 ## Settings
@@ -20,22 +20,22 @@ _Use these options to apply regional language and icon themes to TM:PE..._
 #### Select language
 
 * Defaults to same language as the game, but you can choose a different language if desired
-* For a list of current translations, see: [Languages](Languages.md). To contribute translations,
-  see: [Localisation](Localisation.md).
+* For a list of current translations, see: [](Languages.md). To contribute translations,
+  see: [](Localisation.md).
 
 #### Display speed limits as MPH instead of km/h
 
-* If enabled, the [Speed Limits](Speed-Limits.md) tool will work in **Miles Per Hour** instead of **km/h**
+* If enabled, the [](Speed-Limits.md) tool will work in **Miles Per Hour** instead of **km/h**
 
 #### Road signs theme
 
-> Want to add a new themes? See **Images** section in [Contributing](Contributing.md) guide.
+> Want to add a new themes? See **Images** section in [](Contributing.md) guide.
 
 * Select a country-specific style for road signs
 * This effects overlay icons for multiple tools, including:
-    * [Speed Limits](Speed-Limits.md)
-    * [Priority Signs](Priority-Signs.md)
-    * [Parking Restrictions](Parking-Restrictions.md)
+    * [](Speed-Limits.md)
+    * [](Priority-Signs.md)
+    * [](Parking-Restrictions.md)
 * It only affects user interface; it does not alter roadside props
 
 ### Interface
@@ -44,13 +44,13 @@ _Use these options to further customise the TM:PE user interface..._
 
 #### Lock main menu button position
 
-* If enabled, it locks the position of the button that shows/hides the [Toolbar](Toolbar.md). Otherwise, you can drag it
+* If enabled, it locks the position of the button that shows/hides the [](Toolbar.md). Otherwise, you can drag it
   around the screen.
 * Has no effect if you've put the button in [Unified UI](Unified-UI.md).
 
 #### Lock main menu position
 
-* If enabled, the position of the [Toolbar](Toolbar.md) cannot be changed. Otherwise, you can drag the toolbar around the
+* If enabled, the position of the [](Toolbar.md) cannot be changed. Otherwise, you can drag the toolbar around the
   screen.
 
 #### Use UnifiedUI
@@ -63,7 +63,7 @@ _Use these options to further customise the TM:PE user interface..._
 #### User interface scale
 
 > TM:PE v11.1.1 replaced the **Compact main menu** option with this **UI Scaling** option. Subsequent versions made more
-> panels respect the setting, including the [Speed Limits](Speed-Limits.md) panel in v11.6.2. As of v11.6.1 TM:PE is also
+> panels respect the setting, including the [](Speed-Limits.md) panel in v11.6.2. As of v11.6.1 TM:PE is also
 > fully compatible with [UI Resolution mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2487213155).
 
 * You can use the slider to shrink or grow the size of UI panels
@@ -72,7 +72,7 @@ _Use these options to further customise the TM:PE user interface..._
 
 #### Window opacity
 
-* Use this slider to set opacity of all TM:PE panels and windows, including the [Toolbar](Toolbar.md).
+* Use this slider to set opacity of all TM:PE panels and windows, including the [](Toolbar.md).
 * Lower value = more transparent, higher value = more solid.
 
 #### Overlay opacity
@@ -81,11 +81,11 @@ _Use these options to further customise the TM:PE user interface..._
 
 * Use this option to set the transparency of icon overlays that appear on the map
 * Lower value = less transparent, higher value = more transparent.
-* See also: [Overlays](Overlays.md) [settings](Settings.md).
+* See also: [Overlays](Overlays.md) in [](Settings.md).
 
 #### Enable tutorial messages
 
-* If enabled, advisor tutorials will be shown the first time you use each tool on the [Toolbar](Toolbar.md)
+* If enabled, advisor tutorials will be shown the first time you use each tool on the [](Toolbar.md)
 * You can still click the "(?)" advisor help button in-game to show tutorials at any time
 * See also: [Hints Panel](Hints-Panel.md)
 
@@ -96,9 +96,9 @@ _Use these options to customise vehicle simulation detail and updates..._
 #### Simulation accuracy
 
 * Sets how much CPU time is allocated to process vehicles approaching junctions with:
-    * [Timed Traffic Lights](Timed-Traffic-Lights.md)
-    * [Junction Restrictions](Junction-Restrictions.md)
-    * [Priority Signs](Priority-Signs.md)
+    * [](Timed-Traffic-Lights.md)
+    * [](Junction-Restrictions.md)
+    * [](Priority-Signs.md)
 * The higher the value, the more accurate the simulation but also the higher the CPU workload.
 * High settings may cause lag and performance issues on older computers.
 
@@ -108,11 +108,11 @@ _Use these options to customise vehicle simulation detail and updates..._
 > TM:PE 11.6.5.1 (changes will always come in to effect immediately now).
 
 * If enabled, the routes of _existing_ vehicles will be recalculated (from their current position) whenever you alter:
-    * [Junction Restrictions](Junction-Restrictions.md)
-    * [Lane Arrows](Lane-Arrows.md)
-    * [Lane Connectors](Lane-Connectors.md)
-    * [Vehicle Restrictions](Vehicle-Restrictions.md)
-    * Notably, it doesn't apply to [Highway Junction Rules](Highway-Junction-Rules.md) or [Speed Limits](Speed-Limits.md).
+    * [](Junction-Restrictions.md)
+    * [](Lane-Arrows.md)
+    * [](Lane-Connectors.md)
+    * [](Vehicle-Restrictions.md)
+    * Notably, it doesn't apply to [](Highway-Junction-Rules.md) or [](Speed-Limits.md).
 * If disabled, vehicles will continue along their route as normal without being notified of changes:
     * If they run in to a problem (e.g. desired lane change no longer available), their route will be recalculated at
       that point.
@@ -126,7 +126,7 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 * If enabled, TM:PE will scan for mods it knows are incompatible on startup
 * If any are found, a panel will be shown asking you to unsubscribe them
-* Conflicts will always be logged to the [TMPE.log](TMPE.log.md) file, regardless of this setting
+* Conflicts will always be logged to the [](TMPE.log.md) file, regardless of this setting
 
 #### Ignore disabled mods
 
@@ -136,8 +136,8 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 #### Notify me if there is an unexpected mod conflict
 
 * If enabled, a warning will be shown if another mod overwrites or conflicts with TM:PE code
-* Conflicts will always be logged to the [TMPE.log](TMPE.log.md) file, regardless of this setting
-* See also: [Incompatible Mods](Incompatible-mods.md)
+* Conflicts will always be logged to the [](TMPE.log.md) file, regardless of this setting
+* See also: [](Incompatible-Mods)
 
 ## FAQ
 
@@ -148,7 +148,7 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 ## See Also
 
-[Settings](Settings.md):
+[](Settings.md):
 
 * [Global Configuration](Global-Configuration.md) - advanced fine-tuning of TM:PE
 

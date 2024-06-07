@@ -2,12 +2,12 @@
 
 > Verified: March 2022 - TM:PE 11.6.5.1
 
-[Settings](Settings.md): [General](General.md) | [Gameplay](Gameplay.md) | [Policies](Policies.md) | [Overlays](Overlays.md) | [Maintenance](Maintenance.md) |
+[](Settings.md): [](General.md) | [](Gameplay.md) | [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md) |
 **Keybindings**
 
 ## Overview
 
-Use these [settings](Settings.md) to customise the keyboard shortcuts.
+Use these [](Settings.md) to customise the keyboard shortcuts.
 
 ## Settings
 
@@ -29,12 +29,12 @@ _Use these options to customise general keyboard shortcuts..._
     * This shortcut is not editable
     * You can often use `Right click` to do the same
 * The **Elevation** shortcuts toggle between overground/underground views while a tool is active on
-  the [Toolbar](Toolbar.md)
+  the [](Toolbar.md)
     * These shortcuts use the keys defined by the game **Build elevation up/down** shortcuts
     * To edit them, go in to games' **Keymapping** screen, and select the **Shared** category
-* The **Main Menu** shortcut toggles the [Toolbar](Toolbar.md)
+* The **Main Menu** shortcut toggles the [](Toolbar.md)
     * If you're using [Unified UI](Unified-UI.md), this will only work if the `UnifiedUI` panel is open
-* The **Tool** shortcuts will activate a tool, but only if the [Toolbar](Toolbar.md) is visible
+* The **Tool** shortcuts will activate a tool, but only if the [](Toolbar.md) is visible
     * Tip: Hover the mouse over a button on the toolbar to see the shortcut
 
 ### Tool-specific shortcuts
@@ -55,7 +55,7 @@ delete any old shortcuts you were using for TM:PE, so they don't compete with th
 
 ## See also
 
-[Toolbar](Toolbar.md):
+[](Toolbar.md):
 
 * [Hints Panel](Hints-Panel.md) - automatically lists shortcuts relevant to the current TM:PE tool/mode
 
