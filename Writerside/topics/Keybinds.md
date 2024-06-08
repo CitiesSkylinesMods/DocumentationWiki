@@ -49,16 +49,15 @@ delete any old shortcuts you were using for TM:PE, so they don't compete with th
 
 ## FAQ
 
-#### Do these settings affect frame rate or cause lag?
-
-> No.
+> Q: Do these settings affect frame rate or cause lag?
+> A: No.
 
 ## See also
 
-[](Toolbar.md):
+### Toolbar Tools
 
+* [](Toolbar.md)
 * [Hints Panel](Hints-Panel.md) — automatically lists shortcuts relevant to the current TM:PE tool/mode
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
-
 * <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>

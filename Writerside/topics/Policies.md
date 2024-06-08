@@ -233,14 +233,14 @@ Use these options to customize the [](Roundabout-Policies.md) bulk applicators..
 
 ## See Also
 
-Guides:
+### Guides
 
 * [](City-and-District-Policies.md)
 
-[TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki) (old documentation):
+### Legacy Documentation
 
+* [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki) (Use Wayback Machine Internet Archive)
 * [Policies & Restrictions options](https://tmpe.viathinksoft.com/wiki/index.php?title=Options#Policies_.26_Restrictions)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
-
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>
+<a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>

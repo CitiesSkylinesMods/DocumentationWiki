@@ -83,36 +83,34 @@ _Use these buttons to update the global configuration..._
 
 ## FAQ
 
-#### Do these settings affect frame rate or cause lag?
-
-> * If you are struggling with low frame rate or lag, disabling unused features could help improve performance
-> * There are many other factors (assets, mods, page file, etc.) that reduce frame rate or cause lag; for more
+> Q: Do these settings affect frame rate or cause lag?
+>> * If you are struggling with low frame rate or lag, disabling unused features could help improve performance
+>> * There are many other factors (assets, mods, page file, etc.) that reduce frame rate or cause lag; for more
     information, see: [Performance Tuning Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=465790009)
-
-> * The **Activated features** can cause some lag, as each tool adds a little extra workload to the game; see the
+>> * The **Activated features** can cause some lag, as each tool adds a little extra workload to the game; see the
     documentation pages of the tools for more details.
 
-#### Does disabling a feature remove settings of that feature?
-
-> * No. Settings will be retained and will still be stored in save games. If you later re-enable the tool, it's previous
+> Q: Does disabling a feature remove settings of that feature?
+>> * No. Settings will be retained and will still be stored in save games. If you later re-enable the tool, it's previous
     settings will continue to work as before.
 
-#### Some features can't be disabled?
-
-> Some features are just customizations of the vanilla game functionality and are always enabled:
-> * [Toggle traffic lights](Toggle-Traffic-Lights.md)
-> * [](Lane-Arrows.md)
-> * [Toggle despawn](Toggle-Despawn.md)
-> * [Clear traffic](Clear-Traffic.md)
+> Q: Some features can't be disabled?
+>> A: Some features are just customizations of the vanilla game functionality and are always enabled:
+>> * [Toggle traffic lights](Toggle-Traffic-Lights.md)
+>> * [](Lane-Arrows.md)
+>> * [Toggle despawn](Toggle-Despawn.md)
+>> * [Clear traffic](Clear-Traffic.md)
 
 ## See also
 
-[](Settings.md):
+### Mod Settings
 
+* [](Settings.md)
 * [Global Configuration](Global-Configuration.md)
 
-Old [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki):
+### Old Documentation
 
+* Old [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki) (Use Wayback Machine Internet Archive)
 * [Maintenance options](https://tmpe.viathinksoft.com/wiki/index.php?title=Options#Maintenance)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
