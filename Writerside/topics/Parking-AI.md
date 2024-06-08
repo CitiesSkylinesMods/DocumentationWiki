@@ -1,5 +1,3 @@
-# 🪦 Parking AI
+# Parking AI
 
-> Under construction
-
-For now, see the old documentation: https://tmpe.viathinksoft.com/wiki/index.php?title=Parking_AI
+For now, see the old documentation: [](L-Parking-AI.md)

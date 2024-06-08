@@ -66,7 +66,7 @@ _Use these options to improve road lane usage throughout your city..._
 
 * Vehicles will try and avoid congested routes
 * Lanes usage is more evenly distributed
-* See: [Advanced AI](L-Advanced-AI.md)
+* See: [](L-Advanced-AI.md)
 
 #### Dynamic lane selection
 
@@ -97,35 +97,35 @@ _Use this option to make cims behave more realistically at stations..._
 
 ## FAQ
 
-#### Do these settings affect frame rate or cause lag?
+> Q: Do these settings affect frame rate or cause lag?
+> > A: The following settings, if enabled, can cause lag on old computers or big cities with lots of vehicles:
+> > * **Dynamic lane selection**
+> > * **Parking AI**
 
-> The following settings, if enabled, can cause lag on old computers or big cities with lots of vehicles:
-> * **Dynamic lane selection**
-> * **Parking AI**
-
-#### Which settings are best for full lane usage?
-
-> * Enable **Individual driving styles** and **Advanced vehicle AI**
-> * Experiment with the **Dynamic lane selection** (DLS) setting
-> * Note that DLS often works best when the slider is somewhere in the middle, because reasons.
+> Q: Which settings are best for full lane usage?
+>> * Enable **Individual driving styles** and **Advanced vehicle AI**
+>> * Experiment with the **Dynamic lane selection** (DLS) setting
+>> * Note that DLS often works best when the slider is somewhere in the middle, because reasons.
 
 ## See Also
 
-[](Settings.md):
+### Mod Settings
 
+* [](Settings.md)
 * [](Policies.md)
-* [Global Configuration](Global-Configuration.md) — if you want to fine-tune gameplay values
+* [](Global-Configuration.md) — if you want to fine-tune gameplay values
 
-[](Toolbar.md):
+### Mod Toolbar Tools
 
+* [](Toolbar.md)
 * [](Parking-Restrictions.md)
 * [](Speed-Limits.md)
 * [Toggle Despawn](Toggle-Despawn.md)
 
-[TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki):
+### Legacy Documentation
 
+* [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki) (use Wayback Machine Internet Archive)
 * [Gameplay options](https://tmpe.viathinksoft.com/wiki/index.php?title=Options#Gameplay)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
-
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>
+<a href="https://github.com/CitiesSkylinesMods/TMPE/labels/SETTINGS"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/SETTINGS?label=SETTINGS%26logo=github" /></a>

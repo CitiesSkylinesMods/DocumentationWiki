@@ -1,5 +1,3 @@
 # Lane Changes
 
-> Under construction
->  
-> Please refer to the [old documentation site](https://tmpe.viathinksoft.com/wiki/index.php?title=Junction_restrictions) for now.
+See [](L-Junction-Restrictions.md) from the old documentation

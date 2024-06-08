@@ -3,11 +3,14 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="t"
-                 name="TMPE-doc"
+                 name="Traffic Manager 11 for Cities: Skylines"
                  start-page="Home.md">
 
     <toc-element topic="Home.md">
         <toc-element topic="L-Legacy-Documentation.md">
+            <toc-element topic="L-Parking-AI.md"/>
+            <toc-element topic="L-Global-Configuration.md"/>
+            <toc-element topic="L-Junction-Restrictions.md"/>
             <toc-element topic="L-Vehicle-Routing.md"/>
             <toc-element topic="L-Dynamic-Lane-Selection.md"/>
             <toc-element topic="L-Modified-Path-Finding.md"/>

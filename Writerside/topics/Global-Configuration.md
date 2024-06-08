@@ -65,7 +65,7 @@ For more information, see:
 
 ### `AdvancedVehicleAI`
 
-This section describes configuration parameters that are used by the [Advanced Vehicle AI](L-Advanced-AI.md).
+This section describes configuration parameters that are used by the [Advanced Vehicle AI](Advanced-Vehicle-AI.md).
 
 | Parameter                           | Range <br /> <sup>Type</sup> <br /> `Default`  | Notes                                                                                                                                                                                                                                                                                                                                       |
 |:------------------------------------|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -221,10 +221,11 @@ _[FlowWaitCalcMode](https://github.com/krzychu124/Cities-Skylines-Traffic-Manage
 
 ## See also
 
-[](Settings.md):
+### Mod Settings 
 
+* [](Settings.md):
 * [](Maintenance.md) - has options to reload/reset the global configuration
 
-Old wiki:
+### Old Documentation
 
-* [Global Configuration](https://tmpe.viathinksoft.com/wiki/index.php?title=Global_configuration)
+* [](L-Global-Configuration.md)
