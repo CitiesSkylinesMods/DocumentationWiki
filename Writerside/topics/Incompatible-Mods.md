@@ -29,7 +29,7 @@ When it loads, TM:PE performs several automatic checks to detect incompatible mo
 When you launch Cities: Skylines app, or first enable TM:PE, we scan to see if you have any already-identified
 incompatible mods subscribed. If any are found, an on-screen warning is shown which allows you to unsubscribe them.
 
-You can customise how the mod checker works in [](General.md) in [](Settings.md).
+You can customize how the mod checker works in [](General.md) in [](Settings.md).
 
 #### Unexpected mod conflicts
 

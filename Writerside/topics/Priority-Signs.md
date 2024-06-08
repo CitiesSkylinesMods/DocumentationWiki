@@ -21,7 +21,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 ### Applicators
 
-[](Select-a-Junction.md) to customise. You'll see a spot over each road entering the junction:
+[](Select-a-Junction.md) to customize. You'll see a spot over each road entering the junction:
 
 > If the icons don't appear, try moving/zooming the camera closer to selected junction
 
@@ -49,7 +49,7 @@ Selection:
 
 Applicators:
 
-> These apply to a selected or previously customised junction.
+> These apply to a selected or previously customized junction.
 
 * `Click a priority sign icon` - cycle through priority signs (Priority > Yield > Stop > back to Priority...)
 
@@ -65,20 +65,20 @@ Overlays:
 
 Bulk applicators:
 
-> These apply customisations along the highlighted route, which is shown as soon as you press `Shift` key (so you can
+> These apply customizations along the highlighted route, which is shown as soon as you press `Shift` key (so you can
 > check the route before clicking).
 
 * `Shift`+`Click a segment` - apply priority signs to junctions along the route
     * Repeat the shortcut to cycle through various configurations of priority signs
 * `Ctrl`+`Click a junction` - apply [](High-Priority-Roads.md) policies to that junction
-    * Use the shortcut a second time to remove the customisations
+    * Use the shortcut a second time to remove the customizations
 * `Ctrl`+`Shift`+`Click a segment` - depends on the route:
     * If route is a roundabout (loop of one-way roads) or semi-roundabout:
         * Applies [](Roundabout-Policies.md)
     * If not a roundabout:
         * Applies [](High-Priority-Roads.md) policies
         * If a junction on roundabout is encountered, that junction will have [](Roundabout-Policies.md) applied
-    * Use the shortcut a second time to remove the customisations
+    * Use the shortcut a second time to remove the customizations
 
 Camera:
 
@@ -89,11 +89,11 @@ Camera:
 
 ### Overlays
 
-While the tool is active, summary overlays show which junctions have been customised:
+While the tool is active, summary overlays show which junctions have been customized:
 
 ![](picPrioritySigns_overlay.png)
 
-To see customisations for more distant roads and tracks, move the camera towards them. Depending on camera position, you
+To see customizations for more distant roads and tracks, move the camera towards them. Depending on camera position, you
 might need to zoom in a little. You can set the **Overlay Transparency** in [](General.md) in [](Settings.md).
 
 When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible
@@ -101,11 +101,11 @@ whenever the Toolbar is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
 ### Icon Themes
 
-Depending on your languge settings (see [](General.md) in [](Settings.md)), TM:PE can show locaised signs.
+Depending on your language settings (see [](General.md) in [](Settings.md)), TM:PE can show localized signs.
 
 Currently available localisations:
 
-* American (`en` / `us`) - these signs are shown by default should localised signs not be available
+* American (`en` / `us`) - these signs are shown by default should localize signs not be available
 * Chinese (`zh`)
 * English (`gb`) - pending [Issue #1251](https://github.com/CitiesSkylinesMods/TMPE/issues/1251)
 * Welsh (`cy`) - pending [Issue #1251](https://github.com/CitiesSkylinesMods/TMPE/issues/1251)
@@ -114,7 +114,7 @@ Currently available localisations:
 
 When you make changes, only vehicles spawned _after_ that point will be aware of them.
 
-To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [](General.md)
+To make existing vehicles aware of changes, enable **Customizations come in to effect immediately** in [](General.md)
 in [](Settings.md). This may add some momentary lag on old potato computers or on big cities.
 
 Alternatively, use the [Clear Traffic](Clear-Traffic.md) tool to delete all existing vehicles; it puts less strain on
@@ -134,16 +134,16 @@ of the road traffic drives on:
 * Vehicles drive on Left? Traffic approaching from the right has priority.
 * Vehicles drive on the Right? Traffic approaching from the left has priority.
 
-However, these basic traffic rules aren't always sufficient. For exmaple, consider this junction:
+However, these basic traffic rules aren't always sufficient. For example, consider this junction:
 
 (todo: image)
 
-If there's vehiles waiting to enter from each road at the same time, who gets to go first? If _Jim Street_ is a busier
+If there's vehicles waiting to enter from each road at the same time, who gets to go first? If _Jim Street_ is a busier
 route than _Bob Street_, how do we ensure that _Jim_ gets priority over _Bob_? Priority signs remove the confusion:
 
 (todo: image)
 
-Now, taffic can flow much more freely along _Jim Street_ because it knows it has priority. Although _Bob Street_ has to
+Now, traffic can flow much more freely along _Jim Street_ because it knows it has priority. Although _Bob Street_ has to
 wait a bit longer, we've improved overall traffic flow for the majority of vehicles in the area.
 
 ## FAQ
@@ -159,14 +159,13 @@ wait a bit longer, we've improved overall traffic flow for the majority of vehic
 #### What happens if Yield or Stop traffic waits too long?
 
 > If traffic on a Yield or Stop road is sat waiting too long, they'll eventually get annoyed and just drive in to the
-> junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that hepls. If
-> it's
-> still not working, it's time to invest in some [](Traffic-Lights.md)!
+> junction. If you notice this happening a lot, first try reconfiguring your priority signs to see if that heals. If
+> it's still not working, it's time to invest in some [](Traffic-Lights.md)!
 
-#### I altered my roads but customisations didn't update
+#### I altered my roads but customizations didn't update
 
 > If you make changes to your roads, it's difficult for TM:PE to determine what to do, so it does nothing. It's why we
-> highlight junctions and routes when using the tools - you're actually deciding what to do and the highligts are just
+> highlight junctions and routes when using the tools - you're actually deciding what to do and the highlights are just
 > visual encouragement for you to do that work ;)
 
 #### Some vehicles seem to ignore the rules!
@@ -203,7 +202,7 @@ Guides:
 
 [](Contributing.md):
 
-* [](Priority-Signs-Icon-Themes.md) - localise icons for priority signs
+* [](Priority-Signs-Icon-Themes.md) — localize icons for priority signs
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

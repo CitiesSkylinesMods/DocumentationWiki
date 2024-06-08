@@ -13,7 +13,7 @@ The graphics driver is running in VR mode, but the game doesn't support VR.
 
 Exit to desktop (Alt+F4 will usually work if the screen has frozen).
 
-Make sure your graphics card drivers are fuly up-to-date. Manually check the manufacturer website for updates if necessary.
+Make sure your graphics card drivers are fully up-to-date. Manually check the manufacturer website for updates if necessary.
 
 If you have NVIDIA graphics card, download GeForce Experience app and scan for games. Once it's found the game, it should prevent the issue from happening in future.
 

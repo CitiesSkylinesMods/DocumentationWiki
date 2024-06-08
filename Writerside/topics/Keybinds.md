@@ -1,13 +1,13 @@
 # Keybindings Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): [](General.md) | [](Gameplay.md) | [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md) |
 **Keybindings**
 
 ## Overview
 
-Use these [](Settings.md) to customise the keyboard shortcuts.
+Use these [](Settings.md) to customize the keyboard shortcuts.
 
 ## Settings
 
@@ -23,7 +23,7 @@ To delete a shortcut, either:
 
 ### Global keys
 
-_Use these options to customise general keyboard shortcuts..._
+_Use these options to customize general keyboard shortcuts..._
 
 * The **Exit** shortcut will exit, as applicable, from the current selection, the tool, or the toolbar
     * This shortcut is not editable
@@ -39,7 +39,7 @@ _Use these options to customise general keyboard shortcuts..._
 
 ### Tool-specific shortcuts
 
-* Most tools provide one or more shortcuts, some of which can be customised
+* Most tools provide one or more shortcuts, some of which can be customized
 * The context-sensitive [Hints Panel](Hints-Panel.md) lists important shortcuts for the selected tool
 
 ## Notes
@@ -57,7 +57,7 @@ delete any old shortcuts you were using for TM:PE, so they don't compete with th
 
 [](Toolbar.md):
 
-* [Hints Panel](Hints-Panel.md) - automatically lists shortcuts relevant to the current TM:PE tool/mode
+* [Hints Panel](Hints-Panel.md) — automatically lists shortcuts relevant to the current TM:PE tool/mode
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
 

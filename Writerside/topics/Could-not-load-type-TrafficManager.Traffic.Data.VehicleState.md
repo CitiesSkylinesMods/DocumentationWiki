@@ -18,7 +18,7 @@ Note: The mod is not in the Steam Workshop and seems to have been part of a clos
 ## Solution
 
 * Open **Main Menu > Content Manager > Mods**
-* Find and remove **CSUR_TMPE_Laneconnector_Fix** mod (click small "(x)" button)
+* Find and remove **CSUR_TMPE_Laneconnector_Fix** mod (click small "[x]" button)
 * Exit game to desktop, then relaunch game
 
 > Tip: If you are using CSUR, try the [CSUR ToolBox](https://steamcommunity.com/sharedfiles/filedetails/?id=1959342332) mod which fixes a number of issues related to those roads.

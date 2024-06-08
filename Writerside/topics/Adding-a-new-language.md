@@ -4,9 +4,11 @@
 
 ## Overview
 
-This guide is primarily aimed at TM:PE support team who will ensure the new language is properly defined, but translators are more than welcome to go through these steps themselves if they feel comfortable doing so.
+This guide is primarily aimed at TM:PE support team who will ensure the new language is properly defined, but
+translators are more than welcome to go through these steps themselves if they feel comfortable doing so.
 
-When adding a new language, the file must be embedded within the published TM:PE files (not just copied to the build folder) and the `Translation.cs` class must also be updated.
+When adding a new language, the file must be embedded within the published TM:PE files (not just copied to the build
+folder) and the `Translation.cs` class must also be updated.
 
 ## Check filename and format
 
@@ -24,7 +26,8 @@ See: [](Localisation.md) for full details.
 
 The localisation file must be placed in `TLM/TLM/Resources` folder, where all the existing `lang_*.txt` files are.
 
-Open Visual Studio and under the `TLM` project, find and right-click the `Resources` folder then choose `Add existing item...`:
+Open Visual Studio and under the `TLM` project, find and right-click the `Resources` folder then
+choose `Add existing item...`:
 
 ![Add to resources](picAddNewLanguage_1.png)
 
@@ -32,7 +35,7 @@ Locate the new file (you might need to set file types to `All Files` in the file
 
 Once added:
 
-* Right-click the file in the sidebar (eg. `lang_es.txt`)
+* Right-click the file in the sidebar (e.g. `lang_es.txt`)
 * Choose `Properties...`
 * Make sure `Build Action` is set to `Embedded Resource`
 
@@ -40,11 +43,14 @@ Once added:
 
 ## Edit `Translation.cs` class
 
-Open the [`TLM/TLM/UI/Translation.cs`](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/blob/master/TLM/TLM/UI/Translation.cs) file in Visual Studio and locate the `Translation()` constructor.
+Open
+the [`TLM/TLM/UI/Translation.cs`](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/blob/master/TLM/TLM/UI/Translation.cs)
+file in Visual Studio and locate the `Translation()` constructor.
 
 You will see two lists being populated, both need updating to include the new language.
 
-> Note: For ease of maintenance, the lists are sorted by language code, so insert or append the new language as applicable.
+> Note: For ease of maintenance, the lists are sorted by language code, so insert or append the new language as
+> applicable.
 
 Add the language code, for example if the filename is `lang_es.txt` you'd add:
 
@@ -52,7 +58,8 @@ Add the language code, for example if the filename is `lang_es.txt` you'd add:
 AVAILABLE_LANGUAGE_CODES.Add("es");
 ```
 
-Then add the label that will appear in the drop-down language select list in [](General.md) in [](Settings.md), for example:
+Then add the label that will appear in the drop-down language select list in [](General.md) in [](Settings.md), for
+example:
 
 ```c#
 LANGUAGE_LABELS["es"] = "Español";

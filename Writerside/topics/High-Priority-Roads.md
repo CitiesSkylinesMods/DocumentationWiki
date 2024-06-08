@@ -6,7 +6,7 @@
 
 ## Overview
 
-[](Priority-Routes.md) utilise [](Priority-Signs.md) to minimise disruption caused by joining traffic. But there is an
+[](Priority-Routes.md) utilize [](Priority-Signs.md) to minimize disruption caused by joining traffic. But there is an
 even worse form of disruption: Traffic and pedestrians crossing multiple lanes, including oncoming traffic, to reach the
 other side of the road.
 
@@ -22,7 +22,7 @@ speed:
 
 ![Customized Road Example](picHighPriorityRoads_example.png)
 
-> The road pictured above was visually customised with
+> The road pictured above was visually customized with
 > the [Continues Junction Median](https://steamcommunity.com/sharedfiles/filedetails/?id=2104976832)
 > and [Hide TMPE Crosswalks](https://steamcommunity.com/sharedfiles/filedetails/?id=1934023593) mods.
 
@@ -51,19 +51,19 @@ Choose the applicator that best suits your needs...
 
 The [](Adjust-Roads.md) panel (see link for details) allows you to define your own route.
 
-1. Select/customise a route
+1. Select/customize a route
 2. Click the **High Priority Road** button to apply your policies to the route  
    ![High Priority Button](btnStreetDoubleLine.png)
-    * Click the button a second time to remove the customisations
+    * Click the button a second time to remove the customizations
 
 ### Priority Signs tool
 
 The [](Priority-Signs.md) tool chooses the route for you (see **Route Detection** section below):
 
 * `Ctrl/Cmd`+`Click a junction` - applies your policies to the selected junction only
-    * Use the shortcut a second time to remove the customisations
+    * Use the shortcut a second time to remove the customizations
 * `Ctrl/Cmd`+`Shift`+`Click a junction` - applies you policies along the entire route
-    * Use the shortcut a second time to remove the customisations
+    * Use the shortcut a second time to remove the customizations
     * If the junction is on a roundabout, it will apply [](Roundabout-Policies.md) instead.
 
 ### Route Detection
@@ -129,19 +129,22 @@ screenshot bellow are treated differently than the intermediate nodes to avoid s
 > Q: Why Roundabout offers dedicated turning lane but high priority road does not?
 >
 >> A: allocating dedicated turning lane will cause most cars to drive on the innermost lane (TODO explain why?). So not
->> a good idea
+> > a good idea
 
 > Q: High priority road feature is not working for me
 >
 >> A: High priority road feature looks at the road's width/lanes in order to decide which road is high priority and
->> which road is alley. if all the roads are the same size, high priority road gets confused as to which road is the main
->> road. Coming soon: When setting up high priority road along a route, The highlighted path is considered high priority.
+> > which road is alley. if all the roads are the same size, high priority road gets confused as to which road is the
+> > main
+> > road. Coming soon: When setting up high priority road along a route, The highlighted path is considered high
+> > priority.
 
 > Q: How did you create the continuous junction median in the screenshot?
-> 
+>
 >> A: the road with continues junction median in the first screenshot is
->> from [this asset](https://steamcommunity.com/sharedfiles/filedetails/?id=1319965985&searchtext=continues+junction+median).
->> I am also working on a future mod to do this automatically on vanilla roads.
+> >
+from [this asset](https://steamcommunity.com/sharedfiles/filedetails/?id=1319965985&searchtext=continues+junction+median).
+> > I am also working on a future mod to do this automatically on vanilla roads.
 
 ## See Also
 

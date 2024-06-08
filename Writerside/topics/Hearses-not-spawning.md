@@ -49,14 +49,14 @@ If hearses aren't spawning, or despawning quickly afterward, or there are just n
 * Make sure there isn't a road blockage causing a massive traffic jam
     * Do you have a train jam on a level crossing?
     * Is there a flooded road causing a traffic jam?
-    * Is there a collapsed road that needs repairing? (Natural Diasters DLC)
+    * Is there a collapsed road that needs repairing? (Natural Disasters DLC)
     * Is there a fire or collapsed building next to a road? (causes road to be marked blocked until resolved)
 * If you use a Hearse AI mod:
     * Disable it (in Content Manager)
     * Exit to desktop, then restart the game
     * Are things any better?
 * Hearses should have capacity of 2-10 corpses:
-    * Anymore will confuse the AIs leading to big problems
+    * Any more will confuse the AIs leading to big problems
     * You can check capacity using [Advanced Vehicle Restrictions (AVO)](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) mod
     * See [](Vanilla-capacities.md) for detailed explanation
     * If in doubt, unsubscribe any custom hearse assets and see if that fixes problem

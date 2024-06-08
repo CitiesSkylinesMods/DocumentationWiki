@@ -7,7 +7,7 @@ overlays.
 
 ## Icons
 
-There are three files which can be localised:
+There are three files which can be localized:
 
 > The `xx` in the filename should be replaced with the ISO 2-letter country code (in lowercase).
 
@@ -42,7 +42,7 @@ file, drag it in to the message box to upload it).
 
 [](Contributing.md):
 
-* [](Localisation.md) - help us localise TM:PE
-* [](Speed-Limit-Icon-Themes.md) - localise UI for [](Speed-Limits.md)
-* [](Timed-Traffic-Light-Buttons.md) - localise UI
+* [](Localisation.md) - help us localize TM:PE
+* [](Speed-Limit-Icon-Themes.md) - localize UI for [](Speed-Limits.md)
+* [](Timed-Traffic-Light-Buttons.md) - localize UI
   for [](Timed-Traffic-Lights.md)

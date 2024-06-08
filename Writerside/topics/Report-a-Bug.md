@@ -1,6 +1,6 @@
 # Report a Bug
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 ## Before you start
 
@@ -30,7 +30,7 @@ Bugs can be reported in following places:
 * **Discord chat**
     * Get almost instant response to questions and support queries
     * Send a message in the [**#Issues**](https://discord.gg/faKUnST) channel
-    * Please include a comment summarising what the problem is
+    * Please include a comment summarizing what the problem is
 
 ## Please be patient
 

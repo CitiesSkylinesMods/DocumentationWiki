@@ -1,6 +1,6 @@
 # General Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): **General**
 | [](Gameplay.md) | [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md)
@@ -40,7 +40,7 @@ _Use these options to apply regional language and icon themes to TM:PE..._
 
 ### Interface
 
-_Use these options to further customise the TM:PE user interface..._
+_Use these options to further customize the TM:PE user interface..._
 
 #### Lock main menu button position
 
@@ -91,7 +91,7 @@ _Use these options to further customise the TM:PE user interface..._
 
 ### Simulation
 
-_Use these options to customise vehicle simulation detail and updates..._
+_Use these options to customize vehicle simulation detail and updates..._
 
 #### Simulation accuracy
 
@@ -104,7 +104,7 @@ _Use these options to customise vehicle simulation detail and updates..._
 
 #### Apply AI changes right away
 
-> This option was previously called **Customisations come in to effect immediately** and has been completely removed in
+> This option was previously called **Customizations come in to effect immediately** and has been completely removed in
 > TM:PE 11.6.5.1 (changes will always come in to effect immediately now).
 
 * If enabled, the routes of _existing_ vehicles will be recalculated (from their current position) whenever you alter:
@@ -120,7 +120,7 @@ _Use these options to customise vehicle simulation detail and updates..._
 
 ### Compatibility
 
-_Use these options to customise the inbuilt mod compatibility checker..._
+_Use these options to customize the inbuilt mod compatibility checker..._
 
 #### Scan for known incompatible mods on startup
 
@@ -150,7 +150,7 @@ _Use these options to customise the inbuilt mod compatibility checker..._
 
 [](Settings.md):
 
-* [Global Configuration](Global-Configuration.md) - advanced fine-tuning of TM:PE
+* [Global Configuration](Global-Configuration.md) — advanced fine-tuning of TM:PE
 
 [TM:PE v10.x Wiki](https://tmpe.viathinksoft.com/wiki):
 

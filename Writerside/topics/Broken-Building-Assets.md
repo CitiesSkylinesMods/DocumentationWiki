@@ -34,9 +34,9 @@ These can crash the game or throw up errors in-game:
 * [regency_corner_restaurant](https://steamcommunity.com/sharedfiles/filedetails/?id=1122848011) - `System.FormatException`
 * [RTGApartment building2a L4 4x4](https://steamcommunity.com/sharedfiles/filedetails/?id=834639760) - `BrokenAssetException` (
   LOD has too many vertices)
-* [Sagrada Familia (2026), Barcelona, CATALUNYA - Left side (1/2)](https://steamcommunity.com/sharedfiles/filedetails/?id=479191043) - `BrokenAssetException` (
+* [Sagrada Família (2026), Barcelona, CATALUNYA - Left side (1/2)](https://steamcommunity.com/sharedfiles/filedetails/?id=479191043) - `BrokenAssetException` (
   LOD has too many vertices)
-* [Sagrada Familia (2026), Barcelona, CATALUNYA - Right side (2/2)](https://steamcommunity.com/sharedfiles/filedetails/?id=479191809) - `BrokenAssetException` (
+* [Sagrada Família (2026), Barcelona, CATALUNYA - Right side (2/2)](https://steamcommunity.com/sharedfiles/filedetails/?id=479191809) - `BrokenAssetException` (
   LOD has too many vertices)
 * [Skytree with Complex](https://steamcommunity.com/sharedfiles/filedetails/?id=1478663564) - `BrokenAssetException` (
   LOD has too many vertices)
@@ -61,7 +61,7 @@ Removed from Workshop
 *
 ~~[HSBC Tower](https://steamcommunity.com/sharedfiles/filedetails/?id=421304643) - `Private building cannot include roads or other net types`~~ -
 Removed from Workshop
-* [Massachusets state house](https://steamcommunity.com/sharedfiles/filedetails/?id=965492462) - `Invalid dimensions`
+* [Massachusetts state house](https://steamcommunity.com/sharedfiles/filedetails/?id=965492462) - `Invalid dimensions`
 * [Tree Foundation Owner's HQ](https://steamcommunity.com/sharedfiles/filedetails/?id=457132578) - `Private building cannot include roads or other net types`
 * [Tropical Villa](https://steamcommunity.com/sharedfiles/filedetails/?id=1543164365) - `Private building cannot include roads or other net types`
 * [Volleyball Court](https://steamcommunity.com/workshop/filedetails/?id=971132208) - `wants to be a sub-building for itself`

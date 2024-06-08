@@ -1,6 +1,6 @@
 # Contributing and Development
 
-<p align="center"><img src="https://user-images.githubusercontent.com/16494272/59316295-ee189d00-8c7a-11e9-93a2-266292b6f3e9.png" width="740" height="232" /></p>
+![](tmpeBigLogo.png)
 
 ### Ideas & Feedback
 
@@ -25,7 +25,7 @@
 * [Building from Source](https://github.com/CitiesSkylinesMods/TMPE/blob/master/docs/BUILDING_INSTRUCTIONS.md)
 * [Building from Pull Requests](https://github.com/CitiesSkylinesMods/TMPE/blob/master/docs/PR_REVIEW_INSTRUCTIONS.md)
 * Random info snippets:
-    * [](Vehicle-Flags.md) - some info on `Vehicle.Flags`
+    * [](Vehicle-Flags.md) — some info on `Vehicle.Flags`
 
 ### Text changes
 
@@ -38,9 +38,9 @@
 
 > Use PNG format for all textures, unless stated otherwise in the guide...
 
-* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
-* [](Speed-Limit-Icon-Themes.md) - localise UI for [](Speed-Limits.md)
-* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)
+* [](Priority-Signs-Icon-Themes.md) - localize UI for [](Priority-Signs.md)
+* [](Speed-Limit-Icon-Themes.md) - localize UI for [](Speed-Limits.md)
+* [](Timed-Traffic-Light-Buttons.md) - localize UI for [](Timed-Traffic-Lights.md)
 * [](Creating-animated-GIFs.md)
 * [](Credits.md) - images should be credited to their author
 

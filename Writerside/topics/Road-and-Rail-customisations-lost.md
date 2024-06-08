@@ -1,4 +1,4 @@
-# Road and Rail Customisations Lost
+# Road and Rail Customizations Lost
 
 > Article verified: July 2019
 
@@ -6,7 +6,7 @@
 
 > Note: If it's the mod [](Settings.md) (mod options screen) that are lost, see [](TMPE-mod-options-lost.md) instead.
 
-* In-game road/rail customisations (lane arrows, traffic lights, restrictions, etc.) are not loading/saving properly
+* In-game road/rail customizations (lane arrows, traffic lights, restrictions, etc.) are not loading/saving properly
 
 ## Cause
 

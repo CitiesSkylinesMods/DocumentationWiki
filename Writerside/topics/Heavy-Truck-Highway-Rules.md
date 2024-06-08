@@ -14,9 +14,9 @@ You can enable this feature to make trucks behave in a more realistic manner.
 
 Choose the **Heavy trucks prefer outer lanes on highways** option in [](Policies-and-Restrictions.md) settings.
 
-## Customise
+## customize
 
-No further customisation is required; the option applies to all highways.
+No further customization is required; the option applies to all highways.
 
 However, for best results, use highways that have 3 or more lanes.
 

@@ -26,14 +26,14 @@ For detailed information, see: [](Road-Conditions.md)
 To help vehicles drive faster:
 
 * Use the **Snow Plough** service to reduce **snow cover**
-* Enable **Studded Tires** [](City-and-District-Policies.md) minimise the impact of snow
+* Enable **Studded Tires** [](City-and-District-Policies.md) minimize the impact of snow
 * Use the **Road Maintenance** service to improve **road condition**
 
 ## See also
 
 [](Toolbar.md):
 
-* [](Speed-Limits.md) - customise road speeds
+* [](Speed-Limits.md) — customize road speeds
 
 [](Settings.md):
 

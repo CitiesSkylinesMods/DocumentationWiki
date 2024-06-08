@@ -1,4 +1,4 @@
-# Customisations or Settings Lost
+# Customizations or Settings Lost
 
 Moved to:
 

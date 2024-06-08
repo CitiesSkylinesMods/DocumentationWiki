@@ -24,7 +24,7 @@ elevated/bridge/slope/tunnel will often have different design.
 
 > Click any of the pictographs below to see the asset in the Steam Workshop...
 
-* [➖🚙2➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1838149115) - tiny ½u (4m) road, smallest road I've ever
+* [➖🚙2➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1838149115) — tiny ½u (4m) road, smallest road I've ever
   seen
 * [⬆️: ➖🚙2(💡🌳)🚙2➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1614020040)
 * [⬆️: 💡🚙🚌➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1518295774)
@@ -43,7 +43,7 @@ elevated/bridge/slope/tunnel will often have different design.
 * [➖(💡🌳)🚲🚙2🚷🚙🚙🚷🚙2🚲(💡🌳)➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1531602611) CSUR
 * [➖🚲🚙🌱🚙3(🌱💡)🚙3🌱🚙🚲➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1624645471) CSUR (junction medians)
 * [➖🌱(💡🌳)🌱🚲🚙2🌳🚙🚋➖🚋🚙🌳🚙2🚲🌱(💡🌳)🌱➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1281685974)
-* [➖🚙2🚌💡➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1718765943) Asymetric
+* [➖🚙2🚌💡➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1718765943) Asymmetric
 * [➖🚲🚲➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1713563944)
 * [➖💡(🚊🚙)(🚊🚙)➖](https://steamcommunity.com/sharedfiles/filedetails/?id=1500474055) Trains on roads!
 

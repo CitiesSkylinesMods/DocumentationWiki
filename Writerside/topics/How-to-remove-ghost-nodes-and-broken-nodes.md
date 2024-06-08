@@ -40,4 +40,4 @@ To fix **Broken Nodes**:
     * Wait for it to scan the map
 * If a broken node is detected, it will be highlighted on the map:
     * Either move (with Move It mod) or bulldoze the highlighted path, road or rail
-    * Afterwards, run the dector again and repeat the process until there are no more broken nodes
+    * Afterwards, run the detector again and repeat the process until there are no more broken nodes

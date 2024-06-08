@@ -32,6 +32,6 @@ Check your game folders for any images or other files that shouldn't be there an
 
 ## Was it Fixed?
 
-If not, check the internet - there may be similar issues with unrecognised files in other folders.
+If not, check the internet - there may be similar issues with unrecognized files in other folders.
 
 Something else? See: [](Troubleshooting.md)

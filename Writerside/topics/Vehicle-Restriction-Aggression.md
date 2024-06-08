@@ -14,9 +14,9 @@ The **Vehicle Restriction Aggression** setting lets you set how harsh the penalt
 
 Before you can use this feature, you must enable **Vehicle Restrictions** in the [](Maintenance.md).
 
-### Customise
+### customize
 
-In the [](Policies.md), choose the desired **Vehicle Restriction Aggression** from the list (default setting is
+In the [Policies](Policies.md), choose the desired **Vehicle Restriction Aggression** from the list (default setting is
 **Medium**):
 
 | Level  |  Penalty |
@@ -53,7 +53,7 @@ traffic lights, switching between modes of transport, toll booths and so on.
 
 Commercial and industry buildings require road access for delivery vans and trucks. Service and emergency vehicles
 require access to all kind of buildings. If you're using **High** or **Strict** aggression level, don't restrict the
-outermost lanes of roads that those vehicles need to use, otherwise they won't be able to find a path and you'll get
+outermost lanes of roads that those vehicles need to use, otherwise they won't be able to find a path, and you'll get
 problem notification bubbles.
 
 ## FAQ

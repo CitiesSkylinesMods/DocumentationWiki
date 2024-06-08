@@ -1,24 +1,26 @@
 # Buses
 
-> Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6
+> Verified: January 2022 — TM:PE 11.5.2 / TM:PE 11.6
 
-This guide covers the various bus services in your city, and looks at how to optimise them using a mixture of TM:PE, vanilla game and DLC features.
+This guide covers the various bus services in your city, and looks at how to optimize them using a mixture of TM:PE,
+vanilla game and DLC features.
 
 ## Overview
 
-Buses are an important component of any public transport system becuase they are extremely flexible, both in terms of capacity and routing.
+Buses are an important component of any public transport system because they are extremely flexible, both in terms of
+capacity and routing.
 
 > Trivia: [Is it 'Buses' or 'Busses'?](https://www.merriam-webster.com/words-at-play/plural-of-bus)
 
 In Cities: Skylines, there are five main types of bus:
 
-* **Passenger buses** - used by cims and tourists to travel around the city
-    * **Biofuel bus** (Green Cities DLC) - just a normal bus that's quieter
-    * **School bus** (Campus DLC) - literally just a normal bus, painted yellow
-* **Trolleybus** (Sunset Harbor DLC) - similar to a bus, but needs roads with overhead wires
-* **Sightseeing bus** (Park Life DLC) - used by tourists to travel to city attractions
-* **Evacuation bus** (Natural Diasters DLC) - used by cims and tourists to travel to emergency shelters
-* **Intercity bus** (Sunset Harbor DLC) - a special bus that links to outside connections
+* **Passenger buses** — used by cims and tourists to travel around the city
+    * **Biofuel bus** (Green Cities DLC) — just a normal bus that's quieter
+    * **School bus** (Campus DLC) — literally just a normal bus, painted yellow
+* **Trolleybus** (Sunset Harbor DLC) — similar to a bus, but needs roads with overhead wires
+* **Sightseeing bus** (Park Life DLC) — used by tourists to travel to city attractions
+* **Evacuation bus** (Natural Disasters DLC) — used by cims and tourists to travel to emergency shelters
+* **Intercity bus** (Sunset Harbor DLC) — a special bus that links to outside connections
     * Only stops at intercity bus stations/terminals
     * Doesn't have a depot
     * Buses choose their own route to/from outside connection
@@ -42,7 +44,8 @@ Depots are special buildings which spawn buses. There are four main types of dep
 * **Emergency shelters** spawn evacuation buses
     * The shelter is treated as the first stop on the route
 
-Buses will always spawn from the depot nearest the first stop defined on the route. However, once spawned the bus will choose and travel to a random stop on the line (this helps spread out buses at the start of a shift).
+Buses will always spawn from the depot nearest the first stop defined on the route. However, once spawned the bus will
+choose and travel to a random stop on the line (this helps spread out buses at the start of a shift).
 
 ## Routes
 
@@ -50,29 +53,33 @@ Buses will always spawn from the depot nearest the first stop defined on the rou
 
 Buses loop around a predefined route consisting of two or more stops, visiting each stop in turn.
 
-The last stop must always connect back to the first stop, ensuring the route forms a loop. Between each stop the pathfinder finds the best route to the next stop.
+The last stop must always connect back to the first stop, ensuring the route forms a loop. Between each stop the
+pathfinder finds the best route to the next stop.
 
 > Tip: When editing routes, you can drag stops to move them or right-click to delete them.
 
-Routes have several settings which you can customise:
+Routes have several settings which you can customize:
 
-* **Line color** - Most vehicles will change color to match the line color
-* **Type of bus** - Specifies which specific type of bus to use for a given route
-* **Number of buses** - Determined by number of stops, line budget and day/night budgets
-* **Day vs. Night** - A route can operate during day, night or both
+* **Line color** — Most vehicles will change color to match the line color
+* **Type of bus** — Specifies which specific type of bus to use for a given route
+* **Number of buses** — Determined by number of stops, line budget and day/night budgets
+* **Day vs. Night** — A route can operate during day, night or both
 
-To customise a route:
+To customize a route:
 
 * Open **Info Views > Transport Routes** and click the magnifying glass on the relevant row
 * Alternatively, click any bus on the road and choose **Line Details** from its info panel
 
-Note that on the line details screen, you can click individual stops to see more information about them, and even rename them.
+Note that on the line details screen, you can click individual stops to see more information about them, and even rename
+them.
 
-> **Mods:** [IPT](https://steamcommunity.com/sharedfiles/filedetails/?id=928128676) or [TLM](https://steamcommunity.com/sharedfiles/filedetails/?id=1312767991) (only one, not both) provide more advanced route customisation options.
+> **Mods:** [IPT](https://steamcommunity.com/sharedfiles/filedetails/?id=928128676)
+> or [TLM](https://steamcommunity.com/sharedfiles/filedetails/?id=1312767991) (only one, not both) provide more advanced
+> route customization options.
 
 ## Desirable routes
 
-Differnet types of bus have different definitions of "desirable route", which in turn determines their popularity:
+Different types of bus have different definitions of "desirable route", which in turn determines their popularity:
 
 #### Passenger bus/trolleybus (residents and tourists):
 
@@ -86,7 +93,7 @@ Differnet types of bus have different definitions of "desirable route", which in
 
 #### Intercity buses (outside connection):
 
-* Trvel between your city and the outside world
+* Travel between your city and the outside world
 * Stations/terminals should ideally be placed near:
     * Major transport hubs in your city
     * Tourist areas
@@ -102,13 +109,14 @@ Differnet types of bus have different definitions of "desirable route", which in
 * Collect cims from high population areas
 * Cims near the shelter can walk to shelter; no need for stops near the shelter
 
-> Tip: Use pedestrian/boke paths to create shortcuts for pedestrians and cyclists to reach stops more quickly.
+> Tip: Use pedestrian/bike paths to create shortcuts for pedestrians and cyclists to reach stops more quickly.
 
 ## Bus jams
 
 > This issue does not apply to evacuation buses, because their depot (the emergency shelter) only serves a single route.
 
-Passenger and sightseeing bus depots can service multiple bus routes, and each route can have multiple busses on it, so there is a risk of "bus jams" at the start/end of shifts; the depot can become jammed with buses.
+Passenger and sightseeing bus depots can service multiple bus routes, and each route can have multiple busses on it, so
+there is a risk of "bus jams" at the start/end of shifts; the depot can become jammed with buses.
 
 There are several ways to overcome such issues:
 
@@ -118,29 +126,44 @@ There are several ways to overcome such issues:
 
 ## Bus lanes
 
-Bus lanes allow buses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam Workshop.
+Bus lanes allow buses (and often taxis, emergency and service vehicles) to avoid getting stuck in traffic jams caused by
+other road vehicles. The vanilla game has several bus roads, and there are huge numbers of additional roads in the Steam
+Workshop.
 
-You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes** in [](Policies.md).
+You will sometimes find cars and trucks using bus lanes, particularly near junctions where they use them as a turning
+lane; this can disrupt your bus services. To fix that, you can **Ban private cars and trucks on bus lanes**
+in [](Policies.md).
 
-Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much faster/shorter alternative, the bus will use that lane instead. Use [](Vehicle-Restrictions.md) to discourage buses from using undesirable routes.
+Bus lanes are preferred when routing between spots on a bus route. However, if a normal lane provides a much
+faster/shorter alternative, the bus will use that lane instead. Use [](Vehicle-Restrictions.md) to discourage buses from
+using undesirable routes.
 
-> Tip: [](Vehicle-Restrictions.md) can be used to create fake bus lanes (by banning cars/trucks from a normal lane), however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use them.
+> Tip: [](Vehicle-Restrictions.md) can be used to create fake bus lanes (by banning cars/trucks from a normal lane),
+> however those lanes won't be seen as 'preferred' lanes like proper bus lanes; there's no guarantee that buses will use
+> them.
 
 ## Lane changes
 
-Buses will often need to change lanes several times to achieve the most direct route to their next stop. If there aren't enough opportunities for them to change lane, they could be forced to take a more complex (and slower) route.
+Buses will often need to change lanes several times to achieve the most direct route to their next stop. If there aren't
+enough opportunities for them to change lane, they could be forced to take a more complex (and slower) route.
 
 > ![Cumbersome bus route](picBusRoute_bug.png)  
 > The bus travelling from A to B couldn't change lane, so it had to take a detour!
 
-If [](Lane-Arrows.md) are causing problems, enable **Buses may ignore lane arrows** in [](Policies.md) to make bus routing more flexible.
+If [](Lane-Arrows.md) are causing problems, enable **Buses may ignore lane arrows** in [](Policies.md) to make bus
+routing more flexible.
 
-For evacuation buses, enabling **Evacuation buses may ignore traffic rules** in [](Policies.md) makes them behave like [](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights - they'll do whatever it takes to save lives!
+For evacuation buses, enabling **Evacuation buses may ignore traffic rules** in [](Policies.md) makes them behave
+like [](Reckless-Drivers.md) that ignore lane arrows, priority signs, speed limits and even traffic lights — they'll do
+whatever it takes to save lives!
 
 You can also provide more places where vehicles can change lanes by adding additional nodes to your road network:
 
-* Add a junction by connecting a road to an existing road; this creates a junction node. Then delete the newly added road; the junction node turns in to a middle node, where vehicles can change lane.
-* Alternatively, and more easily, install [Network Multitool](https://steamcommunity.com/sharedfiles/filedetails/?id=2560782729) mod which includes a tool for adding nodes.
+* Add a junction by connecting a road to an existing road; this creates a junction node. Then delete the newly added
+  road; the junction node turns in to a middle node, where vehicles can change lane.
+* Alternatively, and more easily,
+  install [Network Multi-tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2560782729) mod which includes a
+  tool for adding nodes.
 * For more information on nodes, see: [](Nodes,-Segments,-Lanes.md)
 
 ## Turning points
@@ -151,11 +174,13 @@ Sometimes buses need to turn around and travel back in the opposite direction. T
 * Driving round the block or a roundabout (going through several junctions)
 * At the end of a cul-de-sac (dead-end road)
 
-If a bus has to travel a long way to reach a turning point, it becomes less desirable due to increased travel time. Adding a suitable turning point will make the route shorter, which in turn will make the route more desirable.
+If a bus has to travel a long way to reach a turning point, it becomes less desirable due to increased travel time.
+Adding a suitable turning point will make the route shorter, which in turn will make the route more desirable.
 
 ## Waiting times
 
-If cims have to wait a long time for the bus, or the bus route is slow at getting them to where they want to go, the popularity of the route will decrease; cims will then find alternatives - cars!
+If cims have to wait a long time for the bus, or the bus route is slow at getting them to where they want to go, the
+popularity of the route will decrease; cims will then find alternatives — cars!
 
 To fix that:
 
@@ -167,37 +192,51 @@ To fix that:
 
 ## Bus stations, terminals and hubs
 
-If you want to connect two or more routes, simply have stops on each route near or at the same location. Note, however, that the patfinder adds a small penalty when a cim or tourist has to change between routes.
+If you want to connect two or more routes, simply have stops on each route near or at the same location. Note, however,
+that the pathfinder adds a small penalty when a cim or tourist has to change between routes.
 
-Alternatively, use a bus station building - cims can transfer between bus routes with practically no penalty.
+Alternatively, use a bus station building — cims can transfer between bus routes with practically no penalty.
 
-If you want to transfer between different transport types (e.g. bus and ferry), use a transport hub. These are essentially harbors or stations that have an integral bus station.
+If you want to transfer between different transport types (e.g. bus and ferry), use a transport hub. These are
+essentially harbors or stations that have an integral bus station.
 
 ## Other guides
 
 We found these guides useful too:
 
-* [Tips and How-To's: Buses](https://steamcommunity.com/sharedfiles/filedetails/?id=1186534752) (Steam Guide)
-* [How to make realistic/good-looking bus network](https://steamcommunity.com/sharedfiles/filedetails/?id=1262357386) (Steam Guide)
+* [Tips and How-Tos: Buses](https://steamcommunity.com/sharedfiles/filedetails/?id=1186534752) (Steam Guide)
+* [How to make realistic/good-looking bus network](https://steamcommunity.com/sharedfiles/filedetails/?id=1262357386) (
+  Steam Guide)
 
 ## Useful mods
 
-* [Anxiety Reducer](https://steamcommunity.com/sharedfiles/filedetails/?id=1766839841) - reduce route popularity penalty caused by transport delays
-* [Customize It Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=1806759255) - customise stats of buses and depots
-* [Express Bus Services](https://steamcommunity.com/sharedfiles/filedetails/?id=2262054175) - buses skip empty stops
-* [Intercity Bus Control](https://steamcommunity.com/sharedfiles/filedetails/?id=2499771767) - allows you to control which bus terminals and stations will be visited by intercity buses.
-* [Intercity Bus Stop](https://steamcommunity.com/sharedfiles/filedetails/?id=2049510825) (asset) - a small intercity bus stop for detailers
-* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - cims abandon journeys that are taking too long
+* [Anxiety Reducer](https://steamcommunity.com/sharedfiles/filedetails/?id=1766839841) — reduce route popularity penalty
+  caused by transport delays
+* [Customize It Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=1806759255) — customize stats of buses
+  and depots
+* [Express Bus Services](https://steamcommunity.com/sharedfiles/filedetails/?id=2262054175) — buses skip empty stops
+* [Intercity Bus Control](https://steamcommunity.com/sharedfiles/filedetails/?id=2499771767) — allows you to control
+  which bus terminals and stations will be visited by intercity buses.
+* [Intercity Bus Stop](https://steamcommunity.com/sharedfiles/filedetails/?id=2049510825) (asset) — a small intercity
+  bus stop for detailers
+* [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - cims abandon journeys that are taking
+  too long
 * [Stops & Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=1776052533) - cims avoid overcrowded stops
-* [Ticket Price Customizer](https://steamcommunity.com/sharedfiles/filedetails/?id=1393820309) - change prices of passenger transport services
-* [Transit Vehicle Spawn Delay](https://steamcommunity.com/sharedfiles/filedetails/?id=2654110611) - adds a delay between each vehicle spawned from a depot
-* [Trolleybus Trailer AI](https://steamcommunity.com/sharedfiles/filedetails/?id=2275749683) - allows articulated trolleybus trailers to have poles
-* [IPT](https://steamcommunity.com/sharedfiles/filedetails/?id=928128676) (basic) _or_ [TLM](https://steamcommunity.com/sharedfiles/filedetails/?id=1312767991) (advanced) - extends functionality of public transport lines
+* [Ticket Price Customizer](https://steamcommunity.com/sharedfiles/filedetails/?id=1393820309) - change prices of
+  passenger transport services
+* [Transit Vehicle Spawn Delay](https://steamcommunity.com/sharedfiles/filedetails/?id=2654110611) - adds a delay
+  between each vehicle spawned from a depot
+* [Trolleybus Trailer AI](https://steamcommunity.com/sharedfiles/filedetails/?id=2275749683) - allows articulated
+  trolleybus trailers to have poles
+* [IPT](https://steamcommunity.com/sharedfiles/filedetails/?id=928128676) (basic)
+  _or_ [TLM](https://steamcommunity.com/sharedfiles/filedetails/?id=1312767991) (advanced) - extends functionality of
+  public transport lines
 
 ## FAQ
 
 **Does this affect frame rate or cause lag?**
-> No. If you optimise your bus routes (use bus lanes, ensure enough lane changes can be made, etc.) you can acutally _reduce_ CPU load by making pathfinding easier between stops.
+> No. If you optimize your bus routes (use bus lanes, ensure enough lane changes can be made, etc.) you can actually
+_reduce_ CPU load by making pathfinding easier between stops.
 
 **Can busses ignore [](Lane-Connectors.md)?**
 > No. If you use lane connectors, buses must always adhere to those regardless of policy settings.
@@ -212,7 +251,8 @@ Having problems? See these troubleshooting guides:
 * [](Intercity-buses-not-working.md)
 * [](Transport-vehicles-stuck-on-boarding.md)
 
-> Tip: You can find and remove broken routes and stops with the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod.
+> Tip: You can find and remove broken routes and stops with
+> the [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod.
 
 ## See Also
 

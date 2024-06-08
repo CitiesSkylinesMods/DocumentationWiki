@@ -28,7 +28,7 @@ causes some blurring, which in turn can change the colours used to depict where 
 
 When the game can't find the colours its looking for, it flashes all or part of the vehicle. This is likely done as a
 reminder to the asset creator to fix their LOD texture, but it seems some creators release their vehicle without
-realising there's a problem.
+realizing there's a problem.
 
 If all vehicle LODs are flashing, it's likely that the game had to rescale textures. This is either due to having too
 many assets (their textures can't fit in VRAM) or due to user choosing low quality textures in graphics settings.
@@ -51,7 +51,7 @@ All vehicles flashing?
 * Subscribe and activate the [Loading Screen Mod](https://steamcommunity.com/workshop/filedetails/?id=667342976) - it
   greatly reduces RAM and VRAM consumption, especially if you have lots of assets
 * Still having problems? You'll have to unsubscribe some assets, sorry.
-    * Use the [Mesh Info](https://steamcommunity.com/sharedfiles/filedetails/?id=453956891) mod to find poorly optimised
+    * Use the [Mesh Info](https://steamcommunity.com/sharedfiles/filedetails/?id=453956891) mod to find poorly optimized
       assets and unsubscribe those first!
     * Can't kick your asset
       addiction? [Try this technique](https://steamcommunity.com/sharedfiles/filedetails/?id=449998850)!

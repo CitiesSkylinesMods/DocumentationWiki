@@ -4,7 +4,7 @@
 
 ## Symptom
 
-> Note: If it's road/rail customisations (lane arrows, traffic lights, restrictions, etc.) that aren't saving,
+> Note: If it's road/rail customizations (lane arrows, traffic lights, restrictions, etc.) that aren't saving,
 > see [](Road-and-Rail-customisations-lost.md) instead.
 
 * Settings on the mod options screen are missing or aren't loading/saving

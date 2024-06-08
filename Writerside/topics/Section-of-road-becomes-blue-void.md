@@ -15,7 +15,7 @@ A section of road turns in to blue void, usually while defining the road in **Tr
 This issue is very rare, and actual causes aren't yet known. It's not caused by TM:PE (testing with and without TM:PE
 made no difference).
 
-From initial experimentations, this issue seems to be caused by some combination of the following:
+From initial experimentation, this issue seems to be caused by some combination of the following:
 
 * Roads with very large numbers of tress/props (such as UK Roads Revived: Rural Roads)
 * Roads that are outside the central 25 Tile area

@@ -8,7 +8,8 @@ If an inconsistent naming is found, prefer project style, not file style.
 
 * Use `CamelCase` for enums, classes and structs.
 * Use `CamelCase` namespaces.
-  * Prefer full namespace paths where you refer to a type. It helps reading the code. For example `UI.Button` is better than just `Button` because a similarly named type might exist elsewhere.
+    * Prefer full namespace paths where you refer to a type. It helps to read the code. For example `UI.Button` is
+      better than just `Button` because a similarly named type might exist elsewhere.
 
 ## Class Fields and Functions
 
@@ -20,5 +21,6 @@ If an inconsistent naming is found, prefer project style, not file style.
 
 ## Function Args and Variables
 
-* Prefer explicit types over `var`, unless its obvious `LongClassName c = new LongClassName()` is silly, in such case just use var.
+* Prefer explicit types over `var`, unless its obvious `LongClassName c = new LongClassName()` is silly, in such case
+  just use var.
 * Arguments and local variables are `camelCase`

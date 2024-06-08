@@ -37,7 +37,7 @@ Notes:
 
 * Every line in the file must list a single mod
 * The last line in the file must not be blank
-* TM:PE is only interested in the workshop id (the number before the first semi-colon on a line)
+* TM:PE is only interested in the workshop id (the number before the first semicolon on a line)
 * The mod name just helps with maintaining the file (aid human readability)
 
 ## Adding a mod to the list

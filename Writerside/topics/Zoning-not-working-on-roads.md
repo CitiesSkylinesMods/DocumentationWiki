@@ -41,13 +41,14 @@ The following mods are broken or obsolete - unsubscribe them:
 * [New Roads for Network Extensions 2](https://steamcommunity.com/sharedfiles/filedetails/?id=929114228) - this beaks
   zoning on all roads
     * If you are using the roads in your game, **you have to bulldoze or replace them, save, and only then unsubscribe**
-      the mod, otherwise your save will be broken (as game won't know what to do with the weird roads anymore)
+      the mod, otherwise your save will be broken (as game won't know what to do with the weird roads any more)
     * You can use [Road Removal Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=1243740191) to automate
       that task
 * [Network Extensions Project](https://steamcommunity.com/sharedfiles/filedetails/?id=478820060) - breaks game,
   use [Network Extensions 2](https://steamcommunity.com/sharedfiles/filedetails/?id=812125426) instead
     * If you are using the NEP roads in your game, **you have to bulldoze or replace them, save, and only then
-      unsubscribe** the mod, otherwise your save will be broken (as game won't know what to do with the weird roads anymore)
+      unsubscribe** the mod, otherwise your save will be broken (as game won't know what to do with the weird roads any
+      more)
     * You can use [Road Removal Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=1243740191) to automate
       that task
 * [Toggle Zoning](https://steamcommunity.com/sharedfiles/filedetails/?id=415782697)

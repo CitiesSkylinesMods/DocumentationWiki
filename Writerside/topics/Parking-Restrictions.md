@@ -63,7 +63,7 @@ whenever the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md
 ## FAQ
 
 > Q: Does this affect frame rate or cause lag?
-> > A: Not directly, however if it results in cims needing to drive futher to find parking that will create more work
+> > A: Not directly, however if it results in cims needing to drive further to find parking that will create more work
 > > for
 > > the pathfinder.
 

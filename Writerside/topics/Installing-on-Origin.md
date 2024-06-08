@@ -46,7 +46,7 @@ Inside that `Mods` folder, create two new folders:
 * `TrafficManager` - for TM:PE
 * `CitiesHarmony` - for Harmony
 
-Make sure the folder names are correct, including the capitalisation! Other mods look for those exact folder names as
+Make sure the folder names are correct, including the capitalization! Other mods look for those exact folder names as
 it's the only way mods can identify each other when not running in Steam version of the game.
 
 Next, double-click the zips you downloaded to view their contents (should be a load of `.dll` files) and copy those

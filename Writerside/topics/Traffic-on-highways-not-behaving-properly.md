@@ -1,4 +1,5 @@
 # Traffic on Highways Misbehaving
+
 > Article verified: June 2019
 
 ## Symptom
@@ -13,14 +14,17 @@ One or more of the following may occur:
 ## Causes
 
 > Note:
->  
-> **For performance reasons, changes to highways do not update existing vehicles. Only vehicles spawned after the change will be aware of it.**
-> 
-> The **Customisations come in to effect immediately** option in [](General.md) **does not apply to highways!**
->  
-> You have to wait for newly spawned vehicles to see the effect of changes. You can use [Clear Traffic](Clear-Traffic.md) tool to remove old vehicles.
+>
+> **For performance reasons, changes to highways do not update existing vehicles. Only vehicles spawned after the change
+will be aware of it.**
+>
+> The **Customizations come in to effect immediately** option in [](General.md) **does not apply to highways!**
+>
+> You have to wait for newly spawned vehicles to see the effect of changes. You can
+> use [Clear Traffic](Clear-Traffic.md) tool to remove old vehicles.
 
-These symptoms are usually caused by incorrect mod settings, or not realising that highway traffic doesn't update until new vehicles spawn.
+These symptoms are usually caused by incorrect mod settings, or not realizing that highway traffic doesn't update until
+new vehicles spawn.
 
 ## Solution
 
@@ -32,7 +36,8 @@ If traffic is not using all lanes:
 When using DLS, you might see traffic jams caused by vehicles all trying to use the middle lane just before junctions:
 
 * Alter the DLS slider to under 50% (values of 30%-40% seem to work well on most cities)
-* We are working on improving DLS to avoid this issue (see [#263](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/263))
+* We are working on improving DLS to avoid this issue (
+  see [#263](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/263))
 
 If traffic is not behaving properly at highway junctions:
 

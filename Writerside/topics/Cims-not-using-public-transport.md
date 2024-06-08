@@ -40,7 +40,7 @@ Mods which change budgets can cause lots of problems:
 
 * [AutoLineBudget](https://steamcommunity.com/sharedfiles/filedetails/?id=1767246646) - known to cause severe problems
 * Any other mods which affect transport budgets (
-  eg. [Total Autobudget](https://steamcommunity.com/sharedfiles/filedetails/?id=1541897355))
+  e.g. [Total Autobudget](https://steamcommunity.com/sharedfiles/filedetails/?id=1541897355))
 
 If the budget mod has features for setting which budgets it controls, prevent it from controlling transport budgets. If
 it doesn't let you do that, disable or unsubscribe it then exit to desktop and then reload the game to see what happens.
@@ -57,7 +57,7 @@ Try disabling mods like that, exit to desktop and then reload the game to see wh
 * Roads with pavements are essential for your transit infrastructure
     * No pavement = pedestrians can't navigate the road (or even park on it in most cases)
 * Highways and some other roads don't have pedestrian pavements
-    * There might be some workshop high way assets that have pavements?
+    * There might be some workshop highway assets that have pavements?
 * Elevated roads generally do not support 'stops' on transport routes
     * [Elevated Stops Enabler](https://steamcommunity.com/sharedfiles/filedetails/?id=634913093) removes that limitation
 
@@ -96,7 +96,7 @@ Try disabling mods like that, exit to desktop and then reload the game to see wh
 
 * Make sure you are using TM:PE 10.21.1 or later; earlier versions had bad bugs in Parking AI
 * In [](Policies.md), set **Vehicle restrictions aggression** to **Low** - if that works,
-  your [](Vehicle-Restrictions.md) are causing the problem.
+  your [Vehicle Restrictions](Vehicle-Restrictions.md) are causing the problem.
 * Check your [](Junction-Restrictions.md) - in particular, disabled pedestrian crossings can
   sometimes [confuse the pathfinder](https://github.com/VictorPhilipp/Cities-Skylines-Traffic-Manager-President-Edition/issues/168)
 

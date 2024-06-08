@@ -1,13 +1,13 @@
 # Policies Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): [](General.md) | [](Gameplay.md) | **Policies**
 | [Overlays](Overlays.md) | [](Maintenance.md) | [Keybindings](Keybinds.md)
 
 ## Overview
 
-Use these [](Settings.md) to set the _default_ transport and road customisation policies in your entire city.
+Use these [](Settings.md) to set the _default_ transport and road customization policies in your entire city.
 
 Most policies can be overridden for individual lanes, junctions or roads using the features of
 the [](Toolbar.md).
@@ -125,7 +125,7 @@ _Use this option to give evacuation buses more flexibility during disasters..._
 
 ### High priority roads
 
-_Use these options to customise the [](High-Priority-Roads.md) bulk applicators..._
+_Use these options to customize the [](High-Priority-Roads.md) bulk applicators..._
 
 > Important: Provide [](Collector-Roads.md) (or tunnels/bridges) to enable cims and vehicles to reach the
 > other side of a high priority road.
@@ -161,7 +161,7 @@ _Use these options to customise the [](High-Priority-Roads.md) bulk applicators.
 
 ### Roundabouts
 
-Use these options to customise the [](Roundabout-Policies.md) bulk applicators...
+Use these options to customize the [](Roundabout-Policies.md) bulk applicators...
 
 > Note: If [](High-Priority-Roads.md) bulk applicators encounter a roundabout, they'll use these
 > settings at the roundabout junction.
@@ -190,7 +190,7 @@ Use these options to customise the [](Roundabout-Policies.md) bulk applicators..
 #### Allocate dedicated exit lanes
 
 * Dedicate outer lane of roundabout to traffic leaving at next exit
-    * This improves lane utilisation and flow inside the roundabout
+    * This improves lane utilization and flow inside the roundabout
 * Override any junction/node with [](Lane-Connectors.md) tool
 
 #### Add priority signs on the roundabout junction

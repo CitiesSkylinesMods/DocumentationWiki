@@ -21,7 +21,7 @@ the instructions there to download and install it.
 ### TM:PE
 
 * Go to our releases page:
-  <a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=EPIC-TMPE%26color=313131%26logo=epicgames%26logoColor=F56C2D" /></a>
+  <a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img alt="Epic TMPE" src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=EPIC-TMPE%26color=313131%26logo=epicgames%26logoColor=F56C2D" /></a>
 * Click the **Assets** link at the bottom of that page
 * Download the **`TrafficManager_<verison>_STABLE.zip`** (for example: 
   `TrafficManager_`<a href="https://github.com/CitiesSkylinesMods/TMPE/releases/latest"><img src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=%26color=313131" /></a>`_STABLE.zip`
@@ -50,7 +50,7 @@ Inside that `Mods` folder, create two new folders:
 * `TrafficManager` - for TM:PE
 * `CitiesHarmony` - for Harmony
 
-Make sure the folder names are correct, including the capitalisation! Other mods look for those exact folder names as
+Make sure the folder names are correct, including the capitalization! Other mods look for those exact folder names as
 it's the only way mods can identify each other when not running in Steam version of the game.
 
 Next, double-click the zips you downloaded to view their contents (should be a load of `.dll` files) and copy those

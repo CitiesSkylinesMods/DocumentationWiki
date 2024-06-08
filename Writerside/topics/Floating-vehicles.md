@@ -19,7 +19,7 @@ Vehicles floating to car parking spaces is due to the Parking AI in vanilla game
 based on the vanilla AI and suffers the same issue. There is currently no solution for that issue, but we are
 investigating to see if there's a way to reduce it.
 
-Vehicles floating randomly across the map is likley due to mods such as Service Vehicle Selector, particularly if they
+Vehicles floating randomly across the map is likely due to mods such as Service Vehicle Selector, particularly if they
 are floating to/from cargo or transport
 hubs ([example](https://steamcommunity.com/app/255710/discussions/0/3949028823313156915/)).
 
@@ -29,7 +29,7 @@ public transport, but that's not confirmed yet.
 
 ## Solution
 
-To reduce cars floating to car parks, try moving car park to different side of road or a differnet road entirely. Note
+To reduce cars floating to car parks, try moving car park to different side of road or a different road entirely. Note
 that vehicles drive to destination and _only then_ do they look for parking. If parking is within certain rage they just
 float in a straight line to the parking space.
 

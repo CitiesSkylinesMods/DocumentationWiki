@@ -111,7 +111,7 @@ Using the assets mentioned in the examples above, the URLs would be:
 * `897729711.Savelovskiy_City_Davis_Data Button Destroyed` becomes:
   > https://steamcommunity.com/sharedfiles/filedetails/?id=897729711
 
-The put the link in your browser and you'll find the broken asset. Unsubscribe it and it should fix the problem.
+The put the link in your browser, and you'll find the broken asset. Unsubscribe it and it should fix the problem.
 
 Note that for **Variant 2** you might be able to fix the asset if you created a local RICO setting for it:
 
@@ -121,7 +121,7 @@ Note that for **Variant 2** you might be able to fix the asset if you created a 
 * Or you can edit it to fix the values:
     * Edit in a text editor (see [](Text-Editors.md) for a list of compatible text editors)
     * Look for `construction-cost=""` or `construction-cost="0"`...
-    * Change it to any postive number, for example `construction-cost="10"`
+    * Change it to any positive number, for example `construction-cost="10"`
     * Save the file
 * In either case, exit the game to desktop after making changes, then reload and see if it's fixed.
 

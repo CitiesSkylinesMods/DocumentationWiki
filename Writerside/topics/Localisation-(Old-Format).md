@@ -1,16 +1,16 @@
-# Old: Localisation Format
+# Old: Localization Format
 
 > # NOTE
-> This is the old documentation that applies to **TM:PE v11.0-alpha6 and all earlier verisons**.
+> This is the old documentation that applies to **TM:PE v11.0-alpha6 and all earlier versions**.
 >
-> **TM:PE v11.0-alpha7 and all later versions** use a completely new localisation system. For details on that,
+> **TM:PE v11.0-alpha7 and all later versions** use a completely new localization system. For details on that,
 > see [](Localisation.md).
 
 ----
 
-We are hugely appreciative of anyone who can help us translate TM:PE in to other [](Languages.md).
+We are hugely appreciative of anyone who can help us translate TM:PE in to other [Languages](Languages.md).
 
-## Where to find the localisation files
+## Where to find the localization files
 
 Localization `.txt` files are located in
 the [/TLM/TLM/Resources](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/tree/master/TLM/TLM/Resources)

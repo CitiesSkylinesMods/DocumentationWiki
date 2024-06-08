@@ -53,7 +53,7 @@ If the user action will alter an existing state (whether global default or conte
 
 How does user revert changes, for example to recover from mistakes?
 
-* UI should make it easy to rapidly change a customisation and reapply the correct action that will make the user happy
+* UI should make it easy to rapidly change a customization and reapply the correct action that will make the user happy
 * Undo tool _might_ be useful in some cases
 * Bulk delete (eg. delete key can remove lane connections from an entire node)
 
@@ -79,4 +79,5 @@ Show what will be selected / changed when editing networks on the map.
 * Lane sausage
 * Half-lane sausage (does not exist yet)
 
-> Do we have a centralised class for this stuff?
+> Do we have a centralized class for this stuff?
+ 

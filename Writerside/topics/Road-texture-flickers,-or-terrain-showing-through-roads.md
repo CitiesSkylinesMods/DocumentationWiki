@@ -17,12 +17,12 @@ One or both of the following occurs:
 This issue is _not_ caused by TM:PE.
 
 Both symptoms are caused when the ground terrain isn't fully underneath the road. This is most common at junctions, road
-transitions (eg. between elevated and ground, or different types of road), and level crossings.
+transitions (e.g. between elevated and ground, or different types of road), and level crossings.
 
 ## Solutions
 
 The most common solution is to use the [Move It!](https://steamcommunity.com/sharedfiles/filedetails/?id=1619685021) mod
-to move nodes to more level terrain or raise/lower nodes so they cause the terrain to conform in a more uniform manner.
+to move nodes to more level terrain or raise/lower nodes, so they cause the terrain to conform in a more uniform manner.
 Moving nodes further apart often helps too.
 
 An alternative is to use terrain-clipping [surfaces](https://steamcommunity.com/sharedfiles/filedetails/?id=1762784478)

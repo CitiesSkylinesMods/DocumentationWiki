@@ -1,6 +1,6 @@
 # Turn On Red
 
-> Verified: December 2021 - TM:PE 11.5.2
+> Verified: December 2021 — TM:PE 11.5.2
 
 ## Overview
 
@@ -20,7 +20,7 @@ There are two kinds of **Turn on Red**...
 
 The main **Turn on Red** policy controls **near-side** unprotected turns.
 
-A near-side turn means the first road on the same side that traffic drives on (eg. if traffic drives on the right, they
+A near-side turn means the first road on the same side that traffic drives on (e.g. if traffic drives on the right, they
 can turn right).
 
 ### Far-side turns
@@ -29,10 +29,10 @@ The secondary **One-way roads** policy, if enabled, automatically applies wherev
 applied; it enables far-side unprotected turns, but only between one-way roads (the vehicle must enter from, and exit
 to, a one-way road).
 
-A far-side turn means the first road on the opposite side that traffic drives on (eg. if traffic drives on the right,
-they can turn left - but only if it's from/to one-way roads).
+A far-side turn means the first road on the opposite side that traffic drives on (e.g. if traffic drives on the right,
+they can turn left — but only if it's from/to one-way roads).
 
-### Appicators
+### Applicators
 
 To set **city-wide defaults** for **near-side turns**:
 
@@ -44,7 +44,7 @@ To set **junction-specific** overrides for **near-side turns**:
 1. Open the [](Toolbar.md)
 2. Select the [](Junction-Restrictions.md) tool  
    ![Junction Restrictions](btnJunctionRestrictions.png){style="inline"}
-3. Select the junction to customise
+3. Select the junction to customize
 4. Toggle the **Turn on Red** icons to the desired state (allow/deny)  
    ![Allow Turn Right on Red](picJunctionRestrictions_trorAllow.png){style="inline"}
    ![Deny Turn Right on Red](picJunctionRestrictions_trorDeny.png){style="inline"}
@@ -63,8 +63,8 @@ red**, otherwise traffic wishing to turn will get stuck behind traffic waiting t
 ## FAQ
 
 > Q: Does it affect frame rate or cause lag?
->> A: It can do, particularly on larger cities with lots of traffic lights (even if most of them don't have turn on red, the
->> mod still has to check every frame).
+>> A: It can do, particularly on larger cities with lots of traffic lights (even if most of them don't have 'turn on
+> > red', the mod still has to check every frame).
 
 > Q: Does **Turn on Red** work with normal traffic lights or does it need [](Timed-Traffic-Lights.md)?
 >> A: It works on both normal and timed traffic lights.
@@ -74,21 +74,22 @@ red**, otherwise traffic wishing to turn will get stuck behind traffic waiting t
 >>
 >> However, it's possible to achieve with some workshop assets and mods:
 >> 1. Subscribe traffic light assets which include **turn on red** signals, for example:
->>   * [Clus' Traffic Lights](https://steamcommunity.com/sharedfiles/filedetails/?id=2032407437)
->>   * Are there any others? Edit this page and link them please :)
+      >>
+* [Clus' Traffic Lights](https://steamcommunity.com/sharedfiles/filedetails/?id=2032407437)
+>>    * Are there any others? Edit this page and link them please :)
 >> 2. Subscribe and enable
-     either [Traffic Lights Replacer](https://steamcommunity.com/linkfilter/?url=https://tlr.cgameworld.com/documentation/pack-creation/) (
-     right-hand traffic only)
-     or [BOB, the tree and prop replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850&searchtext=bob) (
-     works on left- and right-hand traffic).
+      either [Traffic Lights Replacer](https://steamcommunity.com/linkfilter/?url=https://tlr.cgameworld.com/documentation/pack-creation/)
+      (right-hand traffic only)
+      or [BOB, the tree and prop replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850&searchtext=bob)
+      (works on left- and right-hand traffic).
 >> 3. Replace the traffic lights on the road with props that contain 'turn on red' signals. Whenever the traffic light
-     goes red, the 'turn on red' signal will light up (note the green arrow on the left):  
->> ![Green arrow](picTurnOnRed_extraSection.png)
+      goes red, the 'turn on red' signal will light up (note the green arrow on the left):  
+      > > ![Green arrow](picTurnOnRed_extraSection.png)
 
 > Q: How to create traffic light props with 'turn on red' indicators?
 >> A: Use
->> the [illumination texture](https://tlr.cgameworld.com/documentation/pack-creation/#how-to-make-traffic-light-props)
->> green light mask; it lights up when the traffic lights turn red.
+> > the [illumination texture](https://tlr.cgameworld.com/documentation/pack-creation/#how-to-make-traffic-light-props)
+> > green light mask; it lights up when the traffic lights turn red.
 
 > Q: Is there a way to do flashing yellow?
 >> A: Not currently (if you know otherwise, let us know!).

@@ -7,6 +7,12 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md">
+        <toc-element topic="L-Legacy-Documentation.md">
+            <toc-element topic="L-Vehicle-Routing.md"/>
+            <toc-element topic="L-Dynamic-Lane-Selection.md"/>
+            <toc-element topic="L-Modified-Path-Finding.md"/>
+            <toc-element topic="L-Advanced-AI.md"/>
+        </toc-element>
         <toc-element topic="Key-Features.md"/>
         <toc-element topic="Guides.md">
             <toc-element topic="Vehicles.md">
@@ -235,7 +241,6 @@
             </toc-element>
         </toc-element>
         <toc-element topic="TMPE.log.md"/>
-        <toc-element topic="Advanced-AI.md"/>
         <toc-element topic="Advanced-Vehicle-AI.md"/>
         <toc-element topic="Toolbar.md">
             <toc-element topic="Manual-Traffic-Lights.md"/>

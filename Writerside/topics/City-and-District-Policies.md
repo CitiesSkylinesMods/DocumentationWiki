@@ -11,8 +11,8 @@ ways...
 
 ## Vehicle Restrictions
 
-> These are separate to TM:PE's [](Vehicle-Restrictions.md), and in effect act as an additional layer
-> of restrictions.
+> These are separate to TM:PE's [Vehicle Restrictions](Vehicle-Restrictions.md), and in effect act as an additional
+> layer of restrictions.
 
 * **Bike ban on sidewalks** (After Dark DLC)
     * Cyclists cannot use sidewalks (pavements) and must instead use bike paths or dedicated cycle lanes
@@ -94,7 +94,7 @@ ways...
     * Make sure you have good public transport, and/or plenty of car parking!
 * **Advanced Automation** (Industry areas in Industries DLC)
     * Increase industry production output by 10% = more cargo vehicles
-* **Advertisement campaign (Parks)** (Park areas in Parklife DLC)
+* **Advertisement campaign (Parks)** (Park areas in Park life DLC)
     * 20% more visitors to park area
 * **Advertisement campaign (Varsity)** (Campuses in Campus DLC)
     * Draws 20% more visitors to arenas on campus
@@ -186,7 +186,7 @@ Mods:
 
 * [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) - Cims get daily schedules, creates
   rush hours
-* [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) - helps tame
+* [Optimized Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) - helps tame
   traffic spawned at outside connections
 * [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) - tames industry area
   traffic

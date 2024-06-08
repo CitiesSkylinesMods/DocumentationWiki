@@ -1,4 +1,4 @@
-# Change Side The Traffic Drives On 
+# Change Side The Traffic Drives On
 
 > Article verified: October 2019
 
@@ -24,10 +24,11 @@ You forgot to change driving direction when starting a new game.
 7. Exit to desktop, then relaunch Cities: Skylines
 8. You can unsubscribe Mod Tools if you no longer need it
 9. Reload the save - traffic might freak out a bit for the first few minutes
-    * If using TM:PE, check over all your road customisations to make sure they are still valid
+    * If using TM:PE, check over all your road customizations to make sure they are still valid
 
 ## Solved?
 
-If not, it's likely due to some mods not updating themselves when the driving side changes and you're only option will be to start a new game, sorry.
+If not, it's likely due to some mods not updating themselves when the driving side changes, and you're only option will
+be to start a new game, sorry.
 
 Other issues? See: [](Troubleshooting.md)

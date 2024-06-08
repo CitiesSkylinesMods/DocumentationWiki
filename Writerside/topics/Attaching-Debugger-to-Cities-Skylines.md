@@ -45,10 +45,10 @@ Next, add two environment variables:
 2. > **key:** ```DNSPY_UNITY_DBG2```  
    > **value:** ```--debugger-agent=transport=dt_socket,server=y,address=127.0.0.1:55555,suspend=n,no-hide-debugger```
 
-Finally, unarchive **dnSpy**:
+Finally, unpack **dnSpy**:
 
 * Extract the downloaded ```dnSpy-net472.zip``` to a folder
-    * It can be anywhere, eg. ```dnSpy/``` on your desktop
+    * It can be anywhere, e.g. ```dnSpy/``` on your desktop
 
 ### Debugging
 
@@ -77,7 +77,7 @@ Now run the game and attach **dnSpy**:
     * There will be some duplicates
 * **Right-click** on any of them, then **Sort Assemblies** to make the list easier to work with
 
-That's it, you are debugging. Now your mods are sure to be bugless :P
+That's it, you are debugging. Now your mods are sure to have no bugs :P
 
 ### Tips
 
@@ -97,7 +97,7 @@ delegate you create:
 * You will see each mod's assembly at least twice in the module list. This is because of how Cities:Skylines loads the
   mods.
     * There is always a single instance that is loaded in so-called reflection-only context. Its code can only be
-      inspected, the assembly itself cannot execute. If you set any breakpoints using dnSpy inside of such an assembly,
+      inspected, the assembly itself cannot execute. If you set any breakpoints using dnSpy inside such an assembly,
       those breakpoints will never be hit.
     * All other instances are executable instances. There will be at least one of them. Usually, you will have one
       read-only and one executable instance.

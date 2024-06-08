@@ -4,7 +4,7 @@
 
 ## Overview
 
-Use this tool to customise traffic policies at road junctions (including those with tram tracks and level crossings).
+Use this tool to customize traffic policies at road junctions (including those with tram tracks and level crossings).
 
 ## Usage
 
@@ -18,7 +18,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 ### Applicators
 
-[](Select-a-Junction.md) you want to customise; a detailed overlay will show available options and their current state:
+[](Select-a-Junction.md) you want to customize; a detailed overlay will show available options and their current state:
 
 ![Junction Restrictions](picJunctionRestrictions_junction.png)
 
@@ -99,7 +99,7 @@ whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Setting
 
 When you make changes, only vehicles spawned _after_ that point will be aware of them.
 
-To make existing vehicles aware of changes, enable **Customisations come in to effect immediately** in [](General.md)
+To make existing vehicles aware of changes, enable **Customizations come in to effect immediately** in [](General.md)
 in [](Settings.md). This may add some momentary lag on old potato computers or on big cities.
 
 Alternatively, you can use the [Clear Traffic](Clear-Traffic.md) tool to remove all existing traffic from the map,

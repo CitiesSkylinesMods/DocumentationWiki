@@ -4,7 +4,7 @@
 
 Use this tool to control the teleportation powers of your cims...
 
-> UK Government: [*We couldn't organise a fake Brexit traffic
+> UK Government: [*We couldn't organize a fake Brexit traffic
 jam*](https://www.thepoke.co.uk/2019/01/07/a-fake-traffic-jam-on-an-airfield-in-kent-is-peak-brexit/)  
 > Cims: *Just disable despawning, duh!*
 
@@ -23,7 +23,7 @@ Click the **Toggle Despawn** button on the [](Toolbar.md) to toggle it on/off:
 
 You can also use the option in [](Gameplay.md) in [](Settings.md) which does the exact same thing.
 
-## Customise
+## customize
 
 > Requires TM:PE 11.6.5.1 or later.
 
@@ -32,7 +32,7 @@ You can filter which vehicle types the despawn ban affects:
 * Click the filter button in [](Gameplay.md) in [](Settings.md), or
 * Right-click the **Toggle Despawn** button on the [](Toolbar.md)
 
-Note: Despawning must be disabled before you can customise filters.
+Note: Despawning must be disabled before you can customize filters.
 
 The selected vehicle types will always be allowed to despawn. It's particularly useful for allowing jammed trains to
 despawn.
@@ -44,9 +44,9 @@ despawn.
 > GPU.
 
 **I am a lunatic, how can I get bigger traffic jams?**
-> Install the [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod and you will experience
-> spectacular traffic jams during rush hour periods. Also, Real Time tracks if cims get to work on time, so be sure to
-> check for red buildings on the [](Traffic-Routes-Info-View.md)!
+> Install the [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187) mod, and you will
+> experience spectacular traffic jams during rush hour periods. Also, Real Time tracks if cims get to work on time, so
+> be sure to check for red buildings on the [](Traffic-Routes-Info-View.md)!
 
 ## See also
 

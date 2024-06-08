@@ -15,11 +15,11 @@ It can be caused by errors in the mod, or sometimes having multiple versions of 
 
 ## Solutions
 
-In the log file, look for the full error message which will usally start with the `ArgumentException` error and then be
+In the log file, look for the full error message which will usually start with the `ArgumentException` error and then be
 followed by several lines starting with `at ...`.
 
 If you see `FineRoadAnarchy.ModInfo:.ctor()` or `FineRoadTool.ModInfo:.ctor()` in the error message, it is almost
-certain that you have eitehr two versions of Fine Road Anarchy and/or Fine Road Tool mods subscribed. To fix, completely
+certain that you have either two versions of Fine Road Anarchy and/or Fine Road Tool mods subscribed. To fix, completely
 unsubscribe the older versions of the mod (don't just disable them).
 
 ## Was it Fixed?

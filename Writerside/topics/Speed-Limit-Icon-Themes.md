@@ -15,7 +15,7 @@ This guide explains how to create new country-specific themes for icons shown in
     * You can find all existing themes in our [source repository](https://github.com/CitiesSkylinesMods/TMPE/tree/master/TLM/TLM/Resources/SignThemes). 
 * We require an icon for each of the speeds supported by TM:PE, named accordingly:
     * `0.png` denotes "unlimited speed" which is usually a circle with a dash across it (in most countries); in-game it's often used on rail networks
-    * For **miles per hour**, the signs come in **5..90** range, named like `5.png`, `10.png`, .. `90.png` in steps of 5 MPH.
+    * For **miles per hour**, the signs come in **5..90** range, named like `5.png`, `10.png`, … `90.png` in steps of 5 MPH.
     * For **kilometres per hour**, the signs come in **5..140** range, named like `5.png`, `10.png`, .. `140.png` in steps of 5 km/h.
 * A theme can be marked as supporting MPH or km/h, or both if applicable.
 
@@ -33,6 +33,6 @@ Once you're done, or if you need any help, let us know via [Discord chat](https:
 
 [](Contributing.md):
 
-* [](Localisation.md) - help us localise TM:PE
-* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
-* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)
+* [](Localisation.md) - help us localize TM:PE
+* [](Priority-Signs-Icon-Themes.md) - localize UI for [](Priority-Signs.md)
+* [](Timed-Traffic-Light-Buttons.md) - localize UI for [](Timed-Traffic-Lights.md)

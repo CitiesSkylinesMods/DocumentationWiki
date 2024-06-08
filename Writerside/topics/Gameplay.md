@@ -1,6 +1,6 @@
 # Gameplay Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): [](General.md) | **Gameplay**
 | [](Policies.md) | [Overlays](Overlays.md) | [](Maintenance.md)
@@ -41,7 +41,7 @@ _Use these options to control some key aspects of vehicle behaviour throughout y
     * Wet/flooded roads will cause vehicles to slow down (non-winter biomes)
 *
 
-See: [](Road-Conditions.md), [](Snow-Info-View.md), [](Road-Maintenance-Info-View.md)
+See: [Road Conditions](Road-Conditions.md), [Snow View](Snow-Info-View.md), [Road Maintenance View](Road-Maintenance-Info-View.md)
 
 #### Disable despawning
 
@@ -66,7 +66,7 @@ _Use these options to improve road lane usage throughout your city..._
 
 * Vehicles will try and avoid congested routes
 * Lanes usage is more evenly distributed
-* See: [Advanced AI](Advanced-AI.md)
+* See: [Advanced AI](L-Advanced-AI.md)
 
 #### Dynamic lane selection
 
@@ -114,7 +114,7 @@ _Use this option to make cims behave more realistically at stations..._
 [](Settings.md):
 
 * [](Policies.md)
-* [Global Configuration](Global-Configuration.md) - if you want to fine-tune gameplay values
+* [Global Configuration](Global-Configuration.md) — if you want to fine-tune gameplay values
 
 [](Toolbar.md):
 

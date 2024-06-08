@@ -32,7 +32,7 @@ journey and return home.
 
 ## How to fix
 
-* Optimise your road network to help traffic reach its destination more quickly
+* Optimize your road network to help traffic reach its destination more quickly
     * On busy routes, reducing the number of junctions helps a lot!
     * Adding more lanes usually makes things worse (lane changes cause traffic jams!)
     * Create fast 'bypass routes' for 'through traffic'

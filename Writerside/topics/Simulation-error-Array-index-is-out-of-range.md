@@ -155,7 +155,7 @@ Some array index errors can be fixed using the "Safe Mode" options in Loading Sc
 1. Exit game to desktop
 2. Subscribe and enable [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) (LSM)
 3. In its mod options:
-    * Enable the optimisation/sharing options to reduce RAM use (will make games load faster)
+    * Enable the optimization/sharing options to reduce RAM use (will make games load faster)
     * Enable the safe mode options
 4. Now load your save - LSM will do everything it can to beat those errors
 

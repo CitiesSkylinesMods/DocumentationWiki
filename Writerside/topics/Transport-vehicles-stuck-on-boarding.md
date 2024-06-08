@@ -4,7 +4,7 @@
 
 ## Symptom
 
-Users describe this issue as "forever boarding", and it mostly affects busses and trains:
+Users describe this issue as "forever boarding", and it mostly affects buses and trains:
 
 * Vehicle arrives at a stop and passengers begin to board, however the boarding phase never ends and the vehicle
   appears 'stuck' at the stop, often causing huge traffic jams.

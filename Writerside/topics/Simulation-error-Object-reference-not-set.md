@@ -5,7 +5,7 @@
 
 Both of these must be true:
 
-* While loading a savegame, an error message appears:
+* While loading a saved game, an error message appears:
     * `Simulation error: Object reference not set`
 * On reviewing your [log file](Share-your-Cities-Skylines-log-file.md), the stack trace mentions:
     * `RoadBaseAI.CanEnableTrafficLights`
@@ -16,7 +16,7 @@ Both of these must be true:
 
 This is a bug in the game itself, not TM:PE.
 
-This problem occurs when your savegame includes a road asset which is no longer available, usually a result of one of the following:
+This problem occurs when your saved game includes a road asset which is no longer available, usually a result of one of the following:
 
 * You unsubscribed a road asset
 * You unsubscribed a mod that provided the road asset (such as Network Extensions)

@@ -15,7 +15,7 @@ https://desktop.github.com/
 
 ## GitKraken
 
-> GitKraken is authorised on the main `CitiesSkylinesMods` org so can be used with all projects hosted there.
+> GitKraken is authorized on the main `CitiesSkylinesMods` org so can be used with all projects hosted there.
 
 https://www.gitkraken.com/
 

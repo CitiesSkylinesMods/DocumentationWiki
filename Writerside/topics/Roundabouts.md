@@ -4,7 +4,7 @@
 
 ## Overview
 
-Roundabouts can be hugely beneficial to traffic flow and safety at some junctions - if you use them properly.
+Roundabouts can be hugely beneficial to traffic flow and safety at some junctions — if you use them properly.
 
 Note the two key factors mentioned above:
 

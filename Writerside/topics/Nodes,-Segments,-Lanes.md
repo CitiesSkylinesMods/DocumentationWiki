@@ -8,7 +8,7 @@ In Cities: Skylines, vehicles and cims travel along routes (roads, tracks, etc.)
 
 * Routes consist of one or more **Segments**
 * Segments contain one or more **Lanes**
-* Segments are joined togehter by **Nodes**
+* Segments are joined together by **Nodes**
 
 This article explains some of the nuances and terminology relating to them.
 
@@ -125,7 +125,7 @@ At first glance, a **bend node** looks like a **middle node**. However, on close
 #### Roads (Bend)
 
 * [](Lane-Changes.md) can occur
-* [](Pedestrian-Crossings.md) (no road makrings) are enabled by default
+* [](Pedestrian-Crossings.md) (no road markings) are enabled by default
 
 #### Tracks (Bend)
 
@@ -152,7 +152,7 @@ road is different size or elevation, you'll get a junction instead of a bend/mid
 
 ### Asymmetric nodes
 
-Asymmetric nodes occur where asymmetric roads change direction (basically a stylised middle node):
+Asymmetric nodes occur where asymmetric roads change direction (basically a stylized middle node):
 
 > todo: image
 
@@ -193,10 +193,10 @@ Junction nodes occur at the confluence of three or more segments of road or trac
 
 > todo: image
 
-Only one type of traffic can use the junction at a time; either road vehicles or trains. To enfore that, level crossings
-have barriers that block road traffic from entering the junction while a train is approaching or crossing the junction.
-The barrier will only lift once the train has fully cleared the junction (it's no longer on a tracked segment either
-side of the junction).
+Only one type of traffic can use the junction at a time; either road vehicles or trains. To enforce that, level
+crossings have barriers that block road traffic from entering the junction while a train is approaching or crossing the
+junction. The barrier will only lift once the train has fully cleared the junction (it's no longer on a tracked segment
+either side of the junction).
 
 #### Roads (Level Crossing)
 
@@ -219,7 +219,7 @@ As mentioned at the start of this guide, segments always have a node at each end
 Some workshop road and track assets provide **Nodeless networks** which allow segments to connect to junctions without
 the side effects of having a node:
 
-* The benefit is that the end of the segment won't be distored by the junction node; this facilitates some innovative
+* The benefit is that the end of the segment won't be distorted by the junction node; this facilitates some innovative
   design opportunities for asset creators and detailers
 * The downside is that some traffic management features, such as stop signs and traffic lights, aren't available on the
   nodeless networks.

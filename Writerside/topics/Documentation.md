@@ -2,21 +2,18 @@
 
 There are two versions of the documentation:
 
-* New: https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/wiki
+* Documentation 2: https://doc.tmpe.me created from GitHub Wiki data files using Jetbrains Writerside
+* Documentation 1: https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/wiki
 * Old (website is down, see Wayback Machine internet archive): https://tmpe.viathinksoft.com/wiki/
 
-### Contributing
+### Contributing to Documentation 2 (doc.tmpe.me)
 
-> We haven't yet worked out a decent way to manage localised versions of the docs. Any suggestions welcome!
+* Apply the ordinary GitHub contribution flow (fork, branch, create pull request)
+  to https://github.com/CitiesSkylinesMods/DocumentationWiki
+* Use British English with Oxford spelling for -ise/-ize words
+* Using Jetbrains Writerside really helps, but you don't have to, it's all Markdown!
 
-* Requires free GitHub account
-* You can add/edit pages in the browser (recommended)
-* Or, use [Git Desktop](https://desktop.github.com/) or [git command line](https://help.github.com/articles/set-up-git/)
-  for local editing
-    * Clone link: ```https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition.wiki.git```
-* The wiki uses [git flavoured markdown](https://guides.github.com/features/mastering-markdown/) syntax
-* To add/update images, use Git Desktop (recommended)
-  or [command line](https://publicobject.com/2014/12/31/posting-images-on-githubs-wiki/)
-* All changes are tracked
+### Fate of Other Documentation Versions
 
-If you run in to problems, let us know!
+Old documentation is good as gone, the website is down. You can access it using Wayback Machine internet archive.
+Documentation 1 is still available on GitHub.

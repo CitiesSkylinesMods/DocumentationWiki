@@ -4,7 +4,7 @@
 
 ## Symptom
 
-> Note: This error occurs when exiting the game so you can safely choose to ignore it if desired.
+> Note: This error occurs when exiting the game, so you can safely choose to ignore it if desired.
 
 You see an error on-screen or in the log file like this:
 
@@ -23,7 +23,7 @@ It's caused by mods that do not properly maintain their Harmony patch/redirect s
 
 ## Solution
 
-In the [log file](Share-your-Cities-Skylines-log-file.md), see if you recognise any mod names, for example (we've
+In the [log file](Share-your-Cities-Skylines-log-file.md), see if you recognize any mod names, for example (we've
 highlighted the lines in red):
 
 ```

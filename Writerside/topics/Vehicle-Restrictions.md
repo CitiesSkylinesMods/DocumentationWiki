@@ -62,7 +62,7 @@ The following shortcuts are applicable when the Vehicle Restrictions tool is act
 
 Selection:
 
-* `Click a segment of road/rail` - choose segment to customise
+* `Click a segment of road/rail` - choose segment to customize
     * Any previously selected segment will be deselected
 * `Right-click anywhere` - deselect current segment
     * If no segment selected: Exit the **Vehicle Restrictions** tool as if you pressed `Esc`
@@ -86,19 +86,19 @@ Camera / Overlays:
 
 ### Overlays
 
-While the tool is active, icons summarise vehicle restrictions on nearby roads/tracks:
+While the tool is active, icons summarize vehicle restrictions on nearby roads/tracks:
 
 ![Summary Icons](picVehicleRestrictions_summary.png)
 
 To see icons for distant roads/tracks, move the camera towards them. **Overlay transparency** can be set
 in [](General.md) in [](Settings.md).
 
-When the tool is deactivated overlays will be removed. A persistent overlay, which summarises vehicle restrictions
+When the tool is deactivated overlays will be removed. A persistent overlay, which summarizes vehicle restrictions
 whenever the [](Toolbar.md) is visible, can be enabled in [Overlays](Overlays.md) in [](Settings.md).
 
 ## Notes
 
-This tool is designed to provide fine tuning of traffic restrictions, for example:
+This tool is designed to provide fine-tuning of traffic restrictions, for example:
 
 * Prevent trucks driving through residential areas
 * Make passenger trains choose a different rail track
@@ -109,7 +109,7 @@ This tool is designed to provide fine tuning of traffic restrictions, for exampl
 Remember to provide alternate routes for vehicles, otherwise they might not be able to reach their destination.
 
 * [](Reckless-Drivers.md) ignore vehicle restrictions
-* Emergency vehicles, when responding to an emergency (red/blue lights flashing), also ingore vehicle restrictions
+* Emergency vehicles, when responding to an emergency (red/blue lights flashing), also ignore vehicle restrictions
 
 ### How it works
 
@@ -131,11 +131,11 @@ If you want to limit coverage of service buildings, use these mods instead:
   or [Customize It: Extended!](https://steamcommunity.com/sharedfiles/filedetails/?id=1806759255):
     * Control the travel distance a building will service
 * [Real Time](https://steamcommunity.com/sharedfiles/filedetails/?id=1420955187):
-    * Lets you control where cims shop (eg. local to where they live/work), etc.
+    * Lets you control where cims shop (e.g. local to where they live/work), etc.
 
 ## FAQ
 
-> Q: Does it affect framerate or cause lag?
+> Q: Does it affect frame rate or cause lag?
 >> A: Yes, a little; it adds extra work for the pathfinder especially if you use the feature extensively. If that's a
 > > problem, you can disable the feature in [](Maintenance.md).
 
@@ -167,7 +167,7 @@ If you want to limit coverage of service buildings, use these mods instead:
 > Q: Regional vs. local traffic?
 >> * No, but it's being considered, for trains,
      see: [Issue #158](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/158)
->> * You can use [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498)
+>> * You can use [Optimized Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498)
      and/or [Advanced Outside Connection](https://steamcommunity.com/sharedfiles/filedetails/?id=2053500739) mods to
      reduce outside traffic
 >> * You can use the vanilla **Allow intercity trains** option on Passenger Station info panels

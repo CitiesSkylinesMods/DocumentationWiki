@@ -39,7 +39,7 @@ There is no guaranteed solution, but there are a few things we can try...
 If you're still having problems, you could try the following:
 
 1. Make sure your graphics card drivers are fully updated.
-2. If your computer has more than one graphics card (eg. integrated graphics and dedicated graphics):
+2. If your computer has more than one graphics card (e.g. integrated graphics and dedicated graphics):
     * Set the computer to use the dedicated graphics card
     * For more information, see **Hardware > Graphics**
       in [Performance Tuning Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=465790009)

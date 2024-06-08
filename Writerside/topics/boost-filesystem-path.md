@@ -22,7 +22,7 @@ Completely uninstall and then reinstall the game, and Steam, and then reinstall 
 
 ## Was it Fixed?
 
-If not, you'll have to hunt the internet for answers. One extreme option would be a complete reinstall of your operating
-system.
+If not, you'll have to hunt the internet for answers. One extreme option would be a complete re-installation of your
+operating system.
 
 Other issues? See: [](Troubleshooting.md)

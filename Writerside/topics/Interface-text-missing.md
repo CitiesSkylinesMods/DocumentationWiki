@@ -4,7 +4,7 @@
 
 ## Symptom
 
-* Text missing from user interface (eg. no content in timed traffic lights panel)
+* Text missing from user interface (e.g. no content in timed traffic lights panel)
 
 ## Cause
 

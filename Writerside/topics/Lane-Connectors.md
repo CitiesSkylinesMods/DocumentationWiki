@@ -4,7 +4,7 @@
 
 ## Overview
 
-Use this tool to customise the allowed routes traffic can take at junctions and nodes.
+Use this tool to customize the allowed routes traffic can take at junctions and nodes.
 
 > Tip: If you want a simpler alternative, use [](Lane-Arrows.md) instead.
 
@@ -31,19 +31,21 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 ### Overlays
 
-While the tool is active, detailed overlays will show all nodes customised with lane connectors:
+While the tool is active, detailed overlays will show all nodes customized with lane connectors:
 
 (todo: image)
 
-To see the lane connectors for more distant nodes, scroll the camera towards them. Depending on camera position, you might need to zoom in a little.
+To see the lane connectors for more distant nodes, scroll the camera towards them. Depending on camera position, you
+might need to zoom in a little.
 
 Unlike most other overlays, lane connectors don't currently support transparency settings.
 
-When the tool is deactivated, overlays will be removed. You can enable a persistent detailed overlay, which is visible whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Settings.md).
+When the tool is deactivated, overlays will be removed. You can enable a persistent detailed overlay, which is visible
+whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
-### Customise
+### customize
 
-(todo - see Shortcuts for now as it summarises it)
+(todo - see Shortcuts for now as it summarizes it)
 
 ### Shortcuts
 
@@ -59,7 +61,7 @@ Camera / Overlays:
 
 Selection:
 
-* **Click a node** - select node to customise
+* **Click a node** - select node to customize
     * Any previously selected node will be deselected
     * You can now use basic and bulk applicators
 * **Right click anywhere** - deselects currently selected lane or node
@@ -78,13 +80,16 @@ Bulk applicators:
 
 ### Refresh
 
-Vehicles calculate their path before starting their journey. As a result, when you make changes to lane connectors, only vehicles spawned _after_ that point will be aware of the changes.
+Vehicles calculate their path before starting their journey. As a result, when you make changes to lane connectors, only
+vehicles spawned _after_ that point will be aware of the changes.
 
 To force a refresh, you can:
 
-* Enable **Customisations come in to effect immediately** in [](General.md) in [](Settings.md) to force vehicles to automatically recalculate their paths when lane connectors change.
+* Enable **Customizations come in to effect immediately** in [](General.md) in [](Settings.md) to force vehicles to
+  automatically recalculate their paths when lane connectors change.
     * This may add some momentary lag on old potato computers or on big cities.
-* Or use the [Clear Traffic](Clear-Traffic.md) tool to remove all existing traffic from the map, leaving only newly spawned traffic that is aware of your changes. This causes less lag, but you have to do it every time.
+* Or use the [Clear Traffic](Clear-Traffic.md) tool to remove all existing traffic from the map, leaving only newly
+  spawned traffic that is aware of your changes. This causes less lag, but you have to do it every time.
 
 ### Deactivate
 
@@ -92,28 +97,40 @@ Press **Esc** or switch to any other tool when you're finished.
 
 ## Notes
 
-Unlike [](Lane-Arrows.md), which set a general direction that an incoming lane can exit by, lane connectors explicitly link to one or more outgoing lanes in any direction. Essentially, you are hard-wiring the paths that can be taken through the junction.
+Unlike [](Lane-Arrows.md), which set a general direction that an incoming lane can exit by, lane connectors explicitly
+link to one or more outgoing lanes in any direction. Essentially, you are hard-wiring the paths that can be taken
+through the junction.
 
-If an incoming lane does not connect to any outgoing lanes, it will be treated as a "lane arrow" lane - the game will deicde which outgoing lanes it can connect to.
+If an incoming lane does not connect to any outgoing lanes, it will be treated as a "lane arrow" lane - the game will
+decide which outgoing lanes it can connect to.
 
-If an outgoing lane is not connected to any incoming lanes then it is likely that no traffic can enter it, unless there is a suitable "lane arrow" incoming lane. Inaccessible outgoing lanes can wreak havoc in your city if they prevent vehicles reaching a destination.
+If an outgoing lane is not connected to any incoming lanes then it is likely that no traffic can enter it, unless there
+is a suitable "lane arrow" incoming lane. Inaccessible outgoing lanes can wreak havoc in your city if they prevent
+vehicles reaching a destination.
 
-If you have enabled **Enable highway-specific lane merging/splitting rules** in [](Policies.md) in [](Settings.md), and you override a highway junction with lane connectors, the highway rules will automatically be disabled for that junction and it will act like a normal city road junction - for all lanes at the junction, including any that aren't connected. We recommend either connecting all lanes at a highway junction, or no lanes, in order to avoid unexpected vehicle behaviour.
+If you have enabled **Enable highway-specific lane merging/splitting rules** in [](Policies.md) in [](Settings.md), and
+you override a highway junction with lane connectors, the highway rules will automatically be disabled for that
+junction, and it will act like a normal city road junction - for all lanes at the junction, including any that aren't
+connected. We recommend either connecting all lanes at a highway junction, or no lanes, in order to avoid unexpected
+vehicle behaviour.
 
 ## FAQ
 
-#### Does it affect frame rate or cause lag?
-> Not really. The game already has to route through junctions, we just change the possible routes. However, if you go crazy with the tool you could force vehicles to take longer routes, which means more work for the pathfinder.
+> Q: Does it affect frame rate or cause lag?
+>> A: Not really. The game already has to route through junctions, we just change the possible routes. However, if you
+> > go
+> > crazy with the tool you could force vehicles to take longer routes, which means more work for the pathfinder.
 
-#### When I load my city, my lane connector customisations are gone
-> Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
+> Q: When I load my city, my lane connector customizations are gone
+>> A: Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
 
-#### Can I allow buses to ignore lane connections to avoid them taking detours?
-> No. Unlike [](Lane-Arrows.md), the lane connectors are very strict and must be obeyed by all buses.
+> Q: Can I allow buses to ignore lane connections to avoid them taking detours?
+>> A: No. Unlike [](Lane-Arrows.md), the lane connectors are very strict and must be obeyed by all buses.
 
-#### Can any vehicles ignore lane connections?
-> * Only emergency vehicles which are _responding to an emergency_ can ignore lane connectors.
-> * All other vehicles, including  [](Reckless-Drivers.md) and buses, must strictly obey the lane connectors at all times.
+> Q: Can any vehicles ignore lane connections?
+>> * Only emergency vehicles which are _responding to an emergency_ can ignore lane connectors.
+>> * All other vehicles, including  [](Reckless-Drivers.md) and buses, must strictly obey the lane connectors at all
+     times.
 
 ## See Also
 

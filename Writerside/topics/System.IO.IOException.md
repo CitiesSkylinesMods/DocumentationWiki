@@ -1,4 +1,5 @@
 # System.IO.IOException
+
 > Verified: February 2022 - TM:PE 11.6.4.7
 
 > TM:PE team: Check the folder path for stuff like `DODI-Repacks` and other indicators of the game being pirated.
@@ -21,7 +22,7 @@ at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess acc
 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
 ```
 
-or: 
+or:
 
 ```
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --->
@@ -48,15 +49,20 @@ Note: A similar error, [[System.IO.IOException Win32 IO returned 112]], is cause
 
 ## Cause
 
-[#292](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/292): The `System.Exception` error is caused by **faulty installation of the game on a different disk drive** (ie. not Drive C:).
+[#292](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/292):
+The `System.Exception` error is caused by **faulty installation of the game on a different disk drive** (i.e. not Drive
+C:).
 
-[#629](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/629): The `System.IO.IOException` error can also be caused by **incorrect move of game to different drive**.
+[#629](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/629):
+The `System.IO.IOException` error can also be caused by **incorrect move of game to different drive**.
 
-[#802](https://github.com/CitiesSkylinesMods/TMPE/issues/802): The `System.Reflection.TargetInvocationException` error is caused by **insufficient access rights** to the folder where the log is being created.
+[#802](https://github.com/CitiesSkylinesMods/TMPE/issues/802): The `System.Reflection.TargetInvocationException` error
+is caused by **insufficient access rights** to the folder where the log is being created.
 
 ## Solution
 
-First, check your disk drive isn't full. Check both the main disk drive (where your Operating System loads from, usually `C:` on Windows) and also the drive where the game is installed. If it's full, free up space and try again.
+First, check your disk drive isn't full. Check both the main disk drive (where your Operating System loads from,
+usually `C:` on Windows) and also the drive where the game is installed. If it's full, free up space and try again.
 
 If it's still not working...
 
@@ -66,7 +72,8 @@ If it's still not working...
 * You might need to [Change Download Region](https://support.steampowered.com/kb_article.php?ref=9498-WPDF-3220)
 * Did you install / move game to different drive? See: [](Moving-the-game-to-a-different-disk-drive.md)
 
-As of TM:PE 11.6.2 you can specify where the log file should go via command line parameter. For details see [[TMPE.log]].
+As of TM:PE 11.6.2 you can specify where the log file should go via command line parameter. For details
+see [[TMPE.log]].
 
 ## Was it Fixed?
 

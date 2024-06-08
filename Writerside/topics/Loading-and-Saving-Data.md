@@ -1,6 +1,6 @@
 # Loading and Saving Data
 
-> > ### **Note:** This page describes code that has not yet been merged into the `master` branch.
+> ### **Note:** This page describes code that has not yet been merged into the `master` branch.
 
 There are two ways to load and save data, depending on the history and condition of the code you are working with. Both
 involve the organization of data into an object model for saving. However, they differ as follows:

@@ -34,7 +34,7 @@ To help vehicles drive faster:
 
 [](Toolbar.md):
 
-* [](Speed-Limits.md) - customise road speeds
+* [](Speed-Limits.md) - customize road speeds
 
 [](Settings.md):
 

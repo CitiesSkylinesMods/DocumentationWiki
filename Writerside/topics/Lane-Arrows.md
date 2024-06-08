@@ -1,12 +1,12 @@
 # Lane Arrows
 
-> Verified: December 2021 - TM:PE 11.5.2
+> Verified: December 2021 — TM:PE 11.5.2
 
 ## Overview
 
-Lane arrows can be used to organise traffic flow across road junctions and level crossings.
+Lane arrows can be used to organize traffic flow across road junctions and level crossings.
 
-> Arrows only affect normal road traffic. To customise tracked junctions, use [](Lane-Connectors.md) instead.
+> Arrows only affect normal road traffic. To customize tracked junctions, use [](Lane-Connectors.md) instead.
 
 ## Usage
 
@@ -51,11 +51,11 @@ The following shortcuts are applicable when the Lane Arrows tool is active...
 
 Selection:
 
-* `Click a segment entering a junction` - choose segment to customise
+* `Click a segment entering a junction` — choose segment to customize
     * Any previously selected segment wil be deselected
-* `Right-click anywhere` - deselect current segment
+* `Right-click anywhere` — deselect current segment
     * If no segment selected: Exit the **Lane Arrows** tool as if you pressed `Esc`
-* `Esc` - exit **Lane Arrows** tool
+* `Esc` — exit **Lane Arrows** tool
     * Returns focus to the [](Toolbar.md) and enables its [](Adjust-Roads.md) mode.
 
 Basic Applicators:
@@ -69,7 +69,7 @@ Bulk applicators:
 
 > See [](Dedicated-Turning-Lanes.md) guide for more information.
 
-* `Alt`+`Click segment entering a junction` - Automatially configure turning lanes for that segment
+* `Alt`+`Click segment entering a junction` - Automatically configure turning lanes for that segment
     * Repeat the shortcut to cycle through alternate configurations
 * `Control`+`Click a junction` - Give all roads at the junction a turning lane
     * Same as `Alt`+`Click`, but configures all segments entering the junction
@@ -87,7 +87,7 @@ Camera / Overlays:
 
 ## Notes
 
-Unlike [](Lane-Connectors.md), which explictitly link an incoming lane to one or more outgoing lanes, the lane arrows
+Unlike [](Lane-Connectors.md), which explicitly link an incoming lane to one or more outgoing lanes, the lane arrows
 just set a _general direction_.
 
 (todo: image)
@@ -110,9 +110,9 @@ seen as a valid exit from the junction.
 
 #### Lane arrows are causing buses to take strange routes
 
-> Buses often need extra flexibility to reach their next stop. In [](Policies.md) in [](Settings.md):
-> * Enable **Busses may ignore lane arrows** for passenger and sightseeing buses
-> * Enable **Evacuation busses may ignore traffic rules** for emergency evacuation buses
+> Buses often need extra flexibility to reach their next stop. In [Policies](Policies.md) in [Settings](Settings.md):
+> * Enable **Buses may ignore lane arrows** for passenger and sightseeing buses
+> * Enable **Evacuation buses may ignore traffic rules** for emergency evacuation buses
 
 #### Painted road arrows are not reflecting my changes
 
@@ -120,11 +120,11 @@ seen as a valid exit from the junction.
 > don't show arrows at all, or show incorrect arrows (particularly if the asset was designed for traffic driving on the
 > other side of the road).
 
-#### When I load my city, my lane arrow customisations are gone
+#### When I load my city, my lane arrow customizations are gone
 
 > Try unpausing the game. See [](Lane-arrow-and-connector-not-loading.md) for details.
 
-#### Can I customise the painted road arrows?
+#### Can I customize the painted road arrows?
 
 > Yes, use [BOB, the Tree and Prop Replacer](https://steamcommunity.com/sharedfiles/filedetails/?id=2197863850) mod (or
 > similar):

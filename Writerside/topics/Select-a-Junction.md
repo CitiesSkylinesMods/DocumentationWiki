@@ -19,7 +19,7 @@ Move the mouse over a junction on the map; if it can be selected, a circle will 
 
 (todo: image)
 
-**Click** the circle to select the junction, then customise it as desired.
+**Click** the circle to select the junction, then customize it as desired.
 
 ### Deselect
 

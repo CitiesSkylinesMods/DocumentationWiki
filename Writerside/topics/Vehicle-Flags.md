@@ -1,6 +1,6 @@
 # Vehicle Flags
 
-> Verified: April 2022 - TM:PE 11.6.5.2
+> Verified: April 2022 — TM:PE 11.6.5.2
 
 ## Overview
 

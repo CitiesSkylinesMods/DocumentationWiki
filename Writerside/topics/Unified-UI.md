@@ -3,7 +3,7 @@
 ## Overview
 
 The [Unified UI](https://steamcommunity.com/sharedfiles/filedetails/?id=2255219025) (UUI) mod helps collate buttons for
-various mods in to a single toolbar - it's a great way to declutter your screen.
+various mods in to a single toolbar — it's a great way to declutter your screen.
 
 ## Usage
 
@@ -44,8 +44,8 @@ Clicking the button will open the TM:PE [](Toolbar.md) as normal.
 
 Settings:
 
-* [](General.md) - options to control menu button, toolbar, etc.
+* [](General.md) — options to control menu button, toolbar, etc.
 
 GitHub:
 
-* [UnifiedUI](https://github.com/kianzarrin/UnifiedUI) - source code and issue tracker
+* [UnifiedUI](https://github.com/kianzarrin/UnifiedUI) — source code and issue tracker

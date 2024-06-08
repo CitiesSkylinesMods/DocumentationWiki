@@ -124,7 +124,7 @@ Make sure the file is publicly viewable, then share the URL in a comment.
 ### In Discord chat:
 
 Drag the file in to the `#support` chat window to attach it. Also tell us why you're sharing the file, otherwise it's
-just a random file and we have no idea what we're looking for.
+just a random file, and we have no idea what we're looking for.
 
 ### On GitHub:
 

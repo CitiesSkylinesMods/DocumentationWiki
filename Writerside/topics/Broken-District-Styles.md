@@ -5,7 +5,7 @@
 
 ## Overview
 
-District Styles must consist entirely of growable building assets. If they contain a building that is not growable (eg. a unique building or a service building) it triggers a game-breaking bug which will prevent buildings (and sometimes vehicles) from spawning.
+District Styles must consist entirely of growable building assets. If they contain a building that is not growable (e.g. a unique building or a service building) it triggers a game-breaking bug which will prevent buildings (and sometimes vehicles) from spawning.
 
 ## Broken styles
 

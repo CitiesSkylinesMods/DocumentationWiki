@@ -108,7 +108,7 @@ enabled mods.
     * Enable **Load used assets**
     * Optional: Enable **Save assets report**
 
-This helps minimise the number of assets that get processed when loading the save.
+This helps minimize the number of assets that get processed when loading the save.
 
 ### Page file
 

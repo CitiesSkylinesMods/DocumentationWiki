@@ -17,4 +17,4 @@ If you just copy the game to a new drive, things go horribly wrong - especially 
 4. Reinstall Cities: Skylines
     * Steam will automatically download any DLCs and workshop mods/assets you were subscribed to
     * You will need to re-enable mods and check their settings
-    * Restore your savegames (Steam will automatically restore any that you stored in Steam Cloud, assuming it works)
+    * Restore your saved games (Steam will automatically restore any that you stored in Steam Cloud, assuming it works)

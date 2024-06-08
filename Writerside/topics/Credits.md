@@ -9,24 +9,24 @@ See [Changelog](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-Pr
 
 ## Logo
 
-* Traffic Lights - [IconDrawer](http://www.icondrawer.com/icons_512_addon_preview.php)  
+* Traffic Lights — [IconDrawer](http://www.icondrawer.com/icons_512_addon_preview.php)  
     > **Commercial Image**, licensed to [FireController1847](https://github.com/FireController1847) for use with TM:PE
 
 ## Backgrounds
 
-* Green and red circles - [Victor Phillip](https://github.com/VictorPhilipp)
+* Green and red circles — [Victor Phillip](https://github.com/VictorPhilipp)
 
 ## Vehicles Icons
 
 * Bicycle
 * Bus
-* Taxi - [Georg Habermann](https://thenounproject.com/term/taxi/10383/)
+* Taxi — [Georg Habermann](https://thenounproject.com/term/taxi/10383/)
 * Car
 * Truck
-* Services - [Public Domain Nouns](https://thenounproject.com/term/recycle/60/)
-* Emergency - [Roadgeek 2005 Mittelschrift - Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2890/charmap)
-* Passenger Train - [Rémy Médard](https://thenounproject.com/term/passenger/188591/)
-* Cargo Train - [Gatot Supriyadi](https://thenounproject.com/term/boxes/2133988/)
+* Services — [Public Domain Nouns](https://thenounproject.com/term/recycle/60/)
+* Emergency — [Roadgeek 2005 Mittelschrift — Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2890/charmap)
+* Passenger Train — [Rémy Médard](https://thenounproject.com/term/passenger/188591/)
+* Cargo Train — [Gatot Supriyadi](https://thenounproject.com/term/boxes/2133988/)
 
 ## Junctions Icons
 
@@ -35,19 +35,19 @@ See [Changelog](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-Pr
 * Lane Change
 * Turn on Red
 * Pedestrian Crossing
-* Turn on Red - [FireController1847](https://github.com/FireController1847)
+* Turn on Red — [FireController1847](https://github.com/FireController1847)
 
 ## Priority Icons
 
-* Priority - [Roadgeek 2005 SignBacks - Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap)
-* Yield - [Roadgeek 2005 SignBacks - Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap)
-* Stop - [Roadgeek 2005 SignBacks - Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap) (text font unknown; not from RoadGeek series)
-* Empty Spot - [Victor Phillip](https://github.com/VictorPhilipp), updated by [aubergine10](https://github.com/aubergine10)
+* Priority — [Roadgeek 2005 SignBacks — Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap)
+* Yield — [Roadgeek 2005 SignBacks — Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap)
+* Stop — [Roadgeek 2005 SignBacks — Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2910/charmap) (text font unknown; not from RoadGeek series)
+* Empty Spot — [Victor Phillip](https://github.com/VictorPhilipp), updated by [aubergine10](https://github.com/aubergine10)
 
 ## Speed Icons
 
 * km/h:
-    * German - [Victor Phillip](https://github.com/VictorPhilipp), fonts: [Roadgeek 2005 Mittelschrift - Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2890/charmap)
+    * German — [Victor Phillip](https://github.com/VictorPhilipp), fonts: [Roadgeek 2005 Mittelschrift — Michael D. Adams](https://www.fontspace.com/michael-d-adams/roadgeek-2005/2890/charmap)
 * MPH:
    * USA, German, British - [Kvakvs & FireController](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/pull/384)
 

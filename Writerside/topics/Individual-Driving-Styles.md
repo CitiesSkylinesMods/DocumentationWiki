@@ -46,7 +46,7 @@ stretches of road, however it adds extra workload to the CPU which might be prob
 
 #### Driving Speed
 
-The speed a cim drives at is determined by several factors. It can be summarised as: Maximum speed modified by
+The speed a cim drives at is determined by several factors. It can be summarized as: Maximum speed modified by
 individual driving style. The effect of the individual driving style is dependent on the category of vehicle being
 driven.
 

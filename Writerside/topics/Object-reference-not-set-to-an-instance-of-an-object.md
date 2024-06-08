@@ -68,14 +68,14 @@ _usually_ be several lines starting with `  at`. Look for any of the following s
     * A better alternative is [Bulldoze It!](https://steamcommunity.com/sharedfiles/filedetails/?id=1627986403)
 * `RoadBaseAI.CanEnableTrafficLights`:
     * This error happens when your save (or a building you have subscribed) contains a road, rail or other transport
-      asset that is not avaialble
+      asset that is not available
         * Sometimes triggers side effects, e.g. `Building.PlayAudio` or `Building.CalculateGroupData` errors
     * Can often be fixed with [Safenets](https://steamcommunity.com/sharedfiles/filedetails/?id=1620588636) mod
         * See also [](How-to-remove-workshop-networks.md)
     * More info and fixes: [](Simulation-error-Object-reference-not-set.md)
 * `WaterSimulation.ReleaseWaterWave`:
     * Possibly caused
-      by [Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=811352708), [Natural Disasters Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=1801953480)
+      by [Ragnarök](https://steamcommunity.com/sharedfiles/filedetails/?id=811352708), [Natural Disasters Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=1801953480)
       or some other mod that alters natural disasters (particularly the tsunami "tidal wave").
     * Solution: Launch a meteorite in to the water where the Tsunami was happening. This has to be the best bug fix ever
       found. Thanks to steam user Darky for the tip!
@@ -103,14 +103,14 @@ _usually_ be several lines starting with `  at`. Look for any of the following s
 * `TreeInstance.PopulateGroupData`:
     * Seems to be caused by Nursing Homes for Senior Citizens mod
 * `VehicleManager.SimulationStepImpl`:
-    * The save game was created with More Vehicles mod active, which increase vehicle limts.
+    * The save game was created with More Vehicles mod active, which increase vehicle limits.
     * If More Vehicles mod is later disabled or removed, the save will break
     * To fix: Re-enable More Vehicles mod.
 
 > There are reports that **Service Vehicles Manager** also causes object reference errors, although we haven't seen a
 > log file to confirm.
 
-## Ploppabe RICO
+## Ploppable RICO
 
 I've moved this to its own guide: [](Ploppable-RICO-errors.md)
 
@@ -121,7 +121,7 @@ Sometimes the errors can be fixed using the "Safe Mode" options in Loading Scree
 1. Exit game to desktop
 2. Subscribe and enable [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) (LSM)
 3. In its mod options:
-    * Enable the optimisation/sharing options to reduce RAM use (will make games load faster)
+    * Enable the optimization/sharing options to reduce RAM use (will make games load faster)
     * Enable the safe mode options
 4. Now load your save - LSM will do everything it can to beat those errors
 

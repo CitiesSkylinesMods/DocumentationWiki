@@ -8,7 +8,7 @@ The guidance below, mostly about vehicles and roads, is general-purpose - it als
 
 ### Vehicle Capacity
 
-Do not make vehicles with overly large capacities. They should be in the same 'ball park' as [](Vanilla-capacities.md).
+Do not make vehicles with overly large capacities. They should be in the same 'ballpark' as [](Vanilla-capacities.md).
 
 For example, say you have a hearse with a capacity of 10 (vanilla) and there are 100 dead people: The AI will send out
 10 hearses, and each will visit 10 buildings. Now, imagine a hearse with capacity 100: The game sends out 1 hearse, and
@@ -62,11 +62,11 @@ include indicators, brake lights, etc.
 It was assumed that the ```NetInfo.m_CanCrossLanes``` setting was something to do with vehicles and road medians,
 however [this does not appear to be the case](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues/192).
 That property seems to be more about small roads (no medians) and determines whether vehicles can _cross oncoming
-traffic_ lanes to reach a destination (eg. a parking space) on the other side of the road.
+traffic_ lanes to reach a destination (e.g. a parking space) on the other side of the road.
 
-Currently the only known way to prevent vehicles crossing medians is to use TM:PE lane arrows or lane connector tools to
-force vehicles to stay in lane at junctions, and relay this information to end-users via screenshots depicting what it
-should look
+Currently, the only known way to prevent vehicles crossing medians is to use TM:PE lane arrows or lane connector tools
+to force vehicles to stay in lane at junctions, and relay this information to end-users via screenshots depicting what
+it should look
 like ([example 1](https://steamcommunity.com/sharedfiles/filedetails/?id=1327917624), [example 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1718180429)).
 
 We are attempting to implement something in TM:PE that will do this automatically;
@@ -98,7 +98,7 @@ following criteria are met (items marked 📜 are reported in the [[TMPE.log]] f
 * Property `m_vehicleTypes` must _not_ be `None` or only `Bicycle` 📜
     * We might add support for bike paths in the future
 
-If your road does not meet the above criteria, the speed limits tool will not recognise it.
+If your road does not meet the above criteria, the speed limits tool will not recognize it.
 
 * Property `name` must _not_ be `null` or empty string 📜
 

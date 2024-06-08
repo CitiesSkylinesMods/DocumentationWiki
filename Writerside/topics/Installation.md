@@ -1,6 +1,6 @@
 # Installation
 
-> Verified: June 2023 - TM:PE 11.8.0.0
+> Verified: June 2023 — TM:PE 11.8.0.0
 
 **Exit the game** first, then follow these steps...
 
@@ -27,23 +27,24 @@ You can use TM:PE on the following game portals:
     * [](Installing-on-Epic-Games.md)
     * [](Installing-on-Origin.md)
 * Downloads for manual installation:
-    * Download **Harmony**: 
+    * Download **Harmony**:
         <a href="https://github.com/boformer/CitiesHarmony/releases"><img alt="Harmony" src="https://img.shields.io/github/v/release/boformer/CitiesHarmony?label=downloads%26include_prereleases%26logo=buffer" /></a>
     * Download **TM:PE**:
         <a href="https://github.com/CitiesSkylinesMods/TMPE/releases"><img alt="TM:PE" src="https://img.shields.io/github/v/release/CitiesSkylinesMods/TMPE?label=downloads%26include_prereleases%26logo=buffer" /></a>
 
 Unfortunately, the following game portals don't allow code mods:
 
-* **Console** (Xbox, PS4, Switch) - no support for mods
+* **Console** (Xbox, PS4, Switch) — no support for mods
 * **Windows 10 Edition** (Xbox live) - it's the Xbox version of the game
 
 ## 2. Unsubscribe incompatible mods
 
-When TM:PE is first enabled, and also each time you launch Cities: Skylines app, it will scan for [](Incompatible-Mods.md)
+When TM:PE is first enabled, and also each time you launch Cities: Skylines app, it will scan
+for [](Incompatible-Mods.md)
 and display a warning if any are found.
 
 * If incompatible mods are found, you should unsubscribe them.
-    * You can customise how this feature works in [](General.md) in [](Settings.md).
+    * You can customize how this feature works in [](General.md) in [](Settings.md).
     *
     See [this Workshop topic](https://steamcommunity.com/workshop/filedetails/discussion/1637663252/1678063648163943780/)
     for details of incompatible mods
@@ -53,7 +54,7 @@ and display a warning if any are found.
 * **After unsubscribing any mods, _always_ exit to desktop and then relaunch the game to ensure they are fully flushed
   from RAM.**
 
-You're now ready to start a game! Use the [](Toolbar.md) to customise your roads.
+You're now ready to start a game! Use the [](Toolbar.md) to customize your roads.
 
 ## FAQ
 

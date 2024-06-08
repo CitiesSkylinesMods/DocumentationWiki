@@ -11,7 +11,7 @@ Use these features to create dedicated turning lanes at junctions, which improve
 * Lane usage within roundabouts
 * Fewer cars/trucks using bus lanes
 
-Turning lanes are prioritised as follows:
+Turning lanes are prioritized as follows:
 
 * Far-side turn
 * Near-side turn

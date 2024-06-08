@@ -1,6 +1,6 @@
 # Language Translations
 
-> Verified: December 2021 - TM:PE 11.5.2 STABLE / 11.6.1 TEST
+> Verified: December 2021 — TM:PE 11.5.2 STABLE / 11.6.1 TEST
 
 TM:PE has been translated to [multiple languages](https://crowdin.com/project/tmpe):
 
@@ -15,7 +15,7 @@ via [](General.md) in [](Settings.md).
 
 TM:PE is compatible with other language mods:
 
-* Game languages - TM:PE should recognise the locale and set its language accordingly
+* Game languages — TM:PE should recognize the locale and set its language accordingly
 * Custom Name Lists
 
 > TM:PE devs: Custom game locales are handled
@@ -34,11 +34,11 @@ own custom UI system which could support that in the future.
 
 [](Settings.md):
 
-* [](General.md) - select language to use
+* [](General.md) — select language to use
 
 [](Contributing.md):
 
-* [](Speed-Limit-Icon-Themes.md) - localise icons for [](Speed-Limits.md)
-* [](Priority-Signs-Icon-Themes.md) - localise icons for [](Priority-Signs.md)
-* [](Timed-Traffic-Light-Buttons.md) - localise UI
+* [](Speed-Limit-Icon-Themes.md) — localise icons for [](Speed-Limits.md)
+* [](Priority-Signs-Icon-Themes.md) — localise icons for [](Priority-Signs.md)
+* [](Timed-Traffic-Light-Buttons.md) — localize UI
   for [](Timed-Traffic-Lights.md)

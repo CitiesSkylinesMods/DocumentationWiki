@@ -52,7 +52,7 @@ the road conditions as shown in the tables below.
 You can reduce road wetness using the **Pumping** service, and improve road condition using the **Road Maintenance**
 service.
 
-#### Winter biome
+#### Winter Biome
 
 | Snow coverage | Road condition | Studded Tires policy | Resulting speed modifier |
 |:-------------:|:--------------:|:--------------------:|:-------------------------|

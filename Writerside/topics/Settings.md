@@ -1,6 +1,6 @@
 # Settings
 
-> Verified: December 2021 - TM:PE 11.5.2
+> Verified: December 2021 — TM:PE 11.5.2
 
 **Settings**:
 [](General.md) | [](Gameplay.md) | [](Policies-panel-missing.md) |
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The features of TM:PE can be customised from the mod options screen.
+The features of TM:PE can be customized from the mod options screen.
 
 > ### Currently, most settings can only be changed via the in-game Pause Menu.
 
@@ -28,9 +28,9 @@ To access the setting screen:
 
 The settings are arranged in tabs, for more info click links below:
 
-* [](General.md) - UI, mod checker, etc.
-* [](Gameplay.md) - various gameplay options
-* [](Policies.md) - set city-wide default policies, etc
+* [](General.md) — UI, mod checker, etc.
+* [](Gameplay.md) — various gameplay options
+* [](Policies.md) — set city-wide default policies, etc
 * [Overlays](Overlays.md) - enable persistent overlays
 * [](Maintenance.md) - enable mod features, etc.
 * [Key Bindings](Keybinds.md) - keyboard shortcuts
@@ -39,7 +39,7 @@ Settings are saved directly to the save game, so you can have different settings
 
 ## Fine tuning
 
-Advanced settings can be customised via [Global Configuration](Global-Configuration.md) file on disk. If changing the file
+Advanced settings can be customized via [Global Configuration](Global-Configuration.md) file on disk. If changing the file
 whilst in-game, use the **Reload Global Configuration** button in [](Maintenance.md) to make changes
 take effect.
 

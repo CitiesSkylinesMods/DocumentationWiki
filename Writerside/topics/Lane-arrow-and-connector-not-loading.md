@@ -8,7 +8,7 @@
 ## Cause
 
 For technical reasons, TM:PE waits until after the first simulation step has completed before it updates certain
-customisations.
+customizations.
 
 If the game is "Paused on load", the first simulation step won't complete until _after_ you unpause the game.
 

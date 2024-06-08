@@ -42,7 +42,7 @@ need to zoom in a little. You can set the **Overlay Transparency** in [](General
 When the tool is deactivated, overlays will be removed. You can enable a persistent summary overlay, which is visible
 whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Settings.md).
 
-### Customise
+### customize
 
 When the tool is active, you'll see a palette containing available speed options:
 
@@ -90,7 +90,7 @@ The palette has some other options:
       discussion of improvements
 * **Show lane-wise speed limits:** When enabled, you can set the speed for each lane individually.
 * **Display speed limits as MPH instead of km/h:** When enabled, speeds will be shown in miles per hour
-  > You can also customise the icon style in [](General.md) in [](Settings.md).
+  > You can also customize the icon style in [](General.md) in [](Settings.md).
 
 ### Refresh
 

@@ -59,7 +59,7 @@ Click on any string to show its detail screen:
 
 In the top box you'll see the **Source string**, which is the **key** TM:PE uses to locate a translation.
 
-Each source string includes a **prefix followed by a colon** - in the example above it's `Checkbox:`. Do NOT include the prefix in your translated string; you only need to translate the text _after_ the `:` - in the example above that would be `Ignore disabled mods`.
+Each source string includes a **prefix followed by a colon** — in the example above it's `Checkbox:`. Do NOT include the prefix in your translated string; you only need to translate the text _after_ the `:` - in the example above that would be `Ignore disabled mods`.
 
 The **Context** section provides some additional detail about where the string is used, often with a screenshot. If you click a screenshot you'll see a red box depicting where the string is used.
 
@@ -93,9 +93,9 @@ Then click "Open..." and you'll get the list of Language files again.
 
 [](Contributing.md):
 
-* [](Priority-Signs-Icon-Themes.md) - localise UI for [](Priority-Signs.md)
-* [](Speed-Limit-Icon-Themes.md) - localise UI for [](Speed-Limits.md)
-* [](Timed-Traffic-Light-Buttons.md) - localise UI for [](Timed-Traffic-Lights.md)
+* [](Priority-Signs-Icon-Themes.md) - localize UI for [](Priority-Signs.md)
+* [](Speed-Limit-Icon-Themes.md) - localize UI for [](Speed-Limits.md)
+* [](Timed-Traffic-Light-Buttons.md) - localize UI for [](Timed-Traffic-Lights.md)
 
 Old stuff:
 

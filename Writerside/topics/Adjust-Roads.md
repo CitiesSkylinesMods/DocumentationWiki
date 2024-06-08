@@ -1,11 +1,11 @@
 # Adjust Roads
 
-> Verified: December 2021 - TM:PE 11.5.2
+> Verified: December 2021 — TM:PE 11.5.2
 
 ## Overview
 
-Use these tools to create [](Priority-Routes.md), [](High-Priority-Roads.md), and optimise
-medium/large [](Roundabouts.md).
+Use these tools to create [Priority Routes](Priority-Routes.md), [High Priority Roads](High-Priority-Roads.md), and
+optimize medium/large [](Roundabouts.md).
 
 ## Usage
 
@@ -15,11 +15,11 @@ The bulk applicators are accessed from the **Adjust Roads** panel:
 
 To open the panel, either:
 
-* Open the TM:PE [](Toolbar.md), then click the road/roundabout you want to customise
+* Open the TM:PE [](Toolbar.md), then click the road/roundabout you want to customize
     * This only works if none of the TM:PE tools are active; if you are in a tool, exit it first.
-* Or, click the _name_ of the road/roundabout you want to customise
+* Or, click the _name_ of the road/roundabout you want to customize
     * This is a shortcut for opening the [](Traffic-Routes-Info-View.md) info view, then selecting the *
-      *Adjust Roads** tab, then clicking the road/roundabout you want to customise :)
+      *Adjust Roads** tab, then clicking the road/roundabout you want to customize :)
 
 ### Applicators
 
@@ -36,9 +36,9 @@ Click the desired button to apply changes to the route:
 
 Note:
 
-* Clicking the button a second time will remove the customisations (TM:PE 11.6 or later).
+* Clicking the button a second time will remove the customizations (TM:PE 11.6 or later).
 * The roundabout button will only be enabled if the route consists entirely of one-way road.
-* To ensure customisations are applied, the features must be enabled in [](Maintenance.md) in [](Settings.md).
+* To ensure customizations are applied, the features must be enabled in [](Maintenance.md) in [](Settings.md).
 
 ### Setting the route
 
@@ -68,7 +68,7 @@ To change the road name:
 2. Alter the name as desired
 3. Press **Return** to save changes
 
-> You can rename any network this way - including quays, paths and power lines!
+> You can rename any network this way — including quays, paths and power lines!
 
 ### Shortcuts
 
@@ -76,7 +76,7 @@ The following shortcuts are applicable when the **Adjust Roads** panel is active
 
 Selection:
 
-* `Click a road/roundabout` - Select route
+* `Click a road/roundabout` — Select route
     * Any previously selected route will be deselected
     * You can now use applicators
 * `Esc` - exit **Adjust Roads** panel
@@ -101,7 +101,7 @@ closed, overlays will be removed.
 
 ## FAQ
 
-**Some vehicles ignore the customisations**
+**Some vehicles ignore the customizations**
 
 > * [](Reckless-Drivers.md) ignore most traffic policies.
 > * Vehicles which are already driving aren't notified about changes by default:
@@ -109,7 +109,7 @@ closed, overlays will be removed.
 
 * Enable **Apply AI changes right away** in [](General.md) in [](Settings.md) if you want immediate updates.
 
-> * Short road segments entering junctions can confuse the vehicle AIs (eg. not enough time to yeild/stop):
+> * Short road segments entering junctions can confuse the vehicle AIs (e.g. not enough time to yield/stop):
     >
 
 * Use [Broken Nodes Detector](https://steamcommunity.com/sharedfiles/filedetails/?id=1777173984) mod to locate them
@@ -120,7 +120,7 @@ closed, overlays will be removed.
 
 **Does it affect frame rate or cause lag?**
 
-> Not directly; the bulk applicators are just alternate ways to apply customisations. Some of those customisations,
+> Not directly; the bulk applicators are just alternate ways to apply customizations. Some of those customizations,
 > however, might cause a little lag (see their wiki pages for more details).
 
 **After changing the route (green bar), my roads disappeared!**

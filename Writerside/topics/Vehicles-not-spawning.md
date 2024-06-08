@@ -61,7 +61,7 @@ list all game limits.
       in [](Maintenance.md) in [](Settings.md). This will eradicate any "stuck vehicles".
     * Use [Rebalanced Industries](https://steamcommunity.com/sharedfiles/filedetails/?id=1562650024) mod to reduce
       amount of industry traffic, especially in farms and forestry areas.
-    * Use [Optimised Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) mod to
+    * Use [Optimized Outside Connections](https://steamcommunity.com/sharedfiles/filedetails/?id=1721492498) mod to
       ensure cargo vehicles are more fully filled with cargo.
     * Use [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935) to increase
       capacity of vehicles. Don't go crazy - AIs get confused if the capacity is too big (

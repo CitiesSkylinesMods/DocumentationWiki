@@ -23,7 +23,7 @@ chance the position because the road or track no longer exists.
 
 If you haven't already done so, subscribe and
 enable [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) (LSM). In its mod
-options, enable sharing/optimisation features.
+options, enable sharing/optimization features.
 
 The first thing we need to deal with is the missing networks. You have two choices - either try and revive them, or just
 get rid of them...
@@ -54,7 +54,7 @@ After sorting out the missing networks, you will probably still have some broken
 * Load your city
 * In-game, press **Ctrl + Zero** (or **Cmd + Zero** on Macs)
 * Use each of the tools:
-    * **Detect disconnected PT stops** (repeat process until it's not finding anymore)
+    * **Detect disconnected PT stops** (repeat process until it's not finding any more)
     * **Remove ghost nodes**
     * **Run detector** (if it finds anything, move or bulldoze the pinned road/track/path)
 * Now save your game under a new file name

@@ -65,7 +65,7 @@ For more information, see:
 
 ### `AdvancedVehicleAI`
 
-This section describes configuration parameters that are used by the [Advanced Vehicle AI](Advanced-AI.md).
+This section describes configuration parameters that are used by the [Advanced Vehicle AI](L-Advanced-AI.md).
 
 | Parameter                           | Range <br /> <sup>Type</sup> <br /> `Default`  | Notes                                                                                                                                                                                                                                                                                                                                       |
 |:------------------------------------|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

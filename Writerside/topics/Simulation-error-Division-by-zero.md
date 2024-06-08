@@ -10,7 +10,7 @@ This will often crash the game.
 
 ## Cause
 
-We have not yet identified the cause, but it is likely caused by a mod or incompatiiblity between mods.
+We have not yet identified the cause, but it is likely caused by a mod or incompatibility between mods.
 
 The error will sometimes include `at TrafficManager.Custom.AI ...`. While TM:PE might be mentioned, it's not the cause
 of the error, it's just affected by the error.
@@ -26,7 +26,7 @@ We are currently investigating the following mods:
 * Mod Tools (unlikely)
 * Extended Asset Editor (unlikely)
 * Stops and Stations
-* More Advanced District Snapping (unlikley)
+* More Advanced District Snapping (unlikely)
 * More Advanced Info Views (unlikely)
 * Backward Compatibility: New Roads For Network Extension 2
 * Historical Districts

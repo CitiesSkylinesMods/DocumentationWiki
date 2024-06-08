@@ -23,7 +23,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 ### Applicators
 
-The speed palette controlls the various modes of the speed limits tool, and determines what speed will be set when
+The speed palette controls the various modes of the speed limits tool, and determines what speed will be set when
 clicking speed icons on the map.
 
 ![Speed Palette](picSpeedLimits_paletteNew.png)
@@ -57,7 +57,7 @@ Default speeds are represented by green circular speed icons:
 
 ![Default speed icon](picSpeedLimits_defaultIcon.png)
 
-Default speeds are defined by network assets (roads, tracks, etc.), but you can customise them if desired:
+Default speeds are defined by network assets (roads, tracks, etc.), but you can customize them if desired:
 
 1. Activate default speeds mode (button lit)  
    ![Default mode](picSpeedLimits_default.png)
@@ -89,13 +89,13 @@ speed.
 
 This is particularly useful if you're using high speed train tracks.
 
-> You can customise vehicle speeds
+> You can customize vehicle speeds
 > using [Advanced Vehicle Options](https://steamcommunity.com/sharedfiles/filedetails/?id=1548831935)
-> or [Customise It Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=1806759255) mod.
+> or [customize It Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=1806759255) mod.
 
 ### Reset Speeds
 
-To reset customised speeds to default values:
+To reset customized speeds to default values:
 
 1. Select the **Reset** button on the speed bar  
    (todo: image)
@@ -109,7 +109,7 @@ The following shortcuts are applicable when the Speed Limits tool is active...
 
 Selection:
 
-* `Esc` or `Right mouse click` - exit Speed Limits tool
+* `Esc` or `Right mouse click` — exit Speed Limits tool
     * Returns focus to the [](Toolbar.md) and enables its [](Adjust-Roads.md) mode.
 
 Modes:
@@ -131,7 +131,7 @@ Speeds:
 
 Applicators:
 
-* `Click a speed icon` - change network/segment/lane speed to the speedbar speed
+* `Click a speed icon` - change network/segment/lane speed to the speed selected in the palette
 * `Shift`+`Click a speed icon` - change speed and apply that change along the route
     * This is only applicable in segment/lane speed override mode.
 

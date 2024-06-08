@@ -1,5 +1,6 @@
 # Change Log
-> > Verified: January 2022 - TM:PE 11.5.2 / TM:PE 11.6.3
+
+> > Verified: January 2022 — TM:PE 11.5.2 / TM:PE 11.6.3
 
 > Note: This may merit some simplification in future as we now have multiple changelogs happening which is messy.
 
@@ -7,7 +8,9 @@
 
 The main changelog is located in the repo at: https://github.com/CitiesSkylinesMods/TMPE/blob/master/CHANGELOG.md
 
-The badges and their links which appear at the top are automatically updated so you don't need to change those. The `Legend` section only needs updating when a new workshop page is created to provide some brief details of the history of the mod.
+The badges and their links which appear at the top are automatically updated, so you don't need to change those.
+The `Legend` section only needs updating when a new workshop page is created to provide some brief details of the
+history of the mod.
 
 The heading format is important because `What's New` panel can link to them. Example below:
 
@@ -32,21 +35,26 @@ The general sequence of entries should be:
 
 ## `README.md`
 
-Again, this has some badges at top, most of which automatically update. However, you'll need to update the game version badge manually each time CO/PDX release a new DLC or CCP.
+Again, this has some badges at top, most of which automatically update. However, you'll need to update the game version
+badge manually each time CO/PDX release a new DLC or CCP.
 
 ```html
-<a href="https://store.steampowered.com/app/255710/Cities_Skylines/"><img src="https://img.shields.io/static/v1?label=cities:%20skylines&message=v1.13.0-f8&color=01ABF8&logo=unity" /></a>
+<a href="https://store.steampowered.com/app/255710/Cities_Skylines/"><img
+        src="https://img.shields.io/static/v1?label=cities:%20skylines&message=v1.13.0-f8&color=01ABF8&logo=unity"/></a>
 ```
 
 In the HTML above, update the version as applicable (it's showing version `v1.13.0-f8` in the example above).
 
-The page also contains release notes for the most recent `STABLE` and `TEST` releases - these can be copy pasted from `CHANGELOG.md`.
+The page also contains release notes for the most recent `STABLE` and `TEST` releases — these can be copied and pasted
+from `CHANGELOG.md`.
 
 ## What's New panel
 
-> This is a recently introduced feature and is subject to ongoing change, eg. see [Issue #1288](https://github.com/CitiesSkylinesMods/TMPE/issues/1288).
+> This is a recently introduced feature and is subject to ongoing change, e.g.
+> see [Issue #1288](https://github.com/CitiesSkylinesMods/TMPE/issues/1288).
 
-A curated changelog is displayed in-game whenever the mod is updated. The details are pulled from the `whats_new.txt` resource in the `TLM/TLM/Resources` folder.
+A curated changelog is displayed in-game whenever the mod is updated. The details are pulled from the `what's_new.txt`
+resource in the `TLM/TLM/Resources` folder.
 
 Each release has a `[Version] ... [/Version]` block in the file, for example:
 
@@ -62,21 +70,22 @@ Each release has a `[Version] ... [/Version]` block in the file, for example:
 
 The tags are:
 
-* `[Version]` - postfix the mod version number (see above for example)
+* `[Version]` — postfix the mod version number (see above for example)
     * This appears in purple panel in the UI
-* `[Stable]` - this keyword indicates a version has been released to STABLE workshop page
+* `[Stable]` — this keyword indicates a version has been released to STABLE workshop page
     * In STABLE releases, only the `[Stable]` versions are displayed (others hidden)
-* `[Released]` - postfix the release date (month day year)
+* `[Released]` — postfix the release date (month day year)
     * This appears next to the version number in the UI
 * `[Link]` (optional) - the anchor link (excluding `#`) for the `CHANGELOG.md` file as discussed earlier on this page
     * If present, the date shown in UI will be hyperlinked to the changelog
 * Changelog items (there can be zero or more of each of these):
-    * `[New]` (green lozenge in UI) - for new features or major overhauls (eg. rewrite of speed limits UI)
-    * `[Mod]` (amber lozenge in UI) - anything relating to other mods (eg. marked (in)compatible, etc.)
+    * `[New]` (green lozenge in UI) - for new features or major overhauls (e.g. rewrite of speed limits UI)
+    * `[Mod]` (amber lozenge in UI) - anything relating to other mods (e.g. marked (in)compatible, etc.)
     * `[Fixed]` (blue lozenge in UI) - bug fixes or other resolved issues
-    * `[Updated]` (blue lozenge in UI) - an existing feature was updated (eg. to improve performance etc.)
+    * `[Updated]` (blue lozenge in UI) - an existing feature was updated (e.g. to improve performance etc.)
     * `[Removed]` (red lozenge in UI) - when obsolete code/feature is removed
-    * Note: Changelog items are autoamtically sorted in to the order shown above
+    * Note: Changelog items are automatically sorted in to the order shown above
 * `[/Version]` - must appear at end of each version block
 
-The [`TMPE.log`](TMPE.log.md) file will detail any errors in the parsing process (you'll usually see an error on the main menu screen as well).
+The [`TMPE.log`](TMPE.log.md) file will detail any errors in the parsing process (you'll usually see an error on the
+main menu screen as well).

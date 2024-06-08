@@ -1,6 +1,6 @@
 # Clear Traffic
 
-> Verified: January 2022 - TM:PE 11.6.4.4
+> Verified: January 2022 — TM:PE 11.6.4.4
 
 ## Overview
 
@@ -51,12 +51,12 @@ Read more: [Which vehicles are affected?](https://github.com/krzychu124/Cities-S
 > * Trains (passenger and cargo), trams, metros, monorails, cable cars
 > * Planes (cargo and passenger), Hot air balloons, blimps, helicopters
 > * Ships (cargo and passenger), ferries
-> * Meteors, tornados (requires [Natural Disasters DLC](https://store.steampowered.com/app/515191/Cities_Skylines__Natural_Disasters/))
+> * Meteors, tornadoes (requires [Natural Disasters DLC](https://store.steampowered.com/app/515191/Cities_Skylines__Natural_Disasters/))
 >  
 > These are **not** removed:
 > * Pedestrians and their pets
-> * Industry workers (eg. farmers, miners...)
-> * Service workers and animals (eg. disaster recovery teams and their dogs, firemen...)
+> * Industry workers (e.g. farmers, miners...)
+> * Service workers and animals (e.g. disaster recovery teams and their dogs, firemen...)
 > * Birds, livestock (farm animals) and other wildlife (deer, dolphins...)
 
 #### Can I despawn specific categories of vehicles?

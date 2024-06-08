@@ -42,13 +42,13 @@ whenever the [](Toolbar.md) is visible, in [Overlays](Overlays.md) in [](Setting
 
 ### Icons
 
-|  Icon  | Meaning                                         |
-|:------:|:------------------------------------------------|
-| (todo) | No traffic light                                |
-| (todo) | Normal traffic light                            |
+|  Icon  | Meaning                     |
+|:------:|:----------------------------|
+| (todo) | No traffic light            |
+| (todo) | Normal traffic light        |
 | (todo) | [](Timed-Traffic-Lights.md) |
 
-### Customise
+### customize
 
 While the tool is active, click on a traffic light to toggle it on/off.
 

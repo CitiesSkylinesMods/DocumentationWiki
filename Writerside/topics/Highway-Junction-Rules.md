@@ -15,10 +15,10 @@ This feature implements two key changes to the way your highways work:
 
 Activate **Enable highway specific lane merging/splitting rules** in the [](Policies.md) in [](Settings.md).
 
-### Customise
+### customize
 
 Once the feature is enabled, it applies to all highways automatically. However, for best results you should make the
-following additional customisations...
+following additional customizations...
 
 **Lane parity**
 
@@ -64,10 +64,10 @@ decrease.
 
 **Why can't I use the [](Lane-Arrows.md) tool?**
 > When highway rules are active, the lane arrows are automatically set and can't be changed. However, you can still
-> use [](Lane-Connectors.md) and/or the [](Lane-Changes.md) features if you need to apply some further customisations.
+> use [](Lane-Connectors.md) and/or the [](Lane-Changes.md) features if you need to apply some further customizations.
 
 **Vanilla highway roads are somewhat limited, what are the alternatives?**
-> There are many highway, expressway, freeway, freeway, and national road assets in the Steam Workshop; notably, many
+> There are many highway, expressway, motorway, freeway, and national road assets in the Steam Workshop; notably, many
 > have fully rendered tunnels and asymmetric variants for entry/exit lanes. Some of our favourites are:
 > * [Vanilla+ Roads: Highways](https://steamcommunity.com/workshop/filedetails/?id=2124252245) (these match perfectly
     the style of vanilla highways)

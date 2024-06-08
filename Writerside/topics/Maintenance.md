@@ -1,6 +1,6 @@
 # Maintenance Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): [](General.md) | [](Gameplay.md)
 | [](Policies.md) | [Overlays](Overlays.md) | **Maintenance**
@@ -44,7 +44,7 @@ _Use these options to enable or disable TM:PE features that appear on the main [
 > options that rely on that feature.
 
 * [](Priority-Signs.md)
-* [](Timed-Traffic-Lights.md) - this option is not available in asset editors, but is available in
+* [](Timed-Traffic-Lights.md) — this option is not available in asset editors, but is available in
   map/scenario editor
 * [](Speed-Limits.md)
 * [](Vehicle-Restrictions.md)
@@ -99,7 +99,7 @@ _Use these buttons to update the global configuration..._
 
 #### Some features can't be disabled?
 
-> Some features are just customisations of the vanilla game functionality and are always enabled:
+> Some features are just customizations of the vanilla game functionality and are always enabled:
 > * [Toggle traffic lights](Toggle-Traffic-Lights.md)
 > * [](Lane-Arrows.md)
 > * [Toggle despawn](Toggle-Despawn.md)

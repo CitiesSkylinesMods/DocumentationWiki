@@ -7,7 +7,7 @@
 
 * Some or all vehicle LODs have turned 'black' or 'shiny black'
 * In addition, they may become more box-like (brick-shaped)
-* Busses and other large vehicles seem to be more frequently affected
+* Buses and other large vehicles seem to be more frequently affected
 
 ## Cause
 
@@ -20,7 +20,7 @@ The load order (somewhat random) determines which other assets are adversely aff
 ## Solution
 
 1. Subscribe and enable [Loading Screen Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=667342976) (LSM)
-2. In LSM mod otions, enable **Check assets for errors** and make a note of the folder path shown above that option
+2. In LSM mod options, enable **Check assets for errors** and make a note of the folder path shown above that option
 3. Load your save game that has the black LOD issues
 4. Exit to desktop
 

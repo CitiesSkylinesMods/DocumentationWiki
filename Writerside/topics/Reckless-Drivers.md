@@ -5,7 +5,7 @@ Use this option to make some of your cims drive like lunatics.
 
 ## Overview
 
-By default, cims are well-behaved and obey your traffic rules and road customisations.
+By default, cims are well-behaved and obey your traffic rules and road customizations.
 
 To add realism, you can some of them drive recklessly, causing them to **ignore**:
 
@@ -27,7 +27,7 @@ However, they will still obey some rules:
 
 To enable reckless drivers, choose a non-zero percentage from the **Reckless Drivers** drop-down list in [](Gameplay.md) in [](Settings.md).
 
-There are no further customisations required. After the feature is enabled, the specified percentage of newly spawned vehicles will be reckless drivers.
+There are no further customizations required. After the feature is enabled, the specified percentage of newly spawned vehicles will be reckless drivers.
 
 The feature can be disabled at any time by changing back to 0% in settings.
 

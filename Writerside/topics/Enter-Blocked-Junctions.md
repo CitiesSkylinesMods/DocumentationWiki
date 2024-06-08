@@ -26,9 +26,9 @@ To get round this problem, you can allow vehicles to enter blocked junctions.
 Before you can use this feature, you have to enable **Junction Restrictions** in the [](Maintenance.md)
 settings.
 
-### Customise
+### customize
 
-If you want to customise individual junctions, use the [](Junction-Restrictions.md) tool.
+If you want to customize individual junctions, use the [](Junction-Restrictions.md) tool.
 
 To allow vehicles to enter blocked junctions across the entire map, enable **Vehicles may enter blocked junctions**
 in [](Policies.md) in [](Settings.md). You can still override individual junctions if you want to.

@@ -6,7 +6,8 @@
 
 * Subscribe and enable Dynamic Resolution mod
 * Set internal resolution to 250% (if your GPU can handle it; keep an eye on temperature!)
-* Ideally do the recording during in-game golden hour (that hour where the sun is in just the right spot to make everything look super nice)
+* Ideally do the recording during in-game golden hour (that hour when the sun is in just the right spot to make
+  everything look super nice)
 
 ### Screen recording
 
@@ -16,9 +17,10 @@
 
 ### Header and footer images
 
-* These will be overlayed on top of the video
+* These will be overlaid on top of the video
 * Header: 637x50 pixels - should contain title and optionally an icon
-* Footer: 637x30 pixels - should contain brief interaction guide (eg. info about which mouse button or keyboard shortcut to use)
+* Footer: 637x30 pixels - should contain brief interaction guide (e.g. info about which mouse button or keyboard shortcut
+  to use)
 
 > TODO: Style guide
 
@@ -30,7 +32,7 @@ Uploading:
 * Size: Original (up to 800px)
 * Frame rate: 5 (max 60 seconds)
 * Method: FFMPEG
-* Do _not_ select the 'Optimise for static background' checkbox
+* Do _not_ select the 'Optimize for static background' checkbox
 
 Add header:
 
@@ -46,25 +48,25 @@ Add footer:
 
 Optimise #1:
 
-* Use Optimise tool
+* Use Optimize tool
 * Method: Remove duplicate frames
 * Fuzz: ~30% (higher if it doesn't degrade quality)
 
 Frames:
 
 * Use Frames tool
-* Set delay of first and last fames to 60
+* Set delay of first and last frames to 60
 * Loop count: Leave blank (unlimited)
 
 Optimise #2:
 
-* Use Optimise tool
-* Method: Optimise transparency
+* Use Optimize tool
+* Method: Optimize transparency
 * Fuzz: ~15% (higher if it doesn't degrade quality)
 
 Optimise #3:
 
-* Use Optimise tool
+* Use Optimize tool
 * Method: Use single colour table for all frames
 
 Save:

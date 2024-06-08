@@ -9,10 +9,10 @@ So, cities skylines has a complex, but not complex enough AI for cars. There are
 1. The algorithm decides the path from start to finish and the path includes lane details as well. So, the car will
    follow the exact path. Even if there are 5 lanes next to them going to exact the same location, they'll not use it.
 
-2. The algorithm also results in the outer lane being used most often in the highways, because a) almost all exits on
-   highways are on the outer side and b) cars get into the lane where they need to exit as soon as possible as per
+2. The algorithm also results in the outer lane being used most often in the highways, because (a) almost all exits on
+   highways are on the outer side and (b) cars get into the lane where they need to exit as soon as possible as per
    algorithm. So, they'll get ready to turn right 1000 miles before their exit comes, which is unrealistic. Basically
-   everyone will be using outer most lane if all your exits are on that lane.
+   everyone will be using outermost lane if all your exits are on that lane.
 
 The solution to this problem is to make sure that all your turning lanes are going to be dedicated turning lanes. That
 is, you can not stay in the outer lane and not turn. Dedicated turning lanes work really well with this game's AI.

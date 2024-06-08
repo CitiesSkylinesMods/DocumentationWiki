@@ -19,6 +19,6 @@ For example, if your branch is `some-new-feature`, the URL to the .zip would be:
 https://ci.appveyor.com/api/projects/krzychu124/tmpe/artifacts/TMPE.zip?branch=some-new-feature
 ```
 
-When creating your own PRs it's super helpful to beta testers (including those who just want to playtest a new feature)
+When creating your own PRs it's super helpful to beta testers (including those who just want to play-test a new feature)
 if you can include the link in the OP of the PR. It allows more people to test the mod in-game without having to set up
 a build environment.

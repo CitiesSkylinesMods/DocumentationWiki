@@ -13,11 +13,11 @@ We have identified some road assets which are broken (the assets themselves are 
 * ~~The _Basic Road_ in **[OST2 Stock Road Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1672263805)** by
   Mr.Yawnie is broken. Therefore, remove the complete pack.~~ Should be fixed
 * **[Reverse 4 Lane Highway B](https://steamcommunity.com/sharedfiles/filedetails/?id=1802966295)
-  ** - `NullReferenceException` in the asset deserialiser
+  ** — `NullReferenceException` in the asset deserializer
 * **[Small four lane road reversed](https://steamcommunity.com/sharedfiles/filedetails/?id=1867586141)
-  ** - `NullReferenceException` in the asset deserialiser
+  ** — `NullReferenceException` in the asset deserializer
 * **[Bridge building station+passJP1L](https://steamcommunity.com/sharedfiles/filedetails/?id=1843040605)
-  ** - `NullReferenceException` in the asset deserialiser
+  ** — `NullReferenceException` in the asset deserializer
 
 ### Requires Mass Transit DLC
 

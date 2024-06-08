@@ -1,6 +1,6 @@
 # Overlay Settings
 
-> Verified: March 2022 - TM:PE 11.6.5.1
+> Verified: March 2022 — TM:PE 11.6.5.1
 
 [](Settings.md): [](General.md) | [](Gameplay.md) | [](Policies.md)
 | **Overlays** | [](Maintenance.md) | [Keybindings](Keybinds.md)
@@ -10,7 +10,7 @@
 Use these [](Settings.md) to create persistent overlays:
 
 * They will be visible whenever the [](Toolbar.md) is visible
-* To reduce clutter, only non-default customisations are shown
+* To reduce clutter, only non-default customizations are shown
 * They are not interactive, unless the associated tool is active
 
 ## Settings
@@ -62,7 +62,7 @@ _Use this option to display number of queued tasks in the pathfinding manager...
 > * Distant overlays are hidden; move camera closer to reveal them.
 
 **Some icons disappear from overlays if associated tool is not active**
-> * To reduce clutter and reduce lag, only _non-default_ customisations are shown (anything using default values is
+> * To reduce clutter and reduce lag, only _non-default_ customizations are shown (anything using default values is
     hidden).
 > * If a tool is active (on the [](Toolbar.md)), its associated overlay will always show full detail.
 

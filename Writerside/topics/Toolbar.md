@@ -27,7 +27,7 @@ For documentation on any button, click the icons below:
 [![Clear](btnClearTraffic.png){style=inline}](Clear-Traffic.md "Clear Traffic")
 [![Despawn](btnToggleDespawn.png){style=inline}](Toggle-Despawn.md "Toggle Despawn")
 
-The toolbar and most tools can be accessed via keyboard shortcuts, which you can customise
+The toolbar and most tools can be accessed via keyboard shortcuts, which you can customize
 in [Key Bindings](Keybinds.md) in [](Settings.md).
 
 Use the [Hints Panel](Hints-Panel.md) to quickly see what shortcuts are available for the active tool.
@@ -47,15 +47,15 @@ You can drag the menu button and toolbar around the screen with the left mouse b
 
 To avoid accidental repositioning, you can lock their positions in [](General.md) in [](Settings.md).
 
-If you want to declutter your screen, you can move the activation buttons of multiple mods - including TM:PE - in to
+If you want to declutter your screen, you can move the activation buttons of multiple mods — including TM:PE — in to
 the [Unified UI](Unified-UI.md) panel.
 
 ## Persistent Overlays
 
-Most tools have an accompanying persistent summary overlay which visualies customisations of that tool on the map. The
+Most tools have an accompanying persistent summary overlay which visualizes customizations of that tool on the map. The
 persistent overlays will be visible whenever the Toolbar is visible, regardless of which tool is active.
 
-You can enable persistent overlays in [Overlays](Overlays.md) in [](Settings.md) and set their transparency
+You can enable persistent overlays in [](Overlays.md) [](Settings.md) and set their transparency
 in [](General.md) in [](Settings.md).
 
 Note that while a tool is active, it will often replace the persistent summary overlay with a more detailed overlay that
