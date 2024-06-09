@@ -1,10 +1,9 @@
 # Pedestrian Crossings
 
-> Under construction
->  
-> Please refer to the [old documentation site](https://tmpe.viathinksoft.com/wiki/index.php?title=Junction_restrictions) for now.
+> 🚧 under construction
+> please refer to the old [](L-Junction-Restrictions.md) for now
 
 
-todo:
+## TO DO
 
-- cims can cross road at end, bend, or junction
+* cims can cross road at end, bend, or junction

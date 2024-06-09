@@ -2,8 +2,8 @@
 
 ## Symptom
 
-* Trees are floating in the air  
-  ![](picFloatingTree_bug.png)
+![](picFloatingTree_bug.png){style="block"}
+_Trees are floating in the air_  
 
 ## Cause
 

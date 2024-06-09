@@ -59,8 +59,8 @@ transitive relationship: a lane X on the current segment is transitively connect
 next segment if a lane Y on the next segment exists that is connected with both lane X and with
 lane Z: ((X → Y) ∧ (Y → Z)) ⇒ (X → Z)).
 
-> ![](picLDls_example1.png)
-> Visualization of a reachability analysis performed by DLS
+![](picLDls_example1.png){style="block"}
+_Visualization of a reachability analysis performed by DLS_
 
 The image above shows a subset of all possible reachability analyses that are performed for
 vehicles heading for segment #5 (the highway ramp; highlighted with a solid green arrow), and
@@ -75,8 +75,8 @@ not possible to reach segment #5, and so on. During simulation, a DLS-enabled ve
 the 2nd rightmost lane of segment #3 would detect that only the rightmost lane of segment #4
 finally leads to segment #5 and thus a lane change is necessary.
 
-> ![](picLDls_example2.png)
-> A possible situation where DLS has altered the original path
+![](picLDls_example2.png){style="block"}
+_A possible situation where DLS has altered the original path_
 
 The second image shows a situation where a vehicle (yellow boxes; numbers indicate different points
 in time) deviates from its original path (original path: black, dotted arrows; DLS-modified path:

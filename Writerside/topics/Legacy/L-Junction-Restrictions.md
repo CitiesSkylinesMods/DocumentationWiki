@@ -10,7 +10,7 @@ options are:
 * Allow/disallow lane changing for vehicles going straight on: By default, vehicles stay on their lane while crossing
   the junction. By activating this option, you allow vehicles going straight (that means they neither turn left nor
   right) to change lanes while crossing the junction.
-* Allow/disallow u-turns: If activated, vehicles approaching the junction from the selected segment may turn around.
+* Allow/disallow U-turns: If activated, vehicles approaching the junction from the selected segment may turn around.
   U-turns are only performed on lanes having a left arrow (right-hand traffic) / right arrow (left-hand traffic)
 * Allow/disallow vehicles to enter a blocked junction: This option is useful e.g. if the next road segment after a
   junction is very short. Without activating this option, vehicles do not enter the junction if the road behind it is
@@ -21,20 +21,20 @@ options are:
   since this is technically not possible.
 * Allow/disallow turn-on-red (only available for junctions with traffic lights): Activate this option to allow vehicles
   to yield at red traffic lights when turning right (right-hand traffic) / left (left-hand traffic). When two one-way
-  streets cross (one incoming and one outgoing one-way) this option is also available for unpreferred turns (left turns
+  streets cross (one incoming and one outgoing one-way) this option is also available for non-preferred turns (left turns
   for right-hand traffic / right turns for left-hand traffic).
 
 ## Setup
 
 Follow these steps:
 
-1. Click on the ![](btnMain.png) button.
-2. Click on the ![](btnJunctionRestrictions.png) button.
+1. Click on the ![](btnMain.png){style="inline"} button.
+2. Click on the ![](btnJunctionRestrictions.png){style="inline"} button.
 3. Click on the junction that you want to manage.
 4. Click on the appropriate icon to enable/disable one of the features described above.
 
-> ![](picJunctionRestrictions_junction.png)
-> Visible overlay after a junction was selected
+![](picJunctionRestrictions_junction.png){style="block"}
+_Visible overlay after a junction was selected_
 
 ## Icons
 
@@ -53,11 +53,11 @@ The choices explained above are depicted by following symbols:
 > option is activated (see section Options & advanced features for further information). This means
 > it may take some minutes before all vehicles and pedestrians correctly obey your set restrictions.
 
-> ☝️ When you create a u-turn connection with the lane connector tool u-turns are automatically
+> ☝️ When you create a U-turn connection with the lane connector tool U-turns are automatically
 > allowed at the respecting road segment. Clicking on the U-turn symbol does not have any effect in
-> this case. You need to remove the u-turn lane connection first in order to disallow u-turns at the segment.
+> this case. You need to remove the U-turn lane connection first in order to disallow U-turns at the segment.
 
-> ☝️ [](../Reckless-Drivers.md) ignore junction restrictions.
+> ☝️ [](Reckless-Drivers.md) ignore junction restrictions.
 
 ## See Also
 
