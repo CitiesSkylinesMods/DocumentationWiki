@@ -6,22 +6,22 @@
 
 Traffic Manager: President Edition implements a custom lane routing algorithm in order to provide
 
-1. more realistic lane changing patterns at road junctions and transitions (:doc:`junctionTransitionRouting`),
+1. more realistic lane changing patterns at road junctions and transitions ([junctionTransitionRouting](#)),
 2. finer-grained control over permitted lane changes at junctions and on regular road segments
-   (see :doc:`laneArrows` and :doc:`laneConnectors`),
+   (see [](Lane-Arrows.md) and [](Lane-Connectors.md)),
 3. a stricter set of lane merging and splitting rules targeting highway interchanges
-   (see :doc:`highwayRules`),
+   (see [](Highway-Junction-Rules.md)),
 4. improvements regarding overall road utilization and congestion avoidance
-   (see :doc:`advancedVehicleAI`), and
+   (see [](Advanced-Vehicle-AI.md)), and
 5. a feature that enables vehicles to adapt their behavior in accordance to the current traffic situation
-   in realtime (see :doc:`dynamicLaneSelection`).
+   in realtime (see [](L-Dynamic-Lane-Selection.md)).
 
 While modified junction routing rules (currently) take effect as soon as TM:PE is being activated
 all latter features can selectively be enabled or disabled by the player at any time.
 
 ## Associated Features
 
-* [junctionTransitionRouting]()
+* [](L-Junction-and-Transition-Routing.md)
 * [](Highway-Junction-Rules.md)
 * [](Lane-Arrows.md)
 * [](Lane-Connectors.md)
@@ -43,7 +43,7 @@ As you may see in the image, the different lane selection features operate at di
 
 The functions
 
-* [junctionTransitionRouting](),
+* [](L-Junction-and-Transition-Routing.md),
 * [](Lane-Arrows.md),
 * [](Lane-Connectors.md), and
 * [](Highway-Junction-Rules.md)

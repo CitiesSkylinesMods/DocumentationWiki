@@ -39,7 +39,7 @@ The following subsections describe the different configuration parameters.
 
 ### Advanced Vehicle AI
 
-This section describes configuration parameters that are used by the [](../Advanced-Vehicle-AI.md).
+This section describes configuration parameters that are used by the [](Advanced-Vehicle-AI.md).
 
 | Parameter                         | Domain of definition   | Description                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ This section describes configuration parameters that are used by the
 
 ### Priority Rules
 
-This section describes configuration parameters that are used by the :doc:`priority rules <prioritySigns>` engine.
+This section describes configuration parameters that are used by the [](Priority-Signs.md) engine.
 
 | Parameter               | Domain of definition   | Description                                                                                                                                                                                             |
 |-------------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ This section describes configuration parameters that are used by the :doc:`prior
 
 ### Timed Traffic Lights
 
-This section describes configuration parameters that are used by :doc:`trafficLightsTimed`.
+This section describes configuration parameters that are used by [](Timed-Traffic-Lights.md).
 
 | Parameter        | Domain of definition          | Description                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

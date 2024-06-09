@@ -54,7 +54,7 @@ segment). It discards lanes from consideration that are not connected with the o
 fourth inspected segment. Reachability information is calculated by identifying
 [transitive relationships](https://en.wikipedia.org/wiki/Transitive_closure)
 within precalculated lane routing data (
-see [Vehicle routing → One-time calculations <vehicleRouting>](L-Vehicle-Routing.md);
+see [Vehicle routing → One-time calculations](L-Vehicle-Routing.md);
 transitive relationship: a lane X on the current segment is transitively connected with lane Z on the second
 next segment if a lane Y on the next segment exists that is connected with both lane X and with
 lane Z: ((X → Y) ∧ (Y → Z)) ⇒ (X → Z)).

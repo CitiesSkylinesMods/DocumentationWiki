@@ -20,11 +20,10 @@ High Priority Roads tackle those problem head-on:
 The result is essentially a minor arterial road capable of carrying moderate-to-large volumes of traffic at fairly high
 speed:
 
-![Customized Road Example](picHighPriorityRoads_example.png)
-
-> The road pictured above was visually customized with
-> the [Continues Junction Median](https://steamcommunity.com/sharedfiles/filedetails/?id=2104976832)
-> and [Hide TMPE Crosswalks](https://steamcommunity.com/sharedfiles/filedetails/?id=1934023593) mods.
+![Customized Road Example](picHighPriorityRoads_example.png){style="block"}
+_The road pictured above was visually customized with_
+_the [Continuous Junction Median](https://steamcommunity.com/sharedfiles/filedetails/?id=2104976832)_
+_and [Hide TMPE Crosswalks](https://steamcommunity.com/sharedfiles/filedetails/?id=1934023593) mods._
 
 ## Usage
 
@@ -52,9 +51,9 @@ Choose the applicator that best suits your needs...
 The [](Adjust-Roads.md) panel (see link for details) allows you to define your own route.
 
 1. Select/customize a route
-2. Click the **High Priority Road** button to apply your policies to the route  
-   ![High Priority Button](btnStreetDoubleLine.png)
-    * Click the button a second time to remove the customizations
+2. Click the **High Priority Road** button to apply your policies to the route
+   ![High Priority Button](btnStreetDoubleLine.png){style="inline"}
+3. Click the button a second time to remove the customizations
 
 ### Priority Signs tool
 
@@ -76,25 +75,30 @@ When using the Priority Signs shortcuts, the route will be determined based on t
 
 Also, where applicable, Yield signs will automatically be removed to improve traffic flow.
 
-The image bellow shows 3 applications of High priority road. Clicking on each part of the image bellow gives you more
+The image below shows 3 applications of High priority road. Clicking on each part of the image bellow gives you more
 information about that setup.
 
-[![screenshot B2](picHighPriorityRoads_example2.png)](High-Priority-Roads.md#2-split-road-fork-y-junction)
-[![screenshot B3](picHighPriorityRoads_example3.png)](High-Priority-Roads.md#1-alley-joins-a-main-road-see-screenshot-above)
-[![screenshot B4](picHighPriorityRoads_example4.png)](High-Priority-Roads.md#3-highway-roundabout-overpass)
+![screenshot B2](picHighPriorityRoads_example2.png){style="block"}
+_See [](High-Priority-Roads.md#2-split-road-fork-y-junction)_
 
-### 1. alley joins a main road (see screenshot above).
+![screenshot B3](picHighPriorityRoads_example3.png){style="block"}
+_See [](High-Priority-Roads.md#1-alley-joins-a-main-road-see-screenshot-above)_
 
-### Warning: You will need a collector road
+![screenshot B4](picHighPriorityRoads_example4.png){style="block"}
+_See [](High-Priority-Roads.md#3-highway-roundabout-overpass)_
+
+### 1. Alley Joins a Main Road (see Screenshot Above)
+
+### Warning: You Will Need a Collector Road
 
 Be careful not cut your city in half. For example in the screenshot bellow if you set the highlighted road as high
 priority road, cars to the south (notice the compass in the image) of the main road cannot go west and cars to the north
 of the main road cannot go east. Also, pedestrians cannot cross the highlighted main road.
-![screenshot A2w](picHighPriorityRoads_collectorRoad.png)
+![screenshot A2w](picHighPriorityRoads_collectorRoad.png){style="block"}
 
 As is the case in the real world you need to create a collector road (
 see https://steamcommunity.com/sharedfiles/filedetails/?id=522776740 Traffic 102 - Road Hierarchy and Zoning):
-![Screenshot (1047)](picHighPriorityRoads_collectorRoad2.png)
+![Screenshot (1047)](picHighPriorityRoads_collectorRoad2.png){style="block"}
 
 At the intersection of the collector road and main road, remember to remove high priority rules you set up earlier.
 
@@ -108,7 +112,7 @@ Now cars can use the collector road to take the far turn and pedestrians can use
 
 ![Screenshot (1032)](picHighPriorityRoads_yFork.png)
 
-### 3. highway/roundabout overpass
+### 3. Highway/Roundabout Overpass
 
 ![Screenshot (1030)](picHighPriorityRoads_overpass.png)
 
@@ -116,13 +120,13 @@ Note that in addition to all the rules discussed before, the incoming ramp (see 
 of the main road. This only happens if [](Lane-Arithmetic.md) is observed. It would be fitting to
 use [](Lane-Connectors.md) [](Stay-in-Lane.md) as well to get the lane connections show in the screenshot.
 
-## How rules are applied at road's end
+## How Rules Are Applied At Road's End
 
-`Shift+click` shortcut - which sets up priority signs - can mess up your roundabout if its resides at road's end.
+`Shift+Click` shortcut - which sets up priority signs - can mess up your roundabout if its resides at road's end.
 `Ctrl+Shift+Click` does NOT have this problem. As you can see from the screenshot bellow it understands there is a
 roundabout at roads end and does not mess up the roundabout. The two nodes at road ends marked by red circle in the
 screenshot bellow are treated differently than the intermediate nodes to avoid said problem.
-![Screenshot (992)](picHighPriorityRoads_end.png)
+![Screenshot (992)](picHighPriorityRoads_end.png){style="block"}
 
 ### FAQ:
 
@@ -148,22 +152,22 @@ from [this asset](https://steamcommunity.com/sharedfiles/filedetails/?id=1319965
 
 ## See Also
 
-[](Toolbar.md):
+### Toolbar Tools
 
+* [](Toolbar.md)
 * [](Junction-Restrictions.md)
 * [](Lane-Arrows.md)
 * [](Priority-Signs.md)
 
-[](Settings.md):
+### Settings
 
+* [](Settings.md)
 * [](Policies.md) - configure high priority road policies
 
-Guides:
+### Guides
 
-* Roads:
-    * [](Priority-Routes.md)
-    * [](Roundabouts.md)
+* [](Priority-Routes.md)
+* [](Roundabouts.md)
 
 [Issue Tracker](https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition/issues):
-
-* <a href="https://github.com/CitiesSkylinesMods/TMPE/labels/MASS EDIT"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/MASS EDIT?label=MASS EDIT%26logo=github" /></a>
+<a href="https://github.com/CitiesSkylinesMods/TMPE/labels/MASS EDIT"><img alt="Issues" src="https://img.shields.io/github/issues/CitiesSkylinesMods/TMPE/MASS EDIT?label=MASS EDIT%26logo=github" /></a>

@@ -21,7 +21,7 @@ Once your account is set up, navigate to the [TM:PE on Crowdin](https://crowdin.
 
 Your preferred languages (as defined in your user account) are donated with a ⭐️ icon and should appear at the top of the list, for example:
 
-> [![TM:PE Languages](picCrowdin_languages.png)](https://crowdin.com/project/tmpe)
+> [![TM:PE Languages](picCrowdin_languages.png){style="block"}](https://crowdin.com/project/tmpe)
 >  
 > _If your language isn't listed yet, contact us via [Discord Chat](https://discord.gg/faKUnST) or leave a comment on the TM:PE workshop page._
 
@@ -66,7 +66,7 @@ The **Context** section provides some additional detail about where the string i
 Below the context panel, the current translation (if there is one) is shown. Add or edit the translation, then click the **Save** button to submit it for approval.
 
 > You may see some on-screen warnings when saving, like this:
-> ![TM:PE Save warning](picCrowdin_saveWarning.png)  
+> ![TM:PE Save warning](picCrowdin_saveWarning.png){style="block"}  
 > Ignore them and click the "Save Anyway" button.
 
 After saving a string, you'll automatically be taken to the next untranslated string in the current file.

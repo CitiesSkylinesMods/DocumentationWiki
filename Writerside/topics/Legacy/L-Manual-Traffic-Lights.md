@@ -32,8 +32,8 @@ You can temporarily control a junction's lights by following these steps:
 After leaving the Manual traffic lights mode all traffic lights at the regarding junction are reset such that the game
 engine again takes control over them.
 
-> ![](picLegacyManualTL.png)
-> Manually controllable traffic lights help you to become familiar with the user interface. Not less, not more.
+![](picLegacyManualTL.png){style="block"}
+_Manually controllable traffic lights help you to become familiar with the user interface. Not less, not more._
 
 ## Hints & remarks
 

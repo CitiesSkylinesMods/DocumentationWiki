@@ -8,6 +8,7 @@
 
     <toc-element topic="Home.md">
         <toc-element topic="L-Legacy-Documentation.md">
+            <toc-element topic="L-Junction-and-Transition-Routing.md"/>
             <toc-element topic="Vanilla-capacities.md"/>
             <toc-element topic="L-Manual-Traffic-Lights.md"/>
             <toc-element topic="L-Timed-Traffic-Lights.md"/>

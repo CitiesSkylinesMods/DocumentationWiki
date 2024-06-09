@@ -39,8 +39,8 @@ Follow these steps to create timed traffic lights:
     for the appropriate step.
 14. A click on the Delete button removes the step from the cycle.
 
-> ![](picLegacyTimedTL_example.png)
-> Adaptive timed traffic lights perform traffic measurements in order to maximize traffic throughput.
+![](picLegacyTimedTL_example.png){style="block"}
+_Adaptive timed traffic lights perform traffic measurements in order to maximize traffic throughput._
 
 ## Automatic/Manual pedestrian traffic lights
 
@@ -84,22 +84,22 @@ crossing the junction at the constant-green pedestrian light.
 All examples below relate to right-hand traffic. For left-hand traffic, replace the word right with
 left and vice-versa in the following examples.
 
-> ![](picLegacyTimedTL_autoPed1.png)
-> The vehicle light on the lower segment indicates green for traffic going straight and turning right. Both top and
-> bottom pedestrian lights indicate red (Rule #1 applies).
+![](picLegacyTimedTL_autoPed1.png){style="block"}
+_The vehicle light on the lower segment indicates green for traffic going straight and turning right. Both top and
+bottom pedestrian lights indicate red (Rule #1 applies)._
 
-> ![](picLegacyTimedTL_autoPed2.png)
-> The lower vehicle light indicates green for traffic turning left. The bottom and left pedestrian lights indicate red (
-> Rules #2/#3 apply).
+![](picLegacyTimedTL_autoPed2.png){style="block"}
+_The lower vehicle light indicates green for traffic turning left. The bottom and left pedestrian lights indicate red (
+Rules #2/#3 apply)._
 
-> ![](picLegacyTimedTL_autoPed3.png)
-> The lower vehicle light indicates green for vehicles going straight, turning left, and turning right. The top, bottom
-> and left pedestrian lights indicate red (Rules #1, #2/#3 apply).
+![](picLegacyTimedTL_autoPed3.png){style="block"}
+_The lower vehicle light indicates green for vehicles going straight, turning left, and turning right. The top, bottom
+and left pedestrian lights indicate red (Rules #1, #2/#3 apply)._
 
-> ![](picLegacyTimedTL_autoPed4.png)
-> As soon as the traffic light program is started and TM:PE detects that a certain pedestrian light never changes to
-> green it is automatically converted into a constant green light (The special rule applies). Cims are advised to avoid
-> crossing junctions with constant-green pedestrian lights.
+![](picLegacyTimedTL_autoPed4.png){style="block"}
+_As soon as the traffic light program is started and TM:PE detects that a certain pedestrian light never changes to
+green it is automatically converted into a constant green light (The special rule applies). Cims are advised to avoid
+crossing junctions with constant-green pedestrian lights._
 
 ## Adding/Removing a junction
 
@@ -149,8 +149,8 @@ After tuning your traffic light, do not forget to disable test mode by deactivat
 Adaptive step switching gives you more control of when steps are switched during the adaptive
 phase of a timed traffic light.
 
-> ![](picLegacyTimedTL_adaptive.png)
-> Adaptive step switching user interface
+![](picLegacyTimedTL_adaptive.png){style="block"}
+_Adaptive step switching user interface_
 
 While traffic lights that control car traffic may change when (roughly) more vehicles are
 waiting than driving, at railway switches the underlying logic may be completely different,
@@ -185,9 +185,9 @@ defined for the incoming road segment: As soon as there exists a lane that is re
 
 only, TM:PE automatically creates individual traffic lights for them.
 
-> ![](picLegacyTimedTL_vehicleTypeLights.png)
-> Based on the type of lanes that are connected to a junction, separate traffic lights are automatically created for
-> these lanes.
+![](picLegacyTimedTL_vehicleTypeLights.png){style="block"}
+_Based on the type of lanes that are connected to a junction, separate traffic lights are automatically created for
+these lanes._
 
 This video demonstrates setting up vehicle-separated traffic lights: https://www.youtube.com/watch?v=Jcf5wkAQ76A
 
@@ -207,7 +207,7 @@ To cancel the copy operation click anywhere with your secondary mouse button.
 > ☝️ If you copy a timed traffic light while its step program is running the pasted traffic light program will start
 > immediately. If the source program is paused the pasted timed traffic light will also remain paused.
 
-> ☝️ :doc:`Reckless drivers <recklessDriving>` ignore traffic lights.
+> ☝️ [](Reckless-Drivers.md) ignore traffic lights.
 
 ## Rotate
 

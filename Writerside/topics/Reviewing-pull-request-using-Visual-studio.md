@@ -30,23 +30,27 @@ To open a pull request for review follow the steps bellow (pay attention to the 
 1. Click on the GitHub tab (B) or click on the GitHub icon in the status bar (A) . Alternatively you can go
    to `menu bar-> View -> other windows-> GitHub`.
 2. see
-   [Section bellew](https://github.com/CitiesSkylinesMods/TMPE/wiki/Reviwing-pull-request-using-Visutal-studio#work-around-visual-studio-bug)
+   [Section below](https://github.com/CitiesSkylinesMods/TMPE/wiki/Reviwing-pull-request-using-Visutal-studio#work-around-visual-studio-bug)
    if you see error message "could not resolve a repository with the name TMPE"
 
 3. click the fork icon (C) and then choose `krzychu124/cities-Skylines-Traffic-Manager-President-Edition` (
    or `CitiesSkylines_TMPE`) from the drop-down (D). If the pull request is from any other fork choose the appropriate
    fork name from the drop-down.
 4. click on a pull request
-   ![Screenshot (748)](picVisualStudio_clickPR.png)
+   ![Screenshot (748)](picVisualStudio_clickPR.png){style="block"}
 
 Now you should be able to see a list of file
-changes. ![Screenshot (1008)](picVisualStudio_reviewPR.png)
+changes.
+
+![Screenshot (1008)](picVisualStudio_reviewPR.png)
+
 double-click on a file to view diff or right click for more options (C). click on the chat icon (B) to see chat message,
 but it is better to view the chat in GitHub (A). to check out the code checkout the displayed branch name (D).
 
 ### Work around Visual studio bug
 
 ![Screenshot (757)](picVisualStudio_bug.png)
+
 If you see error message "could not resolve a repository with the name TMPE" then you should work around a bug in VS.
 this error occurs because we have
 diverted https://github.com/krzychu124/Cities-Skylines-Traffic-Manager-President-Edition

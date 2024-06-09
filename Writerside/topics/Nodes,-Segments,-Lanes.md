@@ -239,7 +239,8 @@ achieved by having two roads (an avenue road and a tram road) on top of each oth
 The [CSUR](https://steamcommunity.com/workshop/filedetails/?id=1959216109) project offers pick-and-mix nodeless networks
 to achieve extremely flexible urban roads:
 
-[![Nodeless CSUR roads](picNodelessCSUR_youtube.jpg)](http://www.youtube.com/watch?v=C_QHwUnh430 "Watch on Youtube")
+![Nodeless CSUR roads](picNodelessCSUR_youtube.jpg){style="block"}
+_[See YouTube](http://www.youtube.com/watch?v=C_QHwUnh430 "Watch on YouTube")_
 
 ## See also
 

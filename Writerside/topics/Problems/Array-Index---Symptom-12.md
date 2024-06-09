@@ -24,8 +24,8 @@ This error is known to be caused by
 the [Nursing Homes for Senior Citizens](https://steamcommunity.com/sharedfiles/filedetails/?id=554232266) mod, which
 also sometimes causes game-breaking [[System.StackOverflowException]] errors.
 
-> ![debug image](picHealthCare_debug.png)
-> Image taken from dnSpy debugger while tracking down source of array index error
+![debug image](picHealthCare_debug.png){style="block"}
+_Image taken from dnSpy debugger while tracking down source of array index error_
 
 See also: [BoostHungry/SeniorCitizenCenterMod/issues/2](https://github.com/BoostHungry/SeniorCitizenCenterMod/issues/2)
 

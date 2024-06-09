@@ -10,9 +10,7 @@ Lane arrows can be used to organize traffic flow across road junctions and level
 
 ## Usage
 
-Choose **Lane Arrows** on the [](Toolbar.md):
-
-![Lane arrows tool](btnLaneArrows.png)
+Choose **Lane Arrows** on the [](Toolbar.md) ![Lane arrows tool](btnLaneArrows.png){style="inline"}
 
 You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybinds.md) in [](Settings.md).
 
@@ -22,7 +20,7 @@ You can set a keyboard shortcut to activate the tool in the [Key Bindings](Keybi
 
 1. **Click a road segment at a junction** to edit it.
 2. A panel appears showing arrows for each lane:  
-   ![](picLaneArrows_ui.png)
+   ![](picLaneArrows_ui.png){style="block"}
    > In the image above, traffic entering from **Lane 1** must turn left, while **Lane 2** can go straight ahead or
    right.
 3. **Click arrow buttons** to toggle direction on/off for the associated lane.
